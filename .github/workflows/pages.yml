@@ -1,0 +1,47 @@
+# ATSガイド（site/）とWikiのHTML版を組み立て、GitHub Pagesに公開する。
+# プルリクエストでは組み立てとリンクの確認だけを行い、mainへのpushで公開する。
+name: サイトの公開
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: パッケージを入れる
+        run: pip install -r site/requirements.txt
+      - name: サイトを組み立てる（リンク切れがあれば失敗）
+        run: python site/build.py --check
+      - name: 公開用にまとめる
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

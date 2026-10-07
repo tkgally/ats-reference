@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>LLM Wikiの更新の流れ（動画の元）</title>
+<!-- この動画の作り方：site/media-src/README.mdを参照 -->
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=M+PLUS+Rounded+1c:wght@800&display=swap" rel="stylesheet">
+<style>
+  :root { --blue:#2f6fdb; --blue-s:#dce8fc; --green:#2e9b5f; --green-s:#d9f2e3; --orange:#e07b1f; --orange-s:#fde8d2;
+          --purple:#7d4cc9; --purple-s:#ebe1fa; --teal:#14918f; --teal-s:#d3f0ee; --gray:#7b8189; --gray-s:#eceae4; --fg:#1f2328; --muted:#6a717a; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; background: #fbfaf7; font-family: "BIZ UDPGothic", sans-serif; color: var(--fg); }
+  .stage { position: absolute; inset: 0; }
+  .title { position: absolute; left: 48px; top: 30px; font-family: "M PLUS Rounded 1c"; font-weight: 800; font-size: 30px; }
+  .title small { display: block; font-family: "BIZ UDPGothic"; font-weight: 400; font-size: 17px; color: var(--muted); margin-top: 4px; }
+  .caption { position: absolute; left: 0; right: 0; bottom: 34px; text-align: center; font-size: 32px; font-weight: 700; transition: opacity .4s; }
+  .caption .step { display: inline-block; background: var(--blue); color: #fff; border-radius: 999px; padding: 2px 18px; font-size: 22px; margin-right: 14px; vertical-align: 4px; }
+  .el { position: absolute; transition: opacity .6s, transform .6s, background .6s, border-color .6s; }
+  .hidden { opacity: 0; transform: translateY(14px); }
+  .box { border-radius: 18px; padding: 16px; }
+  .label { font-size: 20px; font-weight: 700; text-align: center; }
+  .sub { font-size: 15px; color: var(--muted); text-align: center; }
+  .file { width: 70px; height: 88px; border-radius: 8px; background: #fff; border: 3px solid var(--blue); padding: 12px 10px; }
+  .file i { display: block; height: 7px; border-radius: 4px; background: var(--blue); margin-bottom: 8px; opacity: .7; }
+  .page { width: 250px; height: 46px; border-radius: 10px; background: #fff; border: 2px solid var(--teal); font-size: 17px; display: flex; align-items: center; padding: 0 14px; gap: 10px; }
+  .page.new { border-color: var(--orange); background: var(--orange-s); }
+  .page.upd { border-color: var(--green); background: var(--green-s); }
+  .badge { margin-left: auto; font-size: 13px; color: #fff; border-radius: 999px; padding: 1px 9px; }
+  .agent { width: 150px; height: 150px; border-radius: 50%; background: var(--purple); display: grid; place-items: center; }
+  .agent svg { width: 70px; height: 70px; }
+  .agent.work { animation: pulse 1s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(125,76,201,.5); } 50% { box-shadow: 0 0 0 22px rgba(125,76,201,0); } }
+  .line { position: absolute; height: 5px; background: repeating-linear-gradient(90deg, var(--purple) 0 12px, transparent 12px 22px); background-size: 22px 5px; animation: flow .6s linear infinite; }
+  @keyframes flow { to { background-position: 22px 0; } }
+  .commit { width: 30px; height: 30px; border-radius: 50%; background: var(--green); }
+  .branchc { width: 26px; height: 26px; border-radius: 50%; background: var(--orange); }
+  .track { height: 6px; background: var(--green); border-radius: 3px; }
+  .pr { width: 210px; border-radius: 14px; background: #fff; border: 3px solid var(--orange); padding: 10px 14px; font-size: 17px; }
+  .pr b { display: block; font-size: 19px; }
+  .pr.merged { border-color: var(--purple); }
+  .browser { width: 300px; height: 210px; border-radius: 14px; background: #fff; border: 3px solid var(--gray); overflow: hidden; }
+  .browser .bar { height: 30px; background: var(--gray-s); display: flex; gap: 7px; align-items: center; padding-left: 12px; }
+  .browser .bar span { width: 11px; height: 11px; border-radius: 50%; background: #d1453b; }
+  .browser .bar span:nth-child(2) { background: #c99a06; } .browser .bar span:nth-child(3) { background: var(--green); }
+  .browser .body { padding: 16px; }
+  .browser .body i { display: block; height: 10px; border-radius: 5px; background: var(--gray-s); margin-bottom: 12px; }
+  .browser .body i.h { background: var(--blue); width: 70%; height: 16px; }
+  .browser .body i.n { background: var(--orange); width: 80%; }
+  .check { width: 64px; height: 64px; border-radius: 50%; background: var(--green); color: #fff; font-size: 40px; display: grid; place-items: center; font-weight: 700; }
+  .person { width: 90px; text-align: center; }
+  .person .head { width: 46px; height: 46px; border-radius: 50%; background: var(--blue); margin: 0 auto 4px; }
+  .person .body { width: 84px; height: 40px; border-radius: 42px 42px 0 0; background: var(--blue); margin: 0 auto; }
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="title">AIエージェントが知識ベースを更新する流れ<small>LLM Wikiの「取り込み」の例</small></div>
+
+  <!-- 人と資料 -->
+  <div class="el person" id="person" style="left:70px; top:190px"><div class="head"></div><div class="body"></div><div class="sub" style="margin-top:6px">人間</div></div>
+  <div class="el box" id="raw" style="left:52px; top:330px; width:200px; height:170px; background:var(--blue-s)">
+    <div class="label">raw/</div><div class="sub">元の資料</div>
+  </div>
+  <div class="el file hidden" id="file" style="left:117px; top:400px"><i></i><i style="width:70%"></i><i style="width:85%"></i></div>
+
+  <!-- エージェント -->
+  <div class="el agent" id="agent" style="left:420px; top:250px"><svg viewBox="0 0 40 40"><path d="M20 4l4.5 11.5L36 20l-11.5 4.5L20 36l-4.5-11.5L4 20l11.5-4.5z" fill="#fff"/></svg></div>
+  <div class="el label" style="left:395px; top:410px; width:200px">AIエージェント</div>
+  <div class="line hidden el" id="line1" style="left:262px; top:330px; width:150px"></div>
+  <div class="line hidden el" id="line2" style="left:585px; top:330px; width:110px"></div>
+
+  <!-- Wiki -->
+  <div class="el box" id="wiki" style="left:705px; top:120px; width:290px; height:400px; background:var(--teal-s)">
+    <div class="label" style="margin-bottom:12px">wiki/</div>
+    <div class="page el hidden new" id="p-src" style="position:relative">資料の要約ページ<span class="badge" style="background:var(--orange)">新規</span></div>
+    <div class="page el" id="p1" style="position:relative; margin-top:10px">授業の日程と進行</div>
+    <div class="page el" id="p2" style="position:relative; margin-top:10px">GitHub Copilot</div>
+    <div class="page el" id="p3" style="position:relative; margin-top:10px">目録（index）</div>
+    <div class="page el" id="p4" style="position:relative; margin-top:10px">作業記録（log）</div>
+  </div>
+
+  <!-- コミットとプルリクエスト -->
+  <div class="el hidden" id="git" style="left:705px; top:540px; width:520px; height:90px">
+    <div class="track el" style="left:0; top:40px; width:520px"></div>
+    <svg class="el hidden" id="bpath" style="left:0; top:0" width="400" height="90"><path d="M95 43C125 43 140 5 183 5H253" stroke="#e07b1f" stroke-width="6" fill="none"/><path id="bmerge" d="M253 5C300 5 315 43 345 43" stroke="#e07b1f" stroke-width="6" fill="none" opacity="0" style="transition:opacity .6s"/></svg>
+    <div class="commit el" style="left:0; top:28px"></div>
+    <div class="commit el" style="left:80px; top:28px"></div>
+    <div class="branchc el hidden" id="c1" style="left:170px; top:-8px"></div>
+    <div class="branchc el hidden" id="c2" style="left:240px; top:-8px"></div>
+    <div class="commit el hidden" id="cm" style="left:330px; top:28px; background:var(--purple)"></div>
+  </div>
+  <div class="el pr hidden" id="pr" style="left:1010px; top:380px"><b>プルリクエスト</b>変更を確かめて取り込む</div>
+
+  <!-- 公開 -->
+  <div class="el browser hidden" id="browser" style="left:1010px; top:110px; width:250px"><div class="bar"><span></span><span></span><span></span></div><div class="body"><i class="h"></i><i></i><i class="n"></i><i></i><i style="width:60%"></i></div></div>
+  <div class="el check hidden" id="check" style="left:1205px; top:84px">✓</div>
+
+  <div class="caption" id="caption"></div>
+</div>
+<script>
+  var $ = function (id) { return document.getElementById(id); };
+  var show = function (id) { $(id).classList.remove("hidden"); };
+  var cap = function (n, t) { var c = $("caption"); c.style.opacity = 0; setTimeout(function () { c.innerHTML = '<span class="step">' + n + "</span>" + t; c.style.opacity = 1; }, 300); };
+  var hl = function (id, color, label) {
+    var p = $(id); p.classList.add("upd"); p.insertAdjacentHTML("beforeend", '<span class="badge" style="background:var(--' + color + ')">' + label + "</span>");
+  };
+  var T = [
+    [500, function () { cap("1", "人間が、新しい資料をraw/に置く"); }],
+    [1600, function () { show("file"); }],
+    [5000, function () { cap("2", "エージェントが資料を最後まで読む"); show("line1"); $("agent").classList.add("work"); }],
+    [9500, function () { cap("3", "資料の要約ページを作る"); show("line2"); }],
+    [10500, function () { show("p-src"); }],
+    [14000, function () { cap("4", "関係するページ、目録、作業記録を更新する"); }],
+    [15000, function () { hl("p1", "green", "更新"); }],
+    [15800, function () { hl("p2", "green", "更新"); }],
+    [16600, function () { hl("p3", "green", "追加"); }],
+    [17400, function () { hl("p4", "green", "追記"); }],
+    [19500, function () { cap("5", "変更をコミットし、プルリクエストで確かめる"); $("agent").classList.remove("work"); show("git"); }],
+    [20500, function () { show("bpath"); show("c1"); }],
+    [21300, function () { show("c2"); }],
+    [22200, function () { show("pr"); }],
+    [25000, function () { cap("6", "人間が確認してマージすると、mainに入る"); $("pr").classList.add("merged"); $("pr").innerHTML = "<b>マージ済み</b>mainに取り込まれた"; show("cm"); document.getElementById("bmerge").style.opacity = 1; }],
+    [29500, function () { cap("7", "サイトが自動で公開し直される"); show("browser"); }],
+    [30800, function () { show("check"); }]
+  ];
+  T.forEach(function (t) { setTimeout(t[1], t[0]); });
+</script>
+</body>
+</html>
