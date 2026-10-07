@@ -145,4 +145,5 @@ GitHubのリポジトリで作業しているなら、作業記録のファイ�
 - [AIを使うときの倫理とルール](ai-ethics.md)
 - [自分のプロジェクトに知識ベースを作る](knowledge-base.md)
 - [AIツールの選び方](ai-tools-compare.md)
+- [AIを使った調べもの](ai-research.md)
 - Wikiの関連ページ：[AI利用の倫理](../../../wiki/concepts/ai-ethics.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)、[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="検索エンジンとAIによる調べものの違い。検索エンジンは、探している言葉に合うページの一覧を返す。自分でページを開いて読み、まとめる。AIの調べもの機能は、検索して読んだ内容をまとめ、出典のリンクつきの文章で返す。ただしまとめの中に、資料にないことや読み違いが混ざることがあるので、出典を開いて確かめる。">
+  <rect x="12" y="12" width="296" height="276" rx="14" class="bg s-blue" stroke-width="2"/>
+  <path d="M12 56V26a14 14 0 0 1 14-14h268a14 14 0 0 1 14 14v30z" class="f-blue"/>
+  <text x="160" y="42" text-anchor="middle" font-size="16" class="tw bold">検索エンジン</text>
+  <rect x="32" y="74" width="256" height="40" rx="8" class="bgs"/>
+  <text x="160" y="99" text-anchor="middle" font-size="13" class="tx">言葉を入れる</text>
+  <path d="M160 114V128" class="lnf" stroke-width="2"/><path d="M160 136l-4.5-8h9z" class="ar"/>
+  <rect x="32" y="138" width="256" height="40" rx="8" class="f-blue-s"/>
+  <text x="160" y="163" text-anchor="middle" font-size="13" class="tx">ページの一覧が返る</text>
+  <path d="M160 178V192" class="lnf" stroke-width="2"/><path d="M160 200l-4.5-8h9z" class="ar"/>
+  <rect x="32" y="202" width="256" height="40" rx="8" class="bgs"/>
+  <text x="160" y="227" text-anchor="middle" font-size="13" class="tx">自分で開いて読み、まとめる</text>
+  <text x="160" y="270" text-anchor="middle" font-size="12" class="tm">手間はかかるが、原文を自分で読める</text>
+
+  <rect x="332" y="12" width="296" height="276" rx="14" class="bg s-purple" stroke-width="2"/>
+  <path d="M332 56V26a14 14 0 0 1 14-14h268a14 14 0 0 1 14 14v30z" class="f-purple"/>
+  <text x="480" y="42" text-anchor="middle" font-size="16" class="tw bold">AIの調べもの機能</text>
+  <rect x="352" y="74" width="256" height="40" rx="8" class="bgs"/>
+  <text x="480" y="99" text-anchor="middle" font-size="13" class="tx">問いを書く</text>
+  <path d="M480 114V128" class="lnf" stroke-width="2"/><path d="M480 136l-4.5-8h9z" class="ar"/>
+  <rect x="352" y="138" width="256" height="40" rx="8" class="f-purple-s"/>
+  <text x="480" y="163" text-anchor="middle" font-size="13" class="tx">AIが検索して読み、まとめる</text>
+  <path d="M480 178V192" class="lnf" stroke-width="2"/><path d="M480 200l-4.5-8h9z" class="ar"/>
+  <rect x="352" y="202" width="256" height="40" rx="8" class="f-red-s"/>
+  <text x="480" y="227" text-anchor="middle" font-size="13" class="tx bold">出典を開いて確かめる</text>
+  <text x="480" y="270" text-anchor="middle" font-size="12" class="tm">速いが、読み違いや書き足しが混ざる</text>
+</svg>
