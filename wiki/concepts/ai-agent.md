@@ -17,7 +17,7 @@ GitHub Copilotには、エディターの中で作業を進めるエージェン
 
 ## 指示ファイル
 
-多くのエージェントは、作業の前にリポジトリの中の決まった名前のファイルを読み、そこに書かれた約束事に従います。この知識ベースでは`AGENTS.md`に約束事をまとめ、エージェント独自のファイル（`CLAUDE.md`など）には「`AGENTS.md`に従うこと」とだけ書いています（[AGENTS.md](../../AGENTS.md)）。
+多くのエージェントは、作業の前にリポジトリの中の決まった名前のファイルを読み、そこに書かれた約束事に従います。この知識ベースでは`AGENTS.md`に約束事をまとめ、エージェント独自のファイル（`CLAUDE.md`など）には「`AGENTS.md`に従うこと」とだけ書いています（[AGENTS.md](../../AGENTS.md)）。GitHub Copilotも`AGENTS.md`を読むことが、公式ドキュメントで確かめられています（[資料：Copilotが読む指示ファイル](../sources/web-github-copilot-instructions.md)）。
 
 ## 使うときの注意
 
@@ -35,4 +35,5 @@ GitHub Copilotには、エディターの中で作業を進めるエージェン
 
 - [資料：授業の背景情報](../sources/ats-class-background.md)
 - [資料：GitHub Copilotのプラン（GitHub Docs）](../sources/web-github-copilot-plans.md)
+- [資料：Copilotが読む指示ファイル（GitHub Docs、VS Code Docs）](../sources/web-github-copilot-instructions.md)
 - [LLM Wiki（日本語版）](../../llm-wiki-j.md)（リポジトリ直下の参照文書）

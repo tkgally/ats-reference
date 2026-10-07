@@ -23,7 +23,7 @@ Copilotの画面は英語ですが、日本語で質問すれば日本語で答�
 
 ## この知識ベースとの関係
 
-この知識ベースは特定のエージェントに依存しないよう、エージェントへの指示を`AGENTS.md`にまとめています。Copilotのエージェント機能を使ってこのWikiに資料を取り込んだり、質問したりすることもできると思われます（資料外の補足、要確認）。
+この知識ベースは特定のエージェントに依存しないよう、エージェントへの指示を`AGENTS.md`にまとめています。GitHubとVS Codeの公式ドキュメントによれば、Copilotはリポジトリの`AGENTS.md`を指示として読みます（2026年10月7日確認、[資料：Copilotが読む指示ファイル](../sources/web-github-copilot-instructions.md)）。そのため、Copilotのエージェント機能を使って、このWikiに資料を取り込んだり、質問したりすることもできます。
 
 ## 関連ページ
 
@@ -39,3 +39,4 @@ Copilotの画面は英語ですが、日本語で質問すれば日本語で答�
 - [資料：授業の背景情報](../sources/ats-class-background.md)
 - [資料：GitHub Copilotのプラン（GitHub Docs）](../sources/web-github-copilot-plans.md)
 - [資料：学生向けのGitHub Copilot](../sources/web-github-copilot-students.md)
+- [資料：Copilotが読む指示ファイル（GitHub Docs、VS Code Docs）](../sources/web-github-copilot-instructions.md)
