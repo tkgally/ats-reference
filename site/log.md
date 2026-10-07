@@ -26,6 +26,7 @@
 ### Wikiとの連携
 
 - 大学のGitHubとCopilotのプラン（Microsoftと調整中）が決まったら、リポジトリの公開範囲についての仮の記述（GitHubとは、GitHubを始める、自分のプロジェクトに知識ベースを作る、よくある質問、AIを使うときの倫理とルール、用語集など）と、Copilotの提供についての記述を更新する。`grep -rn "Internal\|公開範囲" site/content`で該当箇所を探せる。
+- 大学のGoogleアカウント（g.tcu.ac.jp）：Gmailは使わず公式メールはOutlook、Google Classroomなどは情報基盤センターのサポート外（[TCUのGoogleアカウント](../wiki/campus/tcu-google-account.md)）。よくある質問の「TCUアカウント」の項などに一言足せる（2026年10月7日にWikiから）。
 - 授業サイトのログのページ、Copilotの配布方法の案内などが`raw/`に加わったら、関係する解説ページ（GitHub Copilotとは、よくある質問など）の記述を直す。
 
 ## 作業記録
