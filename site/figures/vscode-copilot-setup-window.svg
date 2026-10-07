@@ -1,0 +1,92 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VS Codeの画面の模式図。左端にアクティビティバー（エクスプローラー、検索、ソース管理、拡張機能のアイコン）、その右にファイルの一覧を表示するサイドバー、中央にファイルを開くエディター、右にCopilotのチャット、下にステータスバーがある。">
+  <!-- 窓 -->
+  <rect x="16" y="12" width="608" height="320" rx="10" class="bg"/>
+  <rect x="16" y="12" width="608" height="320" rx="10" class="ln" fill="none" stroke-width="1.5"/>
+  <!-- タイトルバー -->
+  <path d="M26 12h588a10 10 0 0 1 10 10v16H16V22a10 10 0 0 1 10-10z" class="bgs"/>
+  <circle cx="32" cy="25" r="4.5" class="f-red"/>
+  <circle cx="46" cy="25" r="4.5" class="f-yellow"/>
+  <circle cx="60" cy="25" r="4.5" class="f-green"/>
+  <text x="320" y="30" text-anchor="middle" font-size="12" class="tm">my-project - Visual Studio Code</text>
+
+  <!-- アクティビティバー -->
+  <rect x="16" y="38" width="40" height="274" class="f-gray-s"/>
+  <rect x="26" y="50" width="20" height="20" rx="4" class="f-blue"/>
+  <rect x="26" y="84" width="20" height="20" rx="4" class="f-gray"/>
+  <rect x="24" y="116" width="24" height="24" rx="5" class="f-green anim-pulse"/>
+  
+  <circle cx="31" cy="122" r="2.5" class="bg"/>
+  <circle cx="31" cy="134" r="2.5" class="bg"/>
+  <circle cx="41" cy="122" r="2.5" class="bg"/>
+  <rect x="26" y="152" width="20" height="20" rx="4" class="f-gray"/>
+
+  <!-- サイドバー（エクスプローラー） -->
+  <rect x="56" y="38" width="144" height="274" class="f-blue-s"/>
+  <text x="66" y="58" font-size="12" class="t-blue bold">エクスプローラー</text>
+  <text x="70" y="84" font-size="12" class="tx">▸ raw</text>
+  <text x="70" y="104" font-size="12" class="tx">▸ wiki</text>
+  <text x="70" y="124" font-size="12" class="tx">AGENTS.md</text>
+  <text x="70" y="144" font-size="12" class="tx">README.md</text>
+  <rect x="62" y="152" width="132" height="22" rx="4" class="f-blue" opacity=".25"/>
+  <text x="70" y="168" font-size="12" class="tx bold">plan.md</text>
+
+  <!-- エディター -->
+  <rect x="200" y="38" width="232" height="24" class="bgs"/>
+  <rect x="200" y="38" width="80" height="24" class="bg"/>
+  <text x="240" y="55" text-anchor="middle" font-size="12" class="tx">plan.md</text>
+  <text x="212" y="88" font-size="12.5" class="tx bold"># 企画書</text>
+  <rect x="212" y="102" width="190" height="7" rx="3.5" class="f-gray-s"/>
+  <rect x="212" y="118" width="160" height="7" rx="3.5" class="f-gray-s"/>
+  <rect x="212" y="134" width="176" height="7" rx="3.5" class="f-gray-s"/>
+  <text x="212" y="166" font-size="12.5" class="tx bold">## 調査の方法</text>
+  <rect x="212" y="180" width="120" height="7" rx="3.5" class="f-gray-s"/>
+  <rect x="336" y="180" width="70" height="7" rx="3.5" class="f-purple-s anim-pulse"/>
+  <text x="212" y="212" font-size="11" class="tm">薄い文字＝Copilotの補完</text>
+
+  <!-- チャット -->
+  <rect x="432" y="38" width="192" height="274" class="f-purple-s"/>
+  <text x="444" y="58" font-size="12" class="t-purple bold">チャット</text>
+  <rect x="470" y="70" width="144" height="40" rx="8" class="bg"/>
+  <text x="480" y="87" font-size="11.5" class="tx">企画書の調査の方法</text>
+  <text x="480" y="102" font-size="11.5" class="tx">を考えて</text>
+  <rect x="444" y="120" width="150" height="7" rx="3.5" class="f-purple" opacity=".5"/>
+  <rect x="444" y="134" width="164" height="7" rx="3.5" class="f-purple" opacity=".5"/>
+  <rect x="444" y="148" width="120" height="7" rx="3.5" class="f-purple" opacity=".5"/>
+  <rect x="444" y="164" width="168" height="30" rx="6" class="bg s-orange" stroke-width="1.5"/>
+  <text x="528" y="184" text-anchor="middle" font-size="11" class="t-orange bold">変更を残す？ Keep／Undo</text>
+  <rect x="442" y="232" width="172" height="70" rx="8" class="bg ln" stroke-width="1"/>
+  <text x="452" y="252" font-size="11.5" class="tm">ここに頼みたいことを書く</text>
+  <rect x="452" y="272" width="56" height="20" rx="5" class="bgs"/>
+  <text x="480" y="286" text-anchor="middle" font-size="11" class="tx">Agent ▾</text>
+  <rect x="514" y="272" width="52" height="20" rx="5" class="bgs"/>
+  <text x="540" y="286" text-anchor="middle" font-size="11" class="tx">Auto ▾</text>
+
+  <!-- ステータスバー -->
+  <path d="M16 312h608v10a10 10 0 0 1-10 10H26a10 10 0 0 1-10-10z" class="f-blue"/>
+  <text x="28" y="326" font-size="11.5" class="tw">main ⟳</text>
+  <text x="604" y="326" text-anchor="end" font-size="11.5" class="tw">Copilot ◉</text>
+
+  <!-- 番号 -->
+  <g font-size="12" class="bold">
+    <circle cx="36" cy="198" r="11" class="f-orange"/><text x="36" y="202" text-anchor="middle" class="tw">1</text>
+    <circle cx="180" cy="290" r="11" class="f-orange"/><text x="180" y="294" text-anchor="middle" class="tw">2</text>
+    <circle cx="412" cy="290" r="11" class="f-orange"/><text x="412" y="294" text-anchor="middle" class="tw">3</text>
+    <circle cx="604" cy="58" r="11" class="f-orange"/><text x="604" y="62" text-anchor="middle" class="tw">4</text>
+    <circle cx="330" cy="322" r="11" class="f-orange"/><text x="330" y="326" text-anchor="middle" class="tw">5</text>
+  </g>
+  <path d="M36 187V146" class="s-orange" stroke-width="1.5" fill="none"/>
+
+  <!-- 凡例 -->
+  <g font-size="12.5">
+    <circle cx="30" cy="358" r="9" class="f-orange"/><text x="30" y="362" text-anchor="middle" font-size="11" class="tw bold">1</text>
+    <text x="46" y="362" class="tx">アクティビティバー：上から、エクスプローラー、検索、ソース管理（緑）、拡張機能</text>
+    <circle cx="30" cy="382" r="9" class="f-orange"/><text x="30" y="386" text-anchor="middle" font-size="11" class="tw bold">2</text>
+    <text x="46" y="386" class="tx">サイドバー：ファイルの一覧（エクスプローラー）や、変更の一覧（ソース管理）</text>
+    <circle cx="30" cy="406" r="9" class="f-orange"/><text x="30" y="410" text-anchor="middle" font-size="11" class="tw bold">3</text>
+    <text x="46" y="410" class="tx">エディター：開いたファイルを書く場所。補完はここに出る</text>
+    <circle cx="30" cy="430" r="9" class="f-orange"/><text x="30" y="434" text-anchor="middle" font-size="11" class="tw bold">4</text>
+    <text x="46" y="434" class="tx">チャット：Copilotに頼む場所。モード（Agentなど）とモデル（Autoなど）を選べる</text>
+    <circle cx="30" cy="454" r="9" class="f-orange"/><text x="30" y="458" text-anchor="middle" font-size="11" class="tw bold">5</text>
+    <text x="46" y="458" class="tx">ステータスバー：いまのブランチ（main）、同期のボタン、Copilotのアイコン</text>
+  </g>
+</svg>

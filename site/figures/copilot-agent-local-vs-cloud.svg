@@ -1,0 +1,39 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VS Codeのエージェントと、GitHubのクラウドエージェントの比較。VS Codeのエージェントは自分のパソコンで動き、目の前で一手ずつ進み、操作ごとに承認して差分を確かめ、自分でコミットと同期をする。相談しながら進める作業に向く。クラウドエージェントはGitHubのクラウドで動き、任せておくと終わったときに知らせ、プルリクエストでまとめて確かめ、ブランチとプルリクエストが自動で残る。はっきり書ける小さめの作業に向く。">
+  <!-- 見出し -->
+  <rect x="16" y="12" width="232" height="58" rx="12" class="f-blue-s"/>
+  <text x="132" y="37" text-anchor="middle" font-size="15" class="tx bold">VS Codeのエージェント</text>
+  <text x="132" y="58" text-anchor="middle" font-size="12" class="tm">エディターのAgentモード</text>
+  <rect x="392" y="12" width="232" height="58" rx="12" class="f-purple-s"/>
+  <text x="508" y="37" text-anchor="middle" font-size="15" class="tx bold">クラウドエージェント</text>
+  <text x="508" y="58" text-anchor="middle" font-size="12" class="tm">GitHubのCopilot cloud agent</text>
+
+  <!-- 行 -->
+  <g font-size="13">
+    <!-- 1 -->
+    <rect x="262" y="84" width="116" height="34" rx="17" class="bgs"/>
+    <text x="320" y="106" text-anchor="middle" class="tx bold">動く場所</text>
+    <text x="132" y="106" text-anchor="middle" class="tx">自分のパソコン</text>
+    <text x="508" y="106" text-anchor="middle" class="tx">GitHubのサーバー</text>
+    <!-- 2 -->
+    <rect x="262" y="130" width="116" height="34" rx="17" class="bgs"/>
+    <text x="320" y="152" text-anchor="middle" class="tx bold">進み方</text>
+    <text x="132" y="152" text-anchor="middle" class="tx">目の前で一手ずつ進む</text>
+    <text x="508" y="152" text-anchor="middle" class="tx">任せて待つ（最長約1時間）</text>
+    <!-- 3 -->
+    <rect x="262" y="176" width="116" height="34" rx="17" class="bgs"/>
+    <text x="320" y="198" text-anchor="middle" class="tx bold">確かめ方</text>
+    <text x="132" y="198" text-anchor="middle" class="tx">操作ごとに承認、差分を見る</text>
+    <text x="508" y="198" text-anchor="middle" class="tx">PRでまとめて見る</text>
+    <!-- 4 -->
+    <rect x="262" y="222" width="116" height="34" rx="17" class="bgs"/>
+    <text x="320" y="244" text-anchor="middle" class="tx bold">GitHubへ</text>
+    <text x="132" y="244" text-anchor="middle" class="tx">自分でコミットして同期</text>
+    <text x="508" y="244" text-anchor="middle" class="tx">ブランチとPRが自動で残る</text>
+    <!-- 5 -->
+    <rect x="262" y="268" width="116" height="34" rx="17" class="bgs"/>
+    <text x="320" y="290" text-anchor="middle" class="tx bold">向く作業</text>
+    <text x="132" y="290" text-anchor="middle" class="t-blue bold">相談しながら進める</text>
+    <text x="508" y="290" text-anchor="middle" class="t-purple bold">はっきり書ける小さな作業</text>
+  </g>
+  <path d="M16 316H624" class="ln" stroke-width="1" fill="none"/>
+</svg>

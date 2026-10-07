@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VS CodeでCopilotを使う準備の流れ。1 VS Codeを入れる、2 日本語にする、3 GitHubでサインインする、4 リポジトリをクローンする、5 チャットで頼む、6 コミットして同期する。1から3は最初の一回だけ、4はリポジトリごとに一回、5と6は毎回の作業。">
+  <!-- 区分の帯 -->
+  <text x="20" y="22" font-size="12.5" class="tm bold">最初の一回だけ</text>
+  <path d="M20 30H620" class="ln" stroke-width="1.5" fill="none"/>
+  <text x="620" y="152" text-anchor="end" font-size="12.5" class="tm bold">4はリポジトリごとに一回、5と6は毎回</text>
+  <path d="M20 160H620" class="ln" stroke-width="1.5" fill="none"/>
+
+  <!-- 1 -->
+  <rect x="20" y="44" width="180" height="76" rx="12" class="f-blue-s"/>
+  <circle cx="44" cy="70" r="14" class="f-blue"/><text x="44" y="75" text-anchor="middle" font-size="14" class="tw bold">1</text>
+  <text x="66" y="75" font-size="14.5" class="tx bold">VS Codeを入れる</text>
+  <text x="34" y="104" font-size="12" class="tm">公式サイトから無料で</text>
+  <!-- 2 -->
+  <rect x="230" y="44" width="180" height="76" rx="12" class="f-blue-s"/>
+  <circle cx="254" cy="70" r="14" class="f-blue"/><text x="254" y="75" text-anchor="middle" font-size="14" class="tw bold">2</text>
+  <text x="276" y="75" font-size="14.5" class="tx bold">日本語にする</text>
+  <text x="244" y="104" font-size="12" class="tm">日本語言語パックを入れる</text>
+  <!-- 3 -->
+  <rect x="440" y="44" width="180" height="76" rx="12" class="f-purple-s"/>
+  <circle cx="464" cy="70" r="14" class="f-purple"/><text x="464" y="75" text-anchor="middle" font-size="14" class="tw bold">3</text>
+  <text x="486" y="75" font-size="14.5" class="tx bold">サインイン</text>
+  <text x="454" y="104" font-size="12" class="tm">GitHubのアカウントで</text>
+
+  <path d="M202 82H226" class="lnf" stroke-width="2" fill="none"/>
+  <path d="M220 77l6 5-6 5" class="lnf" stroke-width="2" fill="none"/>
+  <path d="M412 82H436" class="lnf" stroke-width="2" fill="none"/>
+  <path d="M430 77l6 5-6 5" class="lnf" stroke-width="2" fill="none"/>
+
+  <!-- 3 から 4 へ -->
+  <path d="M530 122V132H110V168" class="s-gray anim-dash" stroke-width="2" fill="none"/>
+  <path d="M104 166l6 8 6-8" class="s-gray" stroke-width="2" fill="none"/>
+
+  <!-- 4 -->
+  <rect x="20" y="176" width="180" height="76" rx="12" class="f-teal-s"/>
+  <circle cx="44" cy="202" r="14" class="f-teal"/><text x="44" y="207" text-anchor="middle" font-size="14" class="tw bold">4</text>
+  <text x="66" y="207" font-size="14.5" class="tx bold">クローンする</text>
+  <text x="34" y="236" font-size="12" class="tm">GitHubのリポジトリを複製</text>
+  <!-- 5 -->
+  <rect x="230" y="176" width="180" height="76" rx="12" class="f-purple-s"/>
+  <circle cx="254" cy="202" r="14" class="f-purple"/><text x="254" y="207" text-anchor="middle" font-size="14" class="tw bold">5</text>
+  <text x="276" y="207" font-size="14.5" class="tx bold">チャットで頼む</text>
+  <text x="244" y="236" font-size="12" class="tm">確かめて、変更を残す</text>
+  <!-- 6 -->
+  <rect x="440" y="176" width="180" height="76" rx="12" class="f-green-s"/>
+  <circle cx="464" cy="202" r="14" class="f-green anim-pulse"/><text x="464" y="207" text-anchor="middle" font-size="14" class="tw bold">6</text>
+  <text x="486" y="207" font-size="14.5" class="tx bold">コミットと同期</text>
+  <text x="454" y="236" font-size="12" class="tm">GitHubに変更を送る</text>
+
+  <path d="M202 214H226" class="lnf" stroke-width="2" fill="none"/>
+  <path d="M220 209l6 5-6 5" class="lnf" stroke-width="2" fill="none"/>
+  <path d="M412 214H436" class="lnf" stroke-width="2" fill="none"/>
+  <path d="M430 209l6 5-6 5" class="lnf" stroke-width="2" fill="none"/>
+</svg>

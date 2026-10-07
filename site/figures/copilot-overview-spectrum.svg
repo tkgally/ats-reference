@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Copilotの使い方を、AIに任せる範囲の小さい順に並べた図。補完、チャット、編集、エージェント、クラウドエージェントの順に、AIが自分で進める範囲が広がる。範囲が広がるほど、人が確かめることも増える。">
+  <!-- 上の矢印 -->
+  <text x="40" y="26" font-size="13.5" class="t-purple bold">AIに任せる範囲が広がる</text>
+  <path d="M40 40H596" class="s-purple" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M588 32l10 8-10 8" class="s-purple" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 地の線 -->
+  <path d="M24 196H616" class="ln" stroke-width="1.5" fill="none"/>
+
+  <!-- 1 補完 -->
+  <rect x="34" y="168" width="76" height="28" rx="6" class="f-purple-s"/>
+  <text x="72" y="187" text-anchor="middle" font-size="11" class="tm">エディター</text>
+  <text x="72" y="218" text-anchor="middle" font-size="14" class="tx bold">補完</text>
+  <text x="72" y="240" text-anchor="middle" font-size="12" class="tm">書きかけの</text>
+  <text x="72" y="257" text-anchor="middle" font-size="12" class="tm">続きを提案</text>
+
+  <!-- 2 チャット -->
+  <rect x="158" y="148" width="76" height="48" rx="6" class="f-purple-s"/>
+  <text x="196" y="187" text-anchor="middle" font-size="11" class="tm">エディター</text>
+  <text x="196" y="218" text-anchor="middle" font-size="14" class="tx bold">チャット</text>
+  <text x="196" y="240" text-anchor="middle" font-size="12" class="tm">質問に答える</text>
+  <text x="196" y="257" text-anchor="middle" font-size="12" class="tm">相談の相手</text>
+
+  <!-- 3 編集 -->
+  <rect x="282" y="126" width="76" height="70" rx="6" class="f-purple-s"/>
+  <text x="320" y="187" text-anchor="middle" font-size="11" class="tm">エディター</text>
+  <text x="320" y="218" text-anchor="middle" font-size="14" class="tx bold">編集</text>
+  <text x="320" y="240" text-anchor="middle" font-size="12" class="tm">頼んだ箇所を</text>
+  <text x="320" y="257" text-anchor="middle" font-size="12" class="tm">書き換える</text>
+
+  <!-- 4 エージェント -->
+  <rect x="406" y="100" width="76" height="96" rx="6" class="f-purple" opacity=".75"/>
+  <text x="444" y="187" text-anchor="middle" font-size="11" class="tw">エディター</text>
+  <text x="444" y="218" text-anchor="middle" font-size="14" class="tx bold">エージェント</text>
+  <text x="444" y="240" text-anchor="middle" font-size="12" class="tm">手順を考え</text>
+  <text x="444" y="257" text-anchor="middle" font-size="12" class="tm">道具を使って実行</text>
+
+  <!-- 5 クラウドエージェント -->
+  <rect x="530" y="72" width="76" height="124" rx="6" class="f-purple"/>
+  <circle cx="568" cy="60" r="5" class="f-purple anim-pulse"/>
+  <text x="568" y="187" text-anchor="middle" font-size="11" class="tw">GitHub</text>
+  <text x="568" y="212" text-anchor="middle" font-size="13" class="tx bold">クラウド</text>
+  <text x="568" y="228" text-anchor="middle" font-size="13" class="tx bold">エージェント</text>
+  <text x="568" y="246" text-anchor="middle" font-size="12" class="tm">GitHub上で</text>
+  <text x="568" y="263" text-anchor="middle" font-size="12" class="tm">作業しPRを出す</text>
+
+  <!-- 下の矢印 -->
+  <path d="M40 284H596" class="s-orange" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M588 276l10 8-10 8" class="s-orange" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40" y="304" font-size="13.5" class="t-orange bold">人が確かめることも増える</text>
+</svg>
