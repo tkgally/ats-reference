@@ -30,3 +30,11 @@
 - 更新したページ：[GitHub Copilot](tools/github-copilot.md)（一般向けのプラン、AGENTS.mdを読むことの確認により「要確認」を解消）、[Microsoft 365 Copilot](tools/microsoft-365-copilot.md)（データの扱い）、[この授業で使うAIツール](tools/ai-tools.md)、[AI利用の倫理](concepts/ai-ethics.md)（国の指針）、[全体の概観](overview.md)、[目録](index.md)。
 - 各ページの「関連ページ」に、関係する解説ページへのリンクを加えた。
 - 確認が必要な点：大学から提供されるGitHub Copilotのプラン、TCUアカウントでのMicrosoft 365 Copilotのデータ保護、授業・大学としてのAI利用の指針。
+
+## [2026-10-07] 取り込み | 教員からの連絡（GitHubとCopilotのプラン、公開範囲）
+
+- 資料：教員がエージェントとの作業の中で伝えた連絡を[資料：教員からの連絡（2026年10月7日）](sources/instructor-note-2026-10-07.md)にまとめた（`raw/`には置かれていない）。
+- 内容：大学はGitHubとCopilotのプランをMicrosoftと調整中。リポジトリの公開範囲はあとで決まり、学内（TCU）だけで共有できる3つ目の選択肢が使えるかもしれない。
+- 更新したページ：[GitHub](tools/github.md)（「リポジトリの公開範囲（未定）」の節を追加）、[GitHub Copilot](tools/github-copilot.md)、[全体の概観](overview.md)（確認が必要な点）、[資料：GitHubのアカウント、二要素認証、共同作業者の招待](sources/web-github-account.md)（GitHubのInternalの公開範囲を追記）、[目録](index.md)。
+- 解説サイトでも、非公開を勧めていた記述を「授業での方針は未定、決まるまでは練習用を非公開で」という仮の記述に改めた（GitHubとは、GitHubを始める、自分のプロジェクトに知識ベースを作る、よくある質問、GitHub Copilotとは、AIを使うときの倫理とルール、英語の画面を読むための単語帳、用語集）。
+- 確認が必要な点：大学のGitHubとCopilotのプランが決まったら、公開範囲と提供されるCopilotのプランの記述を更新する。

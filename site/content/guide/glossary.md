@@ -57,8 +57,8 @@ Issue（イシュー）
 README（リードミー）
 : リポジトリの入り口に置く説明のファイル（`README.md`）。リポジトリを開くと最初に表示される。→[Markdownの書き方](markdown.md)
 
-公開（Public）と非公開（Private）
-: リポジトリをだれでも見られるようにするか、招待した人だけに見せるかの設定。→[GitHubとは](github-basics.md)
+公開範囲（Public、Private、Internal）
+: リポジトリをだれが見られるかの設定。公開はだれでも、非公開は招待した人だけ、組織内は同じ組織のメンバーだけ。授業でどれを使うかは未定（2026年10月7日時点）。→[GitHubとは](github-basics.md)
 
 コラボレーター（Collaborator）
 : リポジトリに招待され、書き込みを許された人。→[GitHubを始める](github-first-steps.md)

@@ -93,13 +93,13 @@ AIエージェントに作業を頼んだ場合は、エージェントがコミ
 
 ### リポジトリは公開と非公開のどちらにすればよいですか
 
-迷ったら非公開（<span class="ui">Private</span>）にしておきましょう。あとから公開に変えることもできます。公開する前に、個人情報、APIキー、他人の著作物が含まれていないかを確かめます（[GitHubとは](github-basics.md)）。
+授業のプロジェクトでの公開範囲は、まだ決まっていません。大学はGitHubとCopilotのプランをMicrosoftと調整しているところで、公開（<span class="ui">Public</span>）と非公開（<span class="ui">Private</span>）のほかに、学内（TCU）だけで共有できる組織内（<span class="ui">Internal</span>）が使えるようになるかもしれません（2026年10月7日時点）。案内があるまでは、練習用のリポジトリは非公開にしておきましょう。公開範囲はあとから変えられますが、どの場合でも、個人情報、APIキー、他人の著作物を置かないようにします（[GitHubとは](github-basics.md)）。
 
 ## AIツールについて
 
 ### GitHub Copilotの有料版が使えるようになっていません
 
-GitHub Copilotの有料版は、大学の予算で受講生全員に提供されます。提供期間は10月から1月末までです。2026年10月7日時点では、どのプランが提供されるか、どう申し込むかは、まだWikiに資料がありません（[GitHub Copilot](../../../wiki/tools/github-copilot.md)）。授業での案内、授業サイト、WebClassの連絡を確かめてください。案内どおりに手続きしても使えない場合は、教員に相談しましょう。
+GitHub Copilotの有料版は、大学の予算で受講生全員に提供されます。提供期間は10月から1月末までです。2026年10月7日時点では、大学がGitHubとCopilotのプランをMicrosoftと調整しているところで、どのプランが提供されるか、どう申し込むかはまだ決まっていません（[GitHub Copilot](../../../wiki/tools/github-copilot.md)）。授業での案内、授業サイト、WebClassの連絡を確かめてください。案内どおりに手続きしても使えない場合は、教員に相談しましょう。
 
 VS Codeで使う場合は、提供を受けたものと同じGitHubアカウントでサインインしているかも確かめます。Copilotでできることは[GitHub Copilotとは](copilot-overview.md)で説明しています。
 

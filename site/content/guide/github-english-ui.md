@@ -37,7 +37,7 @@ GitHubのウェブサイトには公式の日本語の画面がなく、メニ�
 | <span class="ui">Watch</span> | ウォッチ（見守る） | このリポジトリで何かあったときに通知を受け取る設定。 |
 | <span class="ui">Fork</span> | フォーク | 他人のリポジトリを、自分のアカウントに丸ごと複製すること。 |
 | <span class="ui">Star</span> | スター | 「いいね」やブックマークのような印。 |
-| <span class="ui">Public</span>／<span class="ui">Private</span> | 公開／非公開 | リポジトリをだれでも見られるか、招待した人だけが見られるか。 |
+| <span class="ui">Public</span>／<span class="ui">Private</span>／<span class="ui">Internal</span> | 公開／非公開／組織内 | リポジトリをだれでも見られるか、招待した人だけが見られるか、組織のメンバーだけが見られるか。Internalは組織向けの契約がある場合だけ選べる。 |
 
 ## ファイル一覧のまわり
 
