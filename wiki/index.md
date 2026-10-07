@@ -2,8 +2,8 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：28（目録と作業記録を除く）
-- 取り込んだ資料：1件（ほかにウェブ上の資料5件）
+- ページ数：29（目録と作業記録を除く）
+- 取り込んだ資料：1件（ほかにウェブ上の資料6件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
 - 最終更新：2026年10月7日
 
@@ -63,6 +63,7 @@
 - [資料：学生向けのGitHub Copilot](sources/web-github-copilot-students.md)：学生が無料でGitHub Copilotを使うしくみ（GitHub Education）についての、GitHubの公式ドキュメントとお知らせの要約です（2026年10月7日に確認）。
 - [資料：Copilotが読む指示ファイル（GitHub Docs、VS Code Docs）](sources/web-github-copilot-instructions.md)：GitHub CopilotがリポジトリのどのファイルをAIへの指示として読むかについての、GitHubとVS Codeの公式ドキュメントの要約です（2026年10月7日に確認）。
 - [資料：ChatGPT、Claude、Geminiの料金とデータの設定](sources/web-ai-chat-services.md)：主な汎用AIチャットサービスと、学校のアカウントで使うMicrosoftのCopilot Chatについて、各社の公式ページで確かめた料金とデータの設定の要約です（2026年10月7日に確認）。
+- [資料：GitHubのアカウント、二要素認証、共同作業者の招待](sources/web-github-account.md)：GitHubのアカウントを作って使い始めるときに関係する、二要素認証、学生向けの特典（GitHub Education）、リポジトリへの招待についての公式ドキュメントの要約です（2026年10月7日に確認）。
 - [資料：生成AIと教育・著作権についての国の指針](sources/web-ai-guidelines-japan.md)：文部科学省と文化庁が公表している、大学での生成AIの扱いと、AIと著作権についての文書の要約です（2026年10月7日に確認）。
 
 ## 質問への回答

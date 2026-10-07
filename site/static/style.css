@@ -80,6 +80,7 @@ code { background: var(--code-bg); padding: .1em .35em; border-radius: 4px; }
 pre { background: var(--code-bg); padding: 14px 16px; border-radius: 8px; overflow-x: auto; line-height: 1.6; }
 pre code { background: none; padding: 0; }
 .pre-wrap { position: relative; }
+.pre-wrap pre { padding-top: 34px; }
 .copy-button { position: absolute; top: 6px; right: 6px; font: inherit; font-size: 12.5px; padding: 2px 10px; border-radius: 6px; border: 1px solid var(--line-strong); background: var(--panel); color: var(--fg-soft); cursor: pointer; opacity: .85; }
 .copy-button:hover { opacity: 1; border-color: var(--accent); }
 kbd { border: 1px solid var(--line-strong); border-bottom-width: 2px; border-radius: 4px; padding: 0 .35em; background: var(--panel); }
@@ -218,7 +219,7 @@ figure.fig video { display: block; width: 100%; border-radius: 8px; }
 @media (max-width: 640px) { .compare { grid-template-columns: 1fr; } }
 
 /* 英語の画面の言葉（<span class="ui">Commit changes</span>） */
-.ui { font-family: var(--font-mono); font-size: .88em; background: var(--panel); border: 1px solid var(--line-strong); border-radius: 6px; padding: .05em .45em; white-space: nowrap; }
+.ui { font-family: var(--font-mono); font-size: .88em; background: var(--panel); border: 1px solid var(--line-strong); border-radius: 6px; padding: .05em .45em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 
 /* ---------------------------------------------------------------- リンク集・関連 */
 

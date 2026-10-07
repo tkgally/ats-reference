@@ -26,6 +26,7 @@
 
 - 解説ページを書く過程で調べた公式の情報を、ウェブ上の資料として要約した：[資料：GitHub Copilotのプラン](sources/web-github-copilot-plans.md)、[資料：学生向けのGitHub Copilot](sources/web-github-copilot-students.md)、[資料：Copilotが読む指示ファイル](sources/web-github-copilot-instructions.md)、[資料：ChatGPT、Claude、Geminiの料金とデータの設定](sources/web-ai-chat-services.md)、[資料：生成AIと教育・著作権についての国の指針](sources/web-ai-guidelines-japan.md)。
 - 作成したページ：[ChatGPT、Claude、Gemini](tools/ai-chat-services.md)、[大規模言語モデル（LLM）](concepts/large-language-model.md)、[AIエージェント](concepts/ai-agent.md)。
+- [資料：GitHubのアカウント、二要素認証、共同作業者の招待](sources/web-github-account.md)も作り、[GitHub](tools/github.md)に「アカウントと招待について」の節を加えた。
 - 更新したページ：[GitHub Copilot](tools/github-copilot.md)（一般向けのプラン、AGENTS.mdを読むことの確認により「要確認」を解消）、[Microsoft 365 Copilot](tools/microsoft-365-copilot.md)（データの扱い）、[この授業で使うAIツール](tools/ai-tools.md)、[AI利用の倫理](concepts/ai-ethics.md)（国の指針）、[全体の概観](overview.md)、[目録](index.md)。
 - 各ページの「関連ページ」に、関係する解説ページへのリンクを加えた。
 - 確認が必要な点：大学から提供されるGitHub Copilotのプラン、TCUアカウントでのMicrosoft 365 Copilotのデータ保護、授業・大学としてのAI利用の指針。
