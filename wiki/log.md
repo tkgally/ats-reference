@@ -38,3 +38,11 @@
 - 更新したページ：[GitHub](tools/github.md)（「リポジトリの公開範囲（未定）」の節を追加）、[GitHub Copilot](tools/github-copilot.md)、[全体の概観](overview.md)（確認が必要な点）、[資料：GitHubのアカウント、二要素認証、共同作業者の招待](sources/web-github-account.md)（GitHubのInternalの公開範囲を追記）、[目録](index.md)。
 - 解説サイトでも、非公開を勧めていた記述を「授業での方針は未定、決まるまでは練習用を非公開で」という仮の記述に改めた（GitHubとは、GitHubを始める、自分のプロジェクトに知識ベースを作る、よくある質問、GitHub Copilotとは、AIを使うときの倫理とルール、英語の画面を読むための単語帳、用語集）。
 - 確認が必要な点：大学のGitHubとCopilotのプランが決まったら、公開範囲と提供されるCopilotのプランの記述を更新する。
+
+## [2026-10-07] 取り込み | ウェブ上の資料（情報基盤センター「Google（g.tcu.ac.jp）サービスの利用について」）
+
+- 情報基盤センターのウェブサイトで、2026年10月7日付のお知らせを見つけ、[資料：Google（g.tcu.ac.jp）サービスの利用について](sources/web-tcu-google-services.md)として要約した。
+- 作成したページ：[TCUのGoogleアカウント（g.tcu.ac.jp）](campus/tcu-google-account.md)。
+- 更新したページ：[学内のITサービス](campus/it-services.md)、[TCUアカウントと多要素認証](campus/tcu-account.md)、[ChatGPT、Claude、Gemini](tools/ai-chat-services.md)、[全体の概観](overview.md)、[目録](index.md)。
+- 確認が必要な点：大学のGoogleアカウントでGeminiが使えるか、データ保護がどうなるか。お知らせには書かれていない。TCUアカウントのMicrosoft 365 Copilotの機能とデータ保護も、大学の案内は見つからなかった（情報基盤センターのトップページにMicrosoft 365 Copilotへのリンクがあることだけ確認）。
+- 次回に回したこと：`site/log.md`の依頼は、いずれも大学のGitHubとCopilotのプランの決定や新しい`raw/`の資料を待っているため、今回は対応していない。解説ページ（よくある質問など）に、Gmailを使わないという注意を足す余地がある（`site/log.md`に候補として書いた）。

@@ -7,7 +7,7 @@
 - [TCUアカウント](https://www.itc.tcu.ac.jp/tcuaccount/)：大学の各サービスに共通のアカウント。Microsoft 365 Copilotなどの利用にも使う。
 - [多要素認証](https://www.itc.tcu.ac.jp/mfa/)
 
-詳しくは[TCUアカウントと多要素認証](tcu-account.md)を参照してください。
+詳しくは[TCUアカウントと多要素認証](tcu-account.md)を参照してください。TCUアカウントにはGoogleのアカウント（ユーザー名@g.tcu.ac.jp）も付いていますが、大学の公式メールはOutlookです（[TCUのGoogleアカウント（g.tcu.ac.jp）](tcu-google-account.md)）。
 
 ## 情報基盤センター
 
@@ -48,8 +48,10 @@ Microsoft 365のAI機能については[Microsoft 365 Copilot](../tools/microsof
 - [TCUアカウントと多要素認証](tcu-account.md)
 - [学内Wi-Fi](campus-wifi.md)
 - [WebClass](webclass.md)
+- [TCUのGoogleアカウント（g.tcu.ac.jp）](tcu-google-account.md)
 - [Microsoft 365 Copilot](../tools/microsoft-365-copilot.md)
 
 ## 出典
 
 - [資料：授業の背景情報](../sources/ats-class-background.md)（情報基盤センターのウェブサイト、2026年10月7日確認）
+- [資料：Google（g.tcu.ac.jp）サービスの利用について](../sources/web-tcu-google-services.md)

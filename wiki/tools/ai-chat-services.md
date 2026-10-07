@@ -20,8 +20,11 @@
 
 三つのサービスとも、会話の内容をモデルの改良（学習）に使うかどうかを設定で選べます。設定の場所は[資料：ChatGPT、Claude、Geminiの料金とデータの設定](../sources/web-ai-chat-services.md)にまとめています。他人の個人情報や、公開してはいけない資料は、設定にかかわらず入力しないのが安全です（[AI利用の倫理](../concepts/ai-ethics.md)）。
 
+大学のTCUアカウントにはGoogleのアカウント（g.tcu.ac.jp）も付いていますが、大学の案内（2026年10月7日時点）はGmailやGoogle Classroomの扱いについてで、Geminiには触れていません。大学のアカウントでGeminiを使えるかどうかは分かっていません（要確認。[TCUのGoogleアカウント（g.tcu.ac.jp）](../campus/tcu-google-account.md)）。
+
 ## 関連ページ
 
+- [TCUのGoogleアカウント（g.tcu.ac.jp）](../campus/tcu-google-account.md)
 - [この授業で使うAIツール](ai-tools.md)
 - [Microsoft 365 Copilot](microsoft-365-copilot.md)
 - [GitHub Copilot](github-copilot.md)
@@ -32,3 +35,4 @@
 
 - [資料：授業の背景情報](../sources/ats-class-background.md)
 - [資料：ChatGPT、Claude、Geminiの料金とデータの設定](../sources/web-ai-chat-services.md)
+- [資料：Google（g.tcu.ac.jp）サービスの利用について](../sources/web-tcu-google-services.md)
