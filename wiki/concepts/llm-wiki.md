@@ -34,9 +34,11 @@ Andrej Karpathyが2026年4月に公開したアイデアで、このリポジト
 
 ## 関連ページ
 
+- [AIエージェント](ai-agent.md)
 - [GitHub](../tools/github.md)
 - [PBL（プロジェクト型学習）](project-based-learning.md)
 - [第2回（10月7日）：GitHubのデモ](../course/sessions/session-02.md)
+- 解説ページ：[自分のプロジェクトに知識ベースを作る](../../site/content/guide/knowledge-base.md)、[AIエージェントとは](../../site/content/guide/ai-agents.md)
 
 ## 出典
 

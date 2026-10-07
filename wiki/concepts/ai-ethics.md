@@ -23,6 +23,7 @@ AIツールを使うときに配慮すべき著作権、プライバシー、公
 - [達成目標](../course/learning-goals.md)
 - [PBL（プロジェクト型学習）](project-based-learning.md)
 - [この授業で使うAIツール](../tools/ai-tools.md)
+- 解説ページ：[AIを使うときの倫理とルール](../../site/content/guide/ai-ethics.md)、[AIの答えを確かめる](../../site/content/guide/checking-ai-output.md)
 
 ## 出典
 

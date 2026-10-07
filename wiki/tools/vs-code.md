@@ -17,6 +17,7 @@ VS CodeはMicrosoftが無料で提供しているエディターで、Windows、
 - [GitHub Copilot](github-copilot.md)
 - [GitHubの日本語対応](github-japanese-support.md)
 - [この授業で使うAIツール](ai-tools.md)
+- 解説ページ：[VS CodeでCopilotを使う準備](../../site/content/guide/vscode-copilot-setup.md)
 
 ## 出典
 

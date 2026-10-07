@@ -26,11 +26,14 @@ ChatGPT、Claude、Geminiそれぞれの特徴や、無料版・有料版の違�
 
 ## 関連ページ
 
+- [AIエージェント](../concepts/ai-agent.md)
+- [大規模言語モデル（LLM）](../concepts/large-language-model.md)
 - [GitHub](github.md)
 - [GitHub Copilot](github-copilot.md)
 - [Microsoft 365 Copilot](microsoft-365-copilot.md)
 - [VS Code](vs-code.md)
 - [AI利用の倫理](../concepts/ai-ethics.md)
+- 解説ページ：[AIツールの選び方](../../site/content/guide/ai-tools-compare.md)、[生成AIのしくみ](../../site/content/guide/how-llms-work.md)、[AIへの頼み方](../../site/content/guide/prompting.md)
 
 ## 出典
 

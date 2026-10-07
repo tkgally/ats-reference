@@ -29,6 +29,7 @@
 - [学内のITサービス](it-services.md)
 - [WebClass](webclass.md)
 - [授業の概要](../course/course-overview.md)
+- 解説ページ：[よくある質問とトラブル対処](../../site/content/guide/faq.md)
 
 ## 出典
 

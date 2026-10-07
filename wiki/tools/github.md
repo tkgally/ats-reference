@@ -26,6 +26,7 @@ GitHubの画面は英語ですが、この授業では次のような必要な�
 - [GitHub Copilot](github-copilot.md)
 - [LLM Wiki](../concepts/llm-wiki.md)
 - [この授業で使うAIツール](ai-tools.md)
+- 解説ページ：[GitHubとは：基本の考え方](../../site/content/guide/github-basics.md)、[GitHubを始める](../../site/content/guide/github-first-steps.md)、[ブランチとプルリクエストでの共同作業](../../site/content/guide/github-collaboration.md)、[Markdownの書き方](../../site/content/guide/markdown.md)
 
 ## 出典
 
