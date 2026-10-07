@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 262" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="プルリクエストの流れ。1 ブランチを作る、2 変更をコミット、3 プルリクエストを開く、4 レビューとコメント、5 マージ、6 ブランチを削除。レビューで直す点があれば、2 に戻って修正のコミットを足す。">
+  <g>
+    <rect x="20" y="22" width="180" height="76" rx="12" class="f-orange-s"/>
+    <circle cx="44" cy="48" r="13" class="f-orange"/><text x="44" y="53" text-anchor="middle" font-size="13" class="tw bold">1</text>
+    <text x="64" y="53" font-size="14.5" class="tx bold">ブランチを作る</text>
+    <text x="110" y="83" text-anchor="middle" font-size="11.5" class="tm">main ▾ から作成</text>
+  </g>
+  <g>
+    <rect x="230" y="22" width="180" height="76" rx="12" class="f-green-s"/>
+    <circle cx="254" cy="48" r="13" class="f-green"/><text x="254" y="53" text-anchor="middle" font-size="13" class="tw bold">2</text>
+    <text x="274" y="53" font-size="14.5" class="tx bold">変更をコミット</text>
+    <text x="320" y="83" text-anchor="middle" font-size="11.5" class="tm">Commit changes</text>
+  </g>
+  <g>
+    <rect x="440" y="22" width="180" height="76" rx="12" class="f-blue-s"/>
+    <circle cx="464" cy="48" r="13" class="f-blue"/><text x="464" y="53" text-anchor="middle" font-size="13" class="tw bold">3</text>
+    <text x="484" y="53" font-size="14.5" class="tx bold">PRを開く</text>
+    <text x="530" y="83" text-anchor="middle" font-size="11.5" class="tm">Create pull request</text>
+  </g>
+  <g>
+    <rect x="440" y="166" width="180" height="76" rx="12" class="f-blue-s"/>
+    <circle cx="464" cy="192" r="13" class="f-blue"/><text x="464" y="197" text-anchor="middle" font-size="13" class="tw bold">4</text>
+    <text x="484" y="197" font-size="14.5" class="tx bold">レビュー</text>
+    <text x="530" y="227" text-anchor="middle" font-size="11.5" class="tm">Files changed、コメント</text>
+  </g>
+  <g>
+    <rect x="230" y="166" width="180" height="76" rx="12" class="f-green-s"/>
+    <circle cx="254" cy="192" r="13" class="f-green"/><text x="254" y="197" text-anchor="middle" font-size="13" class="tw bold">5</text>
+    <text x="274" y="197" font-size="14.5" class="tx bold">マージ</text>
+    <text x="320" y="227" text-anchor="middle" font-size="11.5" class="tm">Squash and merge</text>
+  </g>
+  <g>
+    <rect x="20" y="166" width="180" height="76" rx="12" class="f-gray-s"/>
+    <circle cx="44" cy="192" r="13" class="f-gray"/><text x="44" y="197" text-anchor="middle" font-size="13" class="tw bold">6</text>
+    <text x="64" y="197" font-size="14.5" class="tx bold">ブランチを削除</text>
+    <text x="110" y="227" text-anchor="middle" font-size="11.5" class="tm">Delete branch</text>
+  </g>
+  <g class="lnf" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 60H224"/><path d="M218 54l7 6-7 6"/>
+    <path d="M414 60H434"/><path d="M428 54l7 6-7 6"/>
+    <path d="M590 102V160"/><path d="M584 153l6 8 6-8"/>
+    <path d="M436 204H416"/><path d="M422 198l-7 6 7 6"/>
+    <path d="M226 204H206"/><path d="M212 198l-7 6 7 6"/>
+  </g>
+  <!-- 修正のループ -->
+  <path d="M470 162C470 130 330 136 330 104" class="s-orange anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M324 111l6-8 6 8" class="s-orange" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="250" y="138" text-anchor="middle" font-size="12.5" class="t-orange bold">直す点があれば</text>
+  <text x="250" y="155" text-anchor="middle" font-size="12.5" class="t-orange bold">修正のコミットを足す</text>
+</svg>

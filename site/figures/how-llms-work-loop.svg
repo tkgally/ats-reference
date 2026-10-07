@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="文章ができるまでのくりかえし。ここまでの文章を大規模言語モデルが読み、次の言葉の候補ごとに確率を計算する。確率にしたがって一つを選び、文に付け足して、また次の言葉を予測する。">
+  <!-- ここまでの文章 -->
+  <rect x="16" y="34" width="200" height="88" rx="12" class="bg s-blue" stroke-width="2"/>
+  <text x="116" y="56" text-anchor="middle" font-size="13" class="t-blue bold">ここまでの文章</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="28" y="72" width="38" height="28" rx="5" class="f-blue-s"/><text x="47" y="91" class="tx">今日</text>
+    <rect x="70" y="72" width="24" height="28" rx="5" class="f-blue-s"/><text x="82" y="91" class="tx">は</text>
+    <rect x="98" y="72" width="38" height="28" rx="5" class="f-blue-s"/><text x="117" y="91" class="tx">天気</text>
+    <rect x="140" y="72" width="24" height="28" rx="5" class="f-blue-s"/><text x="152" y="91" class="tx">が</text>
+    <rect x="168" y="72" width="38" height="28" rx="5" class="f-blue-s"/><text x="187" y="91" class="tx">よい</text>
+  </g>
+  <text x="116" y="116" text-anchor="middle" font-size="11.5" class="tm">トークンに分けて読む</text>
+
+  <!-- 矢印 -->
+  <path d="M220 78H244" class="lnf" stroke-width="2.5"/>
+  <path d="M252 78l-9-5v10z" class="ar"/>
+
+  <!-- モデル -->
+  <rect x="256" y="34" width="120" height="88" rx="14" class="f-purple"/>
+  <text x="316" y="70" text-anchor="middle" font-size="15" class="tw round">大規模</text>
+  <text x="316" y="92" text-anchor="middle" font-size="15" class="tw round">言語モデル</text>
+  <circle cx="362" cy="48" r="5" class="f-yellow anim-pulse"/>
+
+  <path d="M380 78H398" class="lnf" stroke-width="2.5"/>
+  <path d="M406 78l-9-5v10z" class="ar"/>
+
+  <!-- 確率 -->
+  <rect x="410" y="20" width="214" height="124" rx="12" class="bg s-purple" stroke-width="2"/>
+  <text x="517" y="42" text-anchor="middle" font-size="13" class="t-purple bold">次の言葉の確率</text>
+  <g font-size="13">
+    <text x="424" y="66" class="tx bold">ので</text>
+    <rect x="472" y="56" width="94" height="13" rx="3" class="f-purple"/>
+    <text x="572" y="67" class="tx">41%</text>
+    <text x="424" y="89" class="tx">。</text>
+    <rect x="472" y="79" width="62" height="13" rx="3" class="f-gray"/>
+    <text x="540" y="90" class="tm">27%</text>
+    <text x="424" y="112" class="tx">から</text>
+    <rect x="472" y="102" width="41" height="13" rx="3" class="f-gray"/>
+    <text x="519" y="113" class="tm">18%</text>
+    <text x="424" y="135" class="tx">けれど</text>
+    <rect x="472" y="125" width="21" height="13" rx="3" class="f-gray"/>
+    <text x="499" y="136" class="tm">9%</text>
+  </g>
+
+  <!-- 選ぶ -->
+  <path d="M517 148V172" class="s-green" stroke-width="2.5"/>
+  <path d="M517 180l-5-9h10z" class="f-green"/>
+  <text x="528" y="168" font-size="12.5" class="t-green bold">一つを選ぶ</text>
+
+  <!-- 付け足した文 -->
+  <rect x="236" y="184" width="388" height="50" rx="12" class="f-green-s"/>
+  <text x="256" y="215" font-size="15" class="tx">今日は天気がよい</text>
+  <rect x="380" y="196" width="44" height="28" rx="6" class="f-green"/>
+  <text x="402" y="215" text-anchor="middle" font-size="15" class="tw bold">ので</text>
+  <text x="438" y="214" font-size="12.5" class="tm">→ 次は「散歩」？</text>
+
+  <!-- くりかえし -->
+  <path d="M232 209H116V132" class="s-orange anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M116 124l-5 9h10z" class="f-orange"/>
+  <text x="62" y="160" text-anchor="middle" font-size="13" class="t-orange bold">付け足して</text>
+  <text x="62" y="180" text-anchor="middle" font-size="13" class="t-orange bold">また予測</text>
+</svg>

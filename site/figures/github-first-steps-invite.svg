@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="招待の流れ。持ち主は Settings、Collaborators、Add people の順に進み、ユーザー名で招待する。招待メールや通知が届き、招待された人が Accept invitation を押すと共同作業者になる。招待は7日で期限切れになる。">
+  <!-- 持ち主 -->
+  <rect x="16" y="30" width="210" height="190" rx="14" class="f-blue-s"/>
+  <text x="121" y="58" text-anchor="middle" font-size="15" class="t-blue round">招待する人（持ち主）</text>
+  <g font-size="13">
+    <rect x="34" y="74" width="174" height="28" rx="6" class="bg"/>
+    <text x="44" y="93" class="tx">① <tspan class="bold">Settings</tspan></text>
+    <rect x="34" y="108" width="174" height="28" rx="6" class="bg"/>
+    <text x="44" y="127" class="tx">② <tspan class="bold">Collaborators</tspan></text>
+    <rect x="34" y="142" width="174" height="28" rx="6" class="bg"/>
+    <text x="44" y="161" class="tx">③ <tspan class="bold">Add people</tspan></text>
+    <rect x="34" y="176" width="174" height="28" rx="6" class="bg"/>
+    <text x="44" y="195" class="tx">④ ユーザー名で招待</text>
+  </g>
+
+  <!-- 封筒 -->
+  <g class="anim-float">
+    <rect x="290" y="96" width="64" height="44" rx="5" class="bg s-orange" stroke-width="2.5"/>
+    <path d="M292 99l30 22 30-22" class="s-orange" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  </g>
+  <text x="322" y="166" text-anchor="middle" font-size="12.5" class="tx">招待メール・通知</text>
+  <text x="322" y="80" text-anchor="middle" font-size="12.5" class="t-red bold">期限は7日</text>
+  <path d="M232 125H282" class="s-orange anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M276 119l8 6-8 6" class="s-orange" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M362 125H408" class="s-orange anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M402 119l8 6-8 6" class="s-orange" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- 招待された人 -->
+  <rect x="414" y="30" width="210" height="190" rx="14" class="f-orange-s"/>
+  <text x="519" y="58" text-anchor="middle" font-size="15" class="t-orange round">招待された人</text>
+  <g font-size="13">
+    <rect x="432" y="74" width="174" height="28" rx="6" class="bg"/>
+    <text x="442" y="93" class="tx">① メールか通知を開く</text>
+    <rect x="432" y="108" width="174" height="28" rx="6" class="f-green"/>
+    <text x="442" y="127" class="tw">② <tspan class="bold">Accept invitation</tspan></text>
+    <rect x="432" y="142" width="174" height="62" rx="6" class="bg"/>
+    <text x="442" y="164" class="tx">③ 共同作業者になる</text>
+    <text x="458" y="188" font-size="12" class="tm">読み書きできるように</text>
+  </g>
+</svg>

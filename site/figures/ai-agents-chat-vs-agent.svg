@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="チャットとエージェントの違い。チャットでは、人が質問し、AIが答え、人が自分でその答えをファイルに反映する。エージェントでは、人が目標を伝えると、AIがファイル、ターミナル、ウェブなどの道具を自分で使って作業し、終わったら報告する。人は結果を確かめる。">
+  <!-- 左：チャット -->
+  <rect x="12" y="12" width="300" height="276" rx="14" class="bg ln" stroke-width="1.5"/>
+  <text x="162" y="40" text-anchor="middle" font-size="16" class="tx round">チャット</text>
+  <rect x="32" y="64" width="96" height="48" rx="10" class="f-blue-s"/>
+  <text x="80" y="93" text-anchor="middle" font-size="14" class="tx bold">人</text>
+  <rect x="196" y="64" width="96" height="48" rx="10" class="f-purple-s"/>
+  <text x="244" y="93" text-anchor="middle" font-size="14" class="tx bold">AI</text>
+  <path d="M132 80H190M184 75l6 5-6 5" class="s-blue" stroke-width="2" fill="none"/>
+  <text x="162" y="72" text-anchor="middle" font-size="12" class="tm">質問</text>
+  <path d="M192 98H134M140 93l-6 5 6 5" class="s-purple" stroke-width="2" fill="none"/>
+  <text x="162" y="122" text-anchor="middle" font-size="12" class="tm">答え</text>
+  <!-- 人が自分で反映 -->
+  <path d="M80 116V176" class="s-blue anim-dash" stroke-width="2" fill="none"/>
+  <path d="M74 170l6 8 6-8" class="s-blue" stroke-width="2" fill="none"/>
+  <rect x="32" y="184" width="96" height="44" rx="8" class="f-teal-s"/>
+  <text x="80" y="211" text-anchor="middle" font-size="13" class="tx">ファイル</text>
+  <text x="146" y="194" font-size="12.5" class="tx">人がコピーして</text>
+  <text x="146" y="213" font-size="12.5" class="tx">貼り付け、直す</text>
+  <text x="162" y="268" text-anchor="middle" font-size="12.5" class="t-blue bold">手を動かすのは人</text>
+
+  <!-- 右：エージェント -->
+  <rect x="328" y="12" width="300" height="276" rx="14" class="bg s-purple" stroke-width="2"/>
+  <text x="478" y="40" text-anchor="middle" font-size="16" class="tx round">エージェント</text>
+  <rect x="348" y="64" width="96" height="48" rx="10" class="f-blue-s"/>
+  <text x="396" y="93" text-anchor="middle" font-size="14" class="tx bold">人</text>
+  <rect x="512" y="64" width="96" height="48" rx="10" class="f-purple"/>
+  <text x="560" y="93" text-anchor="middle" font-size="14" class="tw bold">AI</text>
+  <path d="M448 80H506M500 75l6 5-6 5" class="s-blue" stroke-width="2" fill="none"/>
+  <text x="478" y="72" text-anchor="middle" font-size="12" class="tm">目標</text>
+  <path d="M508 98H450M456 93l-6 5 6 5" class="s-green" stroke-width="2" fill="none"/>
+  <text x="478" y="122" text-anchor="middle" font-size="12" class="tm">報告</text>
+  <!-- 道具 -->
+  <path d="M560 116V150" class="s-purple anim-dash" stroke-width="2" fill="none"/>
+  <path d="M560 150H392V170M476 150V170M560 150V170" class="s-purple anim-dash" stroke-width="2" fill="none"/>
+  <rect x="348" y="174" width="88" height="44" rx="8" class="f-teal-s"/>
+  <text x="392" y="201" text-anchor="middle" font-size="13" class="tx">ファイル</text>
+  <rect x="440" y="174" width="72" height="44" rx="8" class="bgs"/>
+  <text x="476" y="201" text-anchor="middle" font-size="13" class="tx">命令</text>
+  <rect x="516" y="174" width="92" height="44" rx="8" class="bgs"/>
+  <text x="562" y="201" text-anchor="middle" font-size="13" class="tx">ウェブ</text>
+  <text x="478" y="246" text-anchor="middle" font-size="12.5" class="tx">AIが道具を使い、何度も試す</text>
+  <text x="478" y="268" text-anchor="middle" font-size="12.5" class="t-purple bold">人は目標を決め、結果を確かめる</text>
+</svg>

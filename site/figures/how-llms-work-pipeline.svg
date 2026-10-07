@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="学習から利用までの流れ。ウェブや本などの大量の文章で、次の言葉の予測を練習する事前学習をする。次に、指示に従う練習と人の評価による追加学習をして、チャットAIとして公開される。利用するときも、次の言葉を予測して答える。文章を集めた時点が知識の締め切りになる。">
+  <!-- 1 大量の文章 -->
+  <rect x="12" y="40" width="136" height="116" rx="12" class="f-teal-s"/>
+  <g>
+    <rect x="52" y="54" width="30" height="36" rx="3" class="bg s-teal" stroke-width="1.5"/>
+    <rect x="62" y="50" width="30" height="36" rx="3" class="bg s-teal" stroke-width="1.5"/>
+    <rect x="72" y="46" width="30" height="36" rx="3" class="bg s-teal" stroke-width="1.5"/>
+    <path d="M78 56h18M78 63h14M78 70h18" class="s-teal" stroke-width="2"/>
+  </g>
+  <text x="80" y="114" text-anchor="middle" font-size="15" class="tx bold">大量の文章</text>
+  <text x="80" y="134" text-anchor="middle" font-size="12" class="tm">ウェブ、本、論文、</text>
+  <text x="80" y="149" text-anchor="middle" font-size="12" class="tm">プログラムなど</text>
+
+  <!-- 2 事前学習 -->
+  <rect x="172" y="40" width="136" height="116" rx="12" class="f-orange-s"/>
+  <text x="240" y="70" text-anchor="middle" font-size="15" class="tx bold">事前学習</text>
+  <text x="240" y="96" text-anchor="middle" font-size="12" class="tx">続きを当てる練習を</text>
+  <text x="240" y="113" text-anchor="middle" font-size="12" class="tx">何兆回もくりかえす</text>
+  <text x="240" y="142" text-anchor="middle" font-size="12" class="tm">→ 基盤モデル</text>
+
+  <!-- 3 追加学習 -->
+  <rect x="332" y="40" width="136" height="116" rx="12" class="f-green-s"/>
+  <text x="400" y="70" text-anchor="middle" font-size="15" class="tx bold">追加学習</text>
+  <text x="400" y="96" text-anchor="middle" font-size="12" class="tx">指示に従う練習</text>
+  <text x="400" y="113" text-anchor="middle" font-size="12" class="tx">人の評価で調整</text>
+  <text x="400" y="142" text-anchor="middle" font-size="12" class="tm">（RLHFなど）</text>
+
+  <!-- 4 チャットAI -->
+  <rect x="492" y="40" width="136" height="116" rx="12" class="f-purple"/>
+  <text x="560" y="78" text-anchor="middle" font-size="16" class="tw round">チャットAI</text>
+  <text x="560" y="106" text-anchor="middle" font-size="12" class="tw">ChatGPT、Claude、</text>
+  <text x="560" y="123" text-anchor="middle" font-size="12" class="tw">Geminiなど</text>
+
+  <!-- 矢印 -->
+  <g>
+    <path d="M150 98H162" class="lnf" stroke-width="2.5"/><path d="M170 98l-9-5v10z" class="ar"/>
+    <path d="M310 98H322" class="lnf" stroke-width="2.5"/><path d="M330 98l-9-5v10z" class="ar"/>
+    <path d="M470 98H482" class="lnf" stroke-width="2.5"/><path d="M490 98l-9-5v10z" class="ar"/>
+  </g>
+
+  <!-- 段階の見出し -->
+  <text x="320" y="26" text-anchor="middle" font-size="13" class="t-orange bold">学習の段階</text>
+  <path d="M172 32H468" class="s-orange" stroke-width="1.5" opacity=".5"/>
+  <text x="560" y="26" text-anchor="middle" font-size="13" class="t-purple bold">公開・利用</text>
+
+  <!-- 知識の締め切り -->
+  <path d="M160 36V200" class="s-red anim-dash" stroke-width="2" fill="none"/>
+  <text x="166" y="196" font-size="13" class="t-red bold">知識の締め切り</text>
+  <text x="166" y="214" font-size="12" class="t-red">これより後の出来事はモデルの中にない</text>
+
+  <!-- 利用 -->
+  <path d="M560 158V184" class="lnf" stroke-width="2.5"/><path d="M560 192l-5-9h10z" class="ar"/>
+  <rect x="440" y="196" width="188" height="62" rx="12" class="f-blue-s"/>
+  <text x="534" y="220" text-anchor="middle" font-size="13" class="tx bold">あなたの質問に答える</text>
+  <text x="534" y="242" text-anchor="middle" font-size="12" class="tm">ここでも次の言葉を予測</text>
+</svg>

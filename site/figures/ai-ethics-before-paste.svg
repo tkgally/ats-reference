@@ -1,0 +1,63 @@
+<svg viewBox="0 0 640 476" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIに貼り付ける前の確認。パスワードやAPIキーが含まれるなら貼らない。他人の個人情報が含まれるなら削るか伏せる。他人の作品や有料の資料なら利用条件を確かめ、必要な部分だけにする。非公開の資料なら持ち主や教員に確認する。どれにも当たらなければ使ってよいが、結果は自分で確かめる。">
+  <rect x="110" y="8" width="180" height="34" rx="17" class="f-blue-s s-blue" stroke-width="1.5"/>
+  <text x="200" y="30" text-anchor="middle" font-size="14" class="tx bold">AIに貼り付ける前に</text>
+  <path d="M200 42V62" class="lnf" stroke-width="2"/>
+  <rect x="40" y="64" width="320" height="56" rx="10" class="bg lnf" stroke-width="1.5"/>
+  <text x="70" y="99" text-anchor="middle" font-size="18" class="t-red bold">Q1</text>
+  <text x="215" y="88" text-anchor="middle" font-size="14" class="tx">パスワードやAPIキーが</text>
+  <text x="215" y="108" text-anchor="middle" font-size="14" class="tx bold">含まれている？</text>
+  <path d="M362 92H414" class="s-red" stroke-width="2.5"/>
+  <path d="M420 92l-8-5v10z" class="f-red"/>
+  <text x="390" y="85" text-anchor="middle" font-size="12" class="t-red bold">はい</text>
+  <rect x="424" y="66" width="206" height="52" rx="10" class="f-red-s s-red" stroke-width="1.5"/>
+  <text x="527" y="88" text-anchor="middle" font-size="14" class="tx bold">貼らない</text>
+  <text x="527" y="108" text-anchor="middle" font-size="12" class="tm">消してから使う</text>
+  <path d="M200 120V142" class="lnf" stroke-width="2"/>
+  <path d="M200 148l-5-8h10z" class="ar"/>
+  <text x="210" y="139" font-size="12" class="tm">いいえ</text>
+  <rect x="40" y="148" width="320" height="56" rx="10" class="bg lnf" stroke-width="1.5"/>
+  <text x="70" y="183" text-anchor="middle" font-size="18" class="t-orange bold">Q2</text>
+  <text x="215" y="172" text-anchor="middle" font-size="14" class="tx">他人の個人情報が</text>
+  <text x="215" y="192" text-anchor="middle" font-size="14" class="tx bold">含まれている？</text>
+  <path d="M362 176H414" class="s-orange" stroke-width="2.5"/>
+  <path d="M420 176l-8-5v10z" class="f-orange"/>
+  <text x="390" y="169" text-anchor="middle" font-size="12" class="t-orange bold">はい</text>
+  <rect x="424" y="150" width="206" height="52" rx="10" class="f-orange-s s-orange" stroke-width="1.5"/>
+  <text x="527" y="172" text-anchor="middle" font-size="14" class="tx bold">削るか伏せる</text>
+  <text x="527" y="192" text-anchor="middle" font-size="12" class="tm">「Aさん」などに置き換える</text>
+  <path d="M200 204V226" class="lnf" stroke-width="2"/>
+  <path d="M200 232l-5-8h10z" class="ar"/>
+  <text x="210" y="223" font-size="12" class="tm">いいえ</text>
+  <rect x="40" y="232" width="320" height="56" rx="10" class="bg lnf" stroke-width="1.5"/>
+  <text x="70" y="267" text-anchor="middle" font-size="18" class="t-orange bold">Q3</text>
+  <text x="215" y="256" text-anchor="middle" font-size="14" class="tx">他人の作品や</text>
+  <text x="215" y="276" text-anchor="middle" font-size="14" class="tx bold">有料の資料を使う？</text>
+  <path d="M362 260H414" class="s-orange" stroke-width="2.5"/>
+  <path d="M420 260l-8-5v10z" class="f-orange"/>
+  <text x="390" y="253" text-anchor="middle" font-size="12" class="t-orange bold">はい</text>
+  <rect x="424" y="234" width="206" height="52" rx="10" class="f-orange-s s-orange" stroke-width="1.5"/>
+  <text x="527" y="256" text-anchor="middle" font-size="14" class="tx bold">利用条件を確かめる</text>
+  <text x="527" y="276" text-anchor="middle" font-size="12" class="tm">必要な部分だけにする</text>
+  <path d="M200 288V310" class="lnf" stroke-width="2"/>
+  <path d="M200 316l-5-8h10z" class="ar"/>
+  <text x="210" y="307" font-size="12" class="tm">いいえ</text>
+  <rect x="40" y="316" width="320" height="56" rx="10" class="bg lnf" stroke-width="1.5"/>
+  <text x="70" y="351" text-anchor="middle" font-size="18" class="t-orange bold">Q4</text>
+  <text x="215" y="340" text-anchor="middle" font-size="14" class="tx">非公開の資料や</text>
+  <text x="215" y="360" text-anchor="middle" font-size="14" class="tx bold">未発表の内容？</text>
+  <path d="M362 344H414" class="s-orange" stroke-width="2.5"/>
+  <path d="M420 344l-8-5v10z" class="f-orange"/>
+  <text x="390" y="337" text-anchor="middle" font-size="12" class="t-orange bold">はい</text>
+  <rect x="424" y="318" width="206" height="52" rx="10" class="f-orange-s s-orange" stroke-width="1.5"/>
+  <text x="527" y="340" text-anchor="middle" font-size="14" class="tx bold">持ち主・教員に確認</text>
+  <text x="527" y="360" text-anchor="middle" font-size="12" class="tm">許可がなければ使わない</text>
+  <path d="M200 372V394" class="lnf" stroke-width="2"/>
+  <path d="M200 400l-5-8h10z" class="ar"/>
+  <text x="210" y="391" font-size="12" class="tm">いいえ</text>
+  <rect x="40" y="400" width="320" height="56" rx="28" class="f-green-s s-green" stroke-width="2"/>
+  <text x="200" y="424" text-anchor="middle" font-size="14.5" class="tx bold">使ってよい</text>
+  <text x="200" y="444" text-anchor="middle" font-size="12.5" class="tm">結果は自分で確かめる</text>
+  <rect x="424" y="402" width="206" height="52" rx="10" class="bgs"/>
+  <text x="527" y="424" text-anchor="middle" font-size="13" class="tx bold anim-pulse">迷ったら貼らない</text>
+  <text x="527" y="444" text-anchor="middle" font-size="12" class="tm">先に教員に相談する</text>
+</svg>

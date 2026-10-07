@@ -22,6 +22,7 @@ GitHubのウェブサイト（github.com）には公式の日本語インター�
 - [GitHub](github.md)
 - [GitHub Copilot](github-copilot.md)
 - [VS Code](vs-code.md)
+- 解説ページ：[英語の画面を読むための単語帳](../../site/content/guide/github-english-ui.md)、[GitHubを始める](../../site/content/guide/github-first-steps.md)
 
 ## 出典
 

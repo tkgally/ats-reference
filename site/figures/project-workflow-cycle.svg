@@ -1,0 +1,75 @@
+<svg viewBox="0 -22 640 334" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="プロジェクトは、テーマ設定、計画、実装、評価、発表の5段階で進む。評価の結果を見て実装や計画に戻ることもある。各段階で、AIが手伝えることと、自分で決めることがある。">
+  <path d="M446 64C432 16 336 16 322 60" class="s-orange anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M322 62l-7-10M322 62l5-11" class="s-orange" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M572 64C540 -6 222 -6 196 60" class="ln" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+  <path d="M196 62l-6-9M196 62l3-10" class="ln" stroke-width="1.5" fill="none"/>
+  <text x="384" y="58" text-anchor="middle" font-size="12.5" class="t-orange bold">評価して戻る</text>
+  <text x="384" y="-4" text-anchor="middle" font-size="12" class="tm">発表で得た意見を次に生かす</text>
+  <g>
+    <rect x="14" y="68" width="108" height="54" rx="12" class="f-teal-s s-teal" stroke-width="2"/>
+    <text x="68" y="91" text-anchor="middle" font-size="12" class="t-teal bold">段階1</text>
+    <text x="68" y="112" text-anchor="middle" font-size="15.5" class="tx bold">テーマ設定</text>
+    <rect x="14" y="138" width="108" height="56" rx="10" class="f-purple-s"/>
+    <text x="68" y="161" text-anchor="middle" font-size="12.5" class="tx">アイデア出し</text>
+    <text x="68" y="182" text-anchor="middle" font-size="12.5" class="tx">先行例の調査</text>
+    <rect x="14" y="204" width="108" height="56" rx="10" class="f-blue-s"/>
+    <text x="68" y="227" text-anchor="middle" font-size="12.5" class="tx">何に関心があるか</text>
+    <text x="68" y="248" text-anchor="middle" font-size="12.5" class="tx">テーマを選ぶ</text>
+  </g>
+  <path d="M124 95h10" class="lnf" stroke-width="2.5"/>
+  <path d="M138 95l-6-5v10z" class="ar"/>
+  <g>
+    <rect x="140" y="68" width="108" height="54" rx="12" class="f-teal-s s-teal" stroke-width="2"/>
+    <text x="194" y="91" text-anchor="middle" font-size="12" class="t-teal bold">段階2</text>
+    <text x="194" y="112" text-anchor="middle" font-size="15.5" class="tx bold">計画</text>
+    <rect x="140" y="138" width="108" height="56" rx="10" class="f-purple-s"/>
+    <text x="194" y="161" text-anchor="middle" font-size="12.5" class="tx">作業の分解</text>
+    <text x="194" y="182" text-anchor="middle" font-size="12.5" class="tx">日程の案</text>
+    <rect x="140" y="204" width="108" height="56" rx="10" class="f-blue-s"/>
+    <text x="194" y="227" text-anchor="middle" font-size="12.5" class="tx">範囲を決める</text>
+    <text x="194" y="248" text-anchor="middle" font-size="12.5" class="tx">優先順位</text>
+  </g>
+  <path d="M250 95h10" class="lnf" stroke-width="2.5"/>
+  <path d="M264 95l-6-5v10z" class="ar"/>
+  <g>
+    <rect x="266" y="68" width="108" height="54" rx="12" class="f-teal-s s-teal" stroke-width="2"/>
+    <text x="320" y="91" text-anchor="middle" font-size="12" class="t-teal bold">段階3</text>
+    <text x="320" y="112" text-anchor="middle" font-size="15.5" class="tx bold">実装</text>
+    <rect x="266" y="138" width="108" height="56" rx="10" class="f-purple-s"/>
+    <text x="320" y="161" text-anchor="middle" font-size="12.5" class="tx">作る・調べる</text>
+    <text x="320" y="182" text-anchor="middle" font-size="12.5" class="tx">下書き</text>
+    <rect x="266" y="204" width="108" height="56" rx="10" class="f-blue-s"/>
+    <text x="320" y="227" text-anchor="middle" font-size="12.5" class="tx">結果を確かめる</text>
+    <text x="320" y="248" text-anchor="middle" font-size="12.5" class="tx">直す方向</text>
+  </g>
+  <path d="M376 95h10" class="lnf" stroke-width="2.5"/>
+  <path d="M390 95l-6-5v10z" class="ar"/>
+  <g>
+    <rect x="392" y="68" width="108" height="54" rx="12" class="f-teal-s s-teal" stroke-width="2"/>
+    <text x="446" y="91" text-anchor="middle" font-size="12" class="t-teal bold">段階4</text>
+    <text x="446" y="112" text-anchor="middle" font-size="15.5" class="tx bold">評価</text>
+    <rect x="392" y="138" width="108" height="56" rx="10" class="f-purple-s"/>
+    <text x="446" y="161" text-anchor="middle" font-size="12.5" class="tx">点検・テスト</text>
+    <text x="446" y="182" text-anchor="middle" font-size="12.5" class="tx">改善案</text>
+    <rect x="392" y="204" width="108" height="56" rx="10" class="f-blue-s"/>
+    <text x="446" y="227" text-anchor="middle" font-size="12.5" class="tx">基準を決める</text>
+    <text x="446" y="248" text-anchor="middle" font-size="12.5" class="tx">判定する</text>
+  </g>
+  <path d="M502 95h10" class="lnf" stroke-width="2.5"/>
+  <path d="M516 95l-6-5v10z" class="ar"/>
+  <g>
+    <rect x="518" y="68" width="108" height="54" rx="12" class="f-teal-s s-teal" stroke-width="2"/>
+    <text x="572" y="91" text-anchor="middle" font-size="12" class="t-teal bold">段階5</text>
+    <text x="572" y="112" text-anchor="middle" font-size="15.5" class="tx bold">発表</text>
+    <rect x="518" y="138" width="108" height="56" rx="10" class="f-purple-s"/>
+    <text x="572" y="161" text-anchor="middle" font-size="12.5" class="tx">構成案・スライド</text>
+    <text x="572" y="182" text-anchor="middle" font-size="12.5" class="tx">練習相手</text>
+    <rect x="518" y="204" width="108" height="56" rx="10" class="f-blue-s"/>
+    <text x="572" y="227" text-anchor="middle" font-size="12.5" class="tx">伝えたいこと</text>
+    <text x="572" y="248" text-anchor="middle" font-size="12.5" class="tx">自分の言葉</text>
+  </g>
+  <rect x="150" y="282" width="16" height="16" rx="4" class="f-purple-s"/>
+  <text x="172" y="295" font-size="13" class="tx">AIが手伝えること</text>
+  <rect x="350" y="282" width="16" height="16" rx="4" class="f-blue-s"/>
+  <text x="372" y="295" font-size="13" class="tx">自分で判断すること</text>
+</svg>

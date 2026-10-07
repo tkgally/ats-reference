@@ -1,0 +1,48 @@
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ノートパソコンでAIと対話しながら、GitHubに作業を積み重ねていくようすの絵">
+  <!-- 背景の円 -->
+  <circle cx="210" cy="150" r="128" class="bg" opacity=".7"/>
+  <!-- ノートパソコン -->
+  <rect x="98" y="88" width="196" height="128" rx="10" class="lnf" stroke-width="4" fill="none"/>
+  <rect x="106" y="96" width="180" height="112" rx="5" class="bgs"/>
+  <path d="M78 224h236l-14 14H92z" class="f-gray"/>
+  <!-- 画面の中：対話の吹き出し -->
+  <rect x="118" y="108" width="98" height="24" rx="12" class="f-blue-s"/>
+  <rect x="128" y="117" width="62" height="6" rx="3" class="f-blue"/>
+  <rect x="172" y="140" width="102" height="34" rx="12" class="f-purple-s"/>
+  <rect x="182" y="149" width="78" height="6" rx="3" class="f-purple"/>
+  <rect x="182" y="161" width="52" height="6" rx="3" class="f-purple" opacity=".6"/>
+  <rect x="118" y="182" width="70" height="18" rx="9" class="f-blue-s"/>
+  <rect x="128" y="188" width="40" height="6" rx="3" class="f-blue"/>
+  <circle cx="246" cy="191" r="3.5" class="f-purple anim-pulse"/>
+  <circle cx="258" cy="191" r="3.5" class="f-purple anim-pulse" style="animation-delay:.3s"/>
+  <circle cx="270" cy="191" r="3.5" class="f-purple anim-pulse" style="animation-delay:.6s"/>
+  <!-- AIの光 -->
+  <g class="anim-float">
+    <circle cx="330" cy="70" r="26" class="f-purple"/>
+    <path d="M330 52l4 12 12 4-12 4-4 12-4-12-12-4 12-4z" class="tw"/>
+    <text x="330" y="114" text-anchor="middle" font-size="13" class="tx bold">AI</text>
+  </g>
+  <path d="M306 80q-20 12-30 26" class="s-purple anim-dash" stroke-width="2.5" fill="none"/>
+  <!-- GitHubの履歴（コミットの列） -->
+  <g>
+    <path d="M60 262h300" class="s-green" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150 262q20-26 50-26h60q30 0 50 26" class="s-orange" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="60" cy="262" r="9" class="f-green"/>
+    <circle cx="110" cy="262" r="9" class="f-green"/>
+    <circle cx="150" cy="262" r="9" class="f-green"/>
+    <circle cx="215" cy="236" r="8" class="f-orange"/>
+    <circle cx="255" cy="236" r="8" class="f-orange"/>
+    <circle cx="310" cy="262" r="9" class="f-green"/>
+    <circle cx="360" cy="262" r="11" class="f-green anim-pulse"/>
+    <text x="60" y="290" text-anchor="middle" font-size="12" class="tm">はじめ</text>
+    <text x="360" y="290" text-anchor="middle" font-size="12" class="tm">いま</text>
+  </g>
+  <!-- 本（Wiki） -->
+  <g transform="translate(40 60)">
+    <rect x="0" y="0" width="54" height="68" rx="5" class="f-teal"/>
+    <rect x="8" y="10" width="38" height="5" rx="2.5" class="tw" opacity=".9"/>
+    <rect x="8" y="21" width="30" height="5" rx="2.5" class="tw" opacity=".7"/>
+    <rect x="8" y="32" width="34" height="5" rx="2.5" class="tw" opacity=".7"/>
+    <text x="27" y="88" text-anchor="middle" font-size="13" class="tx bold">Wiki</text>
+  </g>
+</svg>

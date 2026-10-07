@@ -26,6 +26,7 @@
 - [達成目標](../course/learning-goals.md)
 - [LLM Wiki](llm-wiki.md)
 - [AI利用の倫理](ai-ethics.md)
+- 解説ページ：[プロジェクトの進め方](../../site/content/guide/project-workflow.md)
 
 ## 出典
 

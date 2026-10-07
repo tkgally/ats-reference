@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 262" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="マージの3つの方法。Create a merge commit はブランチのコミットを残して合流のコミットを足す。Squash and merge はコミットを1つにまとめて main に足す。Rebase and merge はコミットを1つずつ main の先に並べ直す。">
+  <!-- 1 merge commit -->
+  <g>
+    <rect x="10" y="10" width="200" height="242" rx="12" class="bg ln" stroke-width="1.5"/>
+    <text x="110" y="36" text-anchor="middle" font-size="13" class="tx bold">Create a merge commit</text>
+    <text x="110" y="56" text-anchor="middle" font-size="12" class="tm">合流のコミットを足す</text>
+    <path d="M44 160C58 160 58 104 72 104H150C164 104 164 160 176 160" class="s-orange" stroke-width="3" fill="none"/>
+    <path d="M24 160H198" class="s-green" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="40" cy="160" r="8" class="f-green"/>
+    <circle cx="84" cy="104" r="10" class="f-orange"/><text x="84" y="108" text-anchor="middle" font-size="11" class="tw bold">a</text>
+    <circle cx="112" cy="104" r="10" class="f-orange"/><text x="112" y="108" text-anchor="middle" font-size="11" class="tw bold">b</text>
+    <circle cx="140" cy="104" r="10" class="f-orange"/><text x="140" y="108" text-anchor="middle" font-size="11" class="tw bold">c</text>
+    <circle cx="176" cy="160" r="11" class="f-green"/><text x="176" y="164" text-anchor="middle" font-size="11" class="tw bold">M</text>
+    <text x="110" y="204" text-anchor="middle" font-size="12" class="tx">a、b、cも残る</text>
+    <text x="110" y="224" text-anchor="middle" font-size="12" class="tm">枝分かれの形が残る</text>
+  </g>
+  <!-- 2 squash -->
+  <g>
+    <rect x="220" y="10" width="200" height="242" rx="12" class="f-green-s s-green" stroke-width="2.5"/>
+    <text x="320" y="36" text-anchor="middle" font-size="13" class="tx bold">Squash and merge</text>
+    <text x="320" y="56" text-anchor="middle" font-size="12" class="tm">1つにまとめて足す</text>
+    <g opacity=".35">
+      <path d="M254 160C268 160 268 104 282 104H352" class="s-orange" stroke-width="3" fill="none"/>
+      <circle cx="294" cy="104" r="10" class="f-orange"/><text x="294" y="108" text-anchor="middle" font-size="11" class="tw bold">a</text>
+      <circle cx="322" cy="104" r="10" class="f-orange"/><text x="322" y="108" text-anchor="middle" font-size="11" class="tw bold">b</text>
+      <circle cx="350" cy="104" r="10" class="f-orange"/><text x="350" y="108" text-anchor="middle" font-size="11" class="tw bold">c</text>
+    </g>
+    <path d="M362 112L380 146" class="s-green anim-dash" stroke-width="2" fill="none"/>
+    <path d="M234 160H408" class="s-green" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="250" cy="160" r="8" class="f-green"/>
+    <circle cx="386" cy="160" r="13" class="f-green"/><text x="386" y="164" text-anchor="middle" font-size="11" class="tw bold">S</text>
+    <text x="386" y="190" text-anchor="middle" font-size="11" class="t-green bold">a+b+c</text>
+    <text x="320" y="214" text-anchor="middle" font-size="12" class="tx">mainの履歴がすっきり</text>
+    <text x="320" y="236" text-anchor="middle" font-size="12" class="t-green bold">このリポジトリの方法</text>
+  </g>
+  <!-- 3 rebase -->
+  <g>
+    <rect x="430" y="10" width="200" height="242" rx="12" class="bg ln" stroke-width="1.5"/>
+    <text x="530" y="36" text-anchor="middle" font-size="13" class="tx bold">Rebase and merge</text>
+    <text x="530" y="56" text-anchor="middle" font-size="12" class="tm">並べ直して足す</text>
+    <g opacity=".35">
+      <path d="M464 160C478 160 478 104 492 104H562" class="s-orange" stroke-width="3" fill="none"/>
+      <circle cx="504" cy="104" r="10" class="f-orange"/>
+      <circle cx="532" cy="104" r="10" class="f-orange"/>
+      <circle cx="560" cy="104" r="10" class="f-orange"/>
+    </g>
+    <path d="M444 160H618" class="s-green" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="460" cy="160" r="8" class="f-green"/>
+    <circle cx="530" cy="160" r="10" class="f-green"/><text x="530" y="164" text-anchor="middle" font-size="11" class="tw bold">a</text>
+    <circle cx="560" cy="160" r="10" class="f-green"/><text x="560" y="164" text-anchor="middle" font-size="11" class="tw bold">b</text>
+    <circle cx="590" cy="160" r="10" class="f-green"/><text x="590" y="164" text-anchor="middle" font-size="11" class="tw bold">c</text>
+    <text x="530" y="204" text-anchor="middle" font-size="12" class="tx">a、b、cが一直線に</text>
+    <text x="530" y="224" text-anchor="middle" font-size="12" class="tm">枝分かれの形は残らない</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="このサイトのしくみ。人間が授業の資料を置き、AIエージェントがWikiと解説ページを書く。GitHubに入った変更は自動でウェブサイトとして公開され、受講生が読む。">
+  <!-- 左：資料 -->
+  <g>
+    <rect x="16" y="40" width="130" height="92" rx="12" class="f-blue-s"/>
+    <text x="81" y="68" text-anchor="middle" font-size="15" class="tx bold">授業の資料</text>
+    <text x="81" y="90" text-anchor="middle" font-size="12" class="tm">シラバス、授業サイト、</text>
+    <text x="81" y="107" text-anchor="middle" font-size="12" class="tm">大学からの案内など</text>
+    <text x="81" y="152" text-anchor="middle" font-size="12" class="tm">人間（教員）が置く</text>
+  </g>
+  <!-- 中央：エージェント -->
+  <g class="anim-float">
+    <circle cx="232" cy="86" r="34" class="f-purple"/>
+    <path d="M232 64l5 15 15 5-15 5-5 15-5-15-15-5 15-5z" class="tw"/>
+  </g>
+  <text x="232" y="146" text-anchor="middle" font-size="13" class="tx bold">AIエージェント</text>
+  <text x="232" y="164" text-anchor="middle" font-size="11.5" class="tm">読む・書く・整理する</text>
+  <path d="M150 86h40" class="s-blue anim-dash" stroke-width="3" fill="none"/>
+  <!-- リポジトリ -->
+  <rect x="300" y="26" width="200" height="190" rx="14" class="bg s-green" stroke-width="2.5"/>
+  <text x="400" y="50" text-anchor="middle" font-size="14" class="t-green round">GitHubのリポジトリ</text>
+  <rect x="316" y="64" width="168" height="56" rx="10" class="f-teal-s"/>
+  <text x="400" y="88" text-anchor="middle" font-size="14" class="tx bold">Wiki（知識ベース）</text>
+  <text x="400" y="108" text-anchor="middle" font-size="11.5" class="tm">事実を出典つきで記録</text>
+  <rect x="316" y="146" width="168" height="56" rx="10" class="f-orange-s"/>
+  <text x="400" y="170" text-anchor="middle" font-size="14" class="tx bold">解説ページ</text>
+  <text x="400" y="190" text-anchor="middle" font-size="11.5" class="tm">考え方と使い方を説明</text>
+  <path d="M376 122v22M424 144v-22" class="lnf" stroke-width="2" fill="none"/>
+  <path d="M371 138l5 6 5-6M419 128l5-6 5 6" class="lnf" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="436" y="137" font-size="11" class="tm">相互リンク</text>
+  <path d="M268 86h30M268 120q20 50 46 54" class="s-purple anim-dash" stroke-width="3" fill="none"/>
+  <!-- 自動公開 -->
+  <path d="M500 120h40" class="s-green anim-dash" stroke-width="3" fill="none"/>
+  <text x="520" y="108" text-anchor="middle" font-size="11" class="tm">自動で</text>
+  <text x="520" y="142" text-anchor="middle" font-size="11" class="tm">公開</text>
+  <rect x="544" y="64" width="102" height="112" rx="10" class="bg lnf" stroke-width="2"/>
+  <rect x="544" y="64" width="102" height="20" rx="10" class="f-gray-s"/>
+  <circle cx="556" cy="74" r="3.5" class="f-red"/><circle cx="567" cy="74" r="3.5" class="f-yellow"/><circle cx="578" cy="74" r="3.5" class="f-green"/>
+  <rect x="556" y="96" width="78" height="8" rx="4" class="f-blue"/>
+  <rect x="556" y="112" width="60" height="6" rx="3" class="f-gray"/>
+  <rect x="556" y="124" width="70" height="6" rx="3" class="f-gray"/>
+  <rect x="556" y="136" width="50" height="6" rx="3" class="f-gray"/>
+  <text x="595" y="198" text-anchor="middle" font-size="13" class="tx bold">ATSガイド</text>
+  <text x="595" y="216" text-anchor="middle" font-size="11.5" class="tm">このサイト</text>
+  <!-- 受講生 -->
+  <g>
+    <circle cx="595" cy="262" r="16" class="f-blue"/>
+    <path d="M567 312q28-34 56 0" class="f-blue"/>
+    <text x="520" y="290" text-anchor="end" font-size="13" class="tx bold">受講生が読む</text>
+    <path d="M595 226v14" class="s-blue" stroke-width="3"/>
+  </g>
+  <!-- 下：質問の流れ -->
+  <path d="M560 292C420 330 200 320 232 172" class="s-orange anim-dash" stroke-width="2.5" fill="none"/>
+  <text x="330" y="292" text-anchor="middle" font-size="12.5" class="t-orange bold">授業で出た質問や新しい資料が、次の更新につながる</text>
+</svg>

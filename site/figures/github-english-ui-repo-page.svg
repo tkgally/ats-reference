@@ -1,0 +1,107 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="リポジトリのトップページの模式図。1 リポジトリの名前、2 Watch・Fork・Star、3 タブの並び、4 ブランチの切り替え、5 Add file、6 緑の Code ボタン、7 Commits（履歴）、8 ファイルの一覧、9 README の表示。">
+  <!-- 画面の枠 -->
+  <rect x="26" y="12" width="418" height="374" rx="10" class="bg ln" stroke-width="1.5"/>
+
+  <!-- 1 名前 -->
+  <text x="40" y="40" font-size="13.5" class="tx"><tspan class="t-blue">your-name</tspan> / <tspan class="bold">my-project</tspan></text>
+  <rect x="234" y="27" width="48" height="18" rx="9" class="bg ln" stroke-width="1"/>
+  <text x="258" y="40" text-anchor="middle" font-size="10.5" class="tm">Private</text>
+  <!-- 2 Watch Fork Star -->
+  <g font-size="11" text-anchor="middle">
+    <rect x="306" y="26" width="46" height="21" rx="5" class="bgs ln" stroke-width="1"/><text x="329" y="41" class="tx">Watch</text>
+    <rect x="356" y="26" width="34" height="21" rx="5" class="bgs ln" stroke-width="1"/><text x="373" y="41" class="tx">Fork</text>
+    <rect x="394" y="26" width="34" height="21" rx="5" class="bgs ln" stroke-width="1"/><text x="411" y="41" class="tx">Star</text>
+  </g>
+
+  <!-- 3 タブ -->
+  <g font-size="12" class="tx">
+    <text x="40" y="76" class="bold">Code</text>
+    <text x="88" y="76">Issues</text>
+    <text x="140" y="76">Pull requests</text>
+    <text x="236" y="76">Actions</text>
+    <text x="294" y="76">Settings</text>
+  </g>
+  <path d="M26 86H444" class="ln" stroke-width="1"/>
+  <path d="M36 86H76" class="s-orange" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 4 5 6 操作の列 -->
+  <rect x="40" y="100" width="68" height="24" rx="6" class="bgs ln" stroke-width="1"/>
+  <text x="74" y="116" text-anchor="middle" font-size="12" class="tx">main ▾</text>
+  <rect x="186" y="100" width="72" height="24" rx="6" class="bg ln" stroke-width="1"/>
+  <text x="222" y="116" text-anchor="middle" font-size="11" class="tm">Go to file</text>
+  <rect x="274" y="100" width="72" height="24" rx="6" class="bgs ln" stroke-width="1"/>
+  <text x="310" y="116" text-anchor="middle" font-size="11.5" class="tx">Add file ▾</text>
+  <rect x="352" y="100" width="76" height="24" rx="6" class="f-green"/>
+  <text x="390" y="116" text-anchor="middle" font-size="12" class="tw bold">Code ▾</text>
+
+  <!-- 8 ファイル一覧 -->
+  <rect x="40" y="134" width="388" height="124" rx="8" class="bg ln" stroke-width="1"/>
+  <path d="M40 142a8 8 0 0 1 8-8h372a8 8 0 0 1 8 8v18H40z" class="bgs"/>
+  <circle cx="54" cy="147" r="6" class="f-blue-s"/>
+  <text x="66" y="151" font-size="11.5" class="tx">READMEを更新</text>
+  <!-- 7 Commits -->
+  <circle cx="328" cy="147" r="6" class="lnf" stroke-width="1.4"/>
+  <path d="M328 143.5V147h3" class="lnf" stroke-width="1.4"/>
+  <text x="420" y="151" text-anchor="end" font-size="11.5" class="tx bold">12 Commits</text>
+  <g font-size="12" class="tx">
+    <rect x="52" y="168" width="12" height="9" rx="2" class="f-blue"/>
+    <text x="72" y="177">docs</text>
+    <path d="M40 184H428" class="ln" stroke-width=".8"/>
+    <rect x="53" y="190" width="10" height="13" rx="1.5" class="lnf" stroke-width="1.2"/>
+    <text x="72" y="201">.gitignore</text>
+    <path d="M40 208H428" class="ln" stroke-width=".8"/>
+    <rect x="53" y="214" width="10" height="13" rx="1.5" class="lnf" stroke-width="1.2"/>
+    <text x="72" y="225">README.md</text>
+    <path d="M40 232H428" class="ln" stroke-width=".8"/>
+    <rect x="53" y="238" width="10" height="13" rx="1.5" class="lnf" stroke-width="1.2"/>
+    <text x="72" y="249">notes.md</text>
+  </g>
+  <g font-size="10.5" class="tm" text-anchor="end">
+    <text x="420" y="177">2日前</text><text x="420" y="201">先週</text><text x="420" y="225">昨日</text><text x="420" y="249">3日前</text>
+  </g>
+
+  <!-- 9 README -->
+  <rect x="40" y="270" width="388" height="102" rx="8" class="bg ln" stroke-width="1"/>
+  <text x="54" y="290" font-size="11.5" class="tm">README</text>
+  <path d="M40 298H428" class="ln" stroke-width=".8"/>
+  <text x="54" y="322" font-size="15" class="tx bold">わたしたちのプロジェクト</text>
+  <rect x="54" y="334" width="300" height="7" rx="3.5" class="f-gray-s"/>
+  <rect x="54" y="350" width="230" height="7" rx="3.5" class="f-gray-s"/>
+
+  <!-- 番号（枠の左） -->
+  <g font-size="11" text-anchor="middle">
+    <circle cx="14" cy="36" r="10" class="f-orange"/><text x="14" y="40" class="tw bold">1</text>
+    <circle cx="14" cy="72" r="10" class="f-orange"/><text x="14" y="76" class="tw bold">3</text>
+    <circle cx="14" cy="112" r="10" class="f-orange"/><text x="14" y="116" class="tw bold">4</text>
+    <circle cx="14" cy="210" r="10" class="f-orange"/><text x="14" y="214" class="tw bold">8</text>
+    <circle cx="14" cy="320" r="10" class="f-orange"/><text x="14" y="324" class="tw bold">9</text>
+    <circle cx="296" cy="36" r="9" class="f-orange"/><text x="296" y="40" class="tw bold">2</text>
+    <circle cx="274" cy="100" r="9" class="f-orange"/><text x="274" y="104" class="tw bold">5</text>
+    <circle cx="428" cy="100" r="9" class="f-orange"/><text x="428" y="104" class="tw bold">6</text>
+    <circle cx="310" cy="147" r="9" class="f-orange"/><text x="310" y="151" class="tw bold">7</text>
+  </g>
+
+  <!-- 凡例 -->
+  <g font-size="13" class="tx">
+    <g font-size="11" text-anchor="middle">
+      <circle cx="470" cy="32" r="10" class="f-orange"/><text x="470" y="36" class="tw bold">1</text>
+      <circle cx="470" cy="72" r="10" class="f-orange"/><text x="470" y="76" class="tw bold">2</text>
+      <circle cx="470" cy="112" r="10" class="f-orange"/><text x="470" y="116" class="tw bold">3</text>
+      <circle cx="470" cy="152" r="10" class="f-orange"/><text x="470" y="156" class="tw bold">4</text>
+      <circle cx="470" cy="192" r="10" class="f-orange"/><text x="470" y="196" class="tw bold">5</text>
+      <circle cx="470" cy="232" r="10" class="f-orange"/><text x="470" y="236" class="tw bold">6</text>
+      <circle cx="470" cy="272" r="10" class="f-orange"/><text x="470" y="276" class="tw bold">7</text>
+      <circle cx="470" cy="312" r="10" class="f-orange"/><text x="470" y="316" class="tw bold">8</text>
+      <circle cx="470" cy="352" r="10" class="f-orange"/><text x="470" y="356" class="tw bold">9</text>
+    </g>
+    <text x="488" y="30">持ち主／名前</text><text x="488" y="46" font-size="11" class="tm">公開か非公開かも出る</text>
+    <text x="488" y="70">見守る・複製・いいね</text><text x="488" y="86" font-size="11" class="tm">Watch / Fork / Star</text>
+    <text x="488" y="110">タブ（部屋の入り口）</text><text x="488" y="126" font-size="11" class="tm">Code / Issues など</text>
+    <text x="488" y="150">ブランチの切り替え</text><text x="488" y="166" font-size="11" class="tm">main ▾</text>
+    <text x="488" y="190">ファイルを追加</text><text x="488" y="206" font-size="11" class="tm">Add file</text>
+    <text x="488" y="230">複製・ダウンロード</text><text x="488" y="246" font-size="11" class="tm">緑の Code ボタン</text>
+    <text x="488" y="270">履歴（コミット一覧）</text><text x="488" y="286" font-size="11" class="tm">Commits</text>
+    <text x="488" y="310">ファイルとフォルダー</text><text x="488" y="326" font-size="11" class="tm">クリックで開く</text>
+    <text x="488" y="350">READMEの中身</text><text x="488" y="366" font-size="11" class="tm">リポジトリの説明</text>
+  </g>
+</svg>

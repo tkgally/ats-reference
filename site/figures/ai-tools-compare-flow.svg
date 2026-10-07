@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="したいことからツールを選ぶ流れ図。最新の情報を調べたいなら検索つきのチャットAIやPerplexity。手元の資料について聞きたいならファイルの添付やNotebookLM。文章を書く、考えを整理するならどのチャットAIでもよい。Word、Excel、メールで作業するならMicrosoft 365 Copilot。プログラムやリポジトリの作業ならGitHub Copilot。画像、音声、動画を作るなら生成ツールを使い、権利と規約に注意する。迷ったら同じ頼みを2〜3のツールで試して比べる。">
+  <!-- 出発点 -->
+  <rect x="12" y="140" width="120" height="64" rx="32" class="f-purple"/>
+  <text x="72" y="168" text-anchor="middle" font-size="15" class="tw round">何を</text>
+  <text x="72" y="189" text-anchor="middle" font-size="15" class="tw round">したい？</text>
+
+  <!-- 枝 -->
+  <g class="ln" stroke-width="2" fill="none">
+    <path d="M132 172C152 172 152 42 176 42"/>
+    <path d="M132 172C154 172 154 92 176 92"/>
+    <path d="M132 172C156 172 156 142 176 142"/>
+    <path d="M132 172C156 172 156 192 176 192"/>
+    <path d="M132 172C154 172 154 242 176 242"/>
+    <path d="M132 172C152 172 152 292 176 292"/>
+  </g>
+
+  <!-- 問い -->
+  <g font-size="13" text-anchor="middle" class="tx">
+    <rect x="176" y="22" width="196" height="40" rx="8" class="bgs"/><text x="274" y="47">最新の情報を調べたい</text>
+    <rect x="176" y="72" width="196" height="40" rx="8" class="bgs"/><text x="274" y="97">手元の資料について聞きたい</text>
+    <rect x="176" y="122" width="196" height="40" rx="8" class="bgs"/><text x="274" y="147">文章を書く・考えを整理する</text>
+    <rect x="176" y="172" width="196" height="40" rx="8" class="bgs"/><text x="274" y="197">Word、Excel、メールで作業</text>
+    <rect x="176" y="222" width="196" height="40" rx="8" class="bgs"/><text x="274" y="247">プログラム・リポジトリの作業</text>
+    <rect x="176" y="272" width="196" height="40" rx="8" class="bgs"/><text x="274" y="297">画像・音声・動画を作る</text>
+  </g>
+
+  <!-- 矢印 -->
+  <g>
+    <path d="M374 42H392" class="lnf" stroke-width="2"/><path d="M400 42l-8-4.5v9z" class="ar"/>
+    <path d="M374 92H392" class="lnf" stroke-width="2"/><path d="M400 92l-8-4.5v9z" class="ar"/>
+    <path d="M374 142H392" class="lnf" stroke-width="2"/><path d="M400 142l-8-4.5v9z" class="ar"/>
+    <path d="M374 192H392" class="lnf" stroke-width="2"/><path d="M400 192l-8-4.5v9z" class="ar"/>
+    <path d="M374 242H392" class="lnf" stroke-width="2"/><path d="M400 242l-8-4.5v9z" class="ar"/>
+    <path d="M374 292H392" class="lnf" stroke-width="2"/><path d="M400 292l-8-4.5v9z" class="ar"/>
+  </g>
+
+  <!-- 答え -->
+  <g font-size="13" text-anchor="middle" class="tx">
+    <rect x="404" y="22" width="224" height="40" rx="8" class="f-teal-s"/><text x="516" y="47">検索つきチャットAI、Perplexity</text>
+    <rect x="404" y="72" width="224" height="40" rx="8" class="f-teal-s"/><text x="516" y="97">ファイルを添付、NotebookLM</text>
+    <rect x="404" y="122" width="224" height="40" rx="8" class="f-purple-s"/><text x="516" y="147">チャットAI（どれでも可）</text>
+    <rect x="404" y="172" width="224" height="40" rx="8" class="f-blue-s"/><text x="516" y="197">Microsoft 365 Copilot</text>
+    <rect x="404" y="222" width="224" height="40" rx="8" class="f-orange-s"/><text x="516" y="247">GitHub Copilot（授業で提供）</text>
+    <rect x="404" y="272" width="224" height="40" rx="8" class="f-red-s"/><text x="516" y="297">生成ツール（権利と規約に注意）</text>
+  </g>
+
+  <!-- 迷ったら -->
+  <rect x="176" y="326" width="452" height="38" rx="10" class="f-yellow-s"/>
+  <text x="402" y="350" text-anchor="middle" font-size="13.5" class="tx bold">迷ったら：同じ頼みを2〜3のツールで試して比べる</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="プロンプトをよくするくりかえし。頼む、答えを読む、確かめる、直す点を決めて伝え直す、を回す。これでよければ完成。">
+  <!-- 円の矢印 -->
+  <g fill="none" stroke-width="3" class="s-purple anim-dash">
+    <path d="M400 56C450 70 480 96 492 122"/>
+    <path d="M492 190C480 218 450 244 404 260"/>
+    <path d="M236 260C190 244 160 218 148 190"/>
+    <path d="M148 122C160 96 190 70 240 56"/>
+  </g>
+  <g class="f-purple">
+    <path d="M470.9 93.1L455.6 89.6L464.5 78.8z"/>
+    <path d="M449.8 237.9L456.8 223.9L465.2 235.1z"/>
+    <path d="M169.0 220.6L184.1 224.6L174.8 235.1z"/>
+    <path d="M191.1 76.6L183.5 90.3L175.6 78.7z"/>
+  </g>
+
+  <!-- 中心 -->
+  <text x="320" y="152" text-anchor="middle" font-size="15" class="t-purple round">くりかえして</text>
+  <text x="320" y="176" text-anchor="middle" font-size="15" class="t-purple round">よくする</text>
+
+  <!-- ① 頼む -->
+  <rect x="235" y="22" width="170" height="58" rx="12" class="f-blue"/>
+  <text x="320" y="46" text-anchor="middle" font-size="15" class="tw bold">① 頼む</text>
+  <text x="320" y="67" text-anchor="middle" font-size="12" class="tw">目的・条件・資料を添えて</text>
+
+  <!-- ② 読む -->
+  <rect x="415" y="127" width="170" height="58" rx="12" class="f-purple-s"/>
+  <text x="500" y="151" text-anchor="middle" font-size="15" class="tx bold">② 答えを読む</text>
+  <text x="500" y="172" text-anchor="middle" font-size="12" class="tm">まず全体に目を通す</text>
+
+  <!-- ③ 確かめる -->
+  <rect x="235" y="232" width="170" height="58" rx="12" class="f-orange-s"/>
+  <text x="320" y="256" text-anchor="middle" font-size="15" class="tx bold">③ 確かめる</text>
+  <text x="320" y="277" text-anchor="middle" font-size="12" class="tm">事実・抜け・言い回し</text>
+
+  <!-- ④ 直す点 -->
+  <rect x="55" y="127" width="170" height="58" rx="12" class="f-green-s"/>
+  <text x="140" y="151" text-anchor="middle" font-size="15" class="tx bold">④ 直す点を決める</text>
+  <text x="140" y="172" text-anchor="middle" font-size="12" class="tm">具体的に、一つずつ</text>
+
+  <!-- 完成 -->
+  <path d="M560 188C580 214 588 236 590 250" class="s-green" stroke-width="2.5" fill="none"/>
+  <path d="M590 260l-5-10h10z" class="f-green"/>
+  <rect x="500" y="262" width="128" height="50" rx="12" class="f-green"/>
+  <text x="564" y="283" text-anchor="middle" font-size="13" class="tw bold">これでよければ</text>
+  <text x="564" y="302" text-anchor="middle" font-size="13" class="tw bold">完成</text>
+</svg>

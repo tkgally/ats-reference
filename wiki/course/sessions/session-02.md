@@ -21,6 +21,7 @@ GitHubと、Andrej Karpathyが提案した[LLM Wiki](../../concepts/llm-wiki.md)
 ## 関連ページ
 
 - [授業の日程と進行](../schedule.md)
+- 解説ページ：[自分のプロジェクトに知識ベースを作る](../../../site/content/guide/knowledge-base.md)、[GitHubとは：基本の考え方](../../../site/content/guide/github-basics.md)
 
 ## 出典
 

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="言い方の自信と内容の正しさの関係。縦軸は言い方の自信、横軸は内容の正しさ。AIの答えの多くは、正しくても間違っていても、自信満々の帯に集まる。自信満々で間違っている答えは見分けにくく、いちばん危ない。">
+  <!-- 見出し -->
+  <text x="112" y="22" font-size="12.5" class="tm bold">↑ 言い方の自信</text>
+  <text x="618" y="22" text-anchor="end" font-size="12.5" class="t-purple bold">AIの答えの多くは、上の帯に集まる</text>
+
+  <!-- 枠 -->
+  <rect x="112" y="34" width="506" height="220" rx="6" class="bgs"/>
+  <rect x="112" y="34" width="253" height="110" class="f-red-s"/>
+  <path d="M365 34V254M112 144H618" class="ln" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- 帯 -->
+  <rect x="118" y="44" width="494" height="44" rx="22" class="s-purple" fill="none" stroke-width="2" stroke-dasharray="6 5"/>
+  <g class="anim-float">
+    <circle cx="150" cy="62" r="6" class="f-red"/>
+    <circle cx="196" cy="74" r="6" class="f-red"/>
+    <circle cx="240" cy="58" r="6" class="f-red"/>
+    <circle cx="290" cy="70" r="6" class="f-red"/>
+    <circle cx="334" cy="60" r="6" class="f-red"/>
+    <circle cx="400" cy="72" r="6" class="f-green"/>
+    <circle cx="446" cy="58" r="6" class="f-green"/>
+    <circle cx="494" cy="68" r="6" class="f-green"/>
+    <circle cx="540" cy="60" r="6" class="f-green"/>
+    <circle cx="584" cy="74" r="6" class="f-green"/>
+  </g>
+
+  <!-- 4つの区画 -->
+  <text x="238" y="114" text-anchor="middle" font-size="14" class="t-red bold">自信満々で間違い</text>
+  <text x="238" y="134" text-anchor="middle" font-size="12" class="t-red">見分けにくく、いちばん危ない</text>
+  <text x="491" y="114" text-anchor="middle" font-size="14" class="tx bold">自信満々で正しい</text>
+  <text x="491" y="134" text-anchor="middle" font-size="12" class="tm">見た目は左と同じ</text>
+  <text x="238" y="204" text-anchor="middle" font-size="13" class="tm">自信なさげで間違い</text>
+  <text x="491" y="204" text-anchor="middle" font-size="13" class="tm">控えめだが正しい</text>
+
+  <!-- 軸 -->
+  <text x="104" y="70" text-anchor="end" font-size="12.5" class="tx">自信満々</text>
+  <text x="104" y="240" text-anchor="end" font-size="12.5" class="tx">控えめ</text>
+  <text x="120" y="276" font-size="12.5" class="t-red">間違い</text>
+  <text x="612" y="276" text-anchor="end" font-size="12.5" class="t-green">正しい</text>
+  <text x="365" y="290" text-anchor="middle" font-size="12.5" class="tm bold">内容の正しさ →</text>
+</svg>

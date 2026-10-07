@@ -2,8 +2,9 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：20（目録と作業記録を除く）
-- 取り込んだ資料：1件
+- ページ数：29（目録と作業記録を除く）
+- 取り込んだ資料：1件（ほかにウェブ上の資料6件）
+- 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
 - 最終更新：2026年10月7日
 
 ## 全体
@@ -32,6 +33,7 @@
 - [GitHubの日本語対応](tools/github-japanese-support.md)：GitHubの画面が英語であることと、それを日本語で補う方法をまとめたページ。
 - [GitHub Copilot](tools/github-copilot.md)：大学の予算で受講生全員に有料版が提供される、GitHubのAIアシスタントについてのページ。
 - [Microsoft 365 Copilot](tools/microsoft-365-copilot.md)：TCUアカウントで使える、Microsoft 365のAIアシスタントについてのページ。
+- [ChatGPT、Claude、Gemini](tools/ai-chat-services.md)：授業でプロジェクトに合わせて選んで使う汎用のAIチャットサービス、ChatGPT、Claude、Geminiについてのページ。
 - [VS Code](tools/vs-code.md)：GitHub Copilotを日本語で使いやすいエディター、VS Code（Visual Studio Code）についてのページ。
 
 ## 学内の環境
@@ -46,10 +48,23 @@
 - [LLM Wiki](concepts/llm-wiki.md)：AIエージェントが資料を読んでWikiを書き、維持し続けるという知識ベースの作り方についてのページ。
 - [PBL（プロジェクト型学習）](concepts/project-based-learning.md)：学生が自分で課題を設定し、プロジェクトを進めながら学ぶ授業形式、PBL（Project-Based Learning）についてのページ。
 - [AI利用の倫理](concepts/ai-ethics.md)：AIツールを使うときに配慮すべき著作権、プライバシー、公正性などの課題についてのページ。
+- [大規模言語モデル（LLM）](concepts/large-language-model.md)：ChatGPT、Claude、Gemini、GitHub Copilotなどの生成AIの中心にある技術、大規模言語モデル（LLM：Large Language Model）についてのページ。
+- [AIエージェント](concepts/ai-agent.md)：目標を与えられると、自分で計画を立て、ファイルの編集や命令の実行などの道具を使いながら作業を進めるAI、AIエージェントについてのページ。
 
 ## 資料
 
 - [資料：授業の背景情報](sources/ats-class-background.md)：「AIとの探検ゼミナール」の概要、担当教員、日程、使うツール、学内のITサービスをまとめた背景資料の要約（2026年10月7日時点、[raw/ats-class-background.md](../raw/ats-class-background.md)）。
+
+### ウェブ上の資料
+
+エージェントがウェブで調べ、要約した資料です（[AGENTS.md](../AGENTS.md)の「ウェブ上の資料」）。
+
+- [資料：GitHub Copilotのプラン（GitHub Docs）](sources/web-github-copilot-plans.md)：GitHubの公式ドキュメントにある、GitHub Copilotのプランの種類と機能の一覧の要約です（2026年10月7日に確認）。
+- [資料：学生向けのGitHub Copilot](sources/web-github-copilot-students.md)：学生が無料でGitHub Copilotを使うしくみ（GitHub Education）についての、GitHubの公式ドキュメントとお知らせの要約です（2026年10月7日に確認）。
+- [資料：Copilotが読む指示ファイル（GitHub Docs、VS Code Docs）](sources/web-github-copilot-instructions.md)：GitHub CopilotがリポジトリのどのファイルをAIへの指示として読むかについての、GitHubとVS Codeの公式ドキュメントの要約です（2026年10月7日に確認）。
+- [資料：ChatGPT、Claude、Geminiの料金とデータの設定](sources/web-ai-chat-services.md)：主な汎用AIチャットサービスと、学校のアカウントで使うMicrosoftのCopilot Chatについて、各社の公式ページで確かめた料金とデータの設定の要約です（2026年10月7日に確認）。
+- [資料：GitHubのアカウント、二要素認証、共同作業者の招待](sources/web-github-account.md)：GitHubのアカウントを作って使い始めるときに関係する、二要素認証、学生向けの特典（GitHub Education）、リポジトリへの招待についての公式ドキュメントの要約です（2026年10月7日に確認）。
+- [資料：生成AIと教育・著作権についての国の指針](sources/web-ai-guidelines-japan.md)：文部科学省と文化庁が公表している、大学での生成AIの扱いと、AIと著作権についての文書の要約です（2026年10月7日に確認）。
 
 ## 質問への回答
 

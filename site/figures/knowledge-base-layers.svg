@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="知識ベースの三つの層。人間は元資料をraw/に置き、Wikiを読み、スキーマ（AGENTS.md）をAIと相談して改訂する。AIエージェントはスキーマに従い、元資料を読んで、wiki/のページを書き、更新する。">
+  <rect x="200" y="30" width="240" height="72" rx="12" class="f-orange-s s-orange" stroke-width="1.5"/>
+  <text x="320" y="56" text-anchor="middle" font-size="15" class="tx bold">スキーマ（AGENTS.md）</text>
+  <text x="320" y="80" text-anchor="middle" font-size="12.5" class="tm">構成・書き方・手順の約束事</text>
+  <rect x="200" y="124" width="240" height="84" rx="12" class="f-teal-s s-teal" stroke-width="1.5"/>
+  <text x="320" y="148" text-anchor="middle" font-size="15" class="tx bold">Wiki（wiki/）</text>
+  <rect x="246" y="155" width="24" height="28" rx="3" class="bg s-teal" stroke-width="1.2"/>
+  <path d="M251 163h14M251 169h10M251 175h12" class="s-teal" stroke-width="1.5"/>
+  <rect x="276" y="155" width="24" height="28" rx="3" class="bg s-teal" stroke-width="1.2"/>
+  <path d="M281 163h14M281 169h10M281 175h12" class="s-teal" stroke-width="1.5"/>
+  <rect x="306" y="155" width="24" height="28" rx="3" class="bg s-teal" stroke-width="1.2"/>
+  <path d="M311 163h14M311 169h10M311 175h12" class="s-teal" stroke-width="1.5"/>
+  <rect x="336" y="155" width="24" height="28" rx="3" class="bg s-teal" stroke-width="1.2"/>
+  <path d="M341 163h14M341 169h10M341 175h12" class="s-teal" stroke-width="1.5"/>
+  <rect x="366" y="155" width="24" height="28" rx="3" class="bg s-teal" stroke-width="1.2"/>
+  <path d="M371 163h14M371 169h10M371 175h12" class="s-teal" stroke-width="1.5"/>
+  <path d="M270 169h6M300 169h6M330 169h6M360 169h6" class="s-teal" stroke-width="1" fill="none"/>
+  <text x="320" y="202" text-anchor="middle" font-size="11.5" class="tm">AIが書き、リンクでつなぐページ群</text>
+  <rect x="200" y="230" width="240" height="72" rx="12" class="f-gray-s s-gray" stroke-width="1.5"/>
+  <text x="320" y="256" text-anchor="middle" font-size="15" class="tx bold">元資料（raw/）</text>
+  <text x="320" y="280" text-anchor="middle" font-size="12.5" class="tm">集めた資料。変更しない</text>
+  <rect x="10" y="126" width="120" height="80" rx="14" class="f-blue-s"/>
+  <text x="70" y="156" text-anchor="middle" font-size="15" class="tx bold">自分</text>
+  <text x="70" y="178" text-anchor="middle" font-size="11.5" class="tm">資料を選ぶ</text>
+  <text x="70" y="194" text-anchor="middle" font-size="11.5" class="tm">問いを立てる</text>
+  <rect x="510" y="126" width="120" height="80" rx="14" class="f-purple-s"/>
+  <text x="570" y="156" text-anchor="middle" font-size="15" class="tx bold">AIエージェント</text>
+  <text x="570" y="178" text-anchor="middle" font-size="11.5" class="tm">読む・まとめる</text>
+  <text x="570" y="194" text-anchor="middle" font-size="11.5" class="tm">書く・点検する</text>
+  <path d="M90 122C110 80 150 66 194 66" class="s-blue" stroke-width="2.2" fill="none"/>
+  <path d="M186 60l8 6-8 6" class="s-blue" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="86" y="110" text-anchor="end" font-size="11.5" class="t-blue">相談して改訂</text>
+  <path d="M196 166H136" class="s-blue" stroke-width="2.2" fill="none"/>
+  <path d="M144 160l-8 6 8 6" class="s-blue" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="165" y="158" text-anchor="middle" font-size="11.5" class="t-blue">読む</text>
+  <path d="M90 210C110 250 150 266 194 266" class="s-blue anim-dash" stroke-width="2.2" fill="none"/>
+  <path d="M186 260l8 6-8 6" class="s-blue" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="256" text-anchor="middle" font-size="11.5" class="t-blue">置く</text>
+  <path d="M446 66C490 66 530 80 550 122" class="s-purple" stroke-width="2.2" fill="none"/>
+  <path d="M543 117l7 5 1-9" class="s-purple" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="540" y="84" text-anchor="middle" font-size="11.5" class="t-purple">従う</text>
+  <path d="M446 266C490 266 530 252 550 210" class="s-purple" stroke-width="2.2" fill="none"/>
+  <path d="M543 215l7-5 1 9" class="s-purple" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="540" y="256" text-anchor="middle" font-size="11.5" class="t-purple">読む</text>
+  <path d="M504 166H446" class="s-purple anim-dash" stroke-width="2.2" fill="none"/>
+  <path d="M454 160l-8 6 8 6" class="s-purple" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="475" y="158" text-anchor="middle" font-size="11.5" class="t-purple bold">書く</text>
+  <text x="320" y="322" text-anchor="middle" font-size="12" class="tm">人間は資料と問いを、AIは地道な整理を担当する</text>
+</svg>

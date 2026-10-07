@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="コミットは、ある時点のファイル全体の記録。左から右へ時間が進み、各コミットに変更の説明が付く。前のコミットに戻ることもできる。">
+  <path d="M40 92H600" class="s-green" stroke-width="5" stroke-linecap="round"/>
+  <path d="M590 82l14 10-14 10" class="s-green" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="604" y="124" text-anchor="end" font-size="12.5" class="tm">時間</text>
+
+  <g>
+    <circle cx="80" cy="92" r="16" class="f-green"/>
+    <text x="80" y="97" text-anchor="middle" font-size="13" class="tw bold">1</text>
+    <rect x="22" y="132" width="116" height="62" rx="10" class="bg s-green" stroke-width="1.5"/>
+    <text x="80" y="156" text-anchor="middle" font-size="13" class="tx">READMEを作成</text>
+    <text x="80" y="178" text-anchor="middle" font-size="11.5" class="tm">10月7日 10:02</text>
+  </g>
+  <g>
+    <circle cx="220" cy="92" r="16" class="f-green"/>
+    <text x="220" y="97" text-anchor="middle" font-size="13" class="tw bold">2</text>
+    <rect x="162" y="132" width="116" height="62" rx="10" class="bg s-green" stroke-width="1.5"/>
+    <text x="220" y="156" text-anchor="middle" font-size="13" class="tx">企画書を追加</text>
+    <text x="220" y="178" text-anchor="middle" font-size="11.5" class="tm">10月7日 10:40</text>
+  </g>
+  <g>
+    <circle cx="360" cy="92" r="16" class="f-green"/>
+    <text x="360" y="97" text-anchor="middle" font-size="13" class="tw bold">3</text>
+    <rect x="302" y="132" width="116" height="62" rx="10" class="bg s-green" stroke-width="1.5"/>
+    <text x="360" y="156" text-anchor="middle" font-size="13" class="tx">日程表を修正</text>
+    <text x="360" y="178" text-anchor="middle" font-size="11.5" class="tm">10月14日 13:15</text>
+  </g>
+  <g>
+    <circle cx="500" cy="92" r="19" class="f-green anim-pulse"/>
+    <text x="500" y="97" text-anchor="middle" font-size="13" class="tw bold">4</text>
+    <rect x="442" y="132" width="116" height="62" rx="10" class="f-green-s"/>
+    <text x="500" y="156" text-anchor="middle" font-size="13" class="tx bold">調査メモを追加</text>
+    <text x="500" y="178" text-anchor="middle" font-size="11.5" class="tm">いまの状態</text>
+  </g>
+  <!-- 戻る矢印 -->
+  <path d="M488 66C430 30 290 30 232 66" class="s-orange anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M232 66l2-14M232 66l13-5" class="s-orange" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="360" y="22" text-anchor="middle" font-size="13" class="t-orange bold">必要なら、前の状態を見たり戻したりできる</text>
+</svg>

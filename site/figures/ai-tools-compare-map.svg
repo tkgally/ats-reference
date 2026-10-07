@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIツールの五つの種類。チャットAI、仕事のアプリに組み込まれたAI、コード・エージェント、調査・検索、画像・音声・動画の生成。それぞれの代表例と主な用途を示す。">
+  <!-- 1 チャットAI -->
+  <g>
+    <rect x="12" y="12" width="196" height="146" rx="12" class="bg s-purple" stroke-width="2"/>
+    <path d="M12 46V24a12 12 0 0 1 12-12h172a12 12 0 0 1 12 12v22z" class="f-purple"/>
+    <text x="110" y="35" text-anchor="middle" font-size="15" class="tw bold">チャットAI</text>
+    <text x="110" y="72" text-anchor="middle" font-size="12.5" class="tm">ChatGPT、Claude、</text>
+    <text x="110" y="90" text-anchor="middle" font-size="12.5" class="tm">Geminiなど</text>
+    <text x="110" y="124" text-anchor="middle" font-size="13" class="tx">質問、相談、文章、</text>
+    <text x="110" y="143" text-anchor="middle" font-size="13" class="tx">要約、翻訳</text>
+  </g>
+  <!-- 2 アプリに組み込み -->
+  <g>
+    <rect x="222" y="12" width="196" height="146" rx="12" class="bg s-blue" stroke-width="2"/>
+    <path d="M222 46V24a12 12 0 0 1 12-12h172a12 12 0 0 1 12 12v22z" class="f-blue"/>
+    <text x="320" y="35" text-anchor="middle" font-size="15" class="tw bold">アプリに組み込み</text>
+    <text x="320" y="72" text-anchor="middle" font-size="12.5" class="tm">Microsoft 365</text>
+    <text x="320" y="90" text-anchor="middle" font-size="12.5" class="tm">Copilotなど</text>
+    <text x="320" y="124" text-anchor="middle" font-size="13" class="tx">Word、Excel、</text>
+    <text x="320" y="143" text-anchor="middle" font-size="13" class="tx">メールの中で手伝う</text>
+  </g>
+  <!-- 3 コード・エージェント -->
+  <g>
+    <rect x="432" y="12" width="196" height="146" rx="12" class="bg s-orange" stroke-width="2"/>
+    <path d="M432 46V24a12 12 0 0 1 12-12h172a12 12 0 0 1 12 12v22z" class="f-orange"/>
+    <text x="530" y="35" text-anchor="middle" font-size="15" class="tw bold">コード・エージェント</text>
+    <text x="530" y="72" text-anchor="middle" font-size="12.5" class="tm">GitHub Copilotなど</text>
+    <text x="530" y="90" text-anchor="middle" font-size="12.5" class="tm">（授業で提供）</text>
+    <text x="530" y="124" text-anchor="middle" font-size="13" class="tx">ファイルを読み書きして</text>
+    <text x="530" y="143" text-anchor="middle" font-size="13" class="tx">作業を進める</text>
+  </g>
+  <!-- 4 調査・検索 -->
+  <g>
+    <rect x="117" y="172" width="196" height="146" rx="12" class="bg s-teal" stroke-width="2"/>
+    <path d="M117 206V184a12 12 0 0 1 12-12h172a12 12 0 0 1 12 12v22z" class="f-teal"/>
+    <text x="215" y="195" text-anchor="middle" font-size="15" class="tw bold">調査・検索</text>
+    <text x="215" y="232" text-anchor="middle" font-size="12.5" class="tm">Perplexity、NotebookLM、</text>
+    <text x="215" y="250" text-anchor="middle" font-size="12.5" class="tm">ディープリサーチ機能</text>
+    <text x="215" y="284" text-anchor="middle" font-size="13" class="tx">出典つきで調べる、</text>
+    <text x="215" y="303" text-anchor="middle" font-size="13" class="tx">資料をもとに答える</text>
+  </g>
+  <!-- 5 生成 -->
+  <g>
+    <rect x="327" y="172" width="196" height="146" rx="12" class="bg s-red" stroke-width="2"/>
+    <path d="M327 206V184a12 12 0 0 1 12-12h172a12 12 0 0 1 12 12v22z" class="f-red"/>
+    <text x="425" y="195" text-anchor="middle" font-size="15" class="tw bold">画像・音声・動画</text>
+    <text x="425" y="232" text-anchor="middle" font-size="12.5" class="tm">チャットAIの生成機能、</text>
+    <text x="425" y="250" text-anchor="middle" font-size="12.5" class="tm">専用の生成サービス</text>
+    <text x="425" y="284" text-anchor="middle" font-size="13" class="tx">イラスト、音声、動画を</text>
+    <text x="425" y="303" text-anchor="middle" font-size="13" class="tx">作る（権利に注意）</text>
+  </g>
+</svg>
