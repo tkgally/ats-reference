@@ -4,7 +4,7 @@
 
   <!-- 1行目：うまくいく -->
   <rect x="12" y="40" width="296" height="58" rx="10" class="bgs ln" stroke-width="1.2"/>
-  <text x="30" y="76" font-size="16" font-family="ui-monospace, Menlo, Consolas, monospace" class="tx">これは<tspan class="t-orange bold">**</tspan>重要<tspan class="t-orange bold">**</tspan>です。</text>
+  <text x="30" y="76" font-size="16" class="tx">これは<tspan class="t-orange bold">**</tspan>重要<tspan class="t-orange bold">**</tspan>です。</text>
   <path d="M316 69H346" class="lnf" stroke-width="2.2" fill="none"/><path d="M340 63l7 6-7 6" class="lnf" stroke-width="2.2" fill="none" stroke-linecap="round"/>
   <rect x="354" y="40" width="274" height="58" rx="10" class="f-green-s"/>
   <text x="372" y="76" font-size="16" class="tx">これは<tspan class="bold">重要</tspan>です。</text>
@@ -12,16 +12,16 @@
 
   <!-- 2行目：失敗 -->
   <rect x="12" y="116" width="296" height="58" rx="10" class="bgs ln" stroke-width="1.2"/>
-  <text x="30" y="152" font-size="16" font-family="ui-monospace, Menlo, Consolas, monospace" class="tx">これは<tspan class="t-orange bold">**</tspan>「重要」<tspan class="t-orange bold">**</tspan>です。</text>
+  <text x="30" y="152" font-size="16" class="tx">これは<tspan class="t-orange bold">**</tspan>「重要」<tspan class="t-orange bold">**</tspan>です。</text>
   <path d="M316 145H346" class="lnf" stroke-width="2.2" fill="none"/><path d="M340 139l7 6-7 6" class="lnf" stroke-width="2.2" fill="none" stroke-linecap="round"/>
   <rect x="354" y="116" width="274" height="58" rx="10" class="f-red-s"/>
   <text x="372" y="152" font-size="16" class="tx">これは**「重要」**です。</text>
   <text x="612" y="152" text-anchor="end" font-size="13" class="t-red bold">記号が残る</text>
 
   <!-- 説明 -->
-  <rect x="68" y="134" width="44" height="28" rx="6" class="s-red anim-pulse" stroke-width="2" fill="none"/>
-  <rect x="176" y="134" width="44" height="28" rx="6" class="s-red anim-pulse" stroke-width="2" fill="none"/>
-  <path d="M90 166V196M198 166V196" class="s-red" stroke-width="1.6" fill="none"/>
+  <rect x="73" y="133" width="33" height="28" rx="6" class="s-red anim-pulse" stroke-width="2" fill="none"/>
+  <rect x="127" y="133" width="47" height="28" rx="6" class="s-red anim-pulse" stroke-width="2" fill="none"/>
+  <path d="M90 165V196M150 165V196" class="s-red" stroke-width="1.6" fill="none"/>
   <text x="30" y="216" font-size="13" class="tx">外側がふつうの文字、内側がかっこ・句読点だと、</text>
   <text x="30" y="238" font-size="13" class="tx">記号は強調の「始まり」「終わり」と見なされない。</text>
 </svg>

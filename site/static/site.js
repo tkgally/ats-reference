@@ -82,6 +82,24 @@
     input.addEventListener("input", run);
   }
 
+  // ---------------------------------------------------------------- コードの「コピー」ボタン
+  document.querySelectorAll(".prose pre").forEach(function (pre) {
+    if (!navigator.clipboard) return;
+    var wrap = document.createElement("div");
+    wrap.className = "pre-wrap";
+    pre.parentNode.insertBefore(wrap, pre);
+    wrap.appendChild(pre);
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "copy-button"; b.textContent = "コピー";
+    b.addEventListener("click", function () {
+      navigator.clipboard.writeText(pre.innerText).then(function () {
+        b.textContent = "コピーしました";
+        setTimeout(function () { b.textContent = "コピー"; }, 1600);
+      }, function () { b.textContent = "コピーできません"; });
+    });
+    wrap.appendChild(b);
+  });
+
   // ---------------------------------------------------------------- 体験コーナー
   var demos = {
     // 次の言葉の予測：生成AIが一語ずつ確率で選んで文を作るようすを見せる

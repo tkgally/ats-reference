@@ -79,6 +79,9 @@ code, kbd, pre { font-family: var(--font-mono); font-size: .9em; }
 code { background: var(--code-bg); padding: .1em .35em; border-radius: 4px; }
 pre { background: var(--code-bg); padding: 14px 16px; border-radius: 8px; overflow-x: auto; line-height: 1.6; }
 pre code { background: none; padding: 0; }
+.pre-wrap { position: relative; }
+.copy-button { position: absolute; top: 6px; right: 6px; font: inherit; font-size: 12.5px; padding: 2px 10px; border-radius: 6px; border: 1px solid var(--line-strong); background: var(--panel); color: var(--fg-soft); cursor: pointer; opacity: .85; }
+.copy-button:hover { opacity: 1; border-color: var(--accent); }
 kbd { border: 1px solid var(--line-strong); border-bottom-width: 2px; border-radius: 4px; padding: 0 .35em; background: var(--panel); }
 .muted { color: var(--muted); }
 .skip { position: absolute; left: -999px; }
@@ -209,7 +212,7 @@ figure.fig video { display: block; width: 100%; border-radius: 8px; }
 
 /* 比較・対照の2列（<div class="compare">） */
 .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 1.4em 0; }
-.compare > div { border-radius: 12px; padding: 12px 16px 2px; border: 1px solid var(--line); background: var(--panel); }
+.compare > div { min-width: 0; border-radius: 12px; padding: 12px 16px 2px; border: 1px solid var(--line); background: var(--panel); }
 .compare .good { border-top: 5px solid var(--c-green); }
 .compare .bad { border-top: 5px solid var(--c-red); }
 @media (max-width: 640px) { .compare { grid-template-columns: 1fr; } }
@@ -319,6 +322,7 @@ svg .round { font-family: var(--font-round); font-weight: 800; }
 svg .anim-pulse { animation: ats-pulse 2.4s ease-in-out infinite; }
 svg .anim-dash { stroke-dasharray: 6 6; animation: ats-dash 1.2s linear infinite; }
 svg .anim-float { animation: ats-float 3s ease-in-out infinite; transform-box: fill-box; }
+svg .d1 { animation-delay: .4s; } svg .d2 { animation-delay: .8s; } svg .d3 { animation-delay: 1.2s; } svg .d4 { animation-delay: 1.6s; } svg .d5 { animation-delay: 2s; }
 @media (prefers-reduced-motion: reduce) { svg * { animation: none !important; } }
 
 @media print {

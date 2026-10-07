@@ -168,9 +168,9 @@ GitHubのウェブサイトには公式の日本語の画面がなく、メニ�
 最後の二つは、「This branch is 2 commits ahead of main」（このブランチはmainより2コミット進んでいる）のような文で出てきます。ブランチの状態を説明する文には、次のようなものがあります。
 
 - <span class="ui">Able to merge</span>：衝突がなく、マージできる。
-- <span class="ui">This branch has no conflicts with the base branch</span>：取り込み先との衝突がない。
-- <span class="ui">This branch has conflicts that must be resolved</span>：衝突があり、解決しないとマージできない。
-- <span class="ui">This branch is out-of-date with the base branch</span>：取り込み先に新しい変更があり、このブランチが遅れている。<span class="ui">Update branch</span>で追いつける。
+- 「This branch has no conflicts with the base branch」：取り込み先との衝突がない。
+- 「This branch has conflicts that must be resolved」：衝突があり、解決しないとマージできない。
+- 「This branch is out-of-date with the base branch」：取り込み先に新しい変更があり、このブランチが遅れている。<span class="ui">Update branch</span>で追いつける。
 
 ## ブラウザの翻訳を使うとき・使わないとき
 

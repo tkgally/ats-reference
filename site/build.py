@@ -167,7 +167,7 @@ def collect_pages() -> dict[str, Page]:
 # ---------------------------------------------------------------- 変換
 
 HREF_RE = re.compile(r'(<a\s[^>]*?href=")([^"]*)(")')
-SRC_RE = re.compile(r'(<img\s[^>]*?src=")([^"]*)(")')
+SRC_RE = re.compile(r'(\s(?:src|poster)=")([^"]*)(")')
 SVG_RE = re.compile(r"\{\{svg:([a-z0-9\-]+\.svg)\}\}")
 
 

@@ -125,7 +125,7 @@ README（リードミー）は、リポジトリの説明を書くファイル�
 <li><span class="ui">Commit directly to the main branch</span>（mainブランチに直接コミット）が選ばれていることを確かめ、<span class="ui">Commit changes</span>をクリックする。</li>
 </ol>
 
-これで、変更が履歴に記録されました。ダイアログでもう一つの選択肢<span class="ui">Create a new branch for this commit and start a pull request</span>を選ぶと、変更を別のブランチに記録して、プルリクエストを作る流れになります。チームで作業するときはこちらを使うことが多くなります（[ブランチとプルリクエストでの共同作業](github-collaboration.md)）。
+これで、変更が履歴に記録されました。ダイアログでもう一つの選択肢「Create a new branch for this commit and start a pull request」を選ぶと、変更を別のブランチに記録して、プルリクエストを作る流れになります。チームで作業するときはこちらを使うことが多くなります（[ブランチとプルリクエストでの共同作業](github-collaboration.md)）。
 
 新しいファイルを作るときは、リポジトリのトップで<span class="ui">Add file</span>をクリックし、<span class="ui">Create new file</span>を選びます。ファイル名の欄に`notes/memo.md`のように`/`を入れて書くと、フォルダーも同時に作れます。パソコンにあるファイルを置きたいときは、<span class="ui">Add file</span>から<span class="ui">Upload files</span>を選び、ファイルをドラッグして入れてから、同じようにコミットします。
 

@@ -36,7 +36,7 @@ updated: 2026年10月7日
 <li>そのままファイルを編集してコミットすると、変更は新しいブランチに記録される。</li>
 </ol>
 
-ファイルを編集してコミットするときに、ダイアログで<span class="ui">Create a new branch for this commit and start a pull request</span>を選んでも、ブランチが作られ、そのままプルリクエストの画面に進みます。こちらのほうが手軽です（[GitHubを始める](github-first-steps.md)）。
+ファイルを編集してコミットするときに、ダイアログで「Create a new branch for this commit and start a pull request」を選んでも、ブランチが作られ、そのままプルリクエストの画面に進みます。こちらのほうが手軽です（[GitHubを始める](github-first-steps.md)）。
 
 ブランチの名前は、半角の英小文字・数字・ハイフンで、何の作業かが分かるものにします（例：`fix-schedule`、`add-interview-notes`）。チームで「名前の最初に自分の名前を付ける」（例：`hanako/add-survey`）などの約束を決めておくと、だれの作業か分かりやすくなります。
 
@@ -120,7 +120,7 @@ updated: 2026年10月7日
 <figcaption>同じ行が別々に変えられると衝突になる。ファイルには両方の案が印つきで並ぶので、どちらを残すか決めて印を消す。</figcaption>
 </figure>
 
-衝突があると、PRの画面に<span class="ui">This branch has conflicts that must be resolved</span>と表示され、そのままではマージできません。直し方は二つあります。
+衝突があると、PRの画面に「This branch has conflicts that must be resolved」と表示され、そのままではマージできません。直し方は二つあります。
 
 <ol class="steps">
 <li>簡単な衝突なら、<span class="ui">Resolve conflicts</span>のボタンを押す。ファイルの中に<code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>、<code>=======</code>、<code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>の印で区切られた二つの案が表示される。</li>

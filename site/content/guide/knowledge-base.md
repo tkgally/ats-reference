@@ -107,6 +107,13 @@ llm-wiki-j.mdの考え方にもとづき、エージェントがwiki/のペー�
 <figcaption>取り込みの流れ。資料を置くと、エージェントが要約ページを作り、関係するページと目録・作業記録を更新し、まとめてコミットする。</figcaption>
 </figure>
 
+同じ流れを、動画（約30秒、音声なし）でも見られます。
+
+<figure class="fig">
+<video controls muted playsinline preload="metadata" poster="/static/media/llm-wiki-flow-poster.jpg" src="/static/media/llm-wiki-flow.mp4" aria-label="AIエージェントが知識ベースを更新する流れを示すアニメーション"></video>
+<figcaption>動画：人間が資料を置いてから、エージェントがWikiを更新し、プルリクエストを経てサイトが公開し直されるまで。</figcaption>
+</figure>
+
 取り込みが終わったら、少なくとも次の点を確かめましょう。
 
 - 要約ページの内容が、元の資料と合っているか。資料にないことが書き加えられていないか。
