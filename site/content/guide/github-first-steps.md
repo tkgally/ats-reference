@@ -73,7 +73,7 @@ GitHubは、コードに関わる活動をするアカウントの多くに二�
 
 GitHubには、学生であることを確認すると無料の特典が受けられる「GitHub Education」というしくみがあります。申請では、在籍を示す資料（在籍期間の分かる学生証の写真など）を提出し、学校によっては大学のメールアドレスも必要です（[GitHub Docs：学生としてGitHub Educationに申請する](https://docs.github.com/ja/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)）。確認された学生は、学生向けのCopilotのプラン（Copilot Student）などを使えるようになります。
 
-ただし、この授業では、大学の予算でGitHub Copilotの有料版が受講生全員に提供されます（2026年10月7日時点の情報）。そのため、授業のためにGitHub Educationへ申請する必要は、いまのところありません。提供の方法や手続きは授業やWebClassで案内されるので、その指示を待ってください（[GitHub Copilot](../../../wiki/tools/github-copilot.md)、[GitHub Copilotとは](copilot-overview.md)）。
+ただし、この授業では、大学の予算でGitHub Copilotの有料版が受講生全員に提供されます。大学はGitHubとCopilotのプランをMicrosoftと調整しているところです（2026年10月7日時点）。そのため、授業のためにGitHub Educationへ申請する必要は、いまのところありません。提供の方法や手続きは授業やWebClassで案内されるので、その指示を待ってください（[GitHub Copilot](../../../wiki/tools/github-copilot.md)、[GitHub Copilotとは](copilot-overview.md)）。
 
 <div class="box note" markdown="1">
 <p class="box-title">補足</p>
@@ -96,7 +96,7 @@ GitHubには、学生であることを確認すると無料の特典が受け�
 <li><span class="ui">Owner</span>（持ち主）が自分のユーザー名になっていることを確かめる。</li>
 <li><span class="ui">Repository name</span>に名前を入れる（例：<code>my-first-repo</code>）。</li>
 <li><span class="ui">Description</span>に一行の説明を入れる（例：「GitHubの練習用」）。日本語でよく、空でもかまわない。</li>
-<li>公開範囲を選ぶ。練習なら<span class="ui">Private</span>（非公開）でよい。</li>
+<li>公開範囲を選ぶ。この練習では、自分だけが見られる<span class="ui">Private</span>（非公開）にしておく。</li>
 <li><span class="ui">Add README</span>をオンにする（チェックを入れる）。</li>
 <li><span class="ui">.gitignore</span>と<span class="ui">License</span>はそのままでよい。<span class="ui">Create repository</span>をクリックすると、リポジトリができる。</li>
 </ol>
@@ -106,9 +106,11 @@ GitHubには、学生であることを確認すると無料の特典が受け�
 README（リードミー）は、リポジトリの説明を書くファイルです。リポジトリを開くと、ファイル一覧の下にその内容が表示されます。READMEがあると、だれが見ても「これは何のリポジトリか」がすぐ分かります。READMEは[Markdown](markdown.md)という書き方で書きます。
 
 <div class="box tip" markdown="1">
-<p class="box-title">PublicとPrivateの選び方</p>
+<p class="box-title">公開範囲の選び方（授業での方針は未定）</p>
 
-公開（<span class="ui">Public</span>）のリポジトリは、世界中のだれでも見られます。非公開（<span class="ui">Private</span>）は、自分と招待した人だけが見られます。迷ったら非公開にしておき、公開してよい内容だけになってから公開に切り替えるのが安全です。公開範囲は、あとから<span class="ui">Settings</span>の一番下にある<span class="ui">Danger Zone</span>（取り消しにくい操作をまとめた欄）で変えられます。
+公開（<span class="ui">Public</span>）のリポジトリは、世界中のだれでも見られます。非公開（<span class="ui">Private</span>）は、自分と招待した人だけが見られます。組織向けの契約があると、組織のメンバーだけが見られる<span class="ui">Internal</span>（組織内）も選べます。
+
+授業のプロジェクトでどの公開範囲を使うかは、まだ決まっていません。大学はGitHubとCopilotのプランをMicrosoftと調整しているところで、学内（TCU）だけで共有できる選択肢が使えるようになるかもしれません（2026年10月7日時点）。それまでは、練習用のリポジトリを非公開で作っておき、プロジェクト用のリポジトリは授業の案内を待ってから作るのが安全です。公開範囲は、あとから<span class="ui">Settings</span>の一番下にある<span class="ui">Danger Zone</span>（取り消しにくい操作をまとめた欄）で変えられます。
 
 </div>
 

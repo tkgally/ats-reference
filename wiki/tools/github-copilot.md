@@ -7,7 +7,7 @@
 - 大学の予算で、受講生全員に有料版が提供される。
 - 提供期間は10月から1月末まで。授業の最終回（1月20日）の後もしばらく使える計算になる。
 
-どのプラン（個人向け有料版のどれに当たるか）が提供されるのか、どう申し込むのか、期間が終わった後にどうなるのかは、まだ資料がありません。
+どのプラン（個人向け有料版のどれに当たるか）が提供されるのか、どう申し込むのか、期間が終わった後にどうなるのかは、まだ決まっていません。2026年10月7日時点で、大学はGitHubとCopilotのプランをMicrosoftと調整しているところです（[資料：教員からの連絡（2026年10月7日）](../sources/instructor-note-2026-10-07.md)）。
 
 ## 一般向けのプランと機能（2026年10月7日時点）
 
@@ -40,3 +40,4 @@ Copilotの画面は英語ですが、日本語で質問すれば日本語で答�
 - [資料：GitHub Copilotのプラン（GitHub Docs）](../sources/web-github-copilot-plans.md)
 - [資料：学生向けのGitHub Copilot](../sources/web-github-copilot-students.md)
 - [資料：Copilotが読む指示ファイル（GitHub Docs、VS Code Docs）](../sources/web-github-copilot-instructions.md)
+- [資料：教員からの連絡（2026年10月7日、GitHubとCopilotのプラン）](../sources/instructor-note-2026-10-07.md)
