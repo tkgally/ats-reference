@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 262" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="最初の日の6つの手順。1 アカウントを作る、2 二要素認証を設定する、3 リポジトリを作る、4 ファイルを編集してコミットする、5 履歴を見る、6 仲間を招待する。">
+  <!-- 1段目 -->
+  <g>
+    <rect x="20" y="24" width="180" height="84" rx="12" class="f-blue-s"/>
+    <circle cx="46" cy="52" r="14" class="f-blue"/>
+    <text x="46" y="57" text-anchor="middle" font-size="14" class="tw bold">1</text>
+    <text x="68" y="57" font-size="14.5" class="tx bold">アカウントを作る</text>
+    <text x="110" y="90" text-anchor="middle" font-size="12" class="tm">Sign up から登録</text>
+  </g>
+  <g>
+    <rect x="230" y="24" width="180" height="84" rx="12" class="f-red-s"/>
+    <circle cx="256" cy="52" r="14" class="f-red"/>
+    <text x="256" y="57" text-anchor="middle" font-size="14" class="tw bold">2</text>
+    <text x="278" y="57" font-size="14.5" class="tx bold">二要素認証を設定</text>
+    <text x="320" y="90" text-anchor="middle" font-size="12" class="tm">認証アプリでログインを守る</text>
+  </g>
+  <g>
+    <rect x="440" y="24" width="180" height="84" rx="12" class="f-teal-s"/>
+    <circle cx="466" cy="52" r="14" class="f-teal"/>
+    <text x="466" y="57" text-anchor="middle" font-size="14" class="tw bold">3</text>
+    <text x="488" y="57" font-size="14.5" class="tx bold">リポジトリを作る</text>
+    <text x="530" y="90" text-anchor="middle" font-size="12" class="tm">New repository</text>
+  </g>
+  <!-- 2段目（右から左へ） -->
+  <g>
+    <rect x="440" y="154" width="180" height="84" rx="12" class="f-green-s"/>
+    <circle cx="466" cy="182" r="14" class="f-green"/>
+    <text x="466" y="187" text-anchor="middle" font-size="14" class="tw bold">4</text>
+    <text x="488" y="187" font-size="14.5" class="tx bold">編集してコミット</text>
+    <text x="530" y="220" text-anchor="middle" font-size="12" class="tm">Commit changes</text>
+  </g>
+  <g>
+    <rect x="230" y="154" width="180" height="84" rx="12" class="f-green-s"/>
+    <circle cx="256" cy="182" r="14" class="f-green"/>
+    <text x="256" y="187" text-anchor="middle" font-size="14" class="tw bold">5</text>
+    <text x="278" y="187" font-size="14.5" class="tx bold">履歴を見る</text>
+    <text x="320" y="220" text-anchor="middle" font-size="12" class="tm">Commits、History</text>
+  </g>
+  <g>
+    <rect x="20" y="154" width="180" height="84" rx="12" class="f-orange-s"/>
+    <circle cx="46" cy="182" r="14" class="f-orange"/>
+    <text x="46" y="187" text-anchor="middle" font-size="14" class="tw bold">6</text>
+    <text x="68" y="187" font-size="14.5" class="tx bold">仲間を招待する</text>
+    <text x="110" y="220" text-anchor="middle" font-size="12" class="tm">Settings → Collaborators</text>
+  </g>
+  <!-- 矢印 -->
+  <g class="lnf" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 66H224" class="anim-dash"/><path d="M218 60l7 6-7 6"/>
+    <path d="M414 66H434" class="anim-dash"/><path d="M428 60l7 6-7 6"/>
+    <path d="M530 112V148" class="anim-dash"/><path d="M524 141l6 8 6-8"/>
+    <path d="M436 196H416" class="anim-dash"/><path d="M422 190l-7 6 7 6"/>
+    <path d="M226 196H206" class="anim-dash"/><path d="M212 190l-7 6 7 6"/>
+  </g>
+  <text x="320" y="138" text-anchor="middle" font-size="12.5" class="tm">練習用のリポジトリで、編集と履歴を体験する</text>
+</svg>

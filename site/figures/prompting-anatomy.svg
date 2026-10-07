@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="よいプロンプトの例を要素ごとに色分けした図。目的は大学祭の模擬店の企画を考えたいこと。背景は情報系の1年生5人で予算3万円、火を使う調理はできないこと。条件は準備が2週間以内でできること。出力の形は案を5つ表にし、費用の目安と手間も書くこと。資料は去年の売上メモを添付すること。">
+  <text x="16" y="22" font-size="13" class="tm bold">よいプロンプトの例</text>
+  <rect x="16" y="32" width="400" height="266" rx="14" class="bg ln" stroke-width="1.5"/>
+
+  <!-- 目的 -->
+  <rect x="30" y="46" width="6" height="30" rx="3" class="f-purple"/>
+  <text x="46" y="66" font-size="13.5" class="tx">大学祭の模擬店の企画を考えたい。</text>
+  <!-- 背景 -->
+  <rect x="30" y="86" width="6" height="50" rx="3" class="f-blue"/>
+  <text x="46" y="106" font-size="13.5" class="tx">私たちは情報系の1年生5人で、予算は3万円。</text>
+  <text x="46" y="128" font-size="13.5" class="tx">火を使う調理はできない。</text>
+  <!-- 条件 -->
+  <rect x="30" y="146" width="6" height="30" rx="3" class="f-orange"/>
+  <text x="46" y="166" font-size="13.5" class="tx">準備は2週間以内でできるものにして。</text>
+  <!-- 出力の形 -->
+  <rect x="30" y="186" width="6" height="50" rx="3" class="f-green"/>
+  <text x="46" y="206" font-size="13.5" class="tx">案を5つ、表にして。</text>
+  <text x="46" y="228" font-size="13.5" class="tx">列は「案」「費用の目安」「準備の手間」。</text>
+  <!-- 資料 -->
+  <rect x="30" y="246" width="6" height="40" rx="3" class="f-teal"/>
+  <text x="46" y="264" font-size="13.5" class="tx">去年の模擬店の売上メモ（添付）も</text>
+  <text x="46" y="283" font-size="13.5" class="tx">参考にして。</text>
+
+  <!-- 線 -->
+  <g fill="none" stroke-width="1.5" stroke-dasharray="3 4">
+    <path d="M404 61H440" class="s-purple"/>
+    <path d="M404 111H440" class="s-blue"/>
+    <path d="M404 161H440" class="s-orange"/>
+    <path d="M404 211H440" class="s-green"/>
+    <path d="M404 266H440" class="s-teal"/>
+  </g>
+
+  <!-- ラベル -->
+  <g font-size="13.5">
+    <rect x="440" y="44" width="186" height="34" rx="17" class="f-purple-s"/>
+    <circle cx="458" cy="61" r="6" class="f-purple"/>
+    <text x="472" y="66" class="tx"><tspan class="t-purple bold">目的</tspan>：何をしたいか</text>
+
+    <rect x="440" y="94" width="186" height="34" rx="17" class="f-blue-s"/>
+    <circle cx="458" cy="111" r="6" class="f-blue"/>
+    <text x="472" y="116" class="tx"><tspan class="t-blue bold">背景</tspan>：自分たちの状況</text>
+
+    <rect x="440" y="144" width="186" height="34" rx="17" class="f-orange-s"/>
+    <circle cx="458" cy="161" r="6" class="f-orange"/>
+    <text x="472" y="166" class="tx"><tspan class="t-orange bold">条件</tspan>：守ってほしいこと</text>
+
+    <rect x="440" y="194" width="186" height="34" rx="17" class="f-green-s"/>
+    <circle cx="458" cy="211" r="6" class="f-green"/>
+    <text x="472" y="216" class="tx"><tspan class="t-green bold">出力の形</tspan>：答えの形式</text>
+
+    <rect x="440" y="249" width="186" height="34" rx="17" class="f-teal-s"/>
+    <circle cx="458" cy="266" r="6" class="f-teal"/>
+    <text x="472" y="271" class="tx"><tspan class="t-teal bold">資料</tspan>：判断の材料</text>
+  </g>
+</svg>

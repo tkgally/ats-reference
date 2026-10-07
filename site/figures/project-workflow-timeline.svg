@@ -1,0 +1,73 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="スケジュールの一例。全14回のうち、第2〜4回でテーマ設定、第4〜5回で計画、第5〜11回で実装、第9〜12回で評価と改善、第12〜14回で発表の準備を行う。記録は全期間を通して続ける。実際の授業の予定ではない。">
+  <rect x="12" y="10" width="40" height="26" rx="13" class="f-orange-s s-orange" stroke-width="1.5"/>
+  <text x="32" y="28" text-anchor="middle" font-size="14" class="t-orange bold">例</text>
+  <text x="62" y="28" font-size="14.5" class="tx bold">スケジュールの一例（授業の実際の予定ではありません）</text>
+  <text x="118" y="66" text-anchor="end" font-size="12" class="tm">回</text>
+  <text x="118" y="82" text-anchor="end" font-size="11" class="tm">日付</text>
+  <text x="145.8" y="66" text-anchor="middle" font-size="12.5" class="tx bold">1</text>
+  <text x="145.8" y="82" text-anchor="middle" font-size="10" class="tm">9/30</text>
+  <text x="181.2" y="66" text-anchor="middle" font-size="12.5" class="tx bold">2</text>
+  <text x="181.2" y="82" text-anchor="middle" font-size="10" class="tm">10/7</text>
+  <text x="216.8" y="66" text-anchor="middle" font-size="12.5" class="tx bold">3</text>
+  <text x="216.8" y="82" text-anchor="middle" font-size="10" class="tm">10/14</text>
+  <text x="252.2" y="66" text-anchor="middle" font-size="12.5" class="tx bold">4</text>
+  <text x="252.2" y="82" text-anchor="middle" font-size="10" class="tm">10/21</text>
+  <text x="287.8" y="66" text-anchor="middle" font-size="12.5" class="tx bold">5</text>
+  <text x="287.8" y="82" text-anchor="middle" font-size="10" class="tm">10/28</text>
+  <text x="323.2" y="66" text-anchor="middle" font-size="12.5" class="tx bold">6</text>
+  <text x="323.2" y="82" text-anchor="middle" font-size="10" class="tm">11/4</text>
+  <text x="358.8" y="66" text-anchor="middle" font-size="12.5" class="tx bold">7</text>
+  <text x="358.8" y="82" text-anchor="middle" font-size="10" class="tm">11/11</text>
+  <text x="394.2" y="66" text-anchor="middle" font-size="12.5" class="tx bold">8</text>
+  <text x="394.2" y="82" text-anchor="middle" font-size="10" class="tm">11/25</text>
+  <text x="429.8" y="66" text-anchor="middle" font-size="12.5" class="tx bold">9</text>
+  <text x="429.8" y="82" text-anchor="middle" font-size="10" class="tm">12/2</text>
+  <text x="465.2" y="66" text-anchor="middle" font-size="12.5" class="tx bold">10</text>
+  <text x="465.2" y="82" text-anchor="middle" font-size="10" class="tm">12/9</text>
+  <text x="500.8" y="66" text-anchor="middle" font-size="12.5" class="tx bold">11</text>
+  <text x="500.8" y="82" text-anchor="middle" font-size="10" class="tm">12/16</text>
+  <text x="536.2" y="66" text-anchor="middle" font-size="12.5" class="tx bold">12</text>
+  <text x="536.2" y="82" text-anchor="middle" font-size="10" class="tm">12/23</text>
+  <text x="571.8" y="66" text-anchor="middle" font-size="12.5" class="tx bold">13</text>
+  <text x="571.8" y="82" text-anchor="middle" font-size="10" class="tm">1/13</text>
+  <text x="607.2" y="66" text-anchor="middle" font-size="12.5" class="tx bold">14</text>
+  <text x="607.2" y="82" text-anchor="middle" font-size="10" class="tm">1/20</text>
+  <path d="M128.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M163.5 92V296" class="ln" stroke-width="1"/>
+  <path d="M199.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M234.5 92V296" class="ln" stroke-width="1"/>
+  <path d="M270.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M305.5 92V296" class="ln" stroke-width="1"/>
+  <path d="M341.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M376.5 92V296" class="ln" stroke-width="1"/>
+  <path d="M412.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M447.5 92V296" class="ln" stroke-width="1"/>
+  <path d="M483.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M518.5 92V296" class="ln" stroke-width="1"/>
+  <path d="M554.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M589.5 92V296" class="ln" stroke-width="1"/>
+  <path d="M625.0 92V296" class="ln" stroke-width="1"/>
+  <path d="M12 92H625.0" class="ln" stroke-width="1"/>
+  <path d="M12 126H625.0" class="ln" stroke-width="1"/>
+  <path d="M12 160H625.0" class="ln" stroke-width="1"/>
+  <path d="M12 194H625.0" class="ln" stroke-width="1"/>
+  <path d="M12 228H625.0" class="ln" stroke-width="1"/>
+  <path d="M12 262H625.0" class="ln" stroke-width="1"/>
+  <path d="M12 296H625.0" class="ln" stroke-width="1"/>
+  <text x="118" y="114" text-anchor="end" font-size="13.5" class="tx">テーマ設定</text>
+  <rect x="166.5" y="100" width="100.5" height="18" rx="9" class="f-teal"/>
+  <text x="118" y="148" text-anchor="end" font-size="13.5" class="tx">計画</text>
+  <rect x="237.5" y="134" width="65.0" height="18" rx="9" class="f-blue"/>
+  <text x="118" y="182" text-anchor="end" font-size="13.5" class="tx">実装</text>
+  <rect x="273.0" y="168" width="242.5" height="18" rx="9" class="f-orange"/>
+  <text x="118" y="216" text-anchor="end" font-size="13.5" class="tx">評価・改善</text>
+  <rect x="415.0" y="202" width="136.0" height="18" rx="9" class="f-green"/>
+  <text x="118" y="250" text-anchor="end" font-size="13.5" class="tx">発表の準備</text>
+  <rect x="521.5" y="236" width="100.5" height="18" rx="9" class="f-purple"/>
+  <text x="118" y="284" text-anchor="end" font-size="13.5" class="tx">記録（ログ）</text>
+  <path d="M136 279H617.0" class="s-teal anim-dash" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M554.0 50V304" class="s-red" stroke-width="2" stroke-dasharray="3 4" fill="none"/>
+  <text x="554.0" y="320" text-anchor="middle" font-size="12" class="t-red">年末年始の休み</text>
+  <text x="376.5" y="320" text-anchor="middle" font-size="12" class="tm">11/18は日程表になし</text>
+  <text x="12" y="346" font-size="12.5" class="tm">区切りの時期は、授業での案内に合わせて自分で調整する。段階は重なってよい。</text>
+</svg>

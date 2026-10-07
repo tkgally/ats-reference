@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Markdownの書き方と表示の対応。シャープ記号の行は見出しに、ハイフンの行は箇条書きに、角かっことかっこはリンクになる。">
+  <!-- 左：書き方 -->
+  <rect x="12" y="12" width="282" height="286" rx="12" class="bgs ln" stroke-width="1.5"/>
+  <text x="28" y="38" font-size="13" class="tm bold">書き方（README.md）</text>
+  <g font-size="13" font-family="ui-monospace, Menlo, Consolas, monospace" class="tx">
+    <text x="28" y="72"><tspan class="t-orange bold"># </tspan>調査の計画</text>
+    <text x="28" y="116">学内のWi-Fiの使いやすさを調べる。</text>
+    <text x="28" y="160"><tspan class="t-orange bold">## </tspan>やること</text>
+    <text x="28" y="198"><tspan class="t-orange bold">- </tspan>アンケートを作る</text>
+    <text x="28" y="222"><tspan class="t-orange bold">- </tspan>結果を表にまとめる</text>
+    <text x="28" y="268">詳しくは<tspan class="t-orange bold">[</tspan>日程表<tspan class="t-orange bold">](schedule.md)</tspan>へ。</text>
+  </g>
+  <g font-size="10.5" class="tm">
+    <text x="28" y="94">（空の行）</text>
+    <text x="28" y="138">（空の行）</text>
+    <text x="28" y="246">（空の行）</text>
+  </g>
+
+  <!-- 矢印 -->
+  <path d="M300 155H334" class="lnf anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M327 148l8 7-8 7" class="lnf" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 右：表示 -->
+  <rect x="342" y="12" width="286" height="286" rx="12" class="bg ln" stroke-width="1.5"/>
+  <text x="358" y="38" font-size="13" class="tm bold">表示（GitHubなど）</text>
+  <text x="358" y="76" font-size="21" class="tx bold">調査の計画</text>
+  <path d="M358 86H612" class="ln" stroke-width="1"/>
+  <text x="358" y="116" font-size="13.5" class="tx">学内のWi-Fiの使いやすさを調べる。</text>
+  <text x="358" y="164" font-size="17" class="tx bold">やること</text>
+  <path d="M358 172H612" class="ln" stroke-width="1"/>
+  <circle cx="368" cy="194" r="2.6" class="ar"/>
+  <text x="380" y="199" font-size="13.5" class="tx">アンケートを作る</text>
+  <circle cx="368" cy="218" r="2.6" class="ar"/>
+  <text x="380" y="223" font-size="13.5" class="tx">結果を表にまとめる</text>
+  <text x="358" y="268" font-size="13.5" class="tx">詳しくは<tspan class="t-blue">日程表</tspan>へ。</text>
+  <path d="M414 272H456" class="s-blue" stroke-width="1.3"/>
+</svg>

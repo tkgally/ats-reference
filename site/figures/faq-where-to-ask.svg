@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 374" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="困ったときの相談先。教室のWi-Fiは情報基盤センターSC（itcsc@tcu.ac.jp）へ日時・教室名・状況を添えて連絡。TCUアカウントと多要素認証は情報基盤センターの案内。ノートパソコンの故障はPCの修理・貸し出しやPCサポーター。日程・課題・Copilotの提供は授業での案内と教員。GitHubやAIの使い方はこのサイトやAIに聞き、解決しなければ授業で質問する。">
+  <text x="130" y="26" text-anchor="middle" font-size="13" class="tm bold">困っていること</text>
+  <text x="470" y="26" text-anchor="middle" font-size="13" class="tm bold">相談先・調べる場所</text>
+  <rect x="10" y="42" width="240" height="50" rx="10" class="f-blue-s"/>
+  <text x="130" y="72" text-anchor="middle" font-size="14" class="tx bold">教室のWi-Fiがつながらない</text>
+  <path d="M256 67H294" class="s-teal anim-dash" stroke-width="2.5"/>
+  <path d="M302 67l-9-6v12z" class="f-teal"/>
+  <rect x="306" y="42" width="324" height="50" rx="10" class="f-teal-s s-teal" stroke-width="1.5"/>
+  <text x="468" y="64" text-anchor="middle" font-size="14" class="tx bold">情報基盤センターSC</text>
+  <text x="468" y="83" text-anchor="middle" font-size="12" class="tm">itcsc@tcu.ac.jp（日時・教室名・状況）</text>
+  <rect x="10" y="104" width="240" height="50" rx="10" class="f-blue-s"/>
+  <text x="130" y="134" text-anchor="middle" font-size="14" class="tx bold">TCUアカウント・多要素認証</text>
+  <path d="M256 129H294" class="s-teal anim-dash" stroke-width="2.5"/>
+  <path d="M302 129l-9-6v12z" class="f-teal"/>
+  <rect x="306" y="104" width="324" height="50" rx="10" class="f-teal-s s-teal" stroke-width="1.5"/>
+  <text x="468" y="126" text-anchor="middle" font-size="14" class="tx bold">情報基盤センターの案内</text>
+  <text x="468" y="145" text-anchor="middle" font-size="12" class="tm">ウェブサイトの手順と問い合わせ先</text>
+  <rect x="10" y="166" width="240" height="50" rx="10" class="f-blue-s"/>
+  <text x="130" y="196" text-anchor="middle" font-size="14" class="tx bold">ノートパソコンの故障</text>
+  <path d="M256 191H294" class="s-teal anim-dash" stroke-width="2.5"/>
+  <path d="M302 191l-9-6v12z" class="f-teal"/>
+  <rect x="306" y="166" width="324" height="50" rx="10" class="f-teal-s s-teal" stroke-width="1.5"/>
+  <text x="468" y="188" text-anchor="middle" font-size="14" class="tx bold">PCの修理・貸し出し</text>
+  <text x="468" y="207" text-anchor="middle" font-size="12" class="tm">PCサポーターにも相談できる</text>
+  <rect x="10" y="228" width="240" height="50" rx="10" class="f-blue-s"/>
+  <text x="130" y="258" text-anchor="middle" font-size="14" class="tx bold">日程・課題・Copilotの提供</text>
+  <path d="M256 253H294" class="s-orange anim-dash" stroke-width="2.5"/>
+  <path d="M302 253l-9-6v12z" class="f-orange"/>
+  <rect x="306" y="228" width="324" height="50" rx="10" class="f-orange-s s-orange" stroke-width="1.5"/>
+  <text x="468" y="250" text-anchor="middle" font-size="14" class="tx bold">授業での案内・教員</text>
+  <text x="468" y="269" text-anchor="middle" font-size="12" class="tm">授業サイト、WebClass、Wiki</text>
+  <rect x="10" y="290" width="240" height="50" rx="10" class="f-blue-s"/>
+  <text x="130" y="320" text-anchor="middle" font-size="14" class="tx bold">GitHubやAIの使い方</text>
+  <path d="M256 315H294" class="s-purple anim-dash" stroke-width="2.5"/>
+  <path d="M302 315l-9-6v12z" class="f-purple"/>
+  <rect x="306" y="290" width="324" height="50" rx="10" class="f-purple-s s-purple" stroke-width="1.5"/>
+  <text x="468" y="312" text-anchor="middle" font-size="14" class="tx bold">このサイト・AIに聞く</text>
+  <text x="468" y="331" text-anchor="middle" font-size="12" class="tm">解決しなければ授業で質問</text>
+  <text x="320" y="366" text-anchor="middle" font-size="12" class="tm">学内サービスの最新の案内は、情報基盤センターのウェブサイトで確かめる</text>
+</svg>

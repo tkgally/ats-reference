@@ -1,0 +1,31 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ブランチの図。main の流れから、自分のブランチ add-survey と AI のブランチ copilot/fix-links が枝分かれし、それぞれコミットを重ねてから main にマージされる。">
+  <!-- 自分のブランチ -->
+  <path d="M150 140C176 140 176 64 210 64H360C394 64 394 140 420 140" class="s-orange" stroke-width="4" fill="none"/>
+  <!-- AIのブランチ -->
+  <path d="M150 140C176 140 176 206 210 206H500C530 206 530 140 556 140" class="s-purple" stroke-width="4" fill="none"/>
+  <!-- main -->
+  <path d="M30 140H604" class="s-green" stroke-width="6" stroke-linecap="round"/>
+  <path d="M596 129l14 11-14 11" class="s-green" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="30" y="124" font-size="15" class="t-green round">main</text>
+  <text x="30" y="166" font-size="11.5" class="tm">正式な版</text>
+
+  <circle cx="80" cy="140" r="11" class="f-green"/>
+  <circle cx="150" cy="140" r="11" class="f-green"/>
+  <!-- 自分のコミット -->
+  <circle cx="230" cy="64" r="10" class="f-orange"/>
+  <circle cx="285" cy="64" r="10" class="f-orange"/>
+  <circle cx="340" cy="64" r="10" class="f-orange"/>
+  <text x="285" y="32" text-anchor="middle" font-size="13.5" class="tx bold">ブランチ add-survey</text>
+  <text x="285" y="50" text-anchor="middle" font-size="11.5" class="tm">自分の作業（mainに影響しない）</text>
+  <!-- AIのコミット -->
+  <circle cx="260" cy="206" r="10" class="f-purple"/>
+  <circle cx="330" cy="206" r="10" class="f-purple"/>
+  <circle cx="400" cy="206" r="10" class="f-purple"/>
+  <text x="330" y="236" text-anchor="middle" font-size="13.5" class="tx bold">ブランチ copilot/fix-links</text>
+  <text x="330" y="253" text-anchor="middle" font-size="11.5" class="tm">AIエージェントの作業</text>
+  <!-- マージ -->
+  <circle cx="420" cy="140" r="13" class="f-green"/>
+  <circle cx="556" cy="140" r="13" class="f-green anim-pulse"/>
+  <text x="440" y="124" font-size="12.5" class="t-green bold">マージ</text>
+  <text x="576" y="124" text-anchor="middle" font-size="12.5" class="t-green bold">マージ</text>
+</svg>

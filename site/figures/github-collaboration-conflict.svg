@@ -1,0 +1,33 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="衝突の図。元の行「第5回：10月28日」を、自分のブランチは10月29日に、先にmainへ入ったAIの変更は11月4日に書き換えた。同じ行なので自動ではまとめられず、ファイルに両方の案が印つきで並ぶ。">
+  <!-- 元の行 -->
+  <rect x="14" y="104" width="160" height="62" rx="10" class="bgs ln" stroke-width="1.5"/>
+  <text x="94" y="126" text-anchor="middle" font-size="12" class="tm">元の行</text>
+  <text x="94" y="152" text-anchor="middle" font-size="14" class="tx bold">第5回：10月28日</text>
+  <!-- 自分 -->
+  <rect x="216" y="28" width="180" height="62" rx="10" class="f-orange-s"/>
+  <text x="306" y="50" text-anchor="middle" font-size="12" class="t-orange bold">自分のブランチ</text>
+  <text x="306" y="76" text-anchor="middle" font-size="14" class="tx bold">第5回：10月29日</text>
+  <!-- AI -->
+  <rect x="216" y="180" width="180" height="62" rx="10" class="f-purple-s"/>
+  <text x="306" y="202" text-anchor="middle" font-size="12" class="t-purple bold">AIの変更（先にmainへ）</text>
+  <text x="306" y="228" text-anchor="middle" font-size="14" class="tx bold">第5回：11月4日</text>
+  <!-- 矢印 -->
+  <g class="lnf" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M174 124L212 74"/><path d="M203 76l9-2 0 9"/>
+    <path d="M174 146L212 196"/><path d="M203 194l9 2 0-9"/>
+    <path d="M398 64L426 92"/><path d="M417 92h9v-9"/>
+    <path d="M398 206L426 178"/><path d="M417 178h9v9"/>
+  </g>
+  <!-- 衝突したファイル -->
+  <text x="530" y="36" text-anchor="middle" font-size="14" class="t-red round">衝突（コンフリクト）</text>
+  <rect x="430" y="50" width="198" height="166" rx="10" class="bg s-red anim-pulse" stroke-width="2.5"/>
+  <g font-size="12.5" font-family="ui-monospace, Menlo, Consolas, monospace">
+    <text x="444" y="78" class="t-red">&lt;&lt;&lt;&lt;&lt;&lt;&lt; add-survey</text>
+    <text x="444" y="104" class="tx">第5回：10月29日</text>
+    <text x="444" y="132" class="t-red">=======</text>
+    <text x="444" y="160" class="tx">第5回：11月4日</text>
+    <text x="444" y="188" class="t-red">&gt;&gt;&gt;&gt;&gt;&gt;&gt; main</text>
+  </g>
+  <text x="529" y="240" text-anchor="middle" font-size="12.5" class="tx">どちらを残すか決めて、</text>
+  <text x="529" y="259" text-anchor="middle" font-size="12.5" class="tx">赤い印の行を消す</text>
+</svg>

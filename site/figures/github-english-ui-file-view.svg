@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ファイルを開いたときの画面の上部の模式図。Preview、Code、Blame の切り替え、Raw、コピー、ダウンロード、鉛筆の Edit、右上の History が並ぶ。">
+  <rect x="16" y="14" width="608" height="120" rx="10" class="bg ln" stroke-width="1.5"/>
+  <!-- パンくず -->
+  <text x="32" y="40" font-size="13" class="tx"><tspan class="t-blue">my-project</tspan> / <tspan class="bold">README.md</tspan></text>
+  <!-- History -->
+  <circle cx="530" cy="35" r="6" class="lnf" stroke-width="1.4"/>
+  <path d="M530 31.5V35h3" class="lnf" stroke-width="1.4"/>
+  <text x="542" y="40" font-size="12.5" class="tx bold">History</text>
+  <path d="M16 54H624" class="ln" stroke-width="1"/>
+  <!-- 切り替え -->
+  <rect x="32" y="70" width="198" height="28" rx="6" class="bgs ln" stroke-width="1"/>
+  <rect x="33" y="71" width="66" height="26" rx="5" class="bg"/>
+  <text x="66" y="89" text-anchor="middle" font-size="12.5" class="tx bold">Preview</text>
+  <text x="132" y="89" text-anchor="middle" font-size="12.5" class="tx">Code</text>
+  <text x="196" y="89" text-anchor="middle" font-size="12.5" class="tx">Blame</text>
+  <path d="M99 74V94M165 74V94" class="ln" stroke-width="1"/>
+  <text x="246" y="89" font-size="11.5" class="tm">20 lines · 1 KB</text>
+  <!-- 右の操作 -->
+  <rect x="420" y="70" width="44" height="28" rx="6" class="bgs ln" stroke-width="1"/>
+  <text x="442" y="89" text-anchor="middle" font-size="12" class="tx">Raw</text>
+  <rect x="470" y="70" width="32" height="28" rx="6" class="bgs ln" stroke-width="1"/>
+  <rect x="480" y="77" width="10" height="12" rx="2" class="lnf" stroke-width="1.3"/>
+  <rect x="484" y="81" width="10" height="12" rx="2" class="bgs lnf" stroke-width="1.3"/>
+  <rect x="508" y="70" width="32" height="28" rx="6" class="bgs ln" stroke-width="1"/>
+  <path d="M524 77V89M519 84l5 5 5-5M517 92H531" class="lnf" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="546" y="70" width="44" height="28" rx="6" class="bgs ln" stroke-width="1"/>
+  <path d="M556 92l2-6 10-10 4 4-10 10z" class="lnf" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
+  <text x="580" y="88" text-anchor="middle" font-size="10" class="tm">▾</text>
+  <text x="32" y="122" font-size="11.5" class="tm">（ここにファイルの中身が表示される）</text>
+
+  <!-- 番号 -->
+  <g font-size="11" text-anchor="middle">
+    <circle cx="32" cy="68" r="9" class="f-orange"/><text x="32" y="72" class="tw bold">1</text>
+    <circle cx="420" cy="68" r="9" class="f-orange"/><text x="420" y="72" class="tw bold">2</text>
+    <circle cx="486" cy="68" r="9" class="f-orange"/><text x="486" y="72" class="tw bold">3</text>
+    <circle cx="590" cy="68" r="9" class="f-orange"/><text x="590" y="72" class="tw bold">4</text>
+    <circle cx="520" cy="22" r="9" class="f-orange"/><text x="520" y="26" class="tw bold">5</text>
+  </g>
+
+  <!-- 凡例 -->
+  <g font-size="13" class="tx">
+    <g font-size="11" text-anchor="middle">
+      <circle cx="30" cy="160" r="10" class="f-orange"/><text x="30" y="164" class="tw bold">1</text>
+      <circle cx="30" cy="200" r="10" class="f-orange"/><text x="30" y="204" class="tw bold">2</text>
+      <circle cx="330" cy="160" r="10" class="f-orange"/><text x="330" y="164" class="tw bold">3</text>
+      <circle cx="330" cy="200" r="10" class="f-orange"/><text x="330" y="204" class="tw bold">4</text>
+      <circle cx="30" cy="236" r="10" class="f-orange"/><text x="30" y="240" class="tw bold">5</text>
+    </g>
+    <text x="48" y="165">見た目／元の文字／行ごとの変更者</text>
+    <text x="48" y="205">Raw：文字だけで表示</text>
+    <text x="348" y="165">中身をコピー・ダウンロード</text>
+    <text x="348" y="205">鉛筆（Edit）：ブラウザで編集</text>
+    <text x="48" y="241">History：このファイルの履歴</text>
+  </g>
+</svg>

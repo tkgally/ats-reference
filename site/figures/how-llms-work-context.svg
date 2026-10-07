@@ -1,0 +1,31 @@
+<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="文脈の窓。AIへの指示、これまでのやりとり、添付した資料や検索の結果、いまの質問が窓の中に入り、AIはその全体を読んで答えを書く。前のチャットや、窓からあふれた古い部分は、AIには見えない。">
+  <!-- 窓の外 -->
+  <rect x="16" y="64" width="130" height="44" rx="10" class="bgs ln" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="81" y="91" text-anchor="middle" font-size="13" class="tm">前のチャット</text>
+  <rect x="16" y="122" width="130" height="54" rx="10" class="bgs ln" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="81" y="145" text-anchor="middle" font-size="12.5" class="tm">窓からあふれた</text>
+  <text x="81" y="164" text-anchor="middle" font-size="12.5" class="tm">古い部分</text>
+  <text x="81" y="206" text-anchor="middle" font-size="13" class="t-red bold">窓の外は</text>
+  <text x="81" y="225" text-anchor="middle" font-size="13" class="t-red bold">AIに見えない</text>
+
+  <!-- 窓 -->
+  <text x="315" y="26" text-anchor="middle" font-size="15" class="t-purple round">文脈の窓（一度に読める範囲）</text>
+  <rect x="170" y="38" width="290" height="226" rx="14" class="bg s-purple" stroke-width="3"/>
+  <rect x="188" y="54" width="254" height="36" rx="8" class="f-gray-s"/>
+  <text x="315" y="77" text-anchor="middle" font-size="13" class="tx">AIへの指示（サービスや設定）</text>
+  <rect x="188" y="98" width="254" height="62" rx="8" class="f-blue-s"/>
+  <text x="315" y="123" text-anchor="middle" font-size="13" class="tx bold">これまでのやりとり</text>
+  <text x="315" y="145" text-anchor="middle" font-size="12" class="tm">質問と答えのくりかえし</text>
+  <rect x="188" y="168" width="254" height="36" rx="8" class="f-teal-s"/>
+  <text x="315" y="191" text-anchor="middle" font-size="13" class="tx">添付した資料・検索の結果</text>
+  <rect x="188" y="212" width="254" height="36" rx="8" class="f-blue"/>
+  <text x="315" y="235" text-anchor="middle" font-size="14" class="tw bold">いまの質問</text>
+
+  <!-- AI -->
+  <path d="M464 150H504" class="s-purple anim-dash" stroke-width="2.5" fill="none"/>
+  <path d="M514 150l-10-5v10z" class="f-purple"/>
+  <circle cx="562" cy="150" r="40" class="f-purple"/>
+  <text x="562" y="157" text-anchor="middle" font-size="20" class="tw round">AI</text>
+  <text x="562" y="214" text-anchor="middle" font-size="12.5" class="tm">窓の中の全体を</text>
+  <text x="562" y="232" text-anchor="middle" font-size="12.5" class="tm">読んで答えを書く</text>
+</svg>

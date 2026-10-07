@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="取り込みの流れ。人間がraw/に資料を置くと、エージェントが読んで要点を報告し、wiki/sources/に要約ページを作り、関係するページを更新し、目録（index.md）と作業記録（log.md）に反映する。最後にまとめて一つのコミットにする。">
+  <circle cx="68" cy="30" r="15" class="f-teal-s s-teal anim-pulse" stroke-width="2" style="animation-delay:0.00s"/>
+  <text x="68" y="35" text-anchor="middle" font-size="13.5" class="t-teal bold">1</text>
+  <rect x="14" y="56" width="108" height="118" rx="12" class="f-gray-s s-gray" stroke-width="1.5"/>
+  <text x="68" y="80" text-anchor="middle" font-size="14.5" class="tx bold">資料を置く</text>
+  <rect x="54" y="92" width="28" height="36" rx="3" class="bg s-gray" stroke-width="1.5"/><path d="M60 103h16M60 110h12M60 117h14" class="s-gray" stroke-width="1.5"/>
+  <text x="68" y="146" text-anchor="middle" font-size="11" class="tm">raw/</text>
+  <text x="68" y="164" text-anchor="middle" font-size="12" class="tx">人間が置く</text>
+  <path d="M124 115h10" class="lnf anim-dash" stroke-width="2.5"/>
+  <path d="M138 115l-6-5v10z" class="ar"/>
+  <circle cx="194" cy="30" r="15" class="f-teal-s s-teal anim-pulse" stroke-width="2" style="animation-delay:0.48s"/>
+  <text x="194" y="35" text-anchor="middle" font-size="13.5" class="t-teal bold">2</text>
+  <rect x="140" y="56" width="108" height="118" rx="12" class="f-purple-s s-purple" stroke-width="1.5"/>
+  <text x="194" y="80" text-anchor="middle" font-size="14.5" class="tx bold">読んで報告</text>
+  <circle cx="194" cy="110" r="17" class="f-purple anim-pulse"/><text x="194" y="115" text-anchor="middle" font-size="13" class="bg bold">AI</text>
+  <text x="194" y="146" text-anchor="middle" font-size="11" class="tm">エージェント</text>
+  <text x="194" y="164" text-anchor="middle" font-size="12" class="tx">要点を伝える</text>
+  <path d="M250 115h10" class="lnf anim-dash" stroke-width="2.5"/>
+  <path d="M264 115l-6-5v10z" class="ar"/>
+  <circle cx="320" cy="30" r="15" class="f-teal-s s-teal anim-pulse" stroke-width="2" style="animation-delay:0.96s"/>
+  <text x="320" y="35" text-anchor="middle" font-size="13.5" class="t-teal bold">3</text>
+  <rect x="266" y="56" width="108" height="118" rx="12" class="f-teal-s s-teal" stroke-width="1.5"/>
+  <text x="320" y="80" text-anchor="middle" font-size="14.5" class="tx bold">要約ページ</text>
+  <rect x="306" y="92" width="28" height="36" rx="3" class="bg s-teal" stroke-width="1.5"/><path d="M312 103h16M312 110h10" class="s-teal" stroke-width="1.5"/><circle cx="332" cy="124" r="8" class="f-teal"/><text x="332" y="128" text-anchor="middle" font-size="13" class="bg bold">+</text>
+  <text x="320" y="146" text-anchor="middle" font-size="11" class="tm">wiki/sources/</text>
+  <text x="320" y="164" text-anchor="middle" font-size="12" class="tx">資料ごとに1枚</text>
+  <path d="M376 115h10" class="lnf anim-dash" stroke-width="2.5"/>
+  <path d="M390 115l-6-5v10z" class="ar"/>
+  <circle cx="446" cy="30" r="15" class="f-teal-s s-teal anim-pulse" stroke-width="2" style="animation-delay:1.44s"/>
+  <text x="446" y="35" text-anchor="middle" font-size="13.5" class="t-teal bold">4</text>
+  <rect x="392" y="56" width="108" height="118" rx="12" class="f-teal-s s-teal" stroke-width="1.5"/>
+  <text x="446" y="80" text-anchor="middle" font-size="14.5" class="tx bold">関係ページ</text>
+  <rect x="420" y="92" width="22" height="30" rx="3" class="bg s-teal" stroke-width="1.5"/>
+  <rect x="438" y="96" width="22" height="30" rx="3" class="bg s-teal" stroke-width="1.5"/>
+  <rect x="456" y="100" width="22" height="30" rx="3" class="bg s-teal" stroke-width="1.5"/>
+  <path d="M425 102h12M443 106h12M461 110h12" class="s-teal" stroke-width="1.5"/>
+  <text x="446" y="146" text-anchor="middle" font-size="11" class="tm">wiki/の各ページ</text>
+  <text x="446" y="164" text-anchor="middle" font-size="12" class="tx">作る・書き足す</text>
+  <path d="M502 115h10" class="lnf anim-dash" stroke-width="2.5"/>
+  <path d="M516 115l-6-5v10z" class="ar"/>
+  <circle cx="572" cy="30" r="15" class="f-teal-s s-teal anim-pulse" stroke-width="2" style="animation-delay:1.92s"/>
+  <text x="572" y="35" text-anchor="middle" font-size="13.5" class="t-teal bold">5</text>
+  <rect x="518" y="56" width="108" height="118" rx="12" class="f-teal-s s-teal" stroke-width="1.5"/>
+  <text x="572" y="80" text-anchor="middle" font-size="14.5" class="tx bold">目録と記録</text>
+  <rect x="542" y="94" width="26" height="32" rx="3" class="bg s-teal" stroke-width="1.5"/><path d="M547 103h16M547 110h16M547 117h16" class="s-teal" stroke-width="1.5"/>
+  <rect x="576" y="94" width="26" height="32" rx="3" class="bg s-teal" stroke-width="1.5"/><path d="M581 103h16M581 110h16M581 117h10" class="s-teal" stroke-width="1.5"/><path d="M592 117l4 4" class="s-green" stroke-width="2"/>
+  <text x="572" y="146" text-anchor="middle" font-size="11" class="tm">index.md・log.md</text>
+  <text x="572" y="164" text-anchor="middle" font-size="12" class="tx">一覧と履歴</text>
+  <path d="M68 186v14H572v-14" class="s-green" stroke-width="2" fill="none"/>
+  <path d="M320 200v16" class="s-green" stroke-width="2"/>
+  <rect x="150" y="218" width="340" height="44" rx="22" class="f-green-s s-green" stroke-width="1.5"/>
+  <circle cx="178" cy="240" r="9" class="f-green"/>
+  <text x="336" y="246" text-anchor="middle" font-size="14" class="tx bold">まとめて一つのコミットにする</text>
+  <text x="320" y="282" text-anchor="middle" font-size="12" class="tm">履歴でエージェントの変更を確かめ、問題があれば戻せる</text>
+</svg>

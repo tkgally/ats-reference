@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIの答えを確かめる流れ。提出、公開、判断に使う大事な答えでなければ、参考にするだけにして鵜呑みにしない。大事な答えなら、事実や数字は一次資料で確かめ、出典やURLは実際に開いて読み、コードは動かして試し、最新の情報は日付と公式発表を見る。確かめた結果を記録してから使う。合わなければ直すか使わない。">
+  <!-- AIの答え -->
+  <rect x="250" y="12" width="140" height="40" rx="20" class="f-purple"/>
+  <text x="320" y="37" text-anchor="middle" font-size="14" class="tw bold">AIの答え</text>
+  <path d="M320 52V66" class="lnf" stroke-width="2"/><path d="M320 74l-4.5-8h9z" class="ar"/>
+
+  <!-- 判断 -->
+  <path d="M320 76L420 114L320 152L220 114z" class="f-yellow-s"/>
+  <text x="320" y="110" text-anchor="middle" font-size="13" class="tx bold">提出・公開・判断に</text>
+  <text x="320" y="128" text-anchor="middle" font-size="13" class="tx bold">使う大事な答え？</text>
+
+  <!-- いいえ -->
+  <path d="M220 114H196" class="lnf" stroke-width="2"/><path d="M188 114l8-4.5v9z" class="ar"/>
+  <text x="208" y="104" text-anchor="middle" font-size="12" class="tm">いいえ</text>
+  <rect x="12" y="88" width="176" height="52" rx="10" class="bgs"/>
+  <text x="100" y="110" text-anchor="middle" font-size="13" class="tx bold">参考にする</text>
+  <text x="100" y="129" text-anchor="middle" font-size="12" class="tm">それでも鵜呑みにしない</text>
+
+  <!-- はい -->
+  <text x="332" y="168" font-size="12" class="tm">はい</text>
+  <path d="M320 152V172" class="lnf" stroke-width="2"/>
+  <path d="M88 172H552" class="lnf" stroke-width="2" fill="none"/>
+  <g>
+    <path d="M88 172V180" class="lnf" stroke-width="2"/><path d="M88 188l-4.5-8h9z" class="ar"/>
+    <path d="M242 172V180" class="lnf" stroke-width="2"/><path d="M242 188l-4.5-8h9z" class="ar"/>
+    <path d="M398 172V180" class="lnf" stroke-width="2"/><path d="M398 188l-4.5-8h9z" class="ar"/>
+    <path d="M552 172V180" class="lnf" stroke-width="2"/><path d="M552 188l-4.5-8h9z" class="ar"/>
+  </g>
+
+  <!-- 4つの確かめ方 -->
+  <g>
+    <rect x="14" y="190" width="148" height="86" rx="10" class="bg s-orange" stroke-width="2"/>
+    <path d="M14 220V200a10 10 0 0 1 10-10h128a10 10 0 0 1 10 10v20z" class="f-orange"/>
+    <text x="88" y="211" text-anchor="middle" font-size="13.5" class="tw bold">事実・数字</text>
+    <text x="88" y="245" text-anchor="middle" font-size="12.5" class="tx">一次資料で</text>
+    <text x="88" y="264" text-anchor="middle" font-size="12.5" class="tx">確かめる</text>
+  </g>
+  <g>
+    <rect x="168" y="190" width="148" height="86" rx="10" class="bg s-teal" stroke-width="2"/>
+    <path d="M168 220V200a10 10 0 0 1 10-10h128a10 10 0 0 1 10 10v20z" class="f-teal"/>
+    <text x="242" y="211" text-anchor="middle" font-size="13.5" class="tw bold">出典・URL</text>
+    <text x="242" y="245" text-anchor="middle" font-size="12.5" class="tx">実際に開いて</text>
+    <text x="242" y="264" text-anchor="middle" font-size="12.5" class="tx">中身を読む</text>
+  </g>
+  <g>
+    <rect x="324" y="190" width="148" height="86" rx="10" class="bg s-green" stroke-width="2"/>
+    <path d="M324 220V200a10 10 0 0 1 10-10h128a10 10 0 0 1 10 10v20z" class="f-green"/>
+    <text x="398" y="211" text-anchor="middle" font-size="13.5" class="tw bold">プログラム</text>
+    <text x="398" y="245" text-anchor="middle" font-size="12.5" class="tx">動かして</text>
+    <text x="398" y="264" text-anchor="middle" font-size="12.5" class="tx">試す</text>
+  </g>
+  <g>
+    <rect x="478" y="190" width="148" height="86" rx="10" class="bg s-blue" stroke-width="2"/>
+    <path d="M478 220V200a10 10 0 0 1 10-10h128a10 10 0 0 1 10 10v20z" class="f-blue"/>
+    <text x="552" y="211" text-anchor="middle" font-size="13.5" class="tw bold">最新の情報</text>
+    <text x="552" y="245" text-anchor="middle" font-size="12.5" class="tx">日付と公式の</text>
+    <text x="552" y="264" text-anchor="middle" font-size="12.5" class="tx">発表を見る</text>
+  </g>
+
+  <!-- 合流 -->
+  <g class="lnf" stroke-width="2" fill="none">
+    <path d="M88 276V292M242 276V292M398 276V292M552 276V292"/>
+    <path d="M88 292H552"/>
+    <path d="M320 292V306"/>
+  </g>
+  <path d="M320 314l-4.5-8h9z" class="ar"/>
+  <rect x="170" y="316" width="300" height="44" rx="12" class="f-green-s"/>
+  <text x="320" y="343" text-anchor="middle" font-size="14" class="tx bold">確かめた結果を記録して使う</text>
+  <text x="488" y="334" font-size="12" class="t-red bold">合わなければ</text>
+  <text x="488" y="352" font-size="12" class="t-red bold">直す・使わない</text>
+</svg>
