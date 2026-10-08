@@ -51,6 +51,9 @@ updated: 2026年10月7日
 
 TCUアカウントは大学の各サービスに共通のアカウントで、Microsoft 365 Copilotを使うときにも必要です。設定の手順は情報基盤センターの[TCUアカウント](https://www.itc.tcu.ac.jp/tcuaccount/)と[多要素認証](https://www.itc.tcu.ac.jp/mfa/)の案内を見てください。多要素認証の具体的な手順については、2026年10月7日時点ではまだWikiに資料がありません（[TCUアカウントと多要素認証](../../../wiki/campus/tcu-account.md)）。解決しないときは、情報基盤センターのウェブサイトにある問い合わせ先に相談しましょう。
 
+### 大学のGoogleアカウント（g.tcu.ac.jp）は使えますか
+
+TCUアカウントにはGoogleのアカウント（ユーザー名@g.tcu.ac.jp）も付いていますが、Gmailは有効になっていても、大学の公式メールはOutlookです。授業などで特別な案内がない限り、Gmailは使いません。Google Classroomなどを使う授業もありますが、情報基盤センターはそれらをサポートしておらず、質問は授業担当の教員にします（2026年10月7日時点。[TCUのGoogleアカウント](../../../wiki/campus/tcu-google-account.md)）。この授業の連絡や提出にGmailやGoogle Classroomを使うという案内は、いまのところありません。GeminiをこのGoogleアカウントで使えるかどうかは、大学の案内に書かれておらず、分かっていません。
 ### ノートパソコンが壊れました
 
 情報基盤センターに[PCの修理・貸し出し](https://www.itc.tcu.ac.jp/student/pcrepren/)の案内があります。学生によるPCの相談窓口の[PCサポーター](https://www.itc.tcu.ac.jp/pcsupporter/)もあります（[学内のITサービス](../../../wiki/campus/it-services.md)）。作業中のファイルをGitHubにこまめにコミットしておけば、パソコンが壊れても、ほかのパソコンから続きを始められます。
@@ -157,4 +160,4 @@ Wikiは、授業の日程、使うツール、学内のサービスなどの事�
 - [GitHubとは](github-basics.md)
 - [GitHub Copilotとは](copilot-overview.md)
 - [AIの答えを確かめる](checking-ai-output.md)
-- Wikiの関連ページ：[授業の日程と進行](../../../wiki/course/schedule.md)、[学内Wi-Fi](../../../wiki/campus/campus-wifi.md)、[TCUアカウントと多要素認証](../../../wiki/campus/tcu-account.md)、[学内のITサービス](../../../wiki/campus/it-services.md)、[GitHub Copilot](../../../wiki/tools/github-copilot.md)
+- Wikiの関連ページ：[授業の日程と進行](../../../wiki/course/schedule.md)、[学内Wi-Fi](../../../wiki/campus/campus-wifi.md)、[TCUアカウントと多要素認証](../../../wiki/campus/tcu-account.md)、[TCUのGoogleアカウント](../../../wiki/campus/tcu-google-account.md)、[学内のITサービス](../../../wiki/campus/it-services.md)、[GitHub Copilot](../../../wiki/tools/github-copilot.md)
