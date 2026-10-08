@@ -22,6 +22,8 @@
 - [リモートデスクトップ](https://www.itc.tcu.ac.jp/ictservice/rdt/)
 - [印刷サービス](https://www.itc.tcu.ac.jp/ictservice/print/)
 
+学生が使うのはMicrosoft 365メール（Exchange Online）で、容量は100GBです。ウェブメールはOutlook on the webから使えます。旧システムのDEEPMailは学生向けには廃止済みです（2026年10月8日時点、[資料：TCUメール](../sources/web-tcu-mail.md)）。
+
 Microsoft 365のAI機能については[Microsoft 365 Copilot](../tools/microsoft-365-copilot.md)を参照してください。
 
 ## ソフトウェアとPC
@@ -39,6 +41,15 @@ Microsoft 365のAI機能については[Microsoft 365 Copilot](../tools/microsof
 - [Zoomの利用方法](https://www.itc.tcu.ac.jp/ictservice/zoom/)
 - [ポータルサイト](https://websrv.tcu.ac.jp/tcu_web_v3/)：リンク集から各種システムやマニュアルにアクセスできる。
 
+## 最近のお知らせ（2026年10月8日時点）
+
+情報基盤センターのトップページには、次のお知らせが載っています。時間がたつと入れ替わります。
+
+- Google（g.tcu.ac.jp）サービスの利用について（10月7日）：[TCUのGoogleアカウント](tcu-google-account.md)にまとめた。
+- 【復旧】WebClassコース表示の不具合について（10月6日）：[WebClass](webclass.md)のコース表示の不具合が復旧したという内容。詳しい経緯は確かめていない。
+- 学内プリンターの利用について（9月29日）。
+- セキュリティ情報：Microsoftサポートを装った詐欺（8月6日）と、本学を装ったフィッシングメール（6月2日）への注意喚起。大学のアカウントの情報を求めるメールやメッセージには、公式のサイトから確かめるまで答えないほうが安全です（資料外の補足）。
+
 ## ネットワーク
 
 教室のWi-Fiの状況と、学外から学内のサービスに接続する方法は[学内Wi-Fi](campus-wifi.md)にまとめています。
@@ -55,3 +66,4 @@ Microsoft 365のAI機能については[Microsoft 365 Copilot](../tools/microsof
 
 - [資料：授業の背景情報](../sources/ats-class-background.md)（情報基盤センターのウェブサイト、2026年10月7日確認）
 - [資料：Google（g.tcu.ac.jp）サービスの利用について](../sources/web-tcu-google-services.md)
+- [資料：TCUメール（情報基盤センター）](../sources/web-tcu-mail.md)
