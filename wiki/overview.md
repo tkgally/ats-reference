@@ -41,7 +41,7 @@ TCUアカウント、WebClass、Microsoft 365などの学内サービスは[学�
 - 授業で使うリポジトリの公開範囲（公開、非公開、学内だけで共有できる選択肢）。GitHubとCopilotのプランが決まってから決まる見込み（[GitHub](tools/github.md)）。
 - ChatGPT、Claude、Geminiなどについて、大学として使えるもの、費用の扱い、利用上の注意。大学のGoogleアカウント（g.tcu.ac.jp）についての案内（Gmailは使わない、Google Classroomなどはサポート外）は分かったが、Geminiには触れていない（[TCUのGoogleアカウント](campus/tcu-google-account.md)）。
 - AI利用の倫理（著作権、プライバシー、公正性）について、授業や大学としての具体的な指針。国の指針は[AI利用の倫理](concepts/ai-ethics.md)にまとめた。
-- Microsoft 365 Copilotで、TCUアカウントにどの機能とデータ保護が適用されるか。
+- Microsoft 365 Copilotで、TCUアカウントにどの機能とデータ保護が適用されるか。Microsoftの公式ドキュメントでは、職場・学校のアカウントのCopilot Chatにエンタープライズデータ保護が適用され、入力は学習に使われないが、監査のために組織に記録されることを確かめた（2026年10月8日）。大学の設定は大学の案内が見つかっていない（[Microsoft 365 Copilot](tools/microsoft-365-copilot.md)）。
 
 ## 次に取り込むとよい資料
 

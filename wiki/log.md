@@ -46,3 +46,11 @@
 - 更新したページ：[学内のITサービス](campus/it-services.md)、[TCUアカウントと多要素認証](campus/tcu-account.md)、[ChatGPT、Claude、Gemini](tools/ai-chat-services.md)、[全体の概観](overview.md)、[目録](index.md)。
 - 確認が必要な点：大学のGoogleアカウントでGeminiが使えるか、データ保護がどうなるか。お知らせには書かれていない。TCUアカウントのMicrosoft 365 Copilotの機能とデータ保護も、大学の案内は見つからなかった（情報基盤センターのトップページにMicrosoft 365 Copilotへのリンクがあることだけ確認）。
 - 次回に回したこと：`site/log.md`の依頼は、いずれも大学のGitHubとCopilotのプランの決定や新しい`raw/`の資料を待っているため、今回は対応していない。解説ページ（よくある質問など）に、Gmailを使わないという注意を足す余地がある（`site/log.md`に候補として書いた）。
+
+## [2026-10-08] 取り込み | ウェブ上の資料（TCUメール、Microsoft Copilot Chatのプライバシー）
+
+- 「確認が必要な点」のうち、Microsoft 365 Copilotのデータ保護を公式の情報で調べ、[資料：Microsoft Copilot Chatのプライバシーと保護](sources/web-microsoft-copilot-chat-privacy.md)と[資料：TCUメール（情報基盤センター）](sources/web-tcu-mail.md)を作った。
+- 更新したページ：[Microsoft 365 Copilot](tools/microsoft-365-copilot.md)（エンタープライズデータ保護、入力が組織に記録されること、名称の変更の節）、[学内のITサービス](campus/it-services.md)（学生のメール、最近のお知らせ）、[全体の概観](overview.md)、[目録](index.md)。
+- 解決できなかった点：TCUアカウントでMicrosoft 365 Copilotのどの機能とデータ保護が有効かは、大学の案内が見つからず、未解決のまま。Geminiの扱いも同様。授業の運営に関わる点（評価、日程など）は資料がないため触れていない。
+- 確認してほしい点：WebClassの不具合の復旧のお知らせ（10月6日）の詳細は確かめていない。
+- 次回に回したこと：`raw/`に新しい資料はなく、`site/log.md`の依頼も大学の決定待ちのため対応していない。新しい資料の追加か、大学のプラン決定を待つ。
