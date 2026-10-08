@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIと一緒に文章を書く流れ。自分が書きたいことを決める、AIに構成案や下書きを頼む、自分の言葉で書き直す、AIに読んでもらって直す、事実と出典を自分で確かめる。決める、書き直す、確かめるは人間の役目で、案を出す、読んで指摘するのはAIの役目。">
+  <rect x="12" y="12" width="616" height="226" rx="14" class="bg ln" stroke-width="2"/>
+  <rect x="28" y="40" width="108" height="64" rx="10" class="f-blue-s"/>
+  <text x="82" y="68" text-anchor="middle" font-size="14" class="tx bold">1 決める</text>
+  <text x="82" y="90" text-anchor="middle" font-size="12" class="tx">誰に何を伝えるか</text>
+  <rect x="144" y="40" width="108" height="64" rx="10" class="f-purple-s"/>
+  <text x="198" y="68" text-anchor="middle" font-size="14" class="tx bold">2 案を出す</text>
+  <text x="198" y="90" text-anchor="middle" font-size="12" class="tx">構成や下書き</text>
+  <rect x="260" y="40" width="108" height="64" rx="10" class="f-blue-s"/>
+  <text x="314" y="68" text-anchor="middle" font-size="14" class="tx bold">3 書き直す</text>
+  <text x="314" y="90" text-anchor="middle" font-size="12" class="tx">自分の言葉で</text>
+  <rect x="376" y="40" width="108" height="64" rx="10" class="f-purple-s"/>
+  <text x="430" y="68" text-anchor="middle" font-size="14" class="tx bold">4 読んでもらう</text>
+  <text x="430" y="90" text-anchor="middle" font-size="12" class="tx">指摘を受ける</text>
+  <rect x="492" y="40" width="108" height="64" rx="10" class="f-red-s"/>
+  <text x="546" y="68" text-anchor="middle" font-size="14" class="tx bold">5 確かめる</text>
+  <text x="546" y="90" text-anchor="middle" font-size="12" class="tx">事実と出典</text>
+  <path d="M136 72H142" class="lnf" stroke-width="2"/><path d="M252 72H258" class="lnf" stroke-width="2"/><path d="M368 72H374" class="lnf" stroke-width="2"/><path d="M484 72H490" class="lnf" stroke-width="2"/>
+  <rect x="28" y="130" width="56" height="14" rx="4" class="f-blue"/>
+  <text x="96" y="142" font-size="13" class="tx">青：人間の役目（決める、書き直す）</text>
+  <rect x="28" y="154" width="56" height="14" rx="4" class="f-purple"/>
+  <text x="96" y="166" font-size="13" class="tx">紫：AIに手伝ってもらうところ（案を出す、読んで指摘する）</text>
+  <rect x="28" y="178" width="56" height="14" rx="4" class="f-red"/>
+  <text x="96" y="190" font-size="13" class="tx">赤：必ず人間が行う（事実と出典の確認）</text>
+  <text x="320" y="224" text-anchor="middle" font-size="12" class="tm">文章の持ち主は書いた人。何を伝えるかと、内容の責任は、AIに任せられない。</text>
+</svg>

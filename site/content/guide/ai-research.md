@@ -96,5 +96,6 @@ AIは「入口」に向いています。全体像をつかみ、調べる方向
 - [AIの答えを確かめる](checking-ai-output.md)
 - [AIへの頼み方（プロンプトのコツ）](prompting.md)
 - [AIツールの選び方](ai-tools-compare.md)
+- [AIと一緒に文章を書く](ai-writing.md)
 - [AIを使うときの倫理とルール](ai-ethics.md)
 - Wikiの関連ページ：[AIチャットサービス](../../../wiki/tools/ai-chat-services.md)、[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)、[AI利用の倫理](../../../wiki/concepts/ai-ethics.md)
