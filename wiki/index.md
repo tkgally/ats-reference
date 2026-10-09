@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：34（目録と作業記録を除く）
-- 取り込んだ資料：1件（ほかに教員からの連絡1件、ウェブ上の資料9件）
+- ページ数：40（目録と作業記録を除く）
+- 取り込んだ資料：1件（ほかに教員からの連絡1件、ウェブ上の資料12件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月8日
+- 最終更新：2026年10月9日
 
 ## 全体
 
@@ -51,6 +51,9 @@
 - [AI利用の倫理](concepts/ai-ethics.md)：AIツールを使うときに配慮すべき著作権、プライバシー、公正性などの課題についてのページ。
 - [大規模言語モデル（LLM）](concepts/large-language-model.md)：ChatGPT、Claude、Gemini、GitHub Copilotなどの生成AIの中心にある技術、大規模言語モデル（LLM：Large Language Model）についてのページ。
 - [AIエージェント](concepts/ai-agent.md)：目標を与えられると、自分で計画を立て、ファイルの編集や命令の実行などの道具を使いながら作業を進めるAI、AIエージェントについてのページ。
+- [バージョン管理とGit](concepts/version-control-and-git.md)：ファイルの変更履歴を記録して管理するバージョン管理と、そのための道具であるGitについてのページ。
+- [GitHub flow（ブランチとプルリクエストの流れ）](concepts/github-flow.md)：ブランチを作って変更し、プルリクエストでレビューを受けてから本流に取り込む、GitHubの標準的な作業の流れ、GitHub flowについてのページ。
+- [Markdown](concepts/markdown.md)：記号だけで見出しや箇条書きなどの書式を付けられる文章の書き方、Markdownについてのページ。
 
 ## 資料
 
@@ -70,6 +73,9 @@
 - [資料：Google（g.tcu.ac.jp）サービスの利用について（情報基盤センター）](sources/web-tcu-google-services.md)：東京都市大学の情報基盤センターが2026年10月7日に出したお知らせ「Google（ユーザー名@g.tcu.ac.jp）サービスの利用について」の要約です（2026年10月7日に確認）。
 - [資料：TCUメール（情報基盤センター）](sources/web-tcu-mail.md)：情報基盤センターの「TCUメール」の案内とトップページのお知らせの要約です（2026年10月8日に確認）。
 - [資料：Microsoft Copilot Chatのプライバシーと保護](sources/web-microsoft-copilot-chat-privacy.md)：職場や学校のアカウントで使うCopilot Chatのデータの扱いと名称の変更についての、Microsoft Learnの要約です（2026年10月8日に確認）。
+- [資料：Pro Git「What is Git?」（Git公式サイト）](sources/web-git-book-what-is-git.md)：Gitがデータをスナップショットとして記録し、操作の多くが手元で完結することについての、Git公式サイトの要約です（2026年10月9日に確認）。
+- [資料：GitHub flow（GitHub Docs）](sources/web-github-flow.md)：ブランチとプルリクエストを使った共同作業の流れについての、GitHub公式ドキュメントの要約です（2026年10月9日に確認）。
+- [資料：Markdown Reference（CommonMark）](sources/web-commonmark-help.md)：Markdownの基本の書き方についての、CommonMarkの早見表の要約です（2026年10月9日に確認）。
 
 ## 質問への回答
 

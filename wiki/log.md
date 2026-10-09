@@ -54,3 +54,12 @@
 - 解決できなかった点：TCUアカウントでMicrosoft 365 Copilotのどの機能とデータ保護が有効かは、大学の案内が見つからず、未解決のまま。Geminiの扱いも同様。授業の運営に関わる点（評価、日程など）は資料がないため触れていない。
 - 確認してほしい点：WebClassの不具合の復旧のお知らせ（10月6日）の詳細は確かめていない。
 - 次回に回したこと：`raw/`に新しい資料はなく、`site/log.md`の依頼も大学の決定待ちのため対応していない。新しい資料の追加か、大学のプラン決定を待つ。
+
+## [2026-10-09] 取り込み | ウェブ上の資料（Git、GitHub flow、Markdown）と概念ページ
+
+- 授業で何度も出てくるのに独立したページがなかった概念を、公式の資料で確かめて3ページにまとめた。ウェブ上の資料として、[資料：Pro Git「What is Git?」](sources/web-git-book-what-is-git.md)、[資料：GitHub flow（GitHub Docs）](sources/web-github-flow.md)、[資料：Markdown Reference（CommonMark）](sources/web-commonmark-help.md)を作った。
+- 作成したページ：[バージョン管理とGit](concepts/version-control-and-git.md)、[GitHub flow（ブランチとプルリクエストの流れ）](concepts/github-flow.md)、[Markdown](concepts/markdown.md)。
+- 更新したページ：[GitHub](tools/github.md)、[LLM Wiki](concepts/llm-wiki.md)（関連ページ）、[目録](index.md)。各概念ページから、対応する解説ページ（GitHubとは、ブランチとプルリクエスト、Markdownの書き方）へリンクした。
+- 解決できなかった点：`raw/`に新しい資料はなく、大学のGitHub・Copilotのプランも未定のため、「確認が必要な点」は変わらない。TCUのGeminiの扱いやMicrosoft 365 Copilotの学内設定も、大学の案内が見つからないまま。
+- 次回に回したこと：コンテキストウィンドウ、ハルシネーション、プロンプトの概念ページ（解説ページ「AIの答えを確かめる」「プロンプトの書き方」に対応）。
+- 備考：この環境では`python`が`markdown`を持たない別のPythonを指していたため、`/usr/bin/python3`でビルドを確かめた。
