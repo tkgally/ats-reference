@@ -34,6 +34,7 @@ Andrej Karpathyが2026年4月に公開したアイデアで、このリポジト
 
 ## 関連ページ
 
+- [Markdown](markdown.md)
 - [AIエージェント](ai-agent.md)
 - [GitHub](../tools/github.md)
 - [PBL（プロジェクト型学習）](project-based-learning.md)
