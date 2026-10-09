@@ -162,6 +162,38 @@
       draw();
     },
 
+    // プロンプトの組み立て：要素を足すごとに頼み方がどう具体的になるかを見せる
+    "prompt-builder": function (el) {
+      var parts = [
+        { name: "目的", text: "大学祭の模擬店の企画を考えています。案を出してください。", gain: "何をしてほしいかが伝わります。" },
+        { name: "背景", text: "私たちは情報系の1年生5人のグループです。", gain: "誰が、どんな状況で使うのかが分かり、規模に合った案になります。" },
+        { name: "条件", text: "予算は3万円、火を使う調理はできません。準備は2週間以内でできるものにしてください。", gain: "守るべき制約が分かり、実行できない案が減ります。" },
+        { name: "出力の形", text: "案を5つ、表にしてください。列は「案」「費用の目安」「準備の手間」「工夫の点」です。", gain: "比べやすい形で返ってきます。" },
+        { name: "資料と例", text: "去年は、冷たいドリンクの店が3店あり、行列ができていました。", gain: "判断の材料が増え、被らない案を考えてもらえます。" }
+      ];
+      el.innerHTML = '<p class="demo-title">体験：要素を足すとプロンプトはどう変わる？</p>' +
+        '<p class="muted" style="font-size:14px;margin:0 0 6px">チェックを入れた要素が、下のプロンプトに加わります。</p>' +
+        '<div class="controls pb-checks"></div>' +
+        '<blockquote class="pb-out" style="margin:8px 0;white-space:pre-wrap"></blockquote>' +
+        '<p class="pb-note muted" style="font-size:14px;margin:0"></p>';
+      var checks = el.querySelector(".pb-checks"), out = el.querySelector(".pb-out"), note = el.querySelector(".pb-note");
+      var boxes = [];
+      var draw = function () {
+        var on = parts.filter(function (p, k) { return boxes[k].checked; });
+        out.textContent = on.length ? on.map(function (p) { return p.text; }).join("") : "大学祭の模擬店のアイデアを教えて。";
+        note.textContent = on.length ? on.map(function (p) { return p.name + "：" + p.gain; }).join(" ") : "何も足さないと、ありきたりな案が返ってきがちです。";
+      };
+      parts.forEach(function (p) {
+        var l = document.createElement("label");
+        l.style.cssText = "display:flex;align-items:center;gap:4px;font-size:15px";
+        var c = document.createElement("input");
+        c.type = "checkbox"; c.addEventListener("change", draw);
+        boxes.push(c); l.appendChild(c); l.appendChild(document.createTextNode(p.name));
+        checks.appendChild(l);
+      });
+      draw();
+    },
+
     // トークン分け：文がどのような断片に分かれるかの例を見せる
     "tokens": function (el) {
       var samples = [
