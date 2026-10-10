@@ -20,6 +20,9 @@ ChatGPT、Claude、Gemini、GitHub Copilotなどの生成AIの中心にある技
 ## 関連ページ
 
 - [AIエージェント](ai-agent.md)
+- [プロンプト](prompt.md)
+- [コンテキストウィンドウ](context-window.md)
+- [ハルシネーション](hallucination.md)
 - [LLM Wiki](llm-wiki.md)
 - [この授業で使うAIツール](../tools/ai-tools.md)
 - [AI利用の倫理](ai-ethics.md)

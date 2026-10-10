@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：40（目録と作業記録を除く）
-- 取り込んだ資料：1件（ほかに教員からの連絡1件、ウェブ上の資料12件）
+- ページ数：44（目録と作業記録を除く）
+- 取り込んだ資料：1件（ほかに教員からの連絡1件、ウェブ上の資料13件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月9日
+- 最終更新：2026年10月10日
 
 ## 全体
 
@@ -54,6 +54,9 @@
 - [バージョン管理とGit](concepts/version-control-and-git.md)：ファイルの変更履歴を記録して管理するバージョン管理と、そのための道具であるGitについてのページ。
 - [GitHub flow（ブランチとプルリクエストの流れ）](concepts/github-flow.md)：ブランチを作って変更し、プルリクエストでレビューを受けてから本流に取り込む、GitHubの標準的な作業の流れ、GitHub flowについてのページ。
 - [Markdown](concepts/markdown.md)：記号だけで見出しや箇条書きなどの書式を付けられる文章の書き方、Markdownについてのページ。
+- [プロンプト](concepts/prompt.md)：生成AIに送る頼みや質問の文章、プロンプトと、その書き方の考え方についてのページ。
+- [コンテキストウィンドウ](concepts/context-window.md)：生成AIが一度に参照できる文章の範囲、コンテキストウィンドウ（文脈の窓）についてのページ。
+- [ハルシネーション](concepts/hallucination.md)：生成AIが事実と違う内容を、もっともらしく答えてしまう現象、ハルシネーション（幻覚）についてのページ。
 
 ## 資料
 
@@ -76,6 +79,7 @@
 - [資料：Pro Git「What is Git?」（Git公式サイト）](sources/web-git-book-what-is-git.md)：Gitがデータをスナップショットとして記録し、操作の多くが手元で完結することについての、Git公式サイトの要約です（2026年10月9日に確認）。
 - [資料：GitHub flow（GitHub Docs）](sources/web-github-flow.md)：ブランチとプルリクエストを使った共同作業の流れについての、GitHub公式ドキュメントの要約です（2026年10月9日に確認）。
 - [資料：Markdown Reference（CommonMark）](sources/web-commonmark-help.md)：Markdownの基本の書き方についての、CommonMarkの早見表の要約です（2026年10月9日に確認）。
+- [資料：Claude Platform Docs（コンテキストウィンドウ、ハルシネーションの低減、プロンプトの概説）](sources/web-claude-docs-context-hallucination.md)：Anthropicの開発者向けドキュメントにある、コンテキストウィンドウ、ハルシネーションの減らし方、プロンプトエンジニアリングの概説の要約です（2026年10月10日に確認）。
 
 ## 質問への回答
 
