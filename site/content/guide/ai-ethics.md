@@ -5,7 +5,7 @@ description: 著作権、個人情報、公正性、AI利用の明示、セキ�
 category: project
 order: 3
 level: 基本
-updated: 2026年10月7日
+updated: 2026年10月10日
 ---
 
 ## なぜ倫理とルールを学ぶのか
@@ -119,6 +119,8 @@ AIに何かを貼り付けたり、AIで作ったものを公開したりする�
 {{svg:ai-ethics-before-paste.svg}}
 <figcaption>AIに資料を貼り付ける前の確認。一つでも「はい」なら、右の対応をしてから使う。</figcaption>
 </figure>
+
+<div class="demo" data-demo="paste-check"></div>
 
 公開や提出の前には、次の点も確かめます。
 

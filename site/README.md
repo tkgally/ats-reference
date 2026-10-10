@@ -96,7 +96,7 @@ Markdownの中にHTMLを書くときは、中のMarkdownも変換されるよう
 - 囲みの種類：`note`（補足、青）、`tip`（ポイント、緑）、`warn`（注意、橙）、`danger`（禁止・危険、赤）、`try`（やってみよう、紫）。
 - 良い例と悪い例の対比：`<div class="compare" markdown="1">`の中に`<div class="good" markdown="1">`と`<div class="bad" markdown="1">`を並べる。
 - 手順：`<ol class="steps">`の中に`<li>`を並べると、番号つきの手順になる（中はHTMLで書く）。
-- 体験コーナー：`<div class="demo" data-demo="名前"></div>`と書くと、`static/site.js`の`demos`に登録した小さな対話型の教材が表示される。いまあるのは`next-token`（次の言葉の予測）、`tokens`（トークン分け）、`prompt-builder`（プロンプトの組み立て）。
+- 体験コーナー：`<div class="demo" data-demo="名前"></div>`と書くと、`static/site.js`の`demos`に登録した小さな対話型の教材が表示される。いまあるのは`next-token`（次の言葉の予測）、`tokens`（トークン分け）、`prompt-builder`（プロンプトの組み立て）、`paste-check`（AIに貼り付ける前の確認）。
 
 ### 図（SVG）
 

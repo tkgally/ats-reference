@@ -194,6 +194,42 @@
       draw();
     },
 
+    // 貼り付ける前の確認：四つの問いに答えると、どうすればよいかの判断が出る
+    "paste-check": function (el) {
+      var qs = [
+        { q: "パスワードやAPIキーが含まれている？", act: "貼らない。消してから使う。", lv: "red" },
+        { q: "他人の個人情報（氏名、学籍番号、連絡先、写真など）が含まれている？", act: "削るか、「Aさん」のように置き換える。", lv: "orange" },
+        { q: "他人の作品や有料の資料を使う？", act: "利用条件を確かめ、必要な部分だけにする。", lv: "orange" },
+        { q: "非公開の資料や未発表の内容？", act: "持ち主や教員に確認してから使う。", lv: "orange" }
+      ];
+      el.innerHTML = '<p class="demo-title">体験：AIに貼り付ける前の確認</p>' +
+        '<p class="muted" style="font-size:14px;margin:0 0 6px">貼り付けようとしている内容に当てはまるものにチェックを入れてください。</p>' +
+        '<div class="pc-checks" style="display:grid;gap:6px"></div>' +
+        '<div class="pc-out box" style="margin:10px 0 0" role="status" aria-live="polite"></div>';
+      var checks = el.querySelector(".pc-checks"), out = el.querySelector(".pc-out"), boxes = [];
+      var draw = function () {
+        var hit = qs.filter(function (x, k) { return boxes[k].checked; });
+        if (!hit.length) {
+          out.className = "pc-out box tip";
+          out.innerHTML = '<p class="box-title">使ってよい</p><p style="margin:0">どれにも当たらなければ、貼り付けて使えます。ただし、返ってきた答えは自分で確かめてください。</p>';
+          return;
+        }
+        var red = hit.some(function (x) { return x.lv === "red"; });
+        out.className = "pc-out box " + (red ? "danger" : "warn");
+        out.innerHTML = '<p class="box-title">' + (red ? "そのままでは貼らない" : "対応してから使う") + "</p>" +
+          "<ul style=\"margin:0\">" + hit.map(function (x) { return "<li>" + x.act + "</li>"; }).join("") + "</ul>";
+      };
+      qs.forEach(function (x) {
+        var l = document.createElement("label");
+        l.style.cssText = "display:flex;align-items:flex-start;gap:6px;font-size:15px";
+        var c = document.createElement("input");
+        c.type = "checkbox"; c.style.marginTop = "5px"; c.addEventListener("change", draw);
+        boxes.push(c); l.appendChild(c); l.appendChild(document.createTextNode(x.q));
+        checks.appendChild(l);
+      });
+      draw();
+    },
+
     // トークン分け：文がどのような断片に分かれるかの例を見せる
     "tokens": function (el) {
       var samples = [
