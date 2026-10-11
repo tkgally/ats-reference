@@ -5,7 +5,7 @@ description: 目的、背景、条件、出力の形を伝える、資料や例�
 category: ai
 order: 3
 level: 入門
-updated: 2026年10月9日
+updated: 2026年10月11日
 ---
 
 ## プロンプトとは
@@ -243,4 +243,4 @@ GitHub Copilotのエージェントなど、ファイルを読み書きできる
 - [AIツールの選び方](ai-tools-compare.md)
 - [AIエージェントとは](ai-agents.md)
 - [Copilotのエージェントに作業を頼む](copilot-agent.md)
-- Wikiの関連ページ：[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)
+- Wikiの関連ページ：[プロンプト](../../../wiki/concepts/prompt.md)、[コンテキストウィンドウ](../../../wiki/concepts/context-window.md)、[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)
