@@ -5,7 +5,7 @@ description: ChatGPT、Claude、Geminiなどの土台にある大規模言語モ
 category: ai
 order: 1
 level: 入門
-updated: 2026年10月7日
+updated: 2026年10月11日
 ---
 
 ## 生成AIと大規模言語モデル
@@ -101,6 +101,8 @@ AIが一度に読める文章の範囲を「文脈の窓」（コンテキスト
 - 新しいチャットを始めると、窓は空になる。前のチャットの内容は、基本的には引き継がれない。
 - 一部のサービスには、利用者についての情報を保存して次の会話でも使う「メモリー」機能がある。これは、保存したメモを窓に入れ直すしくみで、モデル自体が新しく学習しているわけではない。
 
+<div class="demo" data-demo="context-window"></div>
+
 この授業で作る知識ベース（[LLM Wiki](../../../wiki/concepts/llm-wiki.md)）は、プロジェクトの資料と決めたことをファイルにまとめておき、必要なときにAIの窓に読み込ませる、という考え方でもあります。
 
 ## 知識の締め切りと検索
@@ -167,4 +169,4 @@ AIの答えの言い方が自信に満ちていても、それは正しさの証
 - [AIの答えを確かめる](checking-ai-output.md)
 - [AIエージェントとは](ai-agents.md)
 - [用語集](glossary.md)
-- Wikiの関連ページ：[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)
+- Wikiの関連ページ：[大規模言語モデル](../../../wiki/concepts/large-language-model.md)、[コンテキストウィンドウ](../../../wiki/concepts/context-window.md)、[ハルシネーション](../../../wiki/concepts/hallucination.md)、[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)

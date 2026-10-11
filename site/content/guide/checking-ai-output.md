@@ -5,7 +5,7 @@ description: AIがよくする間違いの種類と、その確かめ方、危�
 category: ai
 order: 5
 level: 基本
-updated: 2026年10月7日
+updated: 2026年10月11日
 ---
 
 ## なぜ確かめる必要があるのか
@@ -146,4 +146,4 @@ GitHubのリポジトリで作業しているなら、作業記録のファイ�
 - [自分のプロジェクトに知識ベースを作る](knowledge-base.md)
 - [AIツールの選び方](ai-tools-compare.md)
 - [AIを使った調べもの](ai-research.md)
-- Wikiの関連ページ：[AI利用の倫理](../../../wiki/concepts/ai-ethics.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)、[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)
+- Wikiの関連ページ：[ハルシネーション](../../../wiki/concepts/hallucination.md)、[AI利用の倫理](../../../wiki/concepts/ai-ethics.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)、[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)

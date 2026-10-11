@@ -230,6 +230,41 @@
       draw();
     },
 
+    // 文脈の窓：会話が長くなると古い発言が窓からあふれるようすを見せる
+    "context-window": function (el) {
+      var msgs = [
+        "私の名前は田中です。", "卒業研究のテーマは水質調査です。", "調査地は多摩川です。",
+        "まず背景を書きたいです。", "先行研究を三つ挙げてください。", "二つ目を短くしてください。",
+        "方法の節に進みます。", "採水は月に一度です。", "グラフの案をください。", "結論を一文でまとめて。"
+      ];
+      var n = 0, size = 5;
+      el.innerHTML = '<p class="demo-title">体験：文脈の窓からあふれる古い発言</p>' +
+        '<div class="controls"><button class="primary cw-add">発言を一つ足す</button><button class="cw-reset">最初から</button>' +
+        '<label style="display:flex;align-items:center;gap:6px;font-size:14px">窓の大きさ<input class="cw-size" type="range" min="3" max="8" step="1" value="5"><span class="cw-sv">5</span>件</label></div>' +
+        '<div class="cw-list" style="display:grid;gap:4px;margin:8px 0"></div>' +
+        '<p class="cw-note" role="status" aria-live="polite" style="font-size:15px;margin:0"></p>' +
+        '<p class="muted" style="font-size:14px;margin:6px 0 0">実際の窓はトークンで数え、もっと大きいですが、あふれると古い部分が読めなくなる点は同じです。サービスによっては、あふれる前に要約されます。</p>';
+      var list = el.querySelector(".cw-list"), note = el.querySelector(".cw-note");
+      var draw = function () {
+        list.innerHTML = "";
+        msgs.slice(0, n).forEach(function (m, k) {
+          var inside = k >= n - size;
+          var d = document.createElement("div");
+          d.style.cssText = "padding:4px 10px;border-radius:6px;font-size:15px;border:1px solid " + (inside ? "var(--c-green)" : "var(--line-strong)") + ";background:" + (inside ? "var(--c-green-soft)" : "var(--bg-soft)") + ";" + (inside ? "" : "opacity:.65;text-decoration:line-through");
+          d.textContent = (inside ? "窓の中：" : "窓の外：") + m;
+          list.appendChild(d);
+        });
+        if (n === 0) note.textContent = "「発言を一つ足す」を押して、会話を進めてください。";
+        else if (n > size) note.textContent = "AIには、緑の発言しか見えません。名前やテーマなど、最初に伝えたことは忘れたように見えます。大事なことは、改めて書くか、資料のファイルにまとめて読み込ませます。";
+        else note.textContent = "いまは全ての発言が窓に入っているので、AIはどれも読めます。";
+        el.querySelector(".cw-add").disabled = n >= msgs.length;
+      };
+      el.querySelector(".cw-add").addEventListener("click", function () { if (n < msgs.length) { n++; draw(); } });
+      el.querySelector(".cw-reset").addEventListener("click", function () { n = 0; draw(); });
+      el.querySelector(".cw-size").addEventListener("input", function (e) { size = +e.target.value; el.querySelector(".cw-sv").textContent = size; draw(); });
+      draw();
+    },
+
     // トークン分け：文がどのような断片に分かれるかの例を見せる
     "tokens": function (el) {
       var samples = [
