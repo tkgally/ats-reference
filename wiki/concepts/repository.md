@@ -27,6 +27,8 @@ GitHub公式のドキュメントによれば、リポジトリはGitHubの最�
 - [バージョン管理とGit](version-control-and-git.md)
 - [GitHub flow（ブランチとプルリクエストの流れ）](github-flow.md)
 - [二要素認証](two-factor-authentication.md)
+- [README](readme.md)
+- [Issues](github-issues.md)
 
 ## 出典
 

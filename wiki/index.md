@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：47（目録と作業記録を除く）
-- 取り込んだ資料：1件（ほかに教員からの連絡1件、ウェブ上の資料14件）
+- ページ数：50（目録と作業記録を除く）
+- 取り込んだ資料：1件（ほかに教員からの連絡1件、ウェブ上の資料15件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月11日
+- 最終更新：2026年10月12日
 
 ## 全体
 
@@ -59,6 +59,8 @@
 - [ハルシネーション](concepts/hallucination.md)：生成AIが事実と違う内容を、もっともらしく答えてしまう現象、ハルシネーション（幻覚）についてのページ。
 - [リポジトリ](concepts/repository.md)：プロジェクトのファイルとその変更履歴を保管する場所、リポジトリ（repository）についてのページ。
 - [二要素認証](concepts/two-factor-authentication.md)：パスワードに加えて、本人だけが持つ第二の要素でログインを確かめるしくみ、二要素認証（2FA）についてのページ。
+- [Issues](concepts/github-issues.md)：プロジェクトの作業や疑問を書き留め、話し合い、進み具合を追うためのGitHubのしくみ、Issues（課題）についてのページ。
+- [README](concepts/readme.md)：リポジトリの入り口に置いて、プロジェクトの目的や使い方を説明するファイル、READMEについてのページ。
 
 ## 資料
 
@@ -83,6 +85,7 @@
 - [資料：Markdown Reference（CommonMark）](sources/web-commonmark-help.md)：Markdownの基本の書き方についての、CommonMarkの早見表の要約です（2026年10月9日に確認）。
 - [資料：Claude Platform Docs（コンテキストウィンドウ、ハルシネーションの低減、プロンプトの概説）](sources/web-claude-docs-context-hallucination.md)：Anthropicの開発者向けドキュメントにある、コンテキストウィンドウ、ハルシネーションの減らし方、プロンプトエンジニアリングの概説の要約です（2026年10月10日に確認）。
 - [資料：リポジトリと二要素認証（GitHub Docs）](sources/web-github-repositories-2fa.md)：GitHubの公式ドキュメントにある、リポジトリの基本と二要素認証の概説の要約です（2026年10月11日に確認）。
+- [資料：IssuesとREADME（GitHub Docs）](sources/web-github-issues-readme.md)：GitHubの公式ドキュメントにある、Issues（課題の管理）とREADMEファイルの概説の要約です（2026年10月12日に確認）。
 
 ## 質問への回答
 
