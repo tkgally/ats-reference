@@ -81,3 +81,13 @@
 - 未処理の`raw/`資料と、`site/log.md`のWiki向けの依頼はなかったため、「内容の拡充」として、受講生がGitHubを始めるときに必要な概念を独立ページにした。
 - 確認が必要な点：解決したものはない。大学のGitHub・Copilotのプランは引き続き未定。
 - 次回に回す作業：Issues、フォーク、READMEなどの独立ページ。AGENTS.mdの点検（取り込みが5件以上進んでいる）。
+
+## [2026-10-12] 取り込み | ウェブ上の資料（IssuesとREADME）と概念ページ
+
+- 新しい資料：[資料：IssuesとREADME（GitHub Docs）](sources/web-github-issues-readme.md)（2026年10月12日に確認）
+- 作ったページ：[Issues](concepts/github-issues.md)、[README](concepts/readme.md)
+- 更新したページ：[リポジトリ](concepts/repository.md)（関連ページ）、目録
+- 未処理の`raw/`資料はなく、`site/log.md`のWiki向けの依頼も大学の決定待ちのため、「内容の拡充」として前回予告した独立ページを作った。
+- 確認が必要な点：解決したものはない。大学のGitHub・Copilotのプランは引き続き未定。授業でIssuesを使うかどうかも資料がなく、推測として明記した。
+- 次回に回す作業：フォークのページ、AGENTS.mdの点検（取り込みが5件以上進んでいる）。
+- 備考：この環境の`python`は`markdown`を持たないため、`/usr/bin/python3`でビルドを確かめた。
