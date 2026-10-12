@@ -265,6 +265,50 @@
       draw();
     },
 
+    // 間違い探し：AIの答えの中から、確かめが必要な文を選んで答え合わせをする
+    "halluc-quiz": function (el) {
+      var items = [
+        { t: "富士山の標高は3,776メートルです。", bad: false, why: "正しい内容です。国土地理院が公表している標高と一致します。" },
+        { t: "山梨県と静岡県にまたがっています。", bad: false, why: "正しい内容です。" },
+        { t: "2013年に、ユネスコの世界文化遺産に登録されました。", bad: false, why: "正しい内容です。「自然遺産」ではなく「文化遺産」である点も合っています。" },
+        { t: "最後に噴火したのは2020年です。", bad: true, why: "誤りです。最後の噴火は1707年（宝永噴火）とされています。年や数字は取り違えやすいので、公的な資料で確かめます。" },
+        { t: "日本一高い山で、世界の山の高さでも上位10位に入ります。", bad: true, why: "後半が誤りです。日本一は正しいものの、世界の山の中では標高3,776メートルは上位に入りません（世界最高峰のエベレストは8,000メートルを超えます）。正しい内容に誤りを混ぜて、もっともらしく見せる間違いがあります。" },
+        { t: "参考：山田太郎『富士山の科学』（青空出版、2019年）", bad: true, why: "この本は、この体験のために作った架空の出典です。AIが挙げた出典は、自分で探して開くまで信用しません。" }
+      ];
+      el.innerHTML = '<p class="demo-title">体験：AIの答えの間違い探し</p>' +
+        '<p class="muted" style="font-size:14px;margin:0 0 6px">質問「富士山について教えて」に対するAIの答えです。確かめる必要があると思う文にチェックを入れて、答え合わせを押してください。</p>' +
+        '<div class="hq-list" style="display:grid;gap:6px"></div>' +
+        '<div class="controls"><button class="primary hq-go">答え合わせ</button><button class="hq-reset">やり直す</button></div>' +
+        '<div class="hq-out" role="status" aria-live="polite"></div>';
+      var list = el.querySelector(".hq-list"), out = el.querySelector(".hq-out"), rows = [];
+      items.forEach(function (x) {
+        var l = document.createElement("label");
+        l.style.cssText = "display:flex;align-items:flex-start;gap:6px;font-size:15px;padding:4px 8px;border-radius:6px;border:1px solid var(--line-strong)";
+        var c = document.createElement("input");
+        c.type = "checkbox"; c.style.marginTop = "5px";
+        var t = document.createElement("span"); t.textContent = x.t;
+        var r = document.createElement("span"); r.className = "hq-r"; r.style.cssText = "display:block;font-size:14px;margin-top:2px";
+        var w = document.createElement("span"); w.appendChild(t); w.appendChild(r);
+        l.appendChild(c); l.appendChild(w); list.appendChild(l);
+        rows.push({ box: c, label: l, r: r, x: x });
+      });
+      el.querySelector(".hq-go").addEventListener("click", function () {
+        var ok = 0;
+        rows.forEach(function (o) {
+          var hit = o.box.checked === o.x.bad;
+          if (hit) ok++;
+          o.label.style.borderColor = hit ? "var(--c-green)" : "var(--c-red)";
+          o.r.textContent = (hit ? "○ " : "× ") + (o.x.bad ? "確かめが必要。" : "確かめて問題なし。") + o.x.why;
+        });
+        out.className = "hq-out box " + (ok === rows.length ? "tip" : "note");
+        out.innerHTML = '<p class="box-title">' + ok + " / " + rows.length + ' 問、合っていました</p><p style="margin:0">AIの答えは、正しい文と間違った文が同じ調子で並びます。文章の自信ありげな調子では見分けられません。年、数字、「最大」などの言い切り、出典は、特に確かめます。</p>';
+      });
+      el.querySelector(".hq-reset").addEventListener("click", function () {
+        rows.forEach(function (o) { o.box.checked = false; o.label.style.borderColor = ""; o.r.textContent = ""; });
+        out.className = "hq-out"; out.innerHTML = "";
+      });
+    },
+
     // トークン分け：文がどのような断片に分かれるかの例を見せる
     "tokens": function (el) {
       var samples = [
