@@ -4,11 +4,12 @@
 
 ## ツールの一覧
 
-2026年10月7日時点の情報です。
+2026年10月13日時点の情報です（一部は10月7日時点）。担当教員によれば、この授業では、LLMへのアクセスとGitHubのリポジトリでの作業に、おもにGitHub Copilotデスクトップアプリを使います。
 
 | ツール | 用途 | 利用の条件 | 詳しいページ |
 | :---- | :---- | :---- | :---- |
 | GitHub | プロジェクトのファイル、知識ベース、作業履歴の管理 | 各自のアカウント | [GitHub](github.md) |
+| GitHub Copilotデスクトップアプリ | この授業の中心になるツール。LLMの利用と、GitHubのリポジトリでの作業を、このアプリで行う | Copilotの利用権（大学が提供）。GitHubアカウントでサインイン | [GitHub Copilotデスクトップアプリ](github-copilot-app.md) |
 | GitHub Copilot | GitHubやVS Codeで使うAIアシスタント | 大学の予算で受講生全員に有料版を提供（10月〜1月末） | [GitHub Copilot](github-copilot.md) |
 | Microsoft 365 Copilot | Microsoft 365の中で使うAIアシスタント | TCUアカウント | [Microsoft 365 Copilot](microsoft-365-copilot.md) |
 | ChatGPT、Claude、Geminiなど | プロジェクトに合わせて選ぶ汎用のAIツール | 各自で用意（大学での提供は要確認） | [ChatGPT、Claude、Gemini](ai-chat-services.md) |
@@ -31,6 +32,7 @@ ChatGPT、Claude、Geminiの料金の概要とデータの設定は、公式の�
 - [大規模言語モデル（LLM）](../concepts/large-language-model.md)
 - [GitHub](github.md)
 - [GitHub Copilot](github-copilot.md)
+- [GitHub Copilotデスクトップアプリ](github-copilot-app.md)
 - [Microsoft 365 Copilot](microsoft-365-copilot.md)
 - [VS Code](vs-code.md)
 - [AI利用の倫理](../concepts/ai-ethics.md)
@@ -39,4 +41,5 @@ ChatGPT、Claude、Geminiの料金の概要とデータの設定は、公式の�
 ## 出典
 
 - [資料：授業の背景情報](../sources/ats-class-background.md)
+- [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](../sources/20261013-GitHub-and-Copilot-information.md)
 - [資料：ChatGPT、Claude、Geminiの料金とデータの設定](../sources/web-ai-chat-services.md)

@@ -211,6 +211,9 @@ def rewrite_links(page: Page, pages: dict[str, Page], by_out: dict[str, Page], c
             warn(f"{page.src}: リンク先が見つからない：{url}")
             return m.group(0)
         target = resolve_repo_path(page, path)
+        if page.src.startswith("raw/") and target not in pages and not (ROOT / target).exists():
+            # raw/の資料（変更しない）には、リポジトリのルートからの相対パスで書かれたリンクがある
+            target = posixpath.normpath(path)
         if target in pages:
             page.links_to.add(target)
             new = relurl(page.out, pages[target].out) + frag

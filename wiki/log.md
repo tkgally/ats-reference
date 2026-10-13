@@ -91,3 +91,12 @@
 - 確認が必要な点：解決したものはない。大学のGitHub・Copilotのプランは引き続き未定。授業でIssuesを使うかどうかも資料がなく、推測として明記した。
 - 次回に回す作業：フォークのページ、AGENTS.mdの点検（取り込みが5件以上進んでいる）。
 - 備考：この環境の`python`は`markdown`を持たないため、`/usr/bin/python3`でビルドを確かめた。
+
+## [2026-10-13] 取り込み | GitHub Copilotデスクトップアプリのガイド
+
+- 新しい資料：`raw/20261013-GitHub-and-Copilot-information.md`（[要約](sources/20261013-GitHub-and-Copilot-information.md)）。併せて、担当教員から「この授業ではGitHub Copilotデスクトップアプリをおもに使い、LLMへのアクセスとGitHubのリポジトリでの作業をそのアプリで行う」との指示を受けた。
+- 作ったページ：[GitHub Copilotデスクトップアプリ](tools/github-copilot-app.md)
+- 更新したページ：[GitHub Copilot](tools/github-copilot.md)、[GitHub](tools/github.md)、[この授業で使うAIツール](tools/ai-tools.md)、[TCUアカウントと多要素認証](campus/tcu-account.md)、[全体の概観](overview.md)、目録
+- 確認が必要な点を追加：大学が配るGitHubアカウントの種類、ログイン方法、二要素認証の方式、組織の「GitHub Copilot app」ポリシー。IT担当者への質問21項目は資料にある。エージェントは公式ドキュメント「GitHub Copilot アプリ」を自分では確かめておらず、資料の記述に頼っている（次回、確かめて`web-`の要約にする）。
+- 次回に回す作業：公式ドキュメントでアプリの記述を確かめる。IT担当者の説明（10月14日の予定）が資料として加わったら、アカウント、利用権、公開範囲の記述を更新する。解説ページ（GitHubを始める、Copilotとは、よくある質問）がアプリ中心の説明になっているかを`site/log.md`に依頼として書いた。
+- 備考：`raw/`の資料がリポジトリのルートからの相対パスでリンクを書いていたため、`site/build.py`が`raw/`の資料に限りその書き方を受け付けるようにした（`raw/`は変更していない）。この環境では`/usr/bin/python3`でビルドを確かめた。

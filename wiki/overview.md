@@ -8,10 +8,11 @@
 
 ## 道具立て
 
-授業の中心にあるのは、GitHubと複数のAIツールです。
+授業の中心にあるのは、GitHubと複数のAIツールで、そのうちLLMの利用とリポジトリでの作業には、おもにGitHub Copilotデスクトップアプリを使います。
 
 - [GitHub](tools/github.md)：プロジェクトのファイル、知識ベース、作業履歴を置く場所。画面は英語だが、必要な操作に絞って覚え、あとはAIエージェントに日本語で頼めばよい（[GitHubの日本語対応](tools/github-japanese-support.md)）。
 - [GitHub Copilot](tools/github-copilot.md)：大学の予算で受講生全員に有料版が提供される（10月〜1月末）。
+- [GitHub Copilotデスクトップアプリ](tools/github-copilot-app.md)：この授業でLLMを使い、GitHubのリポジトリで作業するときに、おもに使うアプリ（2026年10月13日、担当教員）。
 - [Microsoft 365 Copilot](tools/microsoft-365-copilot.md)：TCUアカウントで使える。
 - ChatGPT、Claude、Geminiなど：プロジェクトに合わせて選ぶ。
 
@@ -38,6 +39,7 @@ TCUアカウント、WebClass、Microsoft 365などの学内サービスは[学�
 - 成績評価の方法と基準、課題の提出先（WebClassを使うかどうか）。
 - 個人とチームのどちらで取り組むか、チームの作り方。
 - GitHub Copilotの提供プラン、申し込み方法、期間終了後の扱い。一般向けのプランと学生向けのプランは公式ドキュメントで確かめたが（[GitHub Copilot](tools/github-copilot.md)）、大学から提供されるものがどれに当たるかは分かっていない。大学はMicrosoftと調整中（2026年10月7日、教員からの連絡）。
+- 大学が配るGitHubアカウントの種類（大学が管理するアカウントか、組織に参加させる個人アカウントか）、ログイン方法、二要素認証の方式、組織の「GitHub Copilot app」ポリシーの状態。2026年10月13日の資料にIT担当者への質問21項目がある（[GitHub Copilotデスクトップアプリ](tools/github-copilot-app.md)）。
 - 授業で使うリポジトリの公開範囲（公開、非公開、学内だけで共有できる選択肢）。GitHubとCopilotのプランが決まってから決まる見込み（[GitHub](tools/github.md)）。
 - ChatGPT、Claude、Geminiなどについて、大学として使えるもの、費用の扱い、利用上の注意。大学のGoogleアカウント（g.tcu.ac.jp）についての案内（Gmailは使わない、Google Classroomなどはサポート外）は分かったが、Geminiには触れていない（[TCUのGoogleアカウント](campus/tcu-google-account.md)）。
 - AI利用の倫理（著作権、プライバシー、公正性）について、授業や大学としての具体的な指針。国の指針は[AI利用の倫理](concepts/ai-ethics.md)にまとめた。
@@ -53,4 +55,5 @@ TCUアカウント、WebClass、Microsoft 365などの学内サービスは[学�
 ## 出典
 
 - [資料：授業の背景情報](sources/ats-class-background.md)
+- [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](sources/20261013-GitHub-and-Copilot-information.md)
 - [LLM Wiki（日本語版）](../llm-wiki-j.md)

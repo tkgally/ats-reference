@@ -25,6 +25,7 @@
 ### Wikiとの連携
 
 - 大学のGitHubとCopilotのプラン（Microsoftと調整中）が決まったら、リポジトリの公開範囲についての仮の記述（GitHubとは、GitHubを始める、自分のプロジェクトに知識ベースを作る、よくある質問、AIを使うときの倫理とルール、用語集など）と、Copilotの提供についての記述を更新する。`grep -rn "Internal\|公開範囲" site/content`で該当箇所を探せる。
+- 2026年10月13日：担当教員の方針で、授業ではGitHub Copilotデスクトップアプリ（[Wiki](../wiki/tools/github-copilot-app.md)）をおもに使う。解説ページ（GitHubを始める、GitHub Copilotとは、VS CodeでCopilotを使う準備、Copilotのエージェントに作業を頼む、よくある質問）がVS Code中心の説明になっていれば、アプリ中心に改める。アカウントの種類などの詳細はIT担当者の説明（10月14日の予定）を待つ。
 - 授業サイトのログのページ、Copilotの配布方法の案内などが`raw/`に加わったら、関係する解説ページ（GitHub Copilotとは、よくある質問など）の記述を直す。
 
 ## 作業記録
