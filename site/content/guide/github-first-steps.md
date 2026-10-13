@@ -5,7 +5,7 @@ description: GitHubのアカウントを作り、二要素認証を設定し、�
 category: github
 order: 2
 level: 入門
-updated: 2026年10月7日
+updated: 2026年10月13日
 ---
 
 ## 最初の日にすること
@@ -16,6 +16,8 @@ updated: 2026年10月7日
 {{svg:github-first-steps-flow.svg}}
 <figcaption>最初の日の流れ。アカウントを作って守りを固め、練習用のリポジトリで編集と履歴を体験し、最後に仲間を招待する。</figcaption>
 </figure>
+
+この授業では、リポジトリでの作業をおもにCopilotデスクトップアプリで行います。このページでアカウントと二要素認証を整えたら、[Copilotデスクトップアプリを使い始める](copilot-app.md)に進んでください。ブラウザでのgithub.comの操作は、アプリを補うものとして、履歴の確認や招待などに使います。
 
 GitHubの画面は英語です（2026年10月時点）。このページでは、画面に出る英語を<span class="ui">Sign up</span>のような形で示します。知らない言葉が出てきたら、[英語の画面を読むための単語帳](github-english-ui.md)を引いてください。
 
@@ -196,5 +198,6 @@ README（リードミー）は、リポジトリの説明を書くファイル�
 - [英語の画面を読むための単語帳](github-english-ui.md)
 - [ブランチとプルリクエストでの共同作業](github-collaboration.md)
 - [Markdownの書き方](markdown.md)
+- [Copilotデスクトップアプリを使い始める](copilot-app.md)（アカウントができたら、次はこれ）
 - [GitHub Copilotとは](copilot-overview.md)
 - Wikiの関連ページ：[GitHub](../../../wiki/tools/github.md)、[GitHubの日本語対応](../../../wiki/tools/github-japanese-support.md)、[GitHub Copilot](../../../wiki/tools/github-copilot.md)、[TCUアカウントと多要素認証](../../../wiki/campus/tcu-account.md)

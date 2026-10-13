@@ -5,7 +5,7 @@ description: 授業の日程、学内Wi-Fi、TCUアカウント、GitHubの操�
 category: reference
 order: 2
 level: 入門
-updated: 2026年10月7日
+updated: 2026年10月13日
 ---
 
 ## 困ったときは
@@ -67,6 +67,7 @@ TCUアカウントにはGoogleのアカウント（ユーザー名@g.tcu.ac.jp�
 - 公式ドキュメントの日本語版（[GitHub Docs](https://docs.github.com/ja)）を読む。
 - ブラウザの翻訳機能を使う。ただしファイル名やコミットメッセージまで翻訳されて分かりにくくなることがあるので、必要なときだけにする。
 - 画面の写真や英語の表示をAIに見せて、「これはどういう意味ですか」と聞く。
+- Copilotデスクトップアプリで、日本語でCopilotに頼んで作業する（[使い始める](copilot-app.md)）。
 - VS Codeに日本語言語パックを入れて、VS Codeから操作する（[VS CodeでCopilotを使う準備](vscode-copilot-setup.md)）。
 
 ### コミットし忘れたかもしれません
@@ -104,13 +105,13 @@ AIエージェントに作業を頼んだ場合は、エージェントがコミ
 
 GitHub Copilotの有料版は、大学の予算で受講生全員に提供されます。提供期間は10月から1月末までです。2026年10月7日時点では、大学がGitHubとCopilotのプランをMicrosoftと調整しているところで、どのプランが提供されるか、どう申し込むかはまだ決まっていません（[GitHub Copilot](../../../wiki/tools/github-copilot.md)）。授業での案内、授業サイト、WebClassの連絡を確かめてください。案内どおりに手続きしても使えない場合は、教員に相談しましょう。
 
-VS Codeで使う場合は、提供を受けたものと同じGitHubアカウントでサインインしているかも確かめます。Copilotでできることは[GitHub Copilotとは](copilot-overview.md)で説明しています。
+Copilotデスクトップアプリ（[使い始める](copilot-app.md)）やVS Codeで使う場合は、提供を受けたものと同じGitHubアカウントでサインインしているかも確かめます。`https://github.com/settings/copilot`で、Copilotの利用権が付いているかを見られます。Copilotでできることは[GitHub Copilotとは](copilot-overview.md)で説明しています。
 
 ### どのAIツールを使えばよいですか
 
 この授業では、一つの製品に絞らず、目的に合ったツールを選べるようになることが達成目標の一つです（[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)）。目安は次のとおりです。
 
-- GitHubのリポジトリでの作業、ファイルの作成や整理：GitHub Copilot
+- GitHubのリポジトリでの作業、ファイルの作成や整理：GitHub Copilot（授業ではおもにCopilotデスクトップアプリ。[使い始める](copilot-app.md)）
 - WordやPowerPointなど、Microsoft 365での作業：TCUアカウントで使えるMicrosoft 365 Copilot
 - 調べもの、アイデア出し、文章の相談：ChatGPT、Claude、Geminiなど
 

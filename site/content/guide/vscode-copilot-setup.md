@@ -5,8 +5,15 @@ description: VS Codeを入れて日本語にし、GitHubでサインインして
 category: copilot
 order: 2
 level: 基本
-updated: 2026年10月7日
+updated: 2026年10月13日
 ---
+
+<div class="box note" markdown="1">
+<p class="box-title">この授業の中心はCopilotアプリです</p>
+
+この授業では、リポジトリでの作業とAIの利用を、おもに[Copilotデスクトップアプリ](copilot-app.md)で行います（2026年10月13日の担当教員の方針）。このページは、文章やファイルをエディターで自分で書きたい人、VS Codeを使い慣れている人のための説明です。まずは[Copilotデスクトップアプリを使い始める](copilot-app.md)を読んでください。
+
+</div>
 
 ## なぜVS Codeを使うのか
 
@@ -169,6 +176,7 @@ VS Codeでファイルを書き換えても、そのままではパソコンの�
 
 ## 次に読むページ
 
+- [Copilotデスクトップアプリを使い始める](copilot-app.md)
 - [Copilotのエージェントに作業を頼む](copilot-agent.md)
 - [GitHub Copilotとは](copilot-overview.md)
 - [GitHubとは：基本の考え方](github-basics.md)
