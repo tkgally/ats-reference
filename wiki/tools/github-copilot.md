@@ -17,6 +17,10 @@ GitHubの公式ドキュメントによれば、Copilotには無料のCopilot Fr
 
 学生は、GitHub Educationで認証されると無料でCopilotを使えます（[資料：学生向けのGitHub Copilot](../sources/web-github-copilot-students.md)）。この授業で大学から提供される有料版が、これらのどのプランに当たるのかは、まだ分かっていません（要確認）。
 
+## デスクトップアプリ
+
+この授業では、LLMの利用とGitHubのリポジトリでの作業に、おもにこのデスクトップアプリを使います（担当教員、2026年10月13日）。入手から最初の作業までの見取り図と未解決の点は[GitHub Copilotデスクトップアプリ](github-copilot-app.md)にまとめています（2026年10月13日時点）。
+
 ## 日本語での使い方
 
 Copilotの画面は英語ですが、日本語で質問すれば日本語で答えます。[VS Code](vs-code.md)に日本語言語パックを入れてCopilotを使うのが、最も日本語で作業しやすい環境とされています（[GitHubの日本語対応](github-japanese-support.md)）。
@@ -29,6 +33,7 @@ Copilotの画面は英語ですが、日本語で質問すれば日本語で答�
 
 - [AIエージェント](../concepts/ai-agent.md)
 - [この授業で使うAIツール](ai-tools.md)
+- [GitHub Copilotデスクトップアプリ](github-copilot-app.md)
 - [GitHub](github.md)
 - [VS Code](vs-code.md)
 - [Microsoft 365 Copilot](microsoft-365-copilot.md)：名前は似ているが別の製品
@@ -40,4 +45,5 @@ Copilotの画面は英語ですが、日本語で質問すれば日本語で答�
 - [資料：GitHub Copilotのプラン（GitHub Docs）](../sources/web-github-copilot-plans.md)
 - [資料：学生向けのGitHub Copilot](../sources/web-github-copilot-students.md)
 - [資料：Copilotが読む指示ファイル（GitHub Docs、VS Code Docs）](../sources/web-github-copilot-instructions.md)
+- [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](../sources/20261013-GitHub-and-Copilot-information.md)
 - [資料：教員からの連絡（2026年10月7日、GitHubとCopilotのプラン）](../sources/instructor-note-2026-10-07.md)

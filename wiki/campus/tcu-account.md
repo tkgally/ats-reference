@@ -12,12 +12,13 @@ TCUアカウントにはGoogleのアカウント（ユーザー名@g.tcu.ac.jp�
 
 ## 多要素認証
 
-TCUアカウントには[多要素認証](https://www.itc.tcu.ac.jp/mfa/)の案内があります。設定の手順や必要なもの（スマートフォンのアプリなど）については、まだ資料がありません。
+TCUアカウントには[多要素認証](https://www.itc.tcu.ac.jp/mfa/)の案内があります。設定の手順や必要なもの（スマートフォンのアプリなど）については、まだ確かな資料がありません。GitHubのアカウントの二要素認証が、GitHub側ではなくTCUアカウントの多要素認証で行われる可能性が指摘されていますが、確認されていません（2026年10月13日時点、[GitHub Copilotデスクトップアプリ](../tools/github-copilot-app.md)）。
 
 ## 関連ページ
 
 - [学内のITサービス](it-services.md)
 - [Microsoft 365 Copilot](../tools/microsoft-365-copilot.md)
+- [GitHub Copilotデスクトップアプリ](../tools/github-copilot-app.md)
 
 ## 出典
 

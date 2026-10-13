@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：50（目録と作業記録を除く）
-- 取り込んだ資料：1件（ほかに教員からの連絡1件、ウェブ上の資料15件）
+- ページ数：52（目録と作業記録を除く）
+- 取り込んだ資料：2件（ほかに教員からの連絡1件、ウェブ上の資料15件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月12日
+- 最終更新：2026年10月13日
 
 ## 全体
 
@@ -32,6 +32,7 @@
 - [GitHub](tools/github.md)：この授業でプロジェクトのファイル、知識ベース、作業履歴を管理するのに使うGitHubについてのページ。
 - [GitHubの日本語対応](tools/github-japanese-support.md)：GitHubの画面が英語であることと、それを日本語で補う方法をまとめたページ。
 - [GitHub Copilot](tools/github-copilot.md)：大学の予算で受講生全員に有料版が提供される、GitHubのAIアシスタントについてのページ。
+- [GitHub Copilotデスクトップアプリ](tools/github-copilot-app.md)：自分のパソコンにインストールして、リポジトリの作業をCopilotに頼むためのアプリ、GitHub Copilotデスクトップアプリについてのページ。
 - [Microsoft 365 Copilot](tools/microsoft-365-copilot.md)：TCUアカウントで使える、Microsoft 365のAIアシスタントについてのページ。
 - [ChatGPT、Claude、Gemini](tools/ai-chat-services.md)：授業でプロジェクトに合わせて選んで使う汎用のAIチャットサービス、ChatGPT、Claude、Geminiについてのページ。
 - [VS Code](tools/vs-code.md)：GitHub Copilotを日本語で使いやすいエディター、VS Code（Visual Studio Code）についてのページ。
@@ -65,6 +66,7 @@
 ## 資料
 
 - [資料：授業の背景情報](sources/ats-class-background.md)：「AIとの探検ゼミナール」の概要、担当教員、日程、使うツール、学内のITサービスをまとめた背景資料の要約（2026年10月7日時点、[raw/ats-class-background.md](../raw/ats-class-background.md)）。
+- [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](sources/20261013-GitHub-and-Copilot-information.md)：教員とIT担当者向けに、受講生が大学から配られたGitHubアカウントでCopilotデスクトップアプリを使い始めるまでの流れと、IT担当者への質問をまとめた文書の要約（[raw/20261013-GitHub-and-Copilot-information.md](../raw/20261013-GitHub-and-Copilot-information.md)）。
 - [資料：教員からの連絡（2026年10月7日、GitHubとCopilotのプラン）](sources/instructor-note-2026-10-07.md)：担当教員がエージェントとの作業の中で伝えた、GitHubとCopilotのプランとリポジトリの公開範囲についての連絡の要約です。
 
 ### ウェブ上の資料
