@@ -2,8 +2,8 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：52（目録と作業記録を除く）
-- 取り込んだ資料：2件（ほかに教員からの連絡1件、ウェブ上の資料16件）
+- ページ数：56（目録と作業記録を除く）
+- 取り込んだ資料：2件（ほかに教員からの連絡1件、ウェブ上の資料17件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
 - 最終更新：2026年10月13日
 
@@ -62,6 +62,9 @@
 - [二要素認証](concepts/two-factor-authentication.md)：パスワードに加えて、本人だけが持つ第二の要素でログインを確かめるしくみ、二要素認証（2FA）についてのページ。
 - [Issues](concepts/github-issues.md)：プロジェクトの作業や疑問を書き留め、話し合い、進み具合を追うためのGitHubのしくみ、Issues（課題）についてのページ。
 - [README](concepts/readme.md)：リポジトリの入り口に置いて、プロジェクトの目的や使い方を説明するファイル、READMEについてのページ。
+- [プルリクエスト](concepts/pull-request.md)：ブランチで行った変更を、本流に取り込んでほしいと提案し、話し合い、確かめてから取り込むためのGitHubのしくみ、プルリクエスト（pull request）についてのページ。
+- [フォーク](concepts/fork.md)：他人のリポジトリを自分の側に複製して、元に影響を与えずに独立して作業するためのしくみ、フォーク（fork）についてのページ。
+- [ブランチ](concepts/branch.md)：リポジトリの中で、本流に影響を与えずに変更を試すための、枝分かれした作業の線、ブランチ（branch）についてのページ。
 
 ## 資料
 
@@ -88,6 +91,7 @@
 - [資料：Claude Platform Docs（コンテキストウィンドウ、ハルシネーションの低減、プロンプトの概説）](sources/web-claude-docs-context-hallucination.md)：Anthropicの開発者向けドキュメントにある、コンテキストウィンドウ、ハルシネーションの減らし方、プロンプトエンジニアリングの概説の要約です（2026年10月10日に確認）。
 - [資料：リポジトリと二要素認証（GitHub Docs）](sources/web-github-repositories-2fa.md)：GitHubの公式ドキュメントにある、リポジトリの基本と二要素認証の概説の要約です（2026年10月11日に確認）。
 - [資料：IssuesとREADME（GitHub Docs）](sources/web-github-issues-readme.md)：GitHubの公式ドキュメントにある、Issues（課題の管理）とREADMEファイルの概説の要約です（2026年10月12日に確認）。
+- [資料：プルリクエスト、フォーク、ブランチ（GitHub Docs）](sources/web-github-pr-fork-branch.md)：GitHubの公式ドキュメントにある、プルリクエスト、フォーク、ブランチの概説の要約です（2026年10月13日に確認）。
 - [資料：GitHub Copilotアプリの公式ドキュメント](sources/web-github-copilot-app-docs.md)：GitHubの公式ドキュメントと更新情報にある、Copilotデスクトップアプリの説明の要約です（2026年10月13日に確認）。
 
 ## 質問への回答
