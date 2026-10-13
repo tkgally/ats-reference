@@ -25,7 +25,7 @@
 ### Wikiとの連携
 
 - 大学のGitHubとCopilotのプラン（Microsoftと調整中）が決まったら、リポジトリの公開範囲についての仮の記述（GitHubとは、GitHubを始める、自分のプロジェクトに知識ベースを作る、よくある質問、AIを使うときの倫理とルール、用語集など）と、Copilotの提供についての記述を更新する。`grep -rn "Internal\|公開範囲" site/content`で該当箇所を探せる。
-- 2026年10月13日：担当教員の方針で、授業ではGitHub Copilotデスクトップアプリ（[Wiki](../wiki/tools/github-copilot-app.md)）をおもに使う。解説ページ（GitHubを始める、GitHub Copilotとは、VS CodeでCopilotを使う準備、Copilotのエージェントに作業を頼む、よくある質問）がVS Code中心の説明になっていれば、アプリ中心に改める。アカウントの種類などの詳細はIT担当者の説明（10月14日の予定）を待つ。
+- 2026年10月13日：担当教員の方針で、授業ではCopilotデスクトップアプリをおもに使う。解説ページは対応済み（新ページ「Copilotデスクトップアプリを使い始める」。ほかのページにリンクと位置づけを加えた）。残り：IT担当者の説明（10月14日の予定）が分かったら、アカウントの種類、利用権、公開範囲の記述を更新する。アプリの実際の画面で確かめたら、`copilot-app.md`の表記を直す。
 - 授業サイトのログのページ、Copilotの配布方法の案内などが`raw/`に加わったら、関係する解説ページ（GitHub Copilotとは、よくある質問など）の記述を直す。
 
 ## 作業記録
@@ -91,3 +91,11 @@
 - 横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しはなく、スクリプトのエラーもなかった。
 - Wikiに新しい事実は加わっておらず、Wikiへの反映なし。OpenRouterは使っていない。
 - 人間に確かめてほしい点：体験の中の事実（標高3,776メートル、世界文化遺産への登録は2013年、最後の噴火は1707年）は記憶にもとづく。公式の資料での再確認を次回の候補に入れる。
+
+### [2026-10-13] 新しい解説ページ「Copilotデスクトップアプリを使い始める」
+
+- [Copilotデスクトップアプリを使い始める](content/guide/copilot-app.md)を追加（アプリの位置づけ、入手とサインイン、プロジェクトの追加、セッションとモード、Changesで確かめてCreate PR、つまずきやすい点、安全の約束）。図は`copilot-app-flow.svg`。分類「Copilotを使う」の先頭（order 1）に置いた。
+- [GitHub Copilotとは](content/guide/copilot-overview.md)（使える場所の表）、[VS CodeでCopilotを使う準備](content/guide/vscode-copilot-setup.md)（冒頭に位置づけの囲み）、[Copilotのエージェントに作業を頼む](content/guide/copilot-agent.md)（アプリの節）、[GitHubを始める](content/guide/github-first-steps.md)、[よくある質問](content/guide/faq.md)をアプリ中心に直した。
+- 公式ドキュメント（Quickstart、agent sessions、2026年7月7日の更新情報）で確かめ、Wikiに[資料の要約](../wiki/sources/web-github-copilot-app-docs.md)を作り、[Copilotデスクトップアプリ](../wiki/tools/github-copilot-app.md)を更新した。
+- 横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しはなかった。OpenRouterは使っていない。
+- 人間に確かめてほしい点：画面の表記は公式ドキュメントの英語にもとづき、実際のアプリの画面では確かめていない。公式の資料の間で提供対象の記述が食い違う（Freeを含む全プランか）。大学のアカウントで使えるかは10月14日の説明を待つ。コミットとプッシュの操作は公式のページからも分からなかったため、書いていない。

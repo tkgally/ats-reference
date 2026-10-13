@@ -8,7 +8,7 @@
 
 ## どんなアプリか
 
-公式ドキュメント「GitHub Copilot アプリ」によれば、このアプリはすべてのCopilotプランで使え、macOS、Linux、Windowsに対応しています。セッションごとに専用のブランチを作って作業し、セッションのモードは、対話型（一緒に進める）、プラン（計画を立てて承認する）、Autopilot（完全に自律的）の三つです（2026年10月13日に確認されたもの。[資料：Copilotデスクトップアプリを使い始めるためのガイド](../sources/20261013-GitHub-and-Copilot-information.md)の記述による。この文書の作成者が公式ドキュメントを見た内容で、エージェント自身はまだ公式ページを確かめていない）。ブランチについては[GitHub flow](../concepts/github-flow.md)を参照してください。
+公式ドキュメント「GitHub Copilot アプリ」によれば、このアプリはすべてのCopilotプランで使え、macOS、Linux、Windowsに対応しています。セッションごとに専用のブランチを作って作業し、セッションのモードは、対話型（一緒に進める）、プラン（計画を立てて承認する）、Autopilot（完全に自律的）の三つです（[資料：Copilotデスクトップアプリを使い始めるためのガイド](../sources/20261013-GitHub-and-Copilot-information.md)の記述で、公式ドキュメントでも確かめた。[資料：GitHub Copilotアプリの公式ドキュメント](../sources/web-github-copilot-app-docs.md)、2026年10月13日）。公式ドキュメントによれば、パソコンにGitが入っている必要があり、サインインは「Sign in to GitHub」から行い、プロジェクト（リポジトリ）を加えてからセッションを始めます。変更はアプリの「Changes」で確かめ、「Create PR」でプルリクエストにします。2026年7月7日の更新情報は、FreeとGitHub Educationを含むすべてのCopilotプランで使えるとしています（公式の資料の間に食い違いがあり、大学のアカウントで使えるかは要確認）。ブランチについては[GitHub flow](../concepts/github-flow.md)を参照してください。
 
 Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」ポリシーが有効である必要があります。このポリシーは既定で有効ですが、大学の組織で無効にされていないかは分かっていません（要確認）。
 
@@ -60,9 +60,10 @@ Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」�
 - [二要素認証](../concepts/two-factor-authentication.md)
 - [リポジトリ](../concepts/repository.md)
 - [AIエージェント](../concepts/ai-agent.md)
-- 解説ページ：[GitHubを始める](../../site/content/guide/github-first-steps.md)、[英語の画面を読むための単語帳](../../site/content/guide/github-english-ui.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)
+- 解説ページ：[Copilotデスクトップアプリを使い始める](../../site/content/guide/copilot-app.md)、[GitHubを始める](../../site/content/guide/github-first-steps.md)、[英語の画面を読むための単語帳](../../site/content/guide/github-english-ui.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)
 
 ## 出典
 
+- [資料：GitHub Copilotアプリの公式ドキュメント（2026年10月13日に確認）](../sources/web-github-copilot-app-docs.md)
 - [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](../sources/20261013-GitHub-and-Copilot-information.md)
 - 担当教員からの指示（2026年10月13日、「この授業ではGitHub Copilotデスクトップアプリを中心に使う」）

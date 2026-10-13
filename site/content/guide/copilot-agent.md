@@ -5,7 +5,7 @@ description: VS Codeのエージェントと、GitHub上で動くクラウドエ
 category: copilot
 order: 3
 level: 発展
-updated: 2026年10月7日
+updated: 2026年10月13日
 ---
 
 ## エージェントに「作業」を頼む
@@ -14,7 +14,7 @@ updated: 2026年10月7日
 
 GitHub Copilotには、作業を頼めるエージェントが大きく二つあります（2026年10月時点）。
 
-- VS Codeのエージェント：自分のパソコンのVS Codeの中で動く。チャットで<span class="ui">Agent</span>を選んで頼む。
+- ローカルのエージェント：自分のパソコンの中で動く。この授業でおもに使うCopilotデスクトップアプリ（[使い始める](copilot-app.md)）では、セッションを始めて頼む。VS Codeでは、チャットで<span class="ui">Agent</span>を選んで頼む。
 - クラウドエージェント：GitHubのサーバーの上で動く。github.comでIssueを割り当てたり、チャットで頼んだりすると、ブランチを作って作業し、プルリクエストを出す。公式の名前は「Copilot cloud agent」（以前の名前は「Copilot coding agent」）。
 
 <figure class="fig">
@@ -30,9 +30,13 @@ GitHub Copilotには、作業を頼めるエージェントが大きく二つあ
 
 クラウドエージェントは、2026年10月時点で、Copilot Studentと有料のプランで使え、無料のCopilot Freeでは使えません（[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans)）。授業で提供される版で使えるかどうかは、[GitHub Copilot](../../../wiki/tools/github-copilot.md)のWikiページと授業の案内で確かめてください。
 
+## アプリのエージェントに頼む
+
+Copilotデスクトップアプリでは、プロジェクトを加えてセッションを始め、プロンプトの欄に頼みたいことを書きます。最初のモードは<span class="ui">Interactive</span>か<span class="ui">Plan</span>にします。作業が終わったら<span class="ui">Changes</span>で変更点を一つずつ確かめ、直してほしい点は同じセッションで続けて頼みます。納得したら<span class="ui">Create PR</span>でプルリクエストにします。詳しくは[Copilotデスクトップアプリを使い始める](copilot-app.md)にあります。以降の「よい頼み方」「指示ファイル」「安全に任せる」は、アプリでもVS Codeでも同じです。
+
 ## VS Codeのエージェントに頼む
 
-VS Codeの準備は[VS CodeでCopilotを使う準備](vscode-copilot-setup.md)で説明しています。準備ができたら、次の流れで頼みます。
+エディターで作業したい人は、VS Codeでも頼めます。VS Codeの準備は[VS CodeでCopilotを使う準備](vscode-copilot-setup.md)で説明しています。準備ができたら、次の流れで頼みます。
 
 <ol class="steps">
 <li>作業したいリポジトリをVS Codeで開き、ソース管理の<span class="ui">変更の同期</span>で最新の状態にしておきます。</li>

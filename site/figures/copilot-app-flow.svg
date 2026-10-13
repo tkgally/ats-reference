@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Copilotデスクトップアプリで作業する流れ。1 プロジェクトを加える、2 セッションを始める、3 頼む、4 変更を確かめる、5 プルリクエストにする。セッションごとに専用のブランチで作業するので、元のブランチは変わらない。">
+  <rect x="8" y="12" width="624" height="126" rx="14" class="bgs"/>
+  <g font-size="13">
+    <rect x="22" y="34" width="106" height="74" rx="10" class="f-blue-s"/>
+    <text x="75" y="58" text-anchor="middle" class="tx bold" font-size="14">1</text>
+    <text x="75" y="80" text-anchor="middle" class="tx">プロジェクトを</text>
+    <text x="75" y="98" text-anchor="middle" class="tx">加える</text>
+    <rect x="146" y="34" width="106" height="74" rx="10" class="f-blue-s"/>
+    <text x="199" y="58" text-anchor="middle" class="tx bold" font-size="14">2</text>
+    <text x="199" y="80" text-anchor="middle" class="tx">セッションを</text>
+    <text x="199" y="98" text-anchor="middle" class="tx">始める</text>
+    <rect x="270" y="34" width="106" height="74" rx="10" class="f-purple"/>
+    <text x="323" y="58" text-anchor="middle" class="tw bold" font-size="14">3</text>
+    <text x="323" y="80" text-anchor="middle" class="tw">日本語で</text>
+    <text x="323" y="98" text-anchor="middle" class="tw">頼む</text>
+    <rect x="394" y="34" width="106" height="74" rx="10" class="f-orange-s"/>
+    <text x="447" y="58" text-anchor="middle" class="tx bold" font-size="14">4</text>
+    <text x="447" y="80" text-anchor="middle" class="tx">Changesで</text>
+    <text x="447" y="98" text-anchor="middle" class="tx">確かめる</text>
+    <rect x="518" y="34" width="100" height="74" rx="10" class="f-green-s"/>
+    <text x="568" y="58" text-anchor="middle" class="tx bold" font-size="14">5</text>
+    <text x="568" y="80" text-anchor="middle" class="tx">Create PRで</text>
+    <text x="568" y="98" text-anchor="middle" class="tx">提案する</text>
+  </g>
+  <g class="s-gray" stroke-width="2" fill="none">
+    <path d="M130 71h14"/><path d="M254 71h14"/><path d="M378 71h14"/><path d="M502 71h14"/>
+  </g>
+  <path d="M447 110v8H323v-8" class="s-purple anim-dash" stroke-width="2" fill="none"/>
+  <text x="385" y="130" text-anchor="middle" font-size="12" class="t-purple">3と4を気に入るまで繰り返す</text>
+
+  <text x="24" y="162" font-size="14" class="tx bold">ブランチのようす</text>
+  <line x1="24" y1="190" x2="616" y2="190" class="s-green" stroke-width="4"/>
+  <text x="24" y="182" font-size="12" class="tm">main（元のブランチ）</text>
+  <path d="M150 190C170 190 170 226 200 226H440C470 226 470 190 490 190" class="s-orange" stroke-width="4" fill="none"/>
+  <circle cx="260" cy="226" r="6" class="f-orange"/><circle cx="340" cy="226" r="6" class="f-orange"/><circle cx="410" cy="226" r="6" class="f-orange"/>
+  <text x="320" y="246" text-anchor="middle" font-size="12" class="t-orange">セッション専用のブランチ（ここで作業が進む）</text>
+  <text x="616" y="212" text-anchor="end" font-size="12" class="tm">取り込む（マージ）のは</text><text x="616" y="228" text-anchor="end" font-size="12" class="tm">確かめたあと</text>
+</svg>
