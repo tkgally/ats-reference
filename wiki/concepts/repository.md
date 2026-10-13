@@ -23,6 +23,8 @@ GitHub公式のドキュメントによれば、リポジトリはGitHubの最�
 
 ## 関連ページ
 
+- [ブランチ](branch.md)
+- [フォーク](fork.md)
 - [GitHub](../tools/github.md)
 - [バージョン管理とGit](version-control-and-git.md)
 - [GitHub flow（ブランチとプルリクエストの流れ）](github-flow.md)
