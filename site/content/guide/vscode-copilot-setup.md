@@ -5,7 +5,7 @@ description: VS Codeを入れて日本語にし、GitHubでサインインして
 category: copilot
 order: 2
 level: 基本
-updated: 2026年10月13日
+updated: 2026年10月14日
 ---
 
 <div class="box note" markdown="1">
@@ -41,7 +41,7 @@ VS CodeとCopilotは毎月のように更新され、ボタンの名前や置き
 
 - 自分のパソコン（WindowsかmacOS）。VS CodeはLinuxでも使える。
 - GitHubのアカウント（まだの人は[GitHubを始める：アカウントと最初のリポジトリ](github-first-steps.md)）。
-- Copilotが使える状態のGitHubアカウント。授業で提供される有料版の使い始め方は、授業やWebClassで案内されます（[GitHub Copilot](../../../wiki/tools/github-copilot.md)）。案内の前でも、無料のCopilot Freeで練習できます。
+- Copilotが使える状態のGitHubアカウント。授業で提供される有料版は、大学のSSO認証を済ませたアカウントで使えます（手順は[Copilotデスクトップアプリを使い始める](copilot-app.md)）。認証が済んでいない、または案内の前でも、無料のCopilot Freeで練習できます。
 
 ## 1. VS Codeを入れる
 
