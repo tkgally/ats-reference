@@ -5,7 +5,7 @@ description: リポジトリ、コミット、履歴など、GitHubを使うと�
 category: github
 order: 1
 level: 入門
-updated: 2026年10月7日
+updated: 2026年10月14日
 ---
 
 ## GitHubは「ファイルと履歴の置き場」
@@ -109,9 +109,9 @@ Git（ギット）は、ファイルの変更履歴を記録するための道�
 | 組織内 | <span class="ui">Internal</span> | 同じ組織（企業や大学など）のアカウントに属するメンバー。組織向けの契約（GitHub Enterprise Cloud）がある場合だけ選べる。 |
 
 <div class="box note" markdown="1">
-<p class="box-title">この授業での公開範囲は、まだ決まっていません</p>
+<p class="box-title">この授業での公開範囲（プロジェクト用は未定）</p>
 
-授業のプロジェクトのリポジトリをどの公開範囲で作るかは、あとで決まります。大学はGitHubとCopilotのプランをMicrosoftと調整しているところで、学内（TCU）だけで共有できる3つ目の選択肢（組織内）が使えるようになるかもしれません（2026年10月7日時点、[GitHub](../../../wiki/tools/github.md)）。決まるまでは、練習用のリポジトリは自分だけが見られる非公開で作り、プロジェクト用のリポジトリをどうするかは授業の案内を待ちましょう。
+授業の試しのリポジトリは、大学の組織（tokyo-city-university）の下にPrivateで作ります（2026年10月14日時点、[GitHub](../../../wiki/tools/github.md)）。プロジェクト用のリポジトリをどの公開範囲で作るかは、まだ決まっていません。学内（TCU）だけで共有できる組織内（Internal）が使えるかどうかも未確認です。決まるまでは非公開で作り、授業の案内を待ちましょう。
 
 </div>
 

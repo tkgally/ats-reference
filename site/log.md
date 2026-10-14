@@ -25,7 +25,7 @@
 ### Wikiとの連携
 
 - 大学のGitHubとCopilotのプラン（Microsoftと調整中）が決まったら、リポジトリの公開範囲についての仮の記述（GitHubとは、GitHubを始める、自分のプロジェクトに知識ベースを作る、よくある質問、AIを使うときの倫理とルール、用語集など）と、Copilotの提供についての記述を更新する。`grep -rn "Internal\|公開範囲" site/content`で該当箇所を探せる。
-- 2026年10月14日：IT担当者の手順書（`raw/`のdocx）にもとづき、`copilot-app.md`の「使い始めるまでの流れ」と`github-first-steps.md`の一文を、担当教員の指示で書き換えた（SSO認証、試しのリポジトリ`ats-名字-test-1`、Private）。残り：`github-basics.md`の公開範囲の節（Internalの記述）は、プロジェクト用の公開範囲が決まってから。`faq`などに「大学がアカウントを配る」前提の記述が残っていないか確かめる。
+- 2026年10月14日：IT担当者の手順書（`raw/`のdocx）にもとづき、`copilot-app.md`の「使い始めるまでの流れ」と`github-first-steps.md`の一文を、担当教員の指示で書き換えた（SSO認証、試しのリポジトリ`ats-名字-test-1`、Private）。残り：プロジェクト用の公開範囲（Internalが使えるか）が決まったら、`github-basics.md`などの公開範囲の記述を更新する。
 - 2026年10月13日：担当教員の方針で、授業ではCopilotデスクトップアプリをおもに使う。解説ページは対応済み（新ページ「Copilotデスクトップアプリを使い始める」。ほかのページにリンクと位置づけを加えた）。残り：IT担当者の説明（10月14日の予定）が分かったら、アカウントの種類、利用権、公開範囲の記述を更新する。アプリの実際の画面で確かめたら、`copilot-app.md`の表記を直す。
 - 授業サイトのログのページ、Copilotの配布方法の案内などが`raw/`に加わったら、関係する解説ページ（GitHub Copilotとは、よくある質問など）の記述を直す。
 
@@ -100,3 +100,10 @@
 - 公式ドキュメント（Quickstart、agent sessions、2026年7月7日の更新情報）で確かめ、Wikiに[資料の要約](../wiki/sources/web-github-copilot-app-docs.md)を作り、[Copilotデスクトップアプリ](../wiki/tools/github-copilot-app.md)を更新した。
 - 横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しはなかった。OpenRouterは使っていない。
 - 人間に確かめてほしい点：画面の表記は公式ドキュメントの英語にもとづき、実際のアプリの画面では確かめていない。公式の資料の間で提供対象の記述が食い違う（Freeを含む全プランか）。大学のアカウントで使えるかは10月14日の説明を待つ。コミットとプッシュの操作は公式のページからも分からなかったため、書いていない。
+
+### [2026-10-14] 大学の手順書にもとづく記述の更新
+
+- Wikiに加わった「TCU GitHub Copilot 学生向け利用手順」（2026年10月14日）にもとづき、「調整中」「未定」のままだった記述を直した。[GitHub Copilotとは](content/guide/copilot-overview.md)、[GitHubを始める](content/guide/github-first-steps.md)、[VS CodeでCopilotを使う準備](content/guide/vscode-copilot-setup.md)、[よくある質問](content/guide/faq.md)、[GitHubとは](content/guide/github-basics.md)：提供されるのはCopilot Businessで、利用枠は授業のチームに割り当て済み、大学のSSO認証で使える、試しのリポジトリは大学の組織の下にPrivate、プロジェクト用の公開範囲とInternalの可否は未定、と書いた。5ページの`updated`を更新した。
+- 横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しはなかった。文章だけの変更。
+- Wikiへの反映なし。OpenRouterは使っていない。
+- 人間に確かめてほしい点：10月14日の更新版の手順書が`raw/`に置かれたと聞いているが、`main`にはまだない。加わったら再度確かめる。「個人アカウント方式」はWikiの読み取りで、IT担当者への確認待ち。

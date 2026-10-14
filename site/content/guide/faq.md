@@ -5,7 +5,7 @@ description: 授業の日程、学内Wi-Fi、TCUアカウント、GitHubの操�
 category: reference
 order: 2
 level: 入門
-updated: 2026年10月13日
+updated: 2026年10月14日
 ---
 
 ## 困ったときは
@@ -97,13 +97,13 @@ AIエージェントに作業を頼んだ場合は、エージェントがコミ
 
 ### リポジトリは公開と非公開のどちらにすればよいですか
 
-授業のプロジェクトでの公開範囲は、まだ決まっていません。大学はGitHubとCopilotのプランをMicrosoftと調整しているところで、公開（<span class="ui">Public</span>）と非公開（<span class="ui">Private</span>）のほかに、学内（TCU）だけで共有できる組織内（<span class="ui">Internal</span>）が使えるようになるかもしれません（2026年10月7日時点）。案内があるまでは、練習用のリポジトリは非公開にしておきましょう。公開範囲はあとから変えられますが、どの場合でも、個人情報、APIキー、他人の著作物を置かないようにします（[GitHubとは](github-basics.md)）。
+授業の試しのリポジトリは、大学の組織の下にPrivateで作ります（2026年10月14日時点、[GitHub](../../../wiki/tools/github.md)）。プロジェクト用のリポジトリの公開範囲は、まだ決まっていません。学内（TCU）だけで共有できる組織内（<span class="ui">Internal</span>）が使えるかも未確認です。案内があるまでは非公開にしておきましょう。公開範囲はあとから変えられますが、どの場合でも、個人情報、APIキー、他人の著作物を置かないようにします（[GitHubとは](github-basics.md)）。
 
 ## AIツールについて
 
 ### GitHub Copilotの有料版が使えるようになっていません
 
-GitHub Copilotの有料版は、大学の予算で受講生全員に提供されます。提供期間は10月から1月末までです。2026年10月7日時点では、大学がGitHubとCopilotのプランをMicrosoftと調整しているところで、どのプランが提供されるか、どう申し込むかはまだ決まっていません（[GitHub Copilot](../../../wiki/tools/github-copilot.md)）。授業での案内、授業サイト、WebClassの連絡を確かめてください。案内どおりに手続きしても使えない場合は、教員に相談しましょう。
+GitHub Copilotの有料版（Copilot Business）は、大学の予算で受講生全員に提供されます。提供期間は10月から1月末までです。2026年10月14日時点の手順書では、利用枠は授業ごとのチームに割り当て済みで、大学のSSO認証を済ませると使えます。まず[Copilotデスクトップアプリを使い始める](copilot-app.md)の手順で、SSO認証がすんでいるかを確かめましょう。「Access denied」や「Single sign-on to view this chat.」と出るのは、SSOのセッションがないときの表示です。それでも使えないときは、画面のメッセージを記録して教員に相談してください（[GitHub Copilot](../../../wiki/tools/github-copilot.md)）。
 
 Copilotデスクトップアプリ（[使い始める](copilot-app.md)）やVS Codeで使う場合は、提供を受けたものと同じGitHubアカウントでサインインしているかも確かめます。`https://github.com/settings/copilot`で、Copilotの利用権が付いているかを見られます。Copilotでできることは[GitHub Copilotとは](copilot-overview.md)で説明しています。
 
