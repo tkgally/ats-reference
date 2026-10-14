@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="発表の流れの例。問い、やったこと、分かったこと、AIの使い方と自分の判断、これから、の5つの場面を順に話す。">
+  <rect x="12" y="12" width="616" height="206" rx="14" class="bg ln" stroke-width="2"/>
+  <rect x="28" y="40" width="108" height="76" rx="10" class="f-blue-s"/>
+  <text x="82" y="68" text-anchor="middle" font-size="14" class="tx bold">1 問い</text>
+  <text x="82" y="90" text-anchor="middle" font-size="12" class="tx">なぜこれを</text>
+  <text x="82" y="106" text-anchor="middle" font-size="12" class="tx">選んだか</text>
+  <rect x="144" y="40" width="108" height="76" rx="10" class="f-green-s"/>
+  <text x="198" y="68" text-anchor="middle" font-size="14" class="tx bold">2 やったこと</text>
+  <text x="198" y="90" text-anchor="middle" font-size="12" class="tx">何を作り</text>
+  <text x="198" y="106" text-anchor="middle" font-size="12" class="tx">どう進めたか</text>
+  <rect x="260" y="40" width="108" height="76" rx="10" class="f-green-s"/>
+  <text x="314" y="68" text-anchor="middle" font-size="14" class="tx bold">3 分かったこと</text>
+  <text x="314" y="90" text-anchor="middle" font-size="12" class="tx">結果と</text>
+  <text x="314" y="106" text-anchor="middle" font-size="12" class="tx">うまくいかない点</text>
+  <rect x="376" y="40" width="108" height="76" rx="10" class="f-purple-s"/>
+  <text x="430" y="68" text-anchor="middle" font-size="14" class="tx bold">4 AIと判断</text>
+  <text x="430" y="90" text-anchor="middle" font-size="12" class="tx">AIに任せた所と</text>
+  <text x="430" y="106" text-anchor="middle" font-size="12" class="tx">自分で決めた所</text>
+  <rect x="492" y="40" width="108" height="76" rx="10" class="f-blue-s"/>
+  <text x="546" y="68" text-anchor="middle" font-size="14" class="tx bold">5 これから</text>
+  <text x="546" y="90" text-anchor="middle" font-size="12" class="tx">次にやりたい</text>
+  <text x="546" y="106" text-anchor="middle" font-size="12" class="tx">こと</text>
+  <path d="M136 78H142" class="lnf" stroke-width="2"/><path d="M252 78H258" class="lnf" stroke-width="2"/><path d="M368 78H374" class="lnf" stroke-width="2"/><path d="M484 78H490" class="lnf" stroke-width="2"/>
+  <text x="320" y="156" text-anchor="middle" font-size="13" class="tx">1枚のスライドで言いたいことは1つ。残りは話す。</text>
+  <text x="320" y="182" text-anchor="middle" font-size="12" class="tm">プロジェクトの記録（log.md）をたどると、2〜4の材料はすでにそろっている。</text>
+</svg>
