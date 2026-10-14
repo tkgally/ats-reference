@@ -31,6 +31,8 @@ GitHub公式のドキュメントによれば、リポジトリはGitHubの最�
 - [二要素認証](two-factor-authentication.md)
 - [README](readme.md)
 - [Issues](github-issues.md)
+- [クローン](clone.md)
+- [コミット](commit.md)
 
 ## 出典
 
