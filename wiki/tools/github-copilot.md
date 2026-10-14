@@ -15,7 +15,7 @@ GitHubの公式ドキュメントによれば、Copilotには無料のCopilot Fr
 
 主な機能は、エディターやGitHubのウェブサイトで使うチャット、エディターの中で作業を進めるエージェントモード、GitHub上で作業を任せるとブランチで作業してプルリクエストを作るCopilot cloud agent、プルリクエストのコードレビューなどです。
 
-学生は、GitHub Educationで認証されると無料でCopilotを使えます（[資料：学生向けのGitHub Copilot](../sources/web-github-copilot-students.md)）。この授業で大学から提供される有料版が、これらのどのプランに当たるのかは、まだ分かっていません（要確認）。
+学生は、GitHub Educationで認証されると無料でCopilotを使えます（[資料：学生向けのGitHub Copilot](../sources/web-github-copilot-students.md)）。この授業で大学から提供される有料版は、2026年10月14日の大学の手順書によれば、組織向けのCopilot Business（有償版）で、利用枠は授業用のTeamに割り当てられています（[資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)）。提供期間と学期後の扱いは、まだ分かっていません（要確認）。
 
 ## デスクトップアプリ
 
@@ -47,3 +47,4 @@ Copilotの画面は英語ですが、日本語で質問すれば日本語で答�
 - [資料：Copilotが読む指示ファイル（GitHub Docs、VS Code Docs）](../sources/web-github-copilot-instructions.md)
 - [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](../sources/20261013-GitHub-and-Copilot-information.md)
 - [資料：教員からの連絡（2026年10月7日、GitHubとCopilotのプラン）](../sources/instructor-note-2026-10-07.md)
+- [資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)

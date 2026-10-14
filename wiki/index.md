@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：56（目録と作業記録を除く）
-- 取り込んだ資料：2件（ほかに教員からの連絡1件、ウェブ上の資料17件）
+- ページ数：57（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料17件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月13日
+- 最終更新：2026年10月14日
 
 ## 全体
 
@@ -70,6 +70,7 @@
 
 - [資料：授業の背景情報](sources/ats-class-background.md)：「AIとの探検ゼミナール」の概要、担当教員、日程、使うツール、学内のITサービスをまとめた背景資料の要約（2026年10月7日時点、[raw/ats-class-background.md](../raw/ats-class-background.md)）。
 - [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](sources/20261013-GitHub-and-Copilot-information.md)：教員とIT担当者向けに、受講生が大学から配られたGitHubアカウントでCopilotデスクトップアプリを使い始めるまでの流れと、IT担当者への質問をまとめた文書の要約（[raw/20261013-GitHub-and-Copilot-information.md](../raw/20261013-GitHub-and-Copilot-information.md)）。
+- [資料：TCU GitHub Copilot 学生向け利用手順](sources/tcu-github-copilot-student-procedure.md)：大学の組織「TCU Copilot Teaching Platform」で授業用リポジトリを作り、Copilotデスクトップアプリから操作するまでの、IT担当者による学生向け手順書の要約です（2026年10月14日）。
 - [資料：教員からの連絡（2026年10月7日、GitHubとCopilotのプラン）](sources/instructor-note-2026-10-07.md)：担当教員がエージェントとの作業の中で伝えた、GitHubとCopilotのプランとリポジトリの公開範囲についての連絡の要約です。
 
 ### ウェブ上の資料
