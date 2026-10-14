@@ -6,7 +6,7 @@
 
 GitHubは、プロジェクトのファイル、知識ベース、作業履歴を管理する場所として使います。第2回（2026年10月7日）の授業では、GitHubと[LLM Wiki](../concepts/llm-wiki.md)の考え方を使って、AIエージェントで長期プロジェクトの知識ベースを作る方法が実演されました（[第2回の記録](../course/sessions/session-02.md)）。この知識ベースもGitHubのリポジトリに置かれています。
 
-授業では、リポジトリでの作業はおもに[GitHub Copilotデスクトップアプリ](github-copilot-app.md)から行います（2026年10月13日、担当教員）。大学が配るGitHubアカウントの種類やログイン方法は、まだ分かっていません。
+授業では、リポジトリでの作業はおもに[GitHub Copilotデスクトップアプリ](github-copilot-app.md)から行います（2026年10月13日、担当教員）。授業用のGitHubの組織は「TCU Copilot Teaching Platform」（tokyo-city-university）で、受講生は個人のGitHubアカウントで入り、大学のSSO認証で組織につなぎます。リポジトリは組織の下に`ats-名字-test-1`のような名前でPrivateに作ります（2026年10月14日時点。手順は[GitHub Copilotデスクトップアプリ](github-copilot-app.md)、出典は[資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)）。
 
 ## 覚えておくとよい操作
 
@@ -22,7 +22,9 @@ GitHubの画面は英語ですが、この授業では次のような必要な�
 
 GitHubの公式ドキュメントによれば、GitHubはコードを投稿する多くのアカウントに二要素認証を求めています。学生はGitHub Educationに在籍の証明を示して申し込むと、Copilotを無料で使える特典などを受けられます。チームで一つのリポジトリを使うときは、リポジトリの持ち主がSettings → Collaboratorsから仲間を招待し、招待された人が7日以内に承諾します（[資料：GitHubのアカウント、二要素認証、共同作業者の招待](../sources/web-github-account.md)）。この授業で受講生がGitHub Educationに申し込む必要があるかどうかは、資料からは分かりません（要確認）。
 
-## リポジトリの公開範囲（未定）
+## リポジトリの公開範囲
+
+2026年10月14日の大学の手順書では、試しのリポジトリは組織 tokyo-city-university の下にPrivateで作るよう指示されています（[資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)）。プロジェクト用のリポジトリの公開範囲や、Internalが使えるかは、まだ分かっていません。以下は10月7日時点の記述です。
 
 授業で使うリポジトリを公開と非公開のどちらにするかは、2026年10月7日時点で決まっていません。大学はGitHubとCopilotのプランをMicrosoftと調整しているところで、学内（TCU）だけで共有できる3つ目の選択肢が使えるようになるかもしれません（[資料：教員からの連絡（2026年10月7日）](../sources/instructor-note-2026-10-07.md)）。GitHubには、組織向けの契約で使える「Internal」（組織のメンバーだけが見られる）という公開範囲があり（[資料：GitHubのアカウント、二要素認証、共同作業者の招待](../sources/web-github-account.md)）、それに当たる可能性があります（推測、要確認）。プランの詳細が分かったら、この節を更新します。
 
@@ -48,4 +50,5 @@ GitHubの公式ドキュメントによれば、GitHubはコードを投稿す�
 - [資料：授業の背景情報](../sources/ats-class-background.md)
 - [資料：GitHubのアカウント、二要素認証、共同作業者の招待](../sources/web-github-account.md)
 - [資料：教員からの連絡（2026年10月7日、GitHubとCopilotのプラン）](../sources/instructor-note-2026-10-07.md)
+- [資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)
 - [LLM Wiki（日本語版）](../../llm-wiki-j.md)（リポジトリ直下の参照文書）
