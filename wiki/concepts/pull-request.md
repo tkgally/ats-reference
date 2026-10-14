@@ -29,6 +29,7 @@ GitHub Copilotデスクトップアプリでは、セッションの変更を確
 - [Issues](github-issues.md)
 - [リポジトリ](repository.md)
 - [解説ページ：ブランチとプルリクエストでの共同作業](../../site/content/guide/github-collaboration.md)
+- [マージ](merge.md)
 
 ## 出典
 

@@ -25,6 +25,8 @@ GitHub公式のドキュメントによれば、ブランチは機能の追加�
 - [フォーク](fork.md)
 - [バージョン管理とGit](version-control-and-git.md)
 - [リポジトリ](repository.md)
+- [マージ](merge.md)
+- [コミット](commit.md)
 
 ## 出典
 

@@ -28,6 +28,9 @@ GitはコンピューターにインストールするソフトウェアでGitHu
 - [GitHub flow（ブランチとプルリクエストの流れ）](github-flow.md)
 - [LLM Wiki](llm-wiki.md)
 - [解説ページ：GitHubとは：基本の考え方](../../site/content/guide/github-basics.md)
+- [コミット](commit.md)
+- [マージ](merge.md)
+- [クローン](clone.md)
 
 ## 出典
 
