@@ -27,8 +27,10 @@ GitHubにあるリポジトリを、自分のパソコンにコピーして作�
 - [リポジトリ](repository.md)
 - [コミット](commit.md)
 - [フォーク](fork.md)
+- [プッシュ、プル、フェッチ](push-pull-fetch.md)
 - [バージョン管理とGit](version-control-and-git.md)
 
 ## 出典
 
 - [資料：コミット、クローン、マージ（GitHub Docs）](../sources/web-github-commit-clone-merge.md)
+- [資料：マージの衝突とフェッチ・プル（GitHub Docs）](../sources/web-github-conflicts-fetch-pull.md)

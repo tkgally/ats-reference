@@ -22,7 +22,7 @@ GitHubには三つの方法があります。
 
 ## 衝突（コンフリクト）
 
-今回の資料は、同じ箇所を別々に変えたときに起きる衝突の解消には触れていません。未確認です。
+同じ箇所を別々に変えると、Gitは自動ではまとめられず、人間の判断が要ります。詳しくは[マージの衝突（コンフリクト）](merge-conflict.md)を見てください（2026年10月15日に確認）。
 
 ## 関連ページ
 
@@ -30,7 +30,10 @@ GitHubには三つの方法があります。
 - [プルリクエスト](pull-request.md)
 - [GitHub flow（ブランチとプルリクエストの流れ）](github-flow.md)
 - [コミット](commit.md)
+- [マージの衝突（コンフリクト）](merge-conflict.md)
+- [プッシュ、プル、フェッチ](push-pull-fetch.md)
 
 ## 出典
 
 - [資料：コミット、クローン、マージ（GitHub Docs）](../sources/web-github-commit-clone-merge.md)
+- [資料：マージの衝突とフェッチ・プル（GitHub Docs）](../sources/web-github-conflicts-fetch-pull.md)
