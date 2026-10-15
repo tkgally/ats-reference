@@ -1,0 +1,28 @@
+<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="チームの進め方の一巡。決める、分ける、進める、持ち寄る、振り返るの5つを順に行い、振り返りの結果をまた決めるにつなげる。">
+  <rect x="12" y="12" width="616" height="206" rx="14" class="bg ln" stroke-width="2"/>
+  <rect x="28" y="40" width="108" height="76" rx="10" class="f-blue-s"/>
+  <text x="82" y="68" text-anchor="middle" font-size="14" class="tx bold">1 決める</text>
+  <text x="82" y="90" text-anchor="middle" font-size="12" class="tx">ゴールと</text>
+  <text x="82" y="106" text-anchor="middle" font-size="12" class="tx">範囲と約束</text>
+  <rect x="144" y="40" width="108" height="76" rx="10" class="f-blue-s"/>
+  <text x="198" y="68" text-anchor="middle" font-size="14" class="tx bold">2 分ける</text>
+  <text x="198" y="90" text-anchor="middle" font-size="12" class="tx">役割と担当を</text>
+  <text x="198" y="106" text-anchor="middle" font-size="12" class="tx">Issueにする</text>
+  <rect x="260" y="40" width="108" height="76" rx="10" class="f-orange-s"/>
+  <text x="314" y="68" text-anchor="middle" font-size="14" class="tx bold">3 進める</text>
+  <text x="314" y="90" text-anchor="middle" font-size="12" class="tx">ブランチで</text>
+  <text x="314" y="106" text-anchor="middle" font-size="12" class="tx">それぞれ作る</text>
+  <rect x="376" y="40" width="108" height="76" rx="10" class="f-green-s"/>
+  <text x="430" y="68" text-anchor="middle" font-size="14" class="tx bold">4 持ち寄る</text>
+  <text x="430" y="90" text-anchor="middle" font-size="12" class="tx">PRで確かめて</text>
+  <text x="430" y="106" text-anchor="middle" font-size="12" class="tx">取り込む</text>
+  <rect x="492" y="40" width="108" height="76" rx="10" class="f-purple-s"/>
+  <text x="546" y="68" text-anchor="middle" font-size="14" class="tx bold">5 振り返る</text>
+  <text x="546" y="90" text-anchor="middle" font-size="12" class="tx">うまくいった所と</text>
+  <text x="546" y="106" text-anchor="middle" font-size="12" class="tx">直す所</text>
+  <path d="M136 78H142" class="lnf" stroke-width="2"/><path d="M252 78H258" class="lnf" stroke-width="2"/><path d="M368 78H374" class="lnf" stroke-width="2"/><path d="M484 78H490" class="lnf" stroke-width="2"/>
+  <path d="M546 120V146H82V122" fill="none" class="lnf anim-dash" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M76 128L82 120L88 128" fill="none" class="lnf" stroke-width="2"/>
+  <text x="314" y="174" text-anchor="middle" font-size="13" class="tx">毎週、小さく一巡する。決めたことは、その場で書いて残す。</text>
+  <text x="314" y="198" text-anchor="middle" font-size="12" class="tm">振り返りで出た直す所は、次の「決める」で約束に反映する。</text>
+</svg>
