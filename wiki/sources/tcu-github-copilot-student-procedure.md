@@ -13,7 +13,7 @@
 
 ### 組織とアカウントのしくみ
 
-- GitHubの組織（Organization）は「TCU Copilot Teaching Platform」（組織名 tokyo-city-university）。
+- GitHubの組織（Organization）は「TCU Copilot Teaching Platform」（組織名はtokyo-city-university）。
 - 履修学生は、あらかじめ授業用のMicrosoft Entra IDグループと、GitHubのTeamのTeam Sync（同期）の対象に設定されている。授業ごとにTeamがあり、履修者が登録される。
 - Copilot Business（有償版）の利用枠（Seat）は授業用Teamに割り当てられている。組織への参加、Teamへの所属、利用枠の適用は、学生が個別に設定する作業ではない。
 - 学生は、教員が指定した命名規則に従って、授業用のリポジトリを各自で作る。
@@ -34,8 +34,8 @@
 
 ### 試しのリポジトリ
 
-- 作成先（Owner）に tokyo-city-university を選ぶ。
-- 名前は`ats-名字-test-1`の形式（例：名字が tanaka なら`ats-tanaka-test-1`）。名字のローマ字が分からなければ授業担当者に尋ねる。
+- 作成先（Owner）にtokyo-city-universityを選ぶ。
+- 名前は`ats-名字-test-1`の形式（例：名字がtanakaなら`ats-tanaka-test-1`）。名字のローマ字が分からなければ授業担当者に尋ねる。
 - 公開設定はPrivate（授業担当者の指示どおり）。
 
 ### うまくいかないとき

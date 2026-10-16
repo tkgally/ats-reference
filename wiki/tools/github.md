@@ -24,7 +24,7 @@ GitHubの公式ドキュメントによれば、GitHubはコードを投稿す�
 
 ## リポジトリの公開範囲
 
-2026年10月14日の大学の手順書では、試しのリポジトリは組織 tokyo-city-university の下にPrivateで作るよう指示されています（[資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)）。プロジェクト用のリポジトリの公開範囲や、Internalが使えるかは、まだ分かっていません。以下は10月7日時点の記述です。
+2026年10月14日の大学の手順書では、試しのリポジトリは組織tokyo-city-universityの下にPrivateで作るよう指示されています（[資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)）。プロジェクト用のリポジトリの公開範囲や、Internalが使えるかは、まだ分かっていません。以下は10月7日時点の記述です。
 
 授業で使うリポジトリを公開と非公開のどちらにするかは、2026年10月7日時点で決まっていません。大学はGitHubとCopilotのプランをMicrosoftと調整しているところで、学内（TCU）だけで共有できる3つ目の選択肢が使えるようになるかもしれません（[資料：教員からの連絡（2026年10月7日）](../sources/instructor-note-2026-10-07.md)）。GitHubには、組織向けの契約で使える「Internal」（組織のメンバーだけが見られる）という公開範囲があり（[資料：GitHubのアカウント、二要素認証、共同作業者の招待](../sources/web-github-account.md)）、それに当たる可能性があります（推測、要確認）。プランの詳細が分かったら、この節を更新します。
 
