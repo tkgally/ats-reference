@@ -18,7 +18,7 @@ Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」�
 
 1. ブラウザでGitHubにサインインする。アカウントがなければ、画面の案内に従って新しく作る。
 2. `https://github.com/orgs/tokyo-city-university/sso`を開き、大学のMicrosoft Entra IDアカウントでSSO認証をする。GitHubのサインインとSSO認証は別の処理で、組織のリポジトリとCopilotの利用にはSSO認証が必要。
-3. 作成先（Owner）を tokyo-city-university にし、`ats-名字-test-1`（例：`ats-tanaka-test-1`）という名前で、Privateの試しのリポジトリを作る。
+3. 作成先（Owner）をtokyo-city-universityにし、`ats-名字-test-1`（例：`ats-tanaka-test-1`）という名前で、Privateの試しのリポジトリを作る。
 4. デスクトップアプリをインストールし、同じGitHubアカウントでサインインして、そのリポジトリを開く。
 5. Copilotのチャットで、リポジトリの構成の説明やREADME.mdの作成などを頼む。ファイルの作成や変更が提案されたら、内容を確かめてから実行・保存する。
 
