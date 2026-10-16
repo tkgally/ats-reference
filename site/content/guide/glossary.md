@@ -72,6 +72,9 @@ GitHub Pages
 Markdown（マークダウン）
 : 記号を使って見出しや箇条書きなどを表す、簡単な書き方の決まり。ファイル名は`.md`で終わる。→[Markdownの書き方](markdown.md)
 
+ターミナル
+: 文字で命令を打ち込んでパソコンを動かす画面。エージェントがGitなどの操作をするときにも使う。→[ターミナル入門](terminal-basics.md)
+
 ## Copilotとエディター
 
 GitHub Copilot

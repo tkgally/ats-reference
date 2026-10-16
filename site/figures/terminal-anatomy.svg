@@ -1,0 +1,17 @@
+<svg viewBox="0 0 640 284" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ターミナルの1行の読み方。入力した命令を、今いるフォルダー、道具の名前とやること、オプション、対象や値に分けて示し、その下に実行結果が出る。">
+  <rect x="12" y="12" width="616" height="260" rx="14" class="bg ln" stroke-width="2"/>
+  <rect x="32" y="26" width="576" height="40" rx="8" class="f-gray"/>
+  <text x="48" y="52" font-size="15" class="tw" font-family="monospace">my-project $ git commit -m "READMEを書いた"</text>
+  <path d="M66 70V152" class="s-blue" fill="none" stroke-width="2"/>
+  <path d="M154 70V130" class="s-purple" fill="none" stroke-width="2"/>
+  <path d="M254 70V108" class="s-orange" fill="none" stroke-width="2"/>
+  <path d="M316 70V86" class="s-green" fill="none" stroke-width="2"/>
+  <text x="322" y="92" font-size="13" class="t-green bold">対象や値（ここではコミットのメッセージ）</text>
+  <text x="260" y="114" font-size="13" class="t-orange bold">オプション（-m は「メッセージを付ける」）</text>
+  <text x="160" y="136" font-size="13" class="t-purple bold">道具の名前（git）と、やること（commit）</text>
+  <text x="72" y="158" font-size="13" class="t-blue bold">今いるフォルダー</text>
+  <rect x="32" y="178" width="576" height="72" rx="8" class="f-gray"/>
+  <text x="48" y="204" font-size="14" class="tw" font-family="monospace">[main 3f2a1b9] READMEを書いた</text>
+  <text x="48" y="228" font-size="14" class="tw" font-family="monospace"> 1 file changed, 12 insertions(+)</text>
+  <text x="596" y="204" text-anchor="end" font-size="12" class="tw">実行結果</text>
+</svg>
