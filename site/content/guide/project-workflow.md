@@ -177,6 +177,7 @@ AIには、発表の構成案を考えてもらったり、スライドの下書
 - [AIの答えを確かめる](checking-ai-output.md)
 - [AIツールの選び方](ai-tools-compare.md)
 - [チームでプロジェクトを進める](teamwork.md)
+- [データを扱うプロジェクト](data-projects.md)
 - [成果を発表する](presenting.md)
 - [ブランチとプルリクエストでの共同作業](github-collaboration.md)
 - Wikiの関連ページ：[PBL（プロジェクト型学習）](../../../wiki/concepts/project-based-learning.md)、[授業の日程と進行](../../../wiki/course/schedule.md)、[達成目標](../../../wiki/course/learning-goals.md)

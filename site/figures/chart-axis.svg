@@ -1,0 +1,16 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同じデータの棒グラフを二つ並べた図。左は縦軸が0から始まり、AとBの差が小さく見える。右は縦軸が95から始まり、Bが何倍も高く見えて、差が大きすぎるように見える。">
+  <rect x="12" y="12" width="616" height="246" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="166" y="40" text-anchor="middle" font-size="14" class="tx bold">縦軸が0から（正直な見せ方）</text>
+  <text x="474" y="40" text-anchor="middle" font-size="14" class="tx bold">縦軸が95から（誤解されやすい）</text>
+  <path d="M50 58V204H290" class="lnf" fill="none" stroke-width="2"/>
+  <rect x="100" y="64" width="60" height="140" class="f-blue"/>
+  <rect x="190" y="60" width="60" height="144" class="f-orange"/>
+  <text x="130" y="224" text-anchor="middle" font-size="13" class="tx">A 97点</text>
+  <text x="220" y="224" text-anchor="middle" font-size="13" class="tx">B 99点</text>
+  <path d="M358 58V204H598" class="lnf" fill="none" stroke-width="2"/>
+  <rect x="408" y="134" width="60" height="70" class="f-blue"/>
+  <rect x="498" y="64" width="60" height="140" class="f-orange"/>
+  <text x="438" y="224" text-anchor="middle" font-size="13" class="tx">A 97点</text>
+  <text x="528" y="224" text-anchor="middle" font-size="13" class="tx">B 99点</text>
+  <text x="320" y="248" text-anchor="middle" font-size="12" class="tm">数字は同じ。縦軸の始まりを変えるだけで、差の印象が大きく変わる。</text>
+</svg>
