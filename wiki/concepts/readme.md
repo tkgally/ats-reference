@@ -22,6 +22,7 @@ GitHub公式のドキュメントによれば、READMEはリポジトリにあ�
 - [リポジトリ](repository.md)
 - [Markdown](markdown.md)
 - [LLM Wiki](llm-wiki.md)
+- [ライセンス](license.md)
 - [GitHub](../tools/github.md)
 
 ## 出典

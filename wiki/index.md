@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：64（目録と作業記録を除く）
-- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料19件）
+- ページ数：67（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料20件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月16日
+- 最終更新：2026年10月17日
 
 ## 全体
 
@@ -70,6 +70,9 @@
 - [マージ](concepts/merge.md)：別々に進めた変更を一つにまとめる操作、マージ（merge）についてのページ。
 - [マージの衝突（コンフリクト）](concepts/merge-conflict.md)：Gitが二つのブランチの変更を自動ではまとめられず、人間の判断を求める状態、マージの衝突（コンフリクト）についてのページ。
 - [プッシュ、プル、フェッチ](concepts/push-pull-fetch.md)：手元のリポジトリとGitHub上のリポジトリの間で変更をやり取りする三つの操作、プッシュ、プル、フェッチについてのページ。
+- [.gitignore（無視するファイル）](concepts/gitignore.md)：コミットしたくないファイルをGitに伝えるための設定ファイル、`.gitignore`についてのページ。
+- [ライセンス](concepts/license.md)：作ったものを他の人がどこまで使ってよいかを示す、ライセンス（license）についてのページ。
+- [GitHub Pages](concepts/github-pages.md)：リポジトリのファイルをウェブサイトとして公開するGitHubのサービス、GitHub Pagesについてのページ。
 
 ## 資料
 
@@ -101,6 +104,7 @@
 - [資料：GitHub Copilotアプリの公式ドキュメント](sources/web-github-copilot-app-docs.md)：GitHubの公式ドキュメントと更新情報にある、Copilotデスクトップアプリの説明の要約です（2026年10月13日に確認）。
 - [資料：コミット、クローン、マージ（GitHub Docs）](sources/web-github-commit-clone-merge.md)：GitHubの公式ドキュメントにある、コミット、クローン、マージの概説とプルリクエストのマージ方法の要約です（2026年10月14日に確認）。
 - [資料：マージの衝突とフェッチ・プル（GitHub Docs）](sources/web-github-conflicts-fetch-pull.md)：GitHubの公式ドキュメントにある、マージの衝突の概説と、クローン、フェッチ、プルの違いの要約です（2026年10月15日に確認）。
+- [資料：.gitignore、ライセンス、GitHub Pages（GitHub Docs）](sources/web-github-gitignore-license-pages.md)：GitHubの公式ドキュメントにある、ファイルを無視する設定、リポジトリのライセンス、GitHub Pagesの概要と制限の要約（2026年10月17日に確認）。
 
 ## 質問への回答
 

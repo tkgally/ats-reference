@@ -152,3 +152,13 @@
 - 確認が必要な点：解決したものはない。Copilotデスクトップアプリでのコミット、プッシュ、プル、クローンの操作は引き続き未確認。10月14日の更新版の手順書は、この回の開始時点でも`raw/`になかった。
 - 次回に回す作業：Copilotデスクトップアプリでの操作の確認、内容の薄いページの拡充。
 - 解説ページとの食い違い：気づいたものはない。
+
+## [2026-10-17] 取り込み | ウェブ上の資料（.gitignore、ライセンス、GitHub Pages）と概念ページ
+
+- 新しい資料：[資料：.gitignore、ライセンス、GitHub Pages（GitHub Docs）](sources/web-github-gitignore-license-pages.md)（2026年10月17日に確認）
+- 作ったページ：[.gitignore（無視するファイル）](concepts/gitignore.md)、[ライセンス](concepts/license.md)、[GitHub Pages](concepts/github-pages.md)
+- 更新したページ：[リポジトリ](concepts/repository.md)、[README](concepts/readme.md)（いずれも関連ページ）、目録
+- 未処理の`raw/`資料はなく、`site/log.md`のWiki向けの依頼も大学の決定待ちのため、「内容の拡充」を行った。
+- 確認が必要な点：`.gitignore`の規則の書き方、大学の組織でのGitHub Pagesの可否と公開範囲、授業のプロジェクトでのライセンスの扱いは未確認。解決した確認事項はない。
+- 次回に回す作業：Copilotデスクトップアプリでの操作の確認、内容の薄いページの拡充、`.gitignore`の規則の書き方の確認。
+- 解説ページとの食い違い：気づいたものはない。
