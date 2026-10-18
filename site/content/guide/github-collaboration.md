@@ -202,5 +202,6 @@ GitHub Copilotのクラウドエージェント（Copilot cloud agent、以前�
 - [AIエージェントとは](ai-agents.md)
 - [AIの答えを確かめる](checking-ai-output.md)
 - [プロジェクトの進め方](project-workflow.md)
+- [リポジトリを整える](repo-tidy.md)
 - [英語の画面を読むための単語帳](github-english-ui.md)
 - Wikiの関連ページ：[GitHub](../../../wiki/tools/github.md)、[GitHub Copilot](../../../wiki/tools/github-copilot.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="リポジトリの最上位に置く三つのファイル。README.mdはリポジトリの説明、.gitignoreはコミットしないファイルの一覧、LICENSEは使ってよい範囲を示す。GitHub Pagesはファイルをウェブサイトとして公開する。">
+  <rect x="12" y="12" width="616" height="226" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="32" y="40" font-size="14" class="tx bold">リポジトリの最上位</text>
+  <rect x="24" y="54" width="188" height="104" rx="10" class="f-blue-s"/>
+  <text x="118" y="82" text-anchor="middle" font-size="15" class="tx bold">README.md</text>
+  <text x="118" y="108" text-anchor="middle" font-size="12" class="tx">何のプロジェクトか</text>
+  <text x="118" y="126" text-anchor="middle" font-size="12" class="tx">使い方、連絡先</text>
+  <text x="118" y="146" text-anchor="middle" font-size="12" class="tm">訪問者が最初に読む</text>
+  <rect x="226" y="54" width="188" height="104" rx="10" class="f-orange-s"/>
+  <text x="320" y="82" text-anchor="middle" font-size="15" class="tx bold">.gitignore</text>
+  <text x="320" y="108" text-anchor="middle" font-size="12" class="tx">コミットしない</text>
+  <text x="320" y="126" text-anchor="middle" font-size="12" class="tx">ファイルの一覧</text>
+  <text x="320" y="146" text-anchor="middle" font-size="12" class="tm">うっかり防止</text>
+  <rect x="428" y="54" width="188" height="104" rx="10" class="f-teal-s"/>
+  <text x="522" y="82" text-anchor="middle" font-size="15" class="tx bold">LICENSE</text>
+  <text x="522" y="108" text-anchor="middle" font-size="12" class="tx">他の人が使って</text>
+  <text x="522" y="126" text-anchor="middle" font-size="12" class="tx">よい範囲</text>
+  <text x="522" y="146" text-anchor="middle" font-size="12" class="tm">公開するなら必要</text>
+  <path d="M320 164V186" class="lnf anim-dash" fill="none" stroke-width="2" stroke-dasharray="6 5"/>
+  <rect x="150" y="190" width="340" height="38" rx="10" class="f-green-s"/>
+  <text x="320" y="214" text-anchor="middle" font-size="13" class="tx bold">GitHub Pages：ファイルをウェブサイトとして公開</text>
+</svg>
