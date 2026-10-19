@@ -5,7 +5,7 @@ description: 見出し、箇条書き、リンク、表など、Markdownの基�
 category: github
 order: 5
 level: 入門
-updated: 2026年10月7日
+updated: 2026年10月19日
 ---
 
 ## Markdownとは
@@ -299,6 +299,10 @@ README.md（リードミー）は、リポジトリの一番上の階層に置�
 - VS Code：Markdownのファイルを開いた状態で、Ctrl＋Shift＋V（MacはCommand＋Shift＋V）を押すとプレビューが開く。Ctrl＋K（MacはCommand＋K）を押してからVを押すと、編集の画面の横にプレビューが並ぶ（[VS CodeでCopilotを使う準備](vscode-copilot-setup.md)）。
 
 Markdownの細かい書き方は、表示するツールによって少しずつ違います。このサイトのように、GitHub以外の方法でMarkdownを表示する場合もあるので、迷ったときは、このページで紹介した基本の書き方だけを使うのが安全です。GitHubでの書き方の詳細は、公式の案内（[GitHub Docs：基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)）にまとまっています。
+
+次の体験コーナーでは、書いた文章の表示と、このページの規則に反する点を確かめられます。
+
+<div class="demo" data-demo="md-check"></div>
 
 <div class="box try" markdown="1">
 <p class="box-title">やってみよう</p>

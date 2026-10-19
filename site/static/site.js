@@ -309,6 +309,58 @@
       });
     },
 
+    // Markdownの確認：書いた文章の表示と、日本語の規則に反する点を見せる
+    "md-check": function (el) {
+      var sample = "# 活動の記録\n\nこれは**「重要」**な記録です。\nここで改行しています。\n\n- 1つ目の項目\n- 2つ目の項目\n\nGitHubのリポジトリ、とAIを使う(最初の日)。";
+      el.innerHTML = '<p class="demo-title">体験：Markdownの表示と規則の確認</p>' +
+        '<p class="muted" style="font-size:14px;margin:0 0 6px">左の欄に書き換えると、右に表示の例と、日本語の規則に反する点が出ます。表示は、この体験用の簡単な仕組みで作った例です。</p>' +
+        '<label for="mdc-in" style="font-size:14px">Markdownで書く</label>' +
+        '<textarea id="mdc-in" class="mdc-in" rows="9" style="width:100%;box-sizing:border-box;font:inherit;font-family:monospace;font-size:14px;padding:8px;border-radius:8px;border:1px solid var(--line-strong);background:var(--bg);color:var(--fg)"></textarea>' +
+        '<div class="controls"><button class="mdc-reset">例に戻す</button></div>' +
+        '<p class="demo-title" style="margin-top:8px">表示の例</p><div class="mdc-view" style="padding:6px 12px;border:1px solid var(--line-strong);border-radius:8px;min-height:3em"></div>' +
+        '<p class="demo-title" style="margin-top:12px">規則の確認</p><ul class="mdc-warn" role="status" aria-live="polite" style="margin:0;padding-left:1.4em"></ul>';
+      var inp = el.querySelector(".mdc-in"), view = el.querySelector(".mdc-view"), warn = el.querySelector(".mdc-warn");
+      var esc = function (s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); };
+      var P = /[\p{P}\p{S}]/u, S = /\s/;
+      // 太字：CommonMarkの「強調の記号の隣の文字」の規則を簡略にまねる
+      var bold = function (s) {
+        return s.replace(/\*\*([^*]+?)\*\*/g, function (m, t, off) {
+          var before = off > 0 ? s.charAt(off - 1) : " ", after = s.charAt(off + m.length) || " ";
+          var okOpen = !P.test(t.charAt(0)) || S.test(before) || P.test(before);
+          var okClose = !P.test(t.charAt(t.length - 1)) || S.test(after) || P.test(after);
+          return okOpen && okClose ? "<strong>" + t + "</strong>" : m;
+        });
+      };
+      var render = function (text) {
+        var html = "", para = [], list = [];
+        var flushP = function () { if (para.length) { html += "<p>" + bold(esc(para.join("\n")).replace(/\n/g, " ")) + "</p>"; para = []; } };
+        var flushL = function () { if (list.length) { html += "<ul>" + list.map(function (x) { return "<li>" + bold(esc(x)) + "</li>"; }).join("") + "</ul>"; list = []; } };
+        text.split("\n").forEach(function (ln) {
+          var h = /^(#{1,3}) (.+)$/.exec(ln), li = /^[-*] (.+)$/.exec(ln);
+          if (/^\s*$/.test(ln)) { flushP(); flushL(); }
+          else if (h) { flushP(); flushL(); html += "<h" + (h[1].length + 2) + ' style="margin:.4em 0">' + bold(esc(h[2])) + "</h" + (h[1].length + 2) + ">"; }
+          else if (li) { flushP(); list.push(li[1]); }
+          else { flushL(); para.push(ln); }
+        });
+        flushP(); flushL();
+        return html;
+      };
+      var check = function (text) {
+        var w = [];
+        if (/\*\*|__/.test(text.replace(/`[^`]*`/g, ""))) w.push("太字の記号（`**`など）があります。日本語では記号がそのまま表示されることが多いので、見出しや箇条書き、かぎ括弧で強調します。");
+        var paras = text.split(/\n\s*\n/);
+        if (paras.some(function (p) { var ls = p.split("\n").filter(function (l) { return l.trim(); }); return ls.length > 1 && !ls.some(function (l) { return /^(#|[-*] |\d+\. )/.test(l); }); })) w.push("段落の途中で改行しています。表示では半角の空白になり、日本語の文に不自然な空きが入ります。一つの段落は一行で書きます。");
+        if (/[぀-ヿ一-鿿][,.()!?:;]|[,(][぀-ヿ一-鿿]/.test(text)) w.push("日本語の文の中に半角の句読点や括弧があります。「、」「。」「（」「）」を使います。");
+        if (/[぀-ヿ一-鿿] +[A-Za-z0-9]|[A-Za-z0-9] +[぀-ヿ一-鿿]/.test(text)) w.push("日本語と英数字の間に空白があります。入れない決まりです（例：「GitHubのリポジトリ」）。");
+        if (/~/.test(text)) w.push("半角の`~`があります。範囲は「〜」を使います。");
+        warn.innerHTML = w.length ? w.map(function (x) { return "<li>" + esc(x).replace(/`([^`]*)`/g, "<code>$1</code>") + "</li>"; }).join("") : "<li>見つかりませんでした。規則どおりです。</li>";
+      };
+      var update = function () { view.innerHTML = render(inp.value); check(inp.value); };
+      inp.value = sample; update();
+      inp.addEventListener("input", update);
+      el.querySelector(".mdc-reset").addEventListener("click", function () { inp.value = sample; update(); });
+    },
+
     // トークン分け：文がどのような断片に分かれるかの例を見せる
     "tokens": function (el) {
       var samples = [
