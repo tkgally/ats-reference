@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：67（目録と作業記録を除く）
-- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料20件）
+- ページ数：68（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料21件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月18日
+- 最終更新：2026年10月19日
 
 ## 全体
 
@@ -105,6 +105,7 @@
 - [資料：コミット、クローン、マージ（GitHub Docs）](sources/web-github-commit-clone-merge.md)：GitHubの公式ドキュメントにある、コミット、クローン、マージの概説とプルリクエストのマージ方法の要約です（2026年10月14日に確認）。
 - [資料：マージの衝突とフェッチ・プル（GitHub Docs）](sources/web-github-conflicts-fetch-pull.md)：GitHubの公式ドキュメントにある、マージの衝突の概説と、クローン、フェッチ、プルの違いの要約です（2026年10月15日に確認）。
 - [資料：.gitignore、ライセンス、GitHub Pages（GitHub Docs）](sources/web-github-gitignore-license-pages.md)：GitHubの公式ドキュメントにある、ファイルを無視する設定、リポジトリのライセンス、GitHub Pagesの概要と制限の要約（2026年10月17日に確認）。
+- [資料：gitignoreの規則の書き方（Git公式ドキュメント）](sources/web-git-docs-gitignore.md)：Git公式ドキュメントにある、`.gitignore`の規則（パターン）の書き方と優先順位の要約（2026年10月19日に確認）。
 
 ## 質問への回答
 
