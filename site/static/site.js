@@ -309,6 +309,57 @@
       });
     },
 
+    // エージェントのループ：目標に対して、計画→道具→観察を一歩ずつ見せる
+    "agent-loop": function (el) {
+      var steps = [
+        { plan: "まず指示ファイル（AGENTS.md）を読んで、取り込みの手順を確かめよう。", tool: "ファイルを読む：AGENTS.md", obs: "「取り込みでは、要約ページを作り、目録と作業記録を更新する」と書いてある。", judge: "手順は分かった。まだ何も作っていないので、続ける。" },
+        { plan: "次に、取り込む授業のメモを読もう。", tool: "ファイルを読む：raw/class-memo.md", obs: "メモには、日程の変更と、新しく配られるツールの名前が書いてある。", judge: "内容は分かった。要約ページを作る段階に進む。" },
+        { plan: "目録を見て、関係するWikiのページを探そう。", tool: "ファイルを読む：wiki/index.md", obs: "「授業の日程」のページと「ツール」のページが関係しそうだ。", judge: "書き換える先が決まった。続ける。" },
+        { plan: "要約ページを作り、日程のページを書き換えよう。", tool: "ファイルを書く：wiki/sources/class-memo.md ほか", obs: "ファイルが作られ、日程のページが書き換わった。", judge: "書き換えたが、リンクが正しいかはまだ確かめていない。続ける。" },
+        { plan: "書き換えたページを検査の命令で確かめよう。", tool: "命令を実行する：python site/build.py --check", obs: "「リンク切れが1件あります」と出た。", judge: "目標にはまだ届いていない。直す必要がある。" },
+        { plan: "リンク切れの場所を探して直そう。", tool: "ファイルを書く：wiki/sources/class-memo.md", obs: "リンクの書き方を直した。", judge: "直したが、確かめ直していない。続ける。" },
+        { plan: "もう一度、検査の命令を実行しよう。", tool: "命令を実行する：python site/build.py --check", obs: "「警告0件」と出た。", judge: "目標に届いた。人に報告する。" }
+      ];
+      var n = 0;
+      el.innerHTML = '<p class="demo-title">体験：エージェントのループを一歩ずつ見る</p>' +
+        '<p style="margin:0 0 6px;font-size:15px">目標：「授業のメモをWikiに取り込んで」（架空の例です）</p>' +
+        '<div class="controls"><button class="primary al-next">次の一歩へ</button><button class="al-reset">最初から</button></div>' +
+        '<ol class="al-list" style="list-style:none;padding:0;margin:8px 0;display:grid;gap:8px"></ol>' +
+        '<p class="al-note" role="status" aria-live="polite" style="font-size:15px;margin:0"></p>' +
+        '<p class="muted" style="font-size:14px;margin:6px 0 0">実際のエージェントの動きは毎回少しずつ違います。ここでは、ループの形を見るための単純な例にしています。</p>';
+      var list = el.querySelector(".al-list"), note = el.querySelector(".al-note"), next = el.querySelector(".al-next");
+      var rows = [["計画", "plan", "var(--c-purple)"], ["道具", "tool", "var(--c-blue)"], ["観察", "obs", "var(--c-green)"], ["判断", "judge", "var(--c-orange)"]];
+      var draw = function () {
+        list.innerHTML = "";
+        steps.slice(0, n).forEach(function (st, k) {
+          var li = document.createElement("li");
+          var last = k === n - 1;
+          li.style.cssText = "padding:8px 12px;border-radius:8px;border:1px solid " + (last ? "var(--c-purple)" : "var(--line-strong)") + ";background:var(--bg-soft);font-size:15px";
+          var h = document.createElement("div");
+          h.style.cssText = "font-weight:700;margin-bottom:2px";
+          h.textContent = "ループ" + (k + 1) + "回目";
+          li.appendChild(h);
+          rows.forEach(function (r) {
+            var d = document.createElement("div");
+            var tag = document.createElement("span");
+            tag.style.cssText = "display:inline-block;min-width:3em;margin-right:8px;font-weight:700;color:" + r[2];
+            tag.textContent = r[0];
+            d.appendChild(tag);
+            d.appendChild(document.createTextNode(st[r[1]]));
+            li.appendChild(d);
+          });
+          list.appendChild(li);
+        });
+        if (n === 0) note.textContent = "「次の一歩へ」を押すと、エージェントが一回のループで考えることと、したことが一つずつ出ます。";
+        else if (n < steps.length) note.textContent = "ループは、目標に届くまで続きます。途中で結果を見て、やり方を変えられる点がチャットとの違いです。";
+        else note.textContent = "7回のループで目標に届きました。5回目のように、結果を見て間違いに気づき、直すのがエージェントの強みです。ただし、最後の報告を信じる前に、人が結果を確かめます。";
+        next.disabled = n >= steps.length;
+      };
+      next.addEventListener("click", function () { if (n < steps.length) { n++; draw(); } });
+      el.querySelector(".al-reset").addEventListener("click", function () { n = 0; draw(); });
+      draw();
+    },
+
     // Markdownの確認：書いた文章の表示と、日本語の規則に反する点を見せる
     "md-check": function (el) {
       var sample = "# 活動の記録\n\nこれは**「重要」**な記録です。\nここで改行しています。\n\n- 1つ目の項目\n- 2つ目の項目\n\nGitHubのリポジトリ、とAIを使う(最初の日)。";
