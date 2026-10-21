@@ -2,8 +2,8 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：70（目録と作業記録を除く）
-- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料23件）
+- ページ数：71（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料24件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
 - 最終更新：2026年10月21日
 
@@ -98,6 +98,7 @@
 - [資料：Pro Git「What is Git?」（Git公式サイト）](sources/web-git-book-what-is-git.md)：Gitがデータをスナップショットとして記録し、操作の多くが手元で完結することについての、Git公式サイトの要約です（2026年10月9日に確認）。
 - [資料：GitHub flow（GitHub Docs）](sources/web-github-flow.md)：ブランチとプルリクエストを使った共同作業の流れについての、GitHub公式ドキュメントの要約です（2026年10月9日に確認）。
 - [資料：Markdown Reference（CommonMark）](sources/web-commonmark-help.md)：Markdownの基本の書き方についての、CommonMarkの早見表の要約です（2026年10月9日に確認）。
+- [資料：GitHubの基本的な書式（GitHub Docs）](sources/web-github-markdown-syntax.md)：GitHubで使えるMarkdownの書き方（タスクリスト、見出しへのリンク、改行の違い、注意書きなど）についての、GitHub公式ドキュメントの要約です（2026年10月21日に確認）。
 - [資料：Claude Platform Docs（コンテキストウィンドウ、ハルシネーションの低減、プロンプトの概説）](sources/web-claude-docs-context-hallucination.md)：Anthropicの開発者向けドキュメントにある、コンテキストウィンドウ、ハルシネーションの減らし方、プロンプトエンジニアリングの概説の要約です（2026年10月10日に確認）。
 - [資料：リポジトリと二要素認証（GitHub Docs）](sources/web-github-repositories-2fa.md)：GitHubの公式ドキュメントにある、リポジトリの基本と二要素認証の概説の要約です（2026年10月11日に確認）。
 - [資料：IssuesとREADME（GitHub Docs）](sources/web-github-issues-readme.md)：GitHubの公式ドキュメントにある、Issues（課題の管理）とREADMEファイルの概説の要約です（2026年10月12日に確認）。
