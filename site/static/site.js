@@ -360,6 +360,63 @@
       draw();
     },
 
+    // コミットとブランチ：ボタンでブランチを作り、コミットし、マージするようすを見せる
+    "branch-sim": function (el) {
+      var main, br, merged, note;
+      var reset = function () { main = [{ t: "c" }, { t: "c" }]; br = null; merged = 0; note = "mainには2つのコミットがあります。まず「ブランチを作る」を押してみましょう。"; };
+      reset();
+      el.innerHTML = '<p class="demo-title">体験：コミットとブランチを動かしてみる</p>' +
+        '<div class="controls"><button class="primary bs-branch">ブランチを作る</button><button class="bs-cb">ブランチでコミット</button><button class="bs-cm">mainでコミット</button><button class="bs-merge">mainにマージ</button><button class="bs-reset">最初から</button></div>' +
+        '<div class="bs-view" style="overflow-x:auto"></div>' +
+        '<p class="bs-note" role="status" aria-live="polite" style="font-size:15px;margin:6px 0 0"></p>' +
+        '<p class="muted" style="font-size:14px;margin:6px 0 0">模式図です。実際のGitHubでは、マージの前にプルリクエストで内容を確かめます。</p>';
+      var view = el.querySelector(".bs-view"), nt = el.querySelector(".bs-note");
+      var q = function (c) { return el.querySelector(c); };
+      var draw = function () {
+        var W = 56, x0 = 70, n = main.length, bn = br ? br.n : 0;
+        var total = Math.max(n, (br ? br.at + 1 + bn : 0) + (merged ? 0 : 0)) + 1;
+        var width = x0 + (total + 1) * W, yM = 30, yB = 80;
+        var g = '<svg viewBox="0 0 ' + width + ' 110" width="' + width + '" height="110" role="img" aria-label="mainブランチのコミット' + n + '個と、作業用ブランチのコミット' + bn + '個を並べた図">';
+        g += '<text x="4" y="' + (yM + 5) + '" font-size="14" fill="var(--fg)">main</text>';
+        if (br) g += '<text x="4" y="' + (yB + 5) + '" font-size="14" fill="var(--c-orange)">作業用</text>';
+        var line = function (x1, y1, x2, y2, c) { return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 + '" stroke="' + c + '" stroke-width="3"/>'; };
+        main.forEach(function (c, i) {
+          var x = x0 + i * W;
+          if (i) g += line(x - W, yM, x, yM, "var(--c-green)");
+        });
+        if (br) {
+          var bx = x0 + br.at * W;
+          for (var k = 1; k <= bn; k++) g += line(bx + (k - 1) * W, k === 1 ? yM : yB, bx + k * W, yB, "var(--c-orange)");
+          if (bn) { for (var j = 1; j <= bn; j++) g += '<circle cx="' + (bx + j * W) + '" cy="' + yB + '" r="9" fill="var(--c-orange)"/>'; }
+          else g += '<text x="' + (bx + 14) + '" y="' + (yB + 5) + '" font-size="13" fill="var(--muted)">（まだコミットなし）</text>';
+          if (!bn) g += line(bx, yM, bx, yB, "var(--c-orange)");
+        }
+        main.forEach(function (c, i) {
+          g += '<circle cx="' + (x0 + i * W) + '" cy="' + yM + '" r="9" fill="' + (c.t === "m" ? "var(--c-purple)" : "var(--c-green)") + '"/>';
+        });
+        view.innerHTML = g + "</svg>";
+        q(".bs-branch").disabled = !!br;
+        q(".bs-cb").disabled = !br;
+        q(".bs-merge").disabled = !br || !br.n;
+        nt.textContent = note;
+      };
+      q(".bs-branch").addEventListener("click", function () { br = { at: main.length - 1, n: 0 }; note = "mainの最新のコミットから、作業用のブランチが枝分かれしました。ここでの変更はmainに影響しません。"; draw(); });
+      q(".bs-cb").addEventListener("click", function () { br.n++; note = "ブランチにコミットが増えました。mainは変わっていません。"; draw(); });
+      q(".bs-cm").addEventListener("click", function () {
+        main.push({ t: "c" });
+        note = br ? "mainが先に進みました。ブランチとmainが同じ場所を変えていると、マージのときに衝突（コンフリクト）が起きることがあります。" : "mainに直接コミットしました。一人で試すときはこれでもよいですが、チームやAIエージェントとの作業では、ブランチで作業するのが安全です。";
+        draw();
+      });
+      q(".bs-merge").addEventListener("click", function () {
+        main.push({ t: "m" });
+        br = null; merged++;
+        note = "ブランチの変更がmainに合流しました（紫の点がマージのコミット）。役目を終えたブランチは削除してよく、図からも消えます。";
+        draw();
+      });
+      q(".bs-reset").addEventListener("click", function () { reset(); draw(); });
+      draw();
+    },
+
     // Markdownの確認：書いた文章の表示と、日本語の規則に反する点を見せる
     "md-check": function (el) {
       var sample = "# 活動の記録\n\nこれは**「重要」**な記録です。\nここで改行しています。\n\n- 1つ目の項目\n- 2つ目の項目\n\nGitHubのリポジトリ、とAIを使う(最初の日)。";
