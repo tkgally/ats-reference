@@ -12,6 +12,7 @@
 - 画像・音声・動画を生成するAI：種類、使い方、著作権と表示の注意。
 - コマンドライン（ターミナル）入門（済：terminal-basics.md）。
 - リポジトリを整える（済：repo-tidy.md。README、.gitignore、ライセンス、GitHub Pages）。大学の組織でPagesが使えるか、授業での公開・ライセンスの方針が決まったら反映する。
+- GitHub Pagesで自分のサイトを公開する（済：github-pages.md。docs/から公開する方法とGitHub Actionsで公開する方法）。授業の組織でPagesが使えるかが分かったら、「始める前に」の囲みを直す。実際の画面での確認もまだ。
 - データを扱うプロジェクト（済：data-projects.md）。実際のデータ分析の体験コーナー（CSVを貼ると平均と棒グラフが出る、など）を作る案。
 
 ### 既存のページの改良
@@ -160,3 +161,10 @@
 - Wikiに新しい事実は加わっておらず、Wikiへの反映なし。OpenRouterは使っていない。
 - 人間に確かめてほしい点：特になし。体験の内容は架空の例で、実際のエージェントの動きとは細部が異なる旨を体験の説明に書いた。
 - 候補の更新：体験コーナーの残りの候補は、コミットとブランチのシミュレーター。
+
+### [2026-10-21] 新しい解説ページ「GitHub Pagesで自分のサイトを公開する」
+
+- [GitHub Pagesで自分のサイトを公開する](content/guide/github-pages.md)を追加（方法の選び方、公開先のURL、方法A：`docs/`から公開する3ステップ、方法B：GitHub Actionsのひな型「Static HTML」で公開する3ステップと組み立ての追加、AIへの頼み方、うまくいかないとき、公開をやめる）。図は`github-pages-two-ways.svg`。分類「GitHubを使う」（order 7）。[リポジトリを整える](content/guide/repo-tidy.md)のGitHub Pagesの節と「次に読むページ」、[用語集](content/guide/glossary.md)からリンクした。
+- 手順と画面の表記は、2026年10月21日に公式ドキュメントとひな型のリポジトリで確かめ、Wikiに資料（`wiki/sources/web-github-pages-setup.md`）として加えた。Wikiの[GitHub Pages](../wiki/concepts/github-pages.md)も拡充した。
+- OpenRouterは使っていない。
+- 人間に確かめてほしい点：画面の表記は公式ドキュメントにもとづき、実際の画面では確かめていない。授業の組織のPrivateのリポジトリでPagesが使えるかは未確認で、「教員に相談する」と書いた。相対リンク、`.nojekyll`と`_`で始まる名前、URLの大文字と小文字の注意は資料外の補足として明記した。
