@@ -5,7 +5,7 @@ description: 本流を壊さずに変更を試すブランチと、変更を確�
 category: github
 order: 4
 level: 基本
-updated: 2026年10月7日
+updated: 2026年10月21日
 ---
 
 ## なぜブランチを使うのか
@@ -39,6 +39,10 @@ updated: 2026年10月7日
 ファイルを編集してコミットするときに、ダイアログで「Create a new branch for this commit and start a pull request」を選んでも、ブランチが作られ、そのままプルリクエストの画面に進みます。こちらのほうが手軽です（[GitHubを始める](github-first-steps.md)）。
 
 ブランチの名前は、半角の英小文字・数字・ハイフンで、何の作業かが分かるものにします（例：`fix-schedule`、`add-interview-notes`）。チームで「名前の最初に自分の名前を付ける」（例：`hanako/add-survey`）などの約束を決めておくと、だれの作業か分かりやすくなります。
+
+ボタンを押して、ブランチの動きを試してみましょう。
+
+<div class="demo" data-demo="branch-sim"></div>
 
 ## プルリクエストの流れ
 
