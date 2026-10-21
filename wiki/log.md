@@ -190,3 +190,10 @@
 - 確認が必要な点：授業でVS Codeを必ず使うかどうかは未確認のまま。対応するOSは入門ページに記載がなく、資料外の補足として残した。解決した確認事項はない。10月14日の更新版の手順書は`raw/`に置かれていない。
 - 次回に回す作業：内容の薄いページの拡充（`webclass.md`、`markdown.md`、`commit.md`など）。
 - 解説ページとの食い違い：気づいたものはない（解説ページ`vscode-copilot-setup.md`は未確認。次回、表示言語の手順を照合するとよい）。
+
+## [2026-10-21] 取り込み | ウェブ上の資料（GitHub Pagesの公開の手順）
+
+- 作ったページ：[資料：GitHub Pagesの公開の手順（GitHub Docs）](sources/web-github-pages-setup.md)（サイトの作り方、ブランチのフォルダーとGitHub Actionsの公開元の設定、独自のワークフロー、公開範囲、公開の取り下げ。2026年10月21日に確認）
+- 更新したページ：[GitHub Pages](concepts/github-pages.md)（URLとファイルの対応、公開元の選び方の表、入口のファイル、反映までの時間、ひな型、権限、公開の取り下げ、公開範囲とプランの節を追加。解説ページへのリンクを追加）、[概観](overview.md)（確認が必要な点に、授業の組織でPagesが使えるかを追加）、目録
+- 解説サイトに新しいページ[GitHub Pagesで自分のサイトを公開する](../site/content/guide/github-pages.md)を加えた（記録は`site/log.md`）。
+- 確認が必要な点：授業の組織（tokyo-city-university）のプランと、そのPrivateのリポジトリでGitHub Pagesが使えるか、使えるとして誰が見られるか。

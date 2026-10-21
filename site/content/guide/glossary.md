@@ -73,7 +73,7 @@ GitHub Actions
 : リポジトリに変更が入ったときなどに、決めておいた作業を自動で実行するGitHubの機能。このサイトの公開にも使っている。→[このサイトの使い方](about-this-site.md)
 
 GitHub Pages
-: リポジトリのファイルをウェブサイトとして公開するGitHubの機能。→[このサイトの使い方](about-this-site.md)
+: リポジトリのファイルをウェブサイトとして公開するGitHubの機能。→[GitHub Pagesで自分のサイトを公開する](github-pages.md)、[このサイトの使い方](about-this-site.md)
 
 Markdown（マークダウン）
 : 記号を使って見出しや箇条書きなどを表す、簡単な書き方の決まり。ファイル名は`.md`で終わる。→[Markdownの書き方](markdown.md)
