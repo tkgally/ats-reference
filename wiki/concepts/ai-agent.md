@@ -29,6 +29,7 @@ GitHub Copilotには、エディターの中で作業を進めるエージェン
 - [LLM Wiki](llm-wiki.md)
 - [GitHub Copilot](../tools/github-copilot.md)
 - [GitHub](../tools/github.md)
+- [ターミナル](terminal.md)
 - 解説ページ：[AIエージェントとは](../../site/content/guide/ai-agents.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)、[自分のプロジェクトに知識ベースを作る](../../site/content/guide/knowledge-base.md)
 
 ## 出典
