@@ -5,7 +5,7 @@ description: AIのエージェントが打つ命令を読んで、許可して�
 category: ai
 order: 8
 level: 基本
-updated: 2026年10月16日
+updated: 2026年10月23日
 ---
 
 ターミナルは、文字で命令を打ち込んでパソコンを動かす画面です。マウスで操作する画面（GUI）と違い、命令を一行書くと、その結果が文字で返ってきます。AIのエージェントは、ファイルの操作やGitの操作をこの画面で行うことが多くあります（[AIエージェントとは](ai-agents.md)）。
@@ -17,6 +17,18 @@ updated: 2026年10月16日
 - Mac：アプリの<span class="ui">Terminal</span>を開く。
 - Windows：<span class="ui">Windows Terminal</span>または<span class="ui">PowerShell</span>を開く。
 - VS Code：メニューの<span class="ui">Terminal</span>から<span class="ui">New Terminal</span>を選ぶと、画面の下に開く。開いているフォルダーが最初から選ばれているので、初めてなら、ここがいちばん安全です。
+
+## VS Codeのターミナルを使う
+
+VS Codeに組み込まれたターミナルを、統合ターミナルと呼びます（2026年10月22日に公式ドキュメントで確認、[Terminal Basics](https://code.visualstudio.com/docs/terminal/basics)）。
+
+- 開き方：メニューの<span class="ui">Terminal</span>から開く。キーボードでは、``Ctrl+` ``（Macは``Cmd+` ``）で表示と非表示を切り替えられる。Explorerでフォルダーを右クリックして開くこともできる。
+- 最初にいる場所：開いているフォルダーから始まる。新しいターミナルは、既定ではExplorerに表示されているフォルダーで開く。
+- シェル：命令を受け取る部分のことで、PowerShell、コマンドプロンプト、Git Bashなどから選べる。既定はパソコンの設定で決まる。
+- 複数のターミナル：タブで切り替えたり、画面を分けて並べたりできる。
+- 安全面：信頼していないフォルダー（Restricted Mode）では、ターミナルは使えない。複数行を貼り付けると、既定で警告が出る。ここで実行した命令は、VS Codeと同じ権限で動くので、消す命令などは自分のパソコンで本当に実行される。
+
+Copilotのチャットは、ターミナルで打つ命令を提案できます。実行するか、ターミナルに入れるだけにするかを選べるほか、命令を実行せずに意味だけを説明してもらうこともできます。意味の分からない命令は、まず説明だけを頼むと安全です。エージェントが命令を自動で実行するときの承認の仕組みは、ここでは確かめていません。
 
 画面の名前や並びはOSやバージョンで違います。開き方が分からないときは、担当者に聞いてください。
 
@@ -98,4 +110,4 @@ VS Codeでテスト用のフォルダーを開き、ターミナルを開いて�
 - [Copilotのエージェントに作業を頼む](copilot-agent.md)
 - [VS CodeでCopilotを使う準備](vscode-copilot-setup.md)
 - [GitHubとは](github-basics.md)
-- Wikiの関連ページ：[AIエージェント](../../../wiki/concepts/ai-agent.md)、[クローン](../../../wiki/concepts/clone.md)
+- Wikiの関連ページ：[ターミナル](../../../wiki/concepts/terminal.md)、[VS Code](../../../wiki/tools/vs-code.md)、[AIエージェント](../../../wiki/concepts/ai-agent.md)、[クローン](../../../wiki/concepts/clone.md)
