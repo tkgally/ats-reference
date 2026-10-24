@@ -225,3 +225,13 @@
 - 次回に回す作業：`webclass.md`の拡充（公式の情報が公開ページで見つかるか要確認）。VS Codeの承認・権限のページの確認。
 - 解説ページとの食い違い：気づいたものはない。
 - 備考：この実行環境では`python`が`markdown`を持たず、`/usr/bin/python3`で`site/build.py --check`が通った。
+
+## [2026-10-24] 取り込み | ウェブ上の資料（GitHubのプランとPagesの公開範囲）
+
+- 作ったページ：[資料：GitHubのプランとPrivateリポジトリでのGitHub Pages（GitHub Docs）](sources/web-github-plans.md)（2026年10月24日に確認）
+- 更新したページ：[GitHub Pages](concepts/github-pages.md)（プランごとの違いを追加）、[全体の概観](overview.md)（確認が必要な点に、Enterprise Cloudが鍵になることを追記）、目録（ページ数、資料数、最終更新日）
+- 未処理の`raw/`資料はなく、`site/log.md`のWiki向けの依頼も大学の決定待ちのため、「確認が必要な点」のうち公式の情報で確かめられる部分を調べた。
+- 確認が必要な点：大学の組織のプラン（Enterprise Cloudか）は公開情報では分からず、教員かIT担当者への確認が必要。取得した内容は要約を通したため、プランの表の細部は要確認。
+- 次回に回す作業：`webclass.md`の拡充。VS Codeの承認・権限のページの確認。
+- 解説ページとの食い違い：気づいたものはない（`github-pages.md`の解説は、Privateでの公開を授業の組織に確かめるよう案内しており矛盾しない）。
+- 備考：この実行環境では`python`が`markdown`を持たず、`/usr/bin/python3`で`site/build.py --check`を実行した。

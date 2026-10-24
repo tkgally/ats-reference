@@ -39,7 +39,8 @@ HTML、CSS、JavaScriptのファイルをGitHubのリポジトリから公開す
 - GitHub FreeまたはGitHub Free for organizationsの持ち主のリポジトリでは、GitHub Pagesを使うにはリポジトリがPublicでなければならない（[資料：GitHub Pagesの公開の手順](../sources/web-github-pages-setup.md)）。
 - リポジトリがPrivateでも、プランや組織が認めていれば、サイトはインターネットに公開される。
 - 見られる人を限ったサイトは、GitHub Enterprise Cloudの組織だけで作れ、リポジトリの読み取り権限を持つ人だけが見られる。
-- 授業の組織（tokyo-city-university）のプランと、そのPrivateのリポジトリでGitHub Pagesが使えるか、使えるとして誰が見られるかは、2026年10月21日時点で未確認です（[GitHub](../tools/github.md)）。試しのリポジトリはPrivateで作るよう指示されているので（2026年10月14日）、公開したいときは教員に確かめる必要があります。
+- プランごとの違い（2026年10月24日に確認、[資料：GitHubのプランとPagesの公開範囲](../sources/web-github-plans.md)）：個人アカウントのFreeはPublicのリポジトリだけ。個人アカウントのProでも、非公開のサイトには組織のアカウントが要る。組織のTeamでも、非公開のサイトにはGitHub Enterprise Cloudが要る。
+- 授業の組織（tokyo-city-university）のプランと、そのPrivateのリポジトリでGitHub Pagesが使えるか、使えるとして誰が見られるかは、2026年10月24日時点でも未確認です（[GitHub](../tools/github.md)）。試しのリポジトリはPrivateで作るよう指示されているので（2026年10月14日）、公開したいときは教員に確かめる必要があります。
 
 ## 制限と注意
 
@@ -64,3 +65,4 @@ HTML、CSS、JavaScriptのファイルをGitHubのリポジトリから公開す
 
 - [資料：.gitignore、ライセンス、GitHub Pages（GitHub Docs）](../sources/web-github-gitignore-license-pages.md)
 - [資料：GitHub Pagesの公開の手順（GitHub Docs）](../sources/web-github-pages-setup.md)
+- [資料：GitHubのプランとPrivateリポジトリでのGitHub Pages（GitHub Docs）](../sources/web-github-plans.md)

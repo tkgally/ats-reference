@@ -40,7 +40,7 @@ TCUアカウント、WebClass、Microsoft 365などの学内サービスは[学�
 - 個人とチームのどちらで取り組むか、チームの作り方。
 - GitHub Copilotの提供プラン、申し込み方法、期間終了後の扱い。一般向けのプランと学生向けのプランは公式ドキュメントで確かめたが（[GitHub Copilot](tools/github-copilot.md)）、大学から提供されるものがどれに当たるかは分かっていない。大学はMicrosoftと調整中（2026年10月7日、教員からの連絡）。
 - 解決したこと（2026年10月14日の大学の手順書）：授業用のGitHubの組織はtokyo-city-universityで、受講生は個人のGitHubアカウントを作ってサインインし、大学のSSOで組織につなぐ。Copilot Businessの利用枠は授業用Teamに割り当て済み。試しのリポジトリは`ats-名字-test-1`の名前でPrivateに作る（[GitHub Copilotデスクトップアプリ](tools/github-copilot-app.md)）。まだ分からないこと：二要素認証の方式、組織の「GitHub Copilot app」ポリシーの状態、提供期間と学期後の扱い、学内ネットワークの制限。
-- 授業で使うリポジトリの公開範囲。試しのリポジトリはPrivateと指示されたが（2026年10月14日）、プロジェクト用の公開範囲とInternalの可否は未確認（[GitHub](tools/github.md)）。授業の組織のプランと、そのPrivateのリポジトリでGitHub Pagesが使えるか（使えるなら誰が見られるか）も未確認（2026年10月21日時点、[GitHub Pages](concepts/github-pages.md)）。
+- 授業で使うリポジトリの公開範囲。試しのリポジトリはPrivateと指示されたが（2026年10月14日）、プロジェクト用の公開範囲とInternalの可否は未確認（[GitHub](tools/github.md)）。授業の組織のプランと、そのPrivateのリポジトリでGitHub Pagesが使えるか（使えるなら誰が見られるか）も未確認（2026年10月24日時点、[GitHub Pages](concepts/github-pages.md)）。公式のプランの説明では、組織のPrivateのリポジトリで非公開のサイトを作るにはGitHub Enterprise Cloudが要るので、大学の組織がそのプランかどうかが鍵になる。
 - ChatGPT、Claude、Geminiなどについて、大学として使えるもの、費用の扱い、利用上の注意。大学のGoogleアカウント（g.tcu.ac.jp）についての案内（Gmailは使わない、Google Classroomなどはサポート外）は分かったが、Geminiには触れていない（[TCUのGoogleアカウント](campus/tcu-google-account.md)）。
 - AI利用の倫理（著作権、プライバシー、公正性）について、授業や大学としての具体的な指針。国の指針は[AI利用の倫理](concepts/ai-ethics.md)にまとめた。
 - Microsoft 365 Copilotで、TCUアカウントにどの機能とデータ保護が適用されるか。Microsoftの公式ドキュメントでは、職場・学校のアカウントのCopilot Chatにエンタープライズデータ保護が適用され、入力は学習に使われないが、監査のために組織に記録されることを確かめた（2026年10月8日）。大学の設定は大学の案内が見つかっていない（[Microsoft 365 Copilot](tools/microsoft-365-copilot.md)）。
