@@ -75,6 +75,7 @@ GitHub Pagesは、HTML、CSS、JavaScriptのファイルをリポジトリから
 ## 次に読むページ
 
 - [GitHub Pagesで自分のサイトを公開する](github-pages.md)
+- [コミットを読む・書く](commit-messages.md)
 - [GitHubとは：基本の考え方](github-basics.md)
 - [ブランチとプルリクエストでの共同作業](github-collaboration.md)
 - [AIを使うときの倫理とルール](ai-ethics.md)
