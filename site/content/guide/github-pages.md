@@ -5,7 +5,7 @@ description: 自分のリポジトリのファイルをウェブサイトとし�
 category: github
 order: 7
 level: 基本
-updated: 2026年10月21日
+updated: 2026年10月25日
 ---
 
 GitHub Pagesを使うと、リポジトリに置いたHTMLなどのファイルが、`https://アカウント名.github.io/リポジトリ名/`のようなURLのウェブサイトになります。プロジェクトの紹介ページ、発表の資料、作ったツールのデモなどを、URL一つで人に見せられます。このガイドも、この仕組みで公開されています（[このサイトの使い方](about-this-site.md)）。
@@ -33,7 +33,7 @@ GitHub Pagesを使うと、リポジトリに置いたHTMLなどのファイル�
 
 GitHub Pagesのサイトは、ふつうインターネットの誰でも見られます。リポジトリをPrivateにしていても、サイトのほうは公開されることがあります。個人情報、学内限定の資料、他の人の著作物を載せないでください。
 
-また、GitHubの無料のプラン（個人のGitHub Freeや、組織のGitHub Free）では、GitHub Pagesを使えるのはPublicのリポジトリだけです。授業の組織（tokyo-city-university）のPrivateのリポジトリでGitHub Pagesが使えるか、使えるとして誰が見られるかは、2026年10月21日時点で分かっていません（[GitHub](../../../wiki/tools/github.md)）。授業のリポジトリで公開したいとき、個人のアカウントにPublicのリポジトリを作って公開したいときは、先に教員に相談し、チームでも話し合ってください（[チームでプロジェクトを進める](teamwork.md)）。
+また、GitHubの無料のプラン（個人のGitHub Freeや、組織のGitHub Free）では、GitHub Pagesを使えるのはPublicのリポジトリだけです。Privateのリポジトリで使えるプランでも条件があります。GitHubの公式ドキュメントによると、個人のProでは、サイトを見られる人を限る（非公開にする）には組織のアカウントが必要で、組織のTeamでは、組織がGitHub Enterprise Cloudを使っている必要があります（2026年10月24日に確認。[資料：GitHubのプランとPrivateリポジトリでのGitHub Pages](../../../wiki/sources/web-github-plans.md)、[GitHub Docs：GitHub's plans](https://docs.github.com/en/get-started/learning-about-github/githubs-plans)）。授業の組織（tokyo-city-university）がどのプランか、Privateのリポジトリで使えるか、使えるとして誰が見られるかは、2026年10月24日時点で分かっていません（[GitHub](../../../wiki/tools/github.md)）。授業のリポジトリで公開したいとき、個人のアカウントにPublicのリポジトリを作って公開したいときは、先に教員に相談し、チームでも話し合ってください（[チームでプロジェクトを進める](teamwork.md)）。
 
 </div>
 
