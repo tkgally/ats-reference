@@ -235,3 +235,13 @@
 - 次回に回す作業：`webclass.md`の拡充。VS Codeの承認・権限のページの確認。
 - 解説ページとの食い違い：気づいたものはない（`github-pages.md`の解説は、Privateでの公開を授業の組織に確かめるよう案内しており矛盾しない）。
 - 備考：この実行環境では`python`が`markdown`を持たず、`/usr/bin/python3`で`site/build.py --check`を実行した。
+
+## [2026-10-25] 取り込み | ウェブ上の資料（WebClass）
+
+- 作ったページ：[資料：WebClass（情報基盤センター）](sources/web-tcu-webclass.md)（2026年10月25日に確認）
+- 更新したページ：[WebClass](campus/webclass.md)（ログインとコースへの参加、できること、困ったときの節を追加）、目録（ページ数、資料数、最終更新日）
+- 未処理の`raw/`資料はなく、`site/log.md`のWiki向けの依頼も大学の決定待ちのため、前回から回していたWebClassページの拡充を行った。
+- 確認が必要な点：この授業でWebClassを課題の提出先に使うかは、授業の資料がなく未確認のまま（推測で埋めていない）。取得内容は要約を通したため細部は要確認。
+- 次回に回す作業：VS Codeの承認・権限のページの確認。
+- 解説ページとの食い違い：気づいたものはない。
+- 備考：この実行環境では`python`に`markdown`が入っておらず、`python -m pip install -r site/requirements.txt`のあとで`site/build.py --check`が通った。
