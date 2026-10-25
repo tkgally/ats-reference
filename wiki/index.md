@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：74（目録と作業記録を除く）
-- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料27件）
+- ページ数：75（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料28件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月24日
+- 最終更新：2026年10月25日
 
 ## 全体
 
@@ -113,6 +113,7 @@
 - [資料：GitHubのプランとPrivateリポジトリでのGitHub Pages（GitHub Docs）](sources/web-github-plans.md)：GitHubの公式ドキュメントにある、プランごとのPagesの使える範囲（Privateのリポジトリでの非公開のサイトにはEnterprise Cloudが要る）の要約（2026年10月24日に確認）。
 - [資料：コミットについて（GitHub Docs）](sources/web-github-about-commits.md)：GitHubの公式ドキュメントにある、コミットの識別子、メッセージ、共同作者、署名の概説の要約（2026年10月23日に確認）。
 - [資料：gitignoreの規則の書き方（Git公式ドキュメント）](sources/web-git-docs-gitignore.md)：Git公式ドキュメントにある、`.gitignore`の規則（パターン）の書き方と優先順位の要約（2026年10月19日に確認）。
+- [資料：WebClass（情報基盤センター）](sources/web-tcu-webclass.md)：情報基盤センターのWebClass案内ページにある、ログイン方法、主な機能、マニュアル、問い合わせ先の要約。
 
 ## 質問への回答
 
