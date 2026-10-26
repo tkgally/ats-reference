@@ -19,6 +19,8 @@ VS Codeを授業で必ず使うのかどうかは、資料からは分かりま�
 
 エージェントは作業フォルダー（ワークスペース）の中で作業します。フォルダーは、内容を確かめてから信頼するよう案内されています。エージェントが変えたファイルの差分は「Changes」の表示で確かめられ、そこから[コミット](../concepts/commit.md)できます（メッセージの下書きはVS Codeが作る）。チェックポイントに戻せば、そのリクエストでのファイルの変更を取り消せますが、リクエストを止めても終わった操作は取り消されません。バージョン管理にはGitを別に入れる必要があります。画面の下に開く統合ターミナルについては[ターミナル](../concepts/terminal.md)にまとめています。
 
+信頼していないフォルダーはRestricted Modeで開かれ、エージェントとターミナルが止まります。エージェントが道具を使うときの承認の仕組み（Manual permissions、Allow allなど）と警告は、[エージェントの承認と権限](../concepts/agent-permissions.md)にまとめています（2026年10月26日に確認）。
+
 ## 表示を日本語にする
 
 公式のドキュメントによる手順です（2026年10月20日に確認）。
@@ -40,6 +42,7 @@ VS CodeはMicrosoftが無料で提供しているエディターで、Windows、
 - [この授業で使うAIツール](ai-tools.md)
 - [コミット](../concepts/commit.md)
 - [ターミナル](../concepts/terminal.md)
+- [エージェントの承認と権限](../concepts/agent-permissions.md)
 - 解説ページ：[VS CodeでCopilotを使う準備](../../site/content/guide/vscode-copilot-setup.md)
 
 ## 出典
@@ -47,3 +50,4 @@ VS CodeはMicrosoftが無料で提供しているエディターで、Windows、
 - [資料：授業の背景情報](../sources/ats-class-background.md)
 - [資料：VS Codeの公式ドキュメント（入門と表示言語）](../sources/web-vscode-docs.md)
 - [資料：VS Codeの統合ターミナル（公式ドキュメント）](../sources/web-vscode-terminal.md)
+- [資料：VS Codeのエージェントの承認と権限、Workspace Trust（公式ドキュメント）](../sources/web-vscode-approvals-trust.md)

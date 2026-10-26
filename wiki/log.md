@@ -245,3 +245,12 @@
 - 次回に回す作業：VS Codeの承認・権限のページの確認。
 - 解説ページとの食い違い：気づいたものはない。
 - 備考：この実行環境では`python`に`markdown`が入っておらず、`python -m pip install -r site/requirements.txt`のあとで`site/build.py --check`が通った。
+
+## [2026-10-26] 取り込み | ウェブ上の資料（VS Codeのエージェントの承認と権限、Workspace Trust）と概念ページ
+
+- 作ったページ：[資料：VS Codeのエージェントの承認と権限、Workspace Trust（公式ドキュメント）](sources/web-vscode-approvals-trust.md)（2026年10月26日に確認）、[エージェントの承認と権限](concepts/agent-permissions.md)
+- 更新したページ：[VS Code](tools/vs-code.md)、[AIエージェント](concepts/ai-agent.md)、[ターミナル](concepts/terminal.md)（承認と権限のページへのリンク）、目録（ページ数、資料数、最終更新日）
+- 未処理の`raw/`資料はなく、`site/log.md`のWiki向けの依頼も大学の決定待ちのため、前回から回していた「VS Codeの承認・権限」を調べた。
+- 確認が必要な点：授業で使うCopilotデスクトップアプリの承認の仕組みがVS Codeと同じかは未確認。大学の組織設定による制限も不明。取得内容は要約を通したため、設定名などの細部は要確認。
+- 次回に回す作業：Copilotデスクトップアプリの権限の仕組みを公式ドキュメントで確かめる。
+- 解説ページとの食い違い：気づいたものはない。`copilot-agent.md`に承認と権限の解説を足す案を`site/log.md`に書いた。

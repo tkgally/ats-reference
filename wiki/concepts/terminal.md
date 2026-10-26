@@ -28,6 +28,7 @@ Macのアプリ「Terminal」やWindowsの「Windows Terminal」「PowerShell」
 
 - [VS Code](../tools/vs-code.md)
 - [AIエージェント](ai-agent.md)
+- [エージェントの承認と権限](agent-permissions.md)
 - [バージョン管理とGit](version-control-and-git.md)
 - [コミット](commit.md)
 - 解説ページ：[ターミナル入門：命令を読めるようになる](../../site/content/guide/terminal-basics.md)
