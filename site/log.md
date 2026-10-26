@@ -29,6 +29,7 @@
 - 大学のGitHubとCopilotのプラン（Microsoftと調整中）が決まったら、リポジトリの公開範囲についての仮の記述（GitHubとは、GitHubを始める、自分のプロジェクトに知識ベースを作る、よくある質問、AIを使うときの倫理とルール、用語集など）と、Copilotの提供についての記述を更新する。`grep -rn "Internal\|公開範囲" site/content`で該当箇所を探せる。
 - 2026年10月14日：IT担当者の手順書（`raw/`のdocx）にもとづき、`copilot-app.md`の「使い始めるまでの流れ」と`github-first-steps.md`の一文を、担当教員の指示で書き換えた（SSO認証、試しのリポジトリ`ats-名字-test-1`、Private）。残り：プロジェクト用の公開範囲（Internalが使えるか）が決まったら、`github-basics.md`などの公開範囲の記述を更新する。
 - 2026年10月13日：担当教員の方針で、授業ではCopilotデスクトップアプリをおもに使う。解説ページは対応済み（新ページ「Copilotデスクトップアプリを使い始める」。ほかのページにリンクと位置づけを加えた）。残り：IT担当者の説明（10月14日の予定）が分かったら、アカウントの種類、利用権、公開範囲の記述を更新する。アプリの実際の画面で確かめたら、`copilot-app.md`の表記を直す。
+- 2026年10月26日：Wikiに[エージェントの承認と権限](../wiki/concepts/agent-permissions.md)を作った。`copilot-agent.md`などに、承認の表示の読み方、Allow all・Autopilotの危険、Restricted Modeの説明を足す案（Wikiへのリンク付き）。
 - 授業サイトのログのページ、Copilotの配布方法の案内などが`raw/`に加わったら、関係する解説ページ（GitHub Copilotとは、よくある質問など）の記述を直す。
 
 ## 作業記録

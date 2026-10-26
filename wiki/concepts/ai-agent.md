@@ -21,7 +21,7 @@ GitHub Copilotには、エディターの中で作業を進めるエージェン
 
 ## 使うときの注意
 
-エージェントは多くの作業を自動で行うので、人間による確認が欠かせません（資料外の補足）。GitHubでは、エージェントの変更をコミットやプルリクエストごとに確かめ、問題があれば元に戻せます（[GitHub](../tools/github.md)）。パスワードやAPIキーなどの秘密の情報をエージェントに渡したり、リポジトリに置いたりしないことも大切です。
+エージェントは多くの作業を自動で行うので、人間による確認が欠かせません（資料外の補足）。GitHubでは、エージェントの変更をコミットやプルリクエストごとに確かめ、問題があれば元に戻せます（[GitHub](../tools/github.md)）。パスワードやAPIキーなどの秘密の情報をエージェントに渡したり、リポジトリに置いたりしないことも大切です。エージェントに確認なしで作業させる設定の危険と、承認の仕組みは[エージェントの承認と権限](agent-permissions.md)にまとめています。
 
 ## 関連ページ
 
@@ -30,6 +30,7 @@ GitHub Copilotには、エディターの中で作業を進めるエージェン
 - [GitHub Copilot](../tools/github-copilot.md)
 - [GitHub](../tools/github.md)
 - [ターミナル](terminal.md)
+- [エージェントの承認と権限](agent-permissions.md)
 - 解説ページ：[AIエージェントとは](../../site/content/guide/ai-agents.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)、[自分のプロジェクトに知識ベースを作る](../../site/content/guide/knowledge-base.md)
 
 ## 出典
