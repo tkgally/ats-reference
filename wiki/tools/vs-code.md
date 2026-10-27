@@ -21,6 +21,19 @@ VS Codeを授業で必ず使うのかどうかは、資料からは分かりま�
 
 信頼していないフォルダーはRestricted Modeで開かれ、エージェントとターミナルが止まります。エージェントが道具を使うときの承認の仕組み（Manual permissions、Allow allなど）と警告は、[エージェントの承認と権限](../concepts/agent-permissions.md)にまとめています（2026年10月26日に確認）。
 
+## VS CodeでGitを使う
+
+公式のドキュメントによると、VS Codeの画面でGitの基本操作ができます（2026年10月27日に確認、[資料：VS Codeのソース管理](../sources/web-vscode-source-control.md)）。
+
+- 前提：Gitを別に入れ、コミットの作者として名前とメールアドレスを設定しておく。これは作者の表示のためで、サインインの情報ではない。
+- 開く：Source Controlの表示（Ctrl+Shift+G、macOSは⌃⇧G）。Changesの下に未ステージの編集、Staged Changesの下に次の[コミット](../concepts/commit.md)に入る内容が並ぶ。ファイル全体でも、行ごとでもステージできる。
+- コミットは手元の履歴に残すだけで、アップロードはしない。アップロードは[プッシュ](../concepts/push-pull-fetch.md)で行い、同期（Sync）はプルのあとにプッシュする。取り込む前に、取り込み待ちの内容を確かめる。
+- [ブランチ](../concepts/branch.md)の切り替えと同期の操作は、画面下のステータスバーからできる。履歴はSource Control Graphとエクスプローラー内のTimelineで見る。
+- [マージの競合](../concepts/merge-conflict.md)は、エディターの中の操作か3ウェイのマージエディターで解消する。
+- プルリクエストの作成やレビューには、GitHub Pull Requests and Issues拡張機能が要る。
+
+このページの内容は概要のページにもとづきます。公開（Publish）やサインインの具体的な手順は、その資料に書かれておらず未確認です。
+
 ## 表示を日本語にする
 
 公式のドキュメントによる手順です（2026年10月20日に確認）。
@@ -43,6 +56,7 @@ VS CodeはMicrosoftが無料で提供しているエディターで、Windows、
 - [コミット](../concepts/commit.md)
 - [ターミナル](../concepts/terminal.md)
 - [エージェントの承認と権限](../concepts/agent-permissions.md)
+- [プッシュ、プル、フェッチ](../concepts/push-pull-fetch.md)
 - 解説ページ：[VS CodeでCopilotを使う準備](../../site/content/guide/vscode-copilot-setup.md)
 
 ## 出典
@@ -50,4 +64,5 @@ VS CodeはMicrosoftが無料で提供しているエディターで、Windows、
 - [資料：授業の背景情報](../sources/ats-class-background.md)
 - [資料：VS Codeの公式ドキュメント（入門と表示言語）](../sources/web-vscode-docs.md)
 - [資料：VS Codeの統合ターミナル（公式ドキュメント）](../sources/web-vscode-terminal.md)
+- [資料：VS Codeのソース管理（公式ドキュメント）](../sources/web-vscode-source-control.md)
 - [資料：VS Codeのエージェントの承認と権限、Workspace Trust（公式ドキュメント）](../sources/web-vscode-approvals-trust.md)

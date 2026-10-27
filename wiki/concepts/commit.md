@@ -26,6 +26,10 @@ GitHub公式のドキュメントによれば、コミットには必ずメッ�
 
 GitHubのコミットのページには、まだ`main`に入っていないコミットにはブランチの表示、`main`に入ったコミットにはタグの表示が出ます。リポジトリがコミットの署名（signoff）を求めている場合、ウェブ上でコミットすると自動で署名されます。履歴を見る具体的な手順は、この資料には書かれていません（[資料：コミットについて](../sources/web-github-about-commits.md)）。
 
+## VS Codeでの操作
+
+VS CodeのSource Controlの表示では、変更をステージしてコミットできます。コミットは手元の履歴に残すだけで、アップロードはしません（2026年10月27日に確認、[資料：VS Codeのソース管理](../sources/web-vscode-source-control.md)）。詳しくは[VS Code](../tools/vs-code.md)にあります。
+
 ## 関連ページ
 
 - [バージョン管理とGit](version-control-and-git.md)
@@ -33,8 +37,10 @@ GitHubのコミットのページには、まだ`main`に入っていないコ�
 - [マージ](merge.md)
 - [クローン](clone.md)
 - [プルリクエスト](pull-request.md)
+- [VS Code](../tools/vs-code.md)
 
 ## 出典
 
 - [資料：コミットについて（GitHub Docs）](../sources/web-github-about-commits.md)
 - [資料：コミット、クローン、マージ（GitHub Docs）](../sources/web-github-commit-clone-merge.md)
+- [資料：VS Codeのソース管理（公式ドキュメント）](../sources/web-vscode-source-control.md)
