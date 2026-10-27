@@ -30,6 +30,7 @@
 - 2026年10月14日：IT担当者の手順書（`raw/`のdocx）にもとづき、`copilot-app.md`の「使い始めるまでの流れ」と`github-first-steps.md`の一文を、担当教員の指示で書き換えた（SSO認証、試しのリポジトリ`ats-名字-test-1`、Private）。残り：プロジェクト用の公開範囲（Internalが使えるか）が決まったら、`github-basics.md`などの公開範囲の記述を更新する。
 - 2026年10月13日：担当教員の方針で、授業ではCopilotデスクトップアプリをおもに使う。解説ページは対応済み（新ページ「Copilotデスクトップアプリを使い始める」。ほかのページにリンクと位置づけを加えた）。残り：IT担当者の説明（10月14日の予定）が分かったら、アカウントの種類、利用権、公開範囲の記述を更新する。アプリの実際の画面で確かめたら、`copilot-app.md`の表記を直す。
 - 2026年10月26日：Wikiに[エージェントの承認と権限](../wiki/concepts/agent-permissions.md)を作った。`copilot-agent.md`などに、承認の表示の読み方、Allow all・Autopilotの危険、Restricted Modeの説明を足す案（Wikiへのリンク付き）。
+- 2026年10月27日：Wikiの[VS Code](../wiki/tools/vs-code.md)に「VS CodeでGitを使う」を足した（公式の概要で確認）。「GitHubとVS Codeの画面の表記を公式で確かめる」の項のうち、VS Codeのソース管理の表記（Source Control、Changes、Staged Changes、Sync）は公式と一致するか、`vscode-copilot-setup.md`などで見比べる案。
 - 授業サイトのログのページ、Copilotの配布方法の案内などが`raw/`に加わったら、関係する解説ページ（GitHub Copilotとは、よくある質問など）の記述を直す。
 
 ## 作業記録
