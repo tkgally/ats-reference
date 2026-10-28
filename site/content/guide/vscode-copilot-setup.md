@@ -5,7 +5,7 @@ description: VS Codeを入れて日本語にし、GitHubでサインインして
 category: copilot
 order: 2
 level: 基本
-updated: 2026年10月27日
+updated: 2026年10月28日
 ---
 
 <div class="box note" markdown="1">
@@ -176,6 +176,21 @@ VS Codeでファイルを書き換えても、そのままではパソコンの�
 </ol>
 
 「同期」は、GitHubにある新しい変更を取ってくること（pull）と、自分のコミットをGitHubに送ること（push）を、まとめて行う操作です。チームで作業しているときや、github.comのクラウドエージェントに作業を頼んだあとは、作業を始める前にも一度同期して、最新の状態にしておきましょう。ステータスバーの左にある回転する矢印のアイコンでも同期できます。コミットや履歴の考え方は[GitHubとは：基本の考え方](github-basics.md)で説明しています。
+
+### ステージとは：次のコミットに入れる変更を選ぶ
+
+ソース管理の画面の一覧は、二つの部分に分かれています。英語の画面では<span class="ui">Changes</span>の下に「まだ選んでいない編集」が、<span class="ui">Staged Changes</span>の下に「次のコミットに入れる内容」が並びます（日本語の画面での表記は、実際の画面では確かめていません）。変更を<span class="ui">Staged Changes</span>に移すことを「ステージする」と言います。ファイル全体だけでなく、差分の画面で行ごとに選ぶこともできます。たとえば、一つのファイルに二つの別の直しが混ざっているとき、片方だけを先にコミットできます。
+
+何もステージしないままコミットを押すと、すべての変更が入ります。上の手順3で出る確認は、このことを尋ねています。慣れないうちは、すべてをコミットする選択で問題ありません。
+
+<div class="box note" markdown="1">
+<p class="box-title">コミットとGitHubへの送信は別の操作です</p>
+
+コミットは、自分のパソコンの履歴に記録するだけで、何もアップロードしません。GitHubに送るのは、プッシュまたは同期の操作です。同期はプル（取り込み）のあとにプッシュを行うので、取り込み待ちの内容があれば、先にそれを確かめるよう公式のドキュメントも案内しています。
+
+</div>
+
+ソース管理の画面は、キーボードのCtrl+Shift+G（WindowsとLinux）でも開けます。プルリクエストの作成やレビューをVS Codeの中でしたいときは、GitHub Pull Requests and Issues拡張機能を入れる必要があります。以上は2026年10月27日に確認した公式の[Source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)にもとづきます。詳しくはWikiの[VS CodeでGitを使う](../../../wiki/tools/vs-code.md)にまとめています。
 
 ## うまくいかないとき
 
