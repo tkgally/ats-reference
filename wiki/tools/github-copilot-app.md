@@ -55,6 +55,7 @@ Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」�
 - 非公開のリポジトリでも、共同作業者には見える。招待は仲間と教員だけにする。
 - Copilotが許可を求めたら、内容を読んでから許可する。分からなければ許可しない。
 - Autopilotは慣れるまで使わない。
+- ツールの権限（毎回確認するか、モデルに審査させるか、確認なしにするか）は、セッションのモードとは別に選べる。慣れるまでは毎回確認するレベルのままにし、確認なしのレベルは試しのリポジトリ以外では使わない（資料外の補足）。仕組みは[エージェントの承認と権限](../concepts/agent-permissions.md)にまとめている（公式ドキュメント、2026年10月28日に確認、[資料](../sources/web-github-copilot-app-permissions.md)）。
 
 ## 未解決の点（IT担当者への質問）
 
@@ -77,11 +78,13 @@ Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」�
 - [二要素認証](../concepts/two-factor-authentication.md)
 - [リポジトリ](../concepts/repository.md)
 - [AIエージェント](../concepts/ai-agent.md)
+- [エージェントの承認と権限](../concepts/agent-permissions.md)
 - 解説ページ：[Copilotデスクトップアプリを使い始める](../../site/content/guide/copilot-app.md)、[GitHubを始める](../../site/content/guide/github-first-steps.md)、[英語の画面を読むための単語帳](../../site/content/guide/github-english-ui.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)
 
 ## 出典
 
 - [資料：GitHub Copilotアプリの公式ドキュメント（2026年10月13日に確認）](../sources/web-github-copilot-app-docs.md)
+- [資料：Copilotアプリのツールの権限とサンドボックス（2026年10月28日に確認）](../sources/web-github-copilot-app-permissions.md)
 - [資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)
 - [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](../sources/20261013-GitHub-and-Copilot-information.md)
 - 担当教員からの指示（2026年10月13日、「この授業ではGitHub Copilotデスクトップアプリを中心に使う」）

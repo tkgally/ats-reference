@@ -264,3 +264,12 @@
 - 次回に回す作業：Copilotデスクトップアプリの権限の仕組みを公式ドキュメントで確かめる。VS CodeのGitHubへの公開とサインインの手順。
 - 解説ページとの食い違い：気づいたものはない。表記の見比べ案を`site/log.md`に書いた。
 - 備考：この実行環境では`python`に`markdown`が入っておらず、`python -m pip install -r site/requirements.txt`のあとで`site/build.py --check`が通った。
+
+## [2026-10-28] 取り込み | ウェブ上の資料（Copilotアプリのツールの権限とサンドボックス）
+
+- 作ったページ：[資料：Copilotアプリのツールの権限とサンドボックス（公式ドキュメント）](sources/web-github-copilot-app-permissions.md)（2026年10月28日に確認）
+- 更新したページ：[エージェントの承認と権限](concepts/agent-permissions.md)（Copilotアプリの権限の三つのレベルとサンドボックスの節を追加、確認が必要な点を更新）、[GitHub Copilotデスクトップアプリ](tools/github-copilot-app.md)（安全のための約束に権限の項目を追加）、[全体の概観](overview.md)（確認が必要な点）、目録（ページ数、資料数、最終更新日）
+- 未処理の`raw/`資料はなく、`site/log.md`のWiki向けの依頼も大学の決定待ちのため、前回から回していた「Copilotデスクトップアプリの権限の仕組み」を調べた。
+- 確認が必要な点：権限の既定のレベル、許可を求める画面の細部、大学の組織で権限のレベルが制限されているか（管理者はApprove allとAssistedを無効にできると資料にある）、Workspace Trustに当たる仕組みの有無は未確認。取得内容は要約を通したため細部は要確認。
+- 次回に回す作業：VS CodeのGitHubへの公開とサインインの手順。コミットとプッシュをCopilotアプリで行う操作。
+- 解説ページとの食い違い：気づいたものはない。
