@@ -21,6 +21,10 @@ GitHub公式のドキュメントによれば、プルリクエストは変更�
 
 GitHub Copilotデスクトップアプリでは、セッションの変更を確かめたあと、Create PRでプルリクエストを作れます（[GitHub Copilotデスクトップアプリ](../tools/github-copilot-app.md)）。AIエージェントが作った変更も、プルリクエストで人が確かめてから取り込む流れにすると、間違いに気づきやすくなります（資料外の補足）。
 
+## VS Codeでの作成
+
+VS Codeでは、GitHub Pull Requests and Issues拡張機能を入れてサインインすると、プルリクエストを作れます。手元でブランチを作ってコミットしたあと、コマンドパレットのGitHub Pull Requests: Create Pull Requestか、Pull Requestsの表示のCreate Pull Requestを選び、ベースのブランチ、題名、説明を入れてCreateを選びます。途中の作業ならCreate Draftを選びます（2026年10月29日に確認、[資料：VS CodeとGitHubの連携](../sources/web-vscode-github-quickstart.md)）。
+
 ## 関連ページ
 
 - [GitHub flow（ブランチとプルリクエストの流れ）](github-flow.md)
@@ -34,3 +38,4 @@ GitHub Copilotデスクトップアプリでは、セッションの変更を確
 ## 出典
 
 - [資料：プルリクエスト、フォーク、ブランチ（GitHub Docs）](../sources/web-github-pr-fork-branch.md)
+- [資料：VS CodeとGitHubの連携、ソース管理のクイックスタート（公式ドキュメント）](../sources/web-vscode-github-quickstart.md)
