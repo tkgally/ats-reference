@@ -32,7 +32,17 @@ VS Codeを授業で必ず使うのかどうかは、資料からは分かりま�
 - [マージの競合](../concepts/merge-conflict.md)は、エディターの中の操作か3ウェイのマージエディターで解消する。
 - プルリクエストの作成やレビューには、GitHub Pull Requests and Issues拡張機能が要る。
 
-このページの内容は概要のページにもとづきます。公開（Publish）やサインインの具体的な手順は、その資料に書かれておらず未確認です。
+## VS CodeからGitHubを使う
+
+公式のドキュメントによると、次のようにGitHubとつなげます（2026年10月29日に確認、[資料：VS CodeとGitHubの連携、クイックスタート](../sources/web-vscode-github-quickstart.md)）。
+
+- サインイン（Gitの操作）：拡張機能は要らない。プライベートのリポジトリをクローンするときやGitHubにプッシュするときに、VS Codeがサインインを求める。ブラウザーの案内に従い、終わったらVS Codeに戻る。ブラウザーから戻れないときは、出たトークンをコピーし、ステータスバーの「Signing in to github.com...」を選んで貼り付ける。
+- サインイン（プルリクエストとIssue）：GitHub Pull Requests and Issues拡張機能を入れ、アクティビティバーのGitHubのアイコンからSign Inを選ぶ。
+- クローン：コマンドパレットでGit: Cloneを実行するか、フォルダーを開いていないときにSource Controlの表示でClone Repositoryを選び、一覧から選ぶ（[クローン](../concepts/clone.md)）。
+- 手元のリポジトリの公開：コマンドパレットでPublish to GitHubを実行し、サインインしてリポジトリの名前を付ける。練習ならプライベートを選ぶ、とクイックスタートにある。公開のあとは、More Actions（…）のPushでコミットを送る。
+- プルリクエスト：ブランチを作ってコミットしたあと、GitHub Pull Requests: Create Pull Requestを実行する。詳しくは[プルリクエスト](../concepts/pull-request.md)にある。
+
+授業の大学の組織（SSOでつなぐ）の下でVS Codeからサインインする具体的な流れは、資料に書かれておらず未確認です。授業では主に[GitHub Copilotデスクトップアプリ](github-copilot-app.md)を使うので、VS Codeでの操作は補助と考えてください。
 
 ## 表示を日本語にする
 
@@ -57,6 +67,8 @@ VS CodeはMicrosoftが無料で提供しているエディターで、Windows、
 - [ターミナル](../concepts/terminal.md)
 - [エージェントの承認と権限](../concepts/agent-permissions.md)
 - [プッシュ、プル、フェッチ](../concepts/push-pull-fetch.md)
+- [プルリクエスト](../concepts/pull-request.md)
+- [クローン](../concepts/clone.md)
 - 解説ページ：[VS CodeでCopilotを使う準備](../../site/content/guide/vscode-copilot-setup.md)
 
 ## 出典
@@ -66,3 +78,4 @@ VS CodeはMicrosoftが無料で提供しているエディターで、Windows、
 - [資料：VS Codeの統合ターミナル（公式ドキュメント）](../sources/web-vscode-terminal.md)
 - [資料：VS Codeのソース管理（公式ドキュメント）](../sources/web-vscode-source-control.md)
 - [資料：VS Codeのエージェントの承認と権限、Workspace Trust（公式ドキュメント）](../sources/web-vscode-approvals-trust.md)
+- [資料：VS CodeとGitHubの連携、ソース管理のクイックスタート（公式ドキュメント）](../sources/web-vscode-github-quickstart.md)

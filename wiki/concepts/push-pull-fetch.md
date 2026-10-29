@@ -16,6 +16,10 @@
 - GitHub上の最新の状態を手元に反映したい：プル。
 - 取り込む前に、何が変わったかを見たい：フェッチ。
 
+## VS Codeでの操作
+
+VS Codeでは、公開済みのリポジトリでMore Actions（…）のPushからコミットを送れます。Sync Changesはプルのあとにプッシュします。手元だけにあるリポジトリは、Publish to GitHubで初めてGitHubに載せます（2026年10月29日に確認、[資料：VS CodeとGitHubの連携](../sources/web-vscode-github-quickstart.md)、[VS Code](../tools/vs-code.md)）。
+
 ## 注意
 
 - プルはマージを伴うので、先に手元の作業をコミットしておく。
@@ -36,3 +40,4 @@
 
 - [資料：マージの衝突とフェッチ・プル（GitHub Docs）](../sources/web-github-conflicts-fetch-pull.md)
 - [資料：コミット、クローン、マージ（GitHub Docs）](../sources/web-github-commit-clone-merge.md)
+- [資料：VS CodeとGitHubの連携、ソース管理のクイックスタート（公式ドキュメント）](../sources/web-vscode-github-quickstart.md)
