@@ -228,3 +228,10 @@
 - Wikiへの反映なし。OpenRouterは使っていない。
 - 人間に確かめてほしい点：日本語の画面でのChangesとStaged Changesの表記は未確認で、その旨をページに書いた。
 - 環境の備考：`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
+
+### [2026-10-29] 「Copilotデスクトップアプリを使い始める」にツールの権限とサンドボックスの節を追加
+
+- Wikiに10月28日に加わった資料（Copilotアプリのツールの権限とサンドボックス）にもとづき、[Copilotデスクトップアプリを使い始める](content/guide/copilot-app.md)に節「ツールの権限とサンドボックス」（三つの権限レベルの表、注意の囲み、`/permissions`と`/sandbox`）を追加した。`updated`を更新した。
+- この回は無人の定期実行。横幅1280（明るい表示）と390（暗い表示）で確認した。
+- Wikiへの反映なし。OpenRouterは使っていない。
+- 人間に確かめてほしい点：授業の組織でUnconditional approvalやAssistedが管理者に制限されているか。授業での推奨（迷ったらManual approval）は資料外の助言として書いた。
