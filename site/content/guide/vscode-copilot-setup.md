@@ -5,7 +5,7 @@ description: VS Codeを入れて日本語にし、GitHubでサインインして
 category: copilot
 order: 2
 level: 基本
-updated: 2026年10月28日
+updated: 2026年10月30日
 ---
 
 <div class="box note" markdown="1">
@@ -191,6 +191,17 @@ VS Codeでファイルを書き換えても、そのままではパソコンの�
 </div>
 
 ソース管理の画面は、キーボードのCtrl+Shift+G（WindowsとLinux）でも開けます。プルリクエストの作成やレビューをVS Codeの中でしたいときは、GitHub Pull Requests and Issues拡張機能を入れる必要があります。以上は2026年10月27日に確認した公式の[Source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)にもとづきます。詳しくはWikiの[VS CodeでGitを使う](../../../wiki/tools/vs-code.md)にまとめています。
+
+### VS CodeからGitHubへ：サインイン、公開、プルリクエスト
+
+ここまでの操作の続きとして、GitHubとのつながりを整理します。以下は2026年10月29日に確認した公式の[Working with GitHub in VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)と[Quickstart: Source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/quickstart)にもとづきます。
+
+- サインイン（クローンとプッシュ）：拡張機能は要りません。プライベートのリポジトリをクローンするときや、GitHubにプッシュするときに、VS Codeがサインインを求めます。ブラウザーの案内に従い、終わったらVS Codeに戻ります。ブラウザーから戻れないときは、ブラウザーに出たトークンをコピーし、ステータスバーの<span class="ui">Signing in to github.com...</span>を選んで貼り付け、Enterを押します。
+- サインイン（プルリクエストとIssue）：<span class="ui">GitHub Pull Requests and Issues</span>拡張機能を入れ、左端のGitHubのアイコンから<span class="ui">Sign In</span>を選びます。
+- 手元だけのフォルダーをGitHubに載せる：コマンドパレット（Ctrl+Shift+P）で<span class="ui">Publish to GitHub</span>を実行し、リポジトリの名前を付けます。練習ならプライベートを選びます。公開したあとは、<span class="ui">More Actions</span>（…）の<span class="ui">Push</span>でコミットを送ります。
+- プルリクエストを作る：ブランチを作ってコミットしたあと、コマンドパレットで<span class="ui">GitHub Pull Requests: Create Pull Request</span>を実行します。ベースのブランチ、題名、説明を入れて<span class="ui">Create</span>を選びます。途中の作業なら<span class="ui">Create Draft</span>を選びます。
+
+プルリクエストの考え方は[GitHubで協力して作業する](github-collaboration.md)と、Wikiの[プルリクエスト](../../../wiki/concepts/pull-request.md)、プッシュとプルの違いは[プッシュ、プル、フェッチ](../../../wiki/concepts/push-pull-fetch.md)で説明しています。授業の大学の組織（SSOでつなぐ）の下でVS Codeからサインインする具体的な流れは、資料に書かれておらず確かめていません。授業では主に[Copilotデスクトップアプリ](copilot-app.md)を使うので、VS Codeでの操作は補助と考えてください。
 
 ## うまくいかないとき
 

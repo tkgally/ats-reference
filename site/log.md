@@ -235,3 +235,11 @@
 - この回は無人の定期実行。横幅1280（明るい表示）と390（暗い表示）で確認した。
 - Wikiへの反映なし。OpenRouterは使っていない。
 - 人間に確かめてほしい点：授業の組織でUnconditional approvalやAssistedが管理者に制限されているか。授業での推奨（迷ったらManual approval）は資料外の助言として書いた。
+
+### [2026-10-30] 「VS CodeでCopilotを使う準備」にGitHubとのつながりの小節を追加
+
+- Wikiに10月29日に加わった資料（VS CodeとGitHubの連携、クイックスタート）にもとづき、[VS CodeでCopilotを使う準備](content/guide/vscode-copilot-setup.md)の「変更をコミットして同期する」に、小節「VS CodeからGitHubへ：サインイン、公開、プルリクエスト」（サインインの2種類、トークンでの復帰、Publish to GitHub、プルリクエストの作成）を追加した。`updated`を更新した。
+- この回は無人の定期実行。横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しはなかった。
+- Wikiへの反映なし。OpenRouterは使っていない。
+- 人間に確かめてほしい点：授業の組織（SSO）の下でVS Codeからサインインする流れは未確認で、その旨をページに書いた。
+- 環境の備考：`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
