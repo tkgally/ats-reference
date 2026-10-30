@@ -39,7 +39,9 @@ Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」�
 
 これは一般的なGitHubとCopilotの流れにもとづく見取り図で、大学の設定によって画面や順番が変わりえます。IT担当者の説明と食い違ったら、IT担当者の説明を優先します（同資料）。画面ごとの具体的な手順は、まだ確かめられていません。
 
-公式ドキュメントによれば、終わったチャットは、サイドバーで右クリックして「Archive chat」を選ぶと履歴を残したまま保管でき、アプリの設定の「Sessions」から、セッションやチャットをまとめて保管・削除したり、保管したものを元に戻したりできます（[資料](../sources/web-github-copilot-app-docs.md)、2026年10月18日に確認）。コミットとプッシュの具体的な操作は、公式ドキュメントのこのページには書かれておらず、未確認です。
+公式ドキュメントによれば、終わったチャットは、サイドバーで右クリックして「Archive chat」を選ぶと履歴を残したまま保管でき、アプリの設定の「Sessions」から、セッションやチャットをまとめて保管・削除したり、保管したものを元に戻したりできます（[資料](../sources/web-github-copilot-app-docs.md)、2026年10月18日に確認）。コミットとプッシュの具体的な操作は、公式ドキュメントのこのページには書かれておらず、未確認です（2026年10月30日にも読み直したが、書かれていなかった）。
+
+セッションを始めるとき、変更を入れる場所として、別の作業用コピーを作る「New worktree」と、今開いているチェックアウトで作業する「Current checkout」を選べます。プルリクエストを作る前に、`/security-review`で変更を点検できます（[資料](../sources/web-github-copilot-app-agent-sessions.md)、2026年10月30日に確認、表記の細部は要確認）。
 
 ## つまずきやすい点
 
@@ -84,6 +86,7 @@ Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」�
 ## 出典
 
 - [資料：GitHub Copilotアプリの公式ドキュメント（2026年10月13日に確認）](../sources/web-github-copilot-app-docs.md)
+- [資料：Copilotアプリのエージェントセッション（2026年10月30日に確認）](../sources/web-github-copilot-app-agent-sessions.md)
 - [資料：Copilotアプリのツールの権限とサンドボックス（2026年10月28日に確認）](../sources/web-github-copilot-app-permissions.md)
 - [資料：TCU GitHub Copilot 学生向け利用手順](../sources/tcu-github-copilot-student-procedure.md)
 - [資料：Copilotデスクトップアプリを使い始めるためのガイド（2026年10月13日）](../sources/20261013-GitHub-and-Copilot-information.md)
