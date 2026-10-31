@@ -469,6 +469,33 @@
       el.querySelector(".mdc-reset").addEventListener("click", function () { inp.value = sample; update(); });
     },
 
+    // 衝突の解消：印つきのファイルを自分で直し、印が残っていないかを確かめる
+    "conflict-sim": function (el) {
+      var ours = "第5回の日付：11月4日（水）";
+      var theirs = "第5回の日付：11月5日（木）。発表は一人5分。";
+      var start = "# 授業の予定\n\n第4回の日付：10月28日（水）\n\n<<<<<<< feature（自分のブランチ）\n" + theirs + "\n=======\n" + ours + "\n>>>>>>> main\n\n第6回の日付：11月11日（水）\n";
+      el.innerHTML = '<p class="demo-title">体験：衝突を自分で解消してみよう</p>' +
+        '<p style="margin:.2em 0 .6em;font-size:15px">下のファイルでは、第5回の行が、自分のブランチ（<code>feature</code>）と<code>main</code>で別々に書き換えられています。印の行（<code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>、<code>=======</code>、<code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>）を消して、残したい内容にしてから「解決済みにする」を押してください。</p>' +
+        '<div class="controls"><button class="cs-a">上の案（feature）を残す</button><button class="cs-b">下の案（main）を残す</button><button class="cs-ab">両方を合わせる</button><button class="cs-reset">最初から</button></div>' +
+        '<textarea class="cs-text" rows="10" spellcheck="false" aria-label="衝突のあるファイル" style="width:100%;box-sizing:border-box;font-family:var(--mono, monospace);font-size:14px;padding:8px;border-radius:8px;border:1px solid var(--line-strong);background:var(--bg-soft);color:var(--fg)"></textarea>' +
+        '<div class="controls"><button class="primary cs-ok">解決済みにする（Mark as resolved）</button></div>' +
+        '<p class="cs-msg" role="status" style="margin:0;font-size:15px"></p>';
+      var ta = el.querySelector(".cs-text"), msg = el.querySelector(".cs-msg");
+      var set = function (mid) { ta.value = "# 授業の予定\n\n第4回の日付：10月28日（水）\n\n" + mid + "\n\n第6回の日付：11月11日（水）\n"; msg.textContent = ""; };
+      ta.value = start;
+      el.querySelector(".cs-a").addEventListener("click", function () { set(theirs); });
+      el.querySelector(".cs-b").addEventListener("click", function () { set(ours); });
+      el.querySelector(".cs-ab").addEventListener("click", function () { set("第5回の日付：11月4日（水）。発表は一人5分。"); });
+      el.querySelector(".cs-reset").addEventListener("click", function () { ta.value = start; msg.textContent = ""; });
+      el.querySelector(".cs-ok").addEventListener("click", function () {
+        var v = ta.value;
+        if (/^(<{7}|={7}|>{7})/m.test(v)) { msg.textContent = "まだ印の行が残っています。三種類の印の行をすべて消してください。印が残ったままだと、そのまま確定されてしまいます。"; }
+        else if (!/第5回/.test(v)) { msg.textContent = "第5回の行がなくなっています。どちらかの案、または両方を合わせた文を残してください。"; }
+        else if ((v.match(/第5回の日付/g) || []).length > 1) { msg.textContent = "第5回の行が二つ残っています。一つにまとめてください。"; }
+        else { msg.textContent = "解決できました。実際のGitHubでは、このあと「Commit merge」を押すと衝突が消え、マージできるようになります。どの案を選ぶかは、担当者どうしで確かめてから決めましょう。"; }
+      });
+    },
+
     // トークン分け：文がどのような断片に分かれるかの例を見せる
     "tokens": function (el) {
       var samples = [
