@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：84（目録と作業記録を除く）
-- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料33件）
+- ページ数：86（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料34件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年10月31日
+- 最終更新：2026年11月1日
 
 ## 全体
 
@@ -74,6 +74,7 @@
 - [プッシュ、プル、フェッチ](concepts/push-pull-fetch.md)：手元のリポジトリとGitHub上のリポジトリの間で変更をやり取りする三つの操作、プッシュ、プル、フェッチについてのページ。
 - [.gitignore（無視するファイル）](concepts/gitignore.md)：コミットしたくないファイルをGitに伝えるための設定ファイル、`.gitignore`についてのページ。
 - [ライセンス](concepts/license.md)：作ったものを他の人がどこまで使ってよいかを示す、ライセンス（license）についてのページ。
+- [GitHub Actions](concepts/github-actions.md)：リポジトリで起きた出来事をきっかけに、テストやサイトの公開などの作業を自動で行うGitHubの仕組み、GitHub Actionsについてのページ。
 - [GitHub Pages](concepts/github-pages.md)：リポジトリのファイルをウェブサイトとして公開するGitHubのサービス、GitHub Pagesについてのページ。
 
 ## 資料
@@ -116,6 +117,7 @@
 - [資料：マージの衝突とフェッチ・プル（GitHub Docs）](sources/web-github-conflicts-fetch-pull.md)：GitHubの公式ドキュメントにある、マージの衝突の概説と、クローン、フェッチ、プルの違いの要約です（2026年10月15日に確認）。
 - [資料：.gitignore、ライセンス、GitHub Pages（GitHub Docs）](sources/web-github-gitignore-license-pages.md)：GitHubの公式ドキュメントにある、ファイルを無視する設定、リポジトリのライセンス、GitHub Pagesの概要と制限の要約（2026年10月17日に確認）。
 - [資料：GitHub Pagesの公開の手順（GitHub Docs）](sources/web-github-pages-setup.md)：GitHubの公式ドキュメントにある、GitHub Pagesのサイトの作り方、公開元（ブランチのフォルダーとGitHub Actions）の設定、独自のワークフロー、公開範囲、公開の取り下げの手順の要約（2026年10月21日に確認）。
+- [資料：GitHub Actionsの基本（GitHub Docs）](sources/web-github-actions-overview.md)：GitHubの公式ドキュメントにある、GitHub Actionsの基本的な考え方（ワークフロー、イベント、ジョブ、アクション、ランナー）の要約（2026年11月1日に確認）。
 - [資料：GitHubのプランとPrivateリポジトリでのGitHub Pages（GitHub Docs）](sources/web-github-plans.md)：GitHubの公式ドキュメントにある、プランごとのPagesの使える範囲（Privateのリポジトリでの非公開のサイトにはEnterprise Cloudが要る）の要約（2026年10月24日に確認）。
 - [資料：コミットについて（GitHub Docs）](sources/web-github-about-commits.md)：GitHubの公式ドキュメントにある、コミットの識別子、メッセージ、共同作者、署名の概説の要約（2026年10月23日に確認）。
 - [資料：gitignoreの規則の書き方（Git公式ドキュメント）](sources/web-git-docs-gitignore.md)：Git公式ドキュメントにある、`.gitignore`の規則（パターン）の書き方と優先順位の要約（2026年10月19日に確認）。
