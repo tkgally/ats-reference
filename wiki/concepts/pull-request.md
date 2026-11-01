@@ -27,6 +27,7 @@ VS Codeでは、GitHub Pull Requests and Issues拡張機能を入れてサイン
 
 ## 関連ページ
 
+- [GitHub Actions](github-actions.md)
 - [GitHub flow（ブランチとプルリクエストの流れ）](github-flow.md)
 - [ブランチ](branch.md)
 - [フォーク](fork.md)

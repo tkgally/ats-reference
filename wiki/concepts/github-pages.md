@@ -53,6 +53,7 @@ HTML、CSS、JavaScriptのファイルをGitHubのリポジトリから公開す
 
 ## 関連ページ
 
+- [GitHub Actions](github-actions.md)
 - [リポジトリ](repository.md)
 - [README](readme.md)
 - [ライセンス](license.md)

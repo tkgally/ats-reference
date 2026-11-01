@@ -300,3 +300,12 @@
 - 確認が必要な点：前回までと変わらない（Copilotアプリでのコミット・プッシュの実機確認、大学のプランと公開範囲、評価方法など）。
 - 次回に回す作業：実機の確認待ちの項目。人間が`raw/`に新しい資料を置けば、取り込みを優先する。
 - 解説ページとの食い違い：気づいたものはない。
+
+## [2026-11-01] 取り込み | ウェブ上の資料（GitHub Actionsの基本）
+
+- 作ったページ：[資料：GitHub Actionsの基本（GitHub Docs）](sources/web-github-actions-overview.md)（2026年11月1日に確認）、[GitHub Actions](concepts/github-actions.md)
+- 更新したページ：[GitHub Pages](concepts/github-pages.md)と[プルリクエスト](concepts/pull-request.md)（関連ページに追加）、目録（ページ数、資料数、最終更新日）
+- 未処理の`raw/`資料はなく、`site/log.md`のWiki向けの依頼も大学の決定待ちのため、言及はあるのに独立したページがなかったGitHub Actionsの概念ページを作った。
+- 確認が必要な点：授業の組織でのActionsの利用枠は未確認。取得内容は要約を通したため細部は要確認。
+- 次回に回す作業：Copilotアプリでのコミット・プッシュは実機の確認待ち（変わらず）。
+- 解説ページとの食い違い：気づいたものはない。
