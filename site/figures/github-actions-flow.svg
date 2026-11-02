@@ -1,0 +1,28 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Actionsの流れ。プルリクエストの作成やmainへの取り込みなどのイベントがワークフローを動かし、ランナー上でジョブの手順が順に実行される。結果は成功（緑）か失敗（赤）で、プルリクエストの画面に表示される。">
+  <rect x="12" y="12" width="616" height="226" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="32" y="40" font-size="14" class="tx bold">きっかけから結果まで</text>
+  <rect x="24" y="56" width="140" height="80" rx="10" class="f-blue-s"/>
+  <text x="94" y="80" text-anchor="middle" font-size="13" class="tx bold">イベント</text>
+  <text x="94" y="100" text-anchor="middle" font-size="12" class="tx">プルリクエスト</text>
+  <text x="94" y="118" text-anchor="middle" font-size="12" class="tx">mainへの取り込み</text>
+  <path d="M168 96 H196" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="182" y="88" text-anchor="middle" font-size="11" class="tm">動かす</text>
+  <rect x="200" y="56" width="236" height="170" rx="10" class="f-purple-s"/>
+  <text x="318" y="78" text-anchor="middle" font-size="13" class="tx bold">ワークフロー（ランナー上で実行）</text>
+  <rect x="216" y="92" width="204" height="28" rx="6" class="bg ln" stroke-width="1.5"/>
+  <text x="318" y="111" text-anchor="middle" font-size="12" class="tx">1. リポジトリを取得</text>
+  <rect x="216" y="128" width="204" height="28" rx="6" class="bg ln" stroke-width="1.5"/>
+  <text x="318" y="147" text-anchor="middle" font-size="12" class="tx">2. 環境を準備</text>
+  <rect x="216" y="164" width="204" height="28" rx="6" class="bg ln" stroke-width="1.5"/>
+  <text x="318" y="183" text-anchor="middle" font-size="12" class="tx">3. 組み立てと確認</text>
+  <text x="318" y="214" text-anchor="middle" font-size="11" class="tm">毎回、新しい仮想マシンで動く</text>
+  <path d="M440 96 H468" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="472" y="56" width="144" height="80" rx="10" class="f-green-s"/>
+  <text x="544" y="82" text-anchor="middle" font-size="13" class="tx bold">成功</text>
+  <text x="544" y="102" text-anchor="middle" font-size="12" class="tx">取り込める／公開</text>
+  <text x="544" y="120" text-anchor="middle" font-size="12" class="tx">へ進む</text>
+  <rect x="472" y="146" width="144" height="80" rx="10" class="f-red-s"/>
+  <text x="544" y="172" text-anchor="middle" font-size="13" class="tx bold">失敗</text>
+  <text x="544" y="192" text-anchor="middle" font-size="12" class="tx">ログを見て</text>
+  <text x="544" y="210" text-anchor="middle" font-size="12" class="tx">原因を直す</text>
+</svg>

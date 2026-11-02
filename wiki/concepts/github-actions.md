@@ -31,6 +31,7 @@ GitHub Actionsは、作業を自動化するためのGitHubの仕組みです。
 - [GitHubフロー](github-flow.md)
 - [リポジトリ](repository.md)
 - [GitHub](../tools/github.md)
+- [GitHub Actionsとは（解説ページ）](../../site/content/guide/github-actions.md)
 
 ## 出典
 
