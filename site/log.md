@@ -258,3 +258,11 @@
 - Wikiへの反映なし。OpenRouterは使っていない。
 - 人間に確かめてほしい点：画面の表記（New worktreeなど）は公式ドキュメントの要約にもとづくもので、実際のアプリでの確認はまだ。
 - 環境の備考：`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
+
+### [2026-11-02] 新しい解説ページ「GitHub Actionsとは」
+
+- Wikiに11月1日に加わった資料（GitHub Actionsの基本）にもとづき、[GitHub Actionsとは：作業を自動で行う仕組み](content/guide/github-actions.md)を追加（できること、五つの部品、このリポジトリでの使われ方、確認が赤くなったときの手順）。図は`github-actions-flow.svg`。分類「GitHubを使う」（order 9）。[ブランチとプルリクエストでの共同作業](content/guide/github-collaboration.md)と[GitHub Pagesで自分のサイトを公開する](content/guide/github-pages.md)からリンクし、Wikiの[GitHub Actions](../wiki/concepts/github-actions.md)の関連ページに解説ページへのリンクを足した。
+- この回は無人の定期実行。横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しとスクリプトのエラーはなかった。
+- OpenRouterは使っていない。
+- 人間に確かめてほしい点：画面の表記（Details）は公式の説明にもとづくもので、実際の画面での確認はまだ。授業の組織でActionsの利用上限があるかは未確認。
+- 環境の備考：`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。

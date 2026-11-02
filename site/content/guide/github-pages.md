@@ -204,6 +204,7 @@ Copilotデスクトップアプリなどのエージェントには、次のよ�
 - [リポジトリを整える：README、.gitignore、ライセンス、公開](repo-tidy.md)
 - [ブランチとプルリクエストでの共同作業](github-collaboration.md)
 - [Markdownの書き方](markdown.md)
+- [GitHub Actionsとは](github-actions.md)
 - [成果を発表する](presenting.md)
 - [AIを使うときの倫理とルール](ai-ethics.md)
 - Wikiの関連ページ：[GitHub Pages](../../../wiki/concepts/github-pages.md)、[GitHub](../../../wiki/tools/github.md)、[リポジトリ](../../../wiki/concepts/repository.md)
