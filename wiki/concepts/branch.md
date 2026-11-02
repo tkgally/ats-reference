@@ -27,6 +27,7 @@ GitHub公式のドキュメントによれば、ブランチは機能の追加�
 - [リポジトリ](repository.md)
 - [マージ](merge.md)
 - [コミット](commit.md)
+- [ワークツリー](worktree.md)
 
 ## 出典
 
