@@ -34,6 +34,7 @@ GitHub Copilotデスクトップアプリでは、エージェントのセッシ
 - [クローン](clone.md)
 - [GitHub Copilotデスクトップアプリ](../tools/github-copilot-app.md)
 - [AIエージェント](ai-agent.md)
+- [作業用フォルダーを増やす：ワークツリー](../../site/content/guide/git-worktree.md)
 
 ## 出典
 

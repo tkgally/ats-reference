@@ -266,3 +266,11 @@
 - OpenRouterは使っていない。
 - 人間に確かめてほしい点：画面の表記（Details）は公式の説明にもとづくもので、実際の画面での確認はまだ。授業の組織でActionsの利用上限があるかは未確認。
 - 環境の備考：`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
+
+### [2026-11-03] 新しい解説ページ「作業用フォルダーを増やす：ワークツリー」
+
+- Wikiに11月2日に加わった資料（git worktreeの公式ドキュメント）にもとづき、[作業用フォルダーを増やす：ワークツリー](content/guide/git-worktree.md)を追加（考え方、基本の三つのコマンド、注意、Copilotアプリの「New worktree」との関係）。図は`worktree-folders.svg`。分類「GitHubを使う」（order 10、発展）。用語集と[Copilotデスクトップアプリを使い始める](content/guide/copilot-app.md)からリンクし、Wikiの[ワークツリー](../wiki/concepts/worktree.md)の関連ページに解説ページへのリンクを足した。
+- この回は無人の定期実行。横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しとスクリプトのエラーはなかった。
+- OpenRouterは使っていない。
+- 人間に確かめてほしい点：Copilotアプリが裏でGitのワークツリーを使っているかは資料になく、要確認と書いた。
+- 環境の備考：`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
