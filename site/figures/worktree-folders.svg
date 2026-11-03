@@ -1,0 +1,17 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ワークツリーの図。一つのリポジトリ（履歴とブランチ）を、二つの作業用フォルダーが共有している。メインのフォルダーはmainブランチ、もう一つのフォルダーは別のブランチを取り出していて、コミット前の変更はフォルダーごとに別になる。">
+  <rect x="12" y="12" width="616" height="236" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="32" y="40" font-size="14" class="tx bold">一つのリポジトリ、複数の作業用フォルダー</text>
+  <rect x="190" y="56" width="260" height="62" rx="10" class="f-green-s"/>
+  <text x="320" y="80" text-anchor="middle" font-size="13" class="tx bold">共有：履歴・ブランチ・タグ・設定</text>
+  <text x="320" y="102" text-anchor="middle" font-size="12" class="tx">（リポジトリの中身は一つだけ）</text>
+  <path d="M250 122 L130 156" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <path d="M390 122 L510 156" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="24" y="160" width="270" height="76" rx="10" class="f-blue-s"/>
+  <text x="159" y="182" text-anchor="middle" font-size="13" class="tx bold">メインのフォルダー</text>
+  <text x="159" y="202" text-anchor="middle" font-size="12" class="tx">取り出し中：mainブランチ</text>
+  <text x="159" y="222" text-anchor="middle" font-size="12" class="tm">コミット前の変更：この中だけ</text>
+  <rect x="346" y="160" width="270" height="76" rx="10" class="f-orange-s"/>
+  <text x="481" y="182" text-anchor="middle" font-size="13" class="tx bold">追加のフォルダー</text>
+  <text x="481" y="202" text-anchor="middle" font-size="12" class="tx">取り出し中：別のブランチ</text>
+  <text x="481" y="222" text-anchor="middle" font-size="12" class="tm">コミット前の変更：この中だけ</text>
+</svg>
