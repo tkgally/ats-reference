@@ -69,6 +69,7 @@ VS Codeでは、エージェントが道具を使う前に、人間に確認を�
 - [ターミナル](terminal.md)
 - [コミット](commit.md)
 - [AI利用の倫理](ai-ethics.md)
+- [MCP（Model Context Protocol）](mcp.md)
 - 解説ページ：[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)
 
 ## 出典
