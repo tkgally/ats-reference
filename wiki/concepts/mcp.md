@@ -36,6 +36,7 @@ MCPサーバーはAIにファイルの読み書きや外部サービスの操作
 - [エージェントの承認と権限](agent-permissions.md)
 - [大規模言語モデル（LLM）](large-language-model.md)
 - [AIエージェントとは](../../site/content/guide/ai-agents.md)
+- [MCPとは：AIを外のサービスにつなぐ共通の約束](../../site/content/guide/mcp.md)
 
 ## 出典
 
