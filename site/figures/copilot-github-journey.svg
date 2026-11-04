@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一つの変更がGitHubのmainに入るまでの6段階。1 チャットで頼む（まだ何も変わらない）。2 エージェントがファイルを書き換える。3 コミットで変更を履歴に記録する（まだ自分の手元だけ）。4 プッシュでブランチをGitHubへ送る。5 プルリクエストでmainへの取り込みを提案する。6 マージでmainに合流し、仲間はプルで受け取る。1はCopilotアプリ、2と3は自分のパソコン、4から6はGitHubの上で起きる。仲間やGitHubのページから見えるのは4から先。">
+  <g font-size="11">
+    <!-- 1 -->
+    <rect x="8" y="16" width="92" height="160" rx="10" class="f-purple-s"/>
+    <text x="54" y="40" text-anchor="middle" font-size="15" class="t-purple bold">1</text>
+    <text x="54" y="62" text-anchor="middle" font-size="13" class="tx bold">頼む</text>
+    <text x="54" y="90" text-anchor="middle" class="tm">チャットに</text>
+    <text x="54" y="106" text-anchor="middle" class="tm">書くだけでは</text>
+    <text x="54" y="122" text-anchor="middle" class="tm">まだ何も</text>
+    <text x="54" y="138" text-anchor="middle" class="tm">変わらない</text>
+    <!-- 2 -->
+    <rect x="112" y="16" width="92" height="160" rx="10" class="f-blue-s"/>
+    <text x="158" y="40" text-anchor="middle" font-size="15" class="t-blue bold">2</text>
+    <text x="158" y="62" text-anchor="middle" font-size="13" class="tx bold">書き換え</text>
+    <text x="158" y="90" text-anchor="middle" class="tm">エージェントが</text>
+    <text x="158" y="106" text-anchor="middle" class="tm">ファイルを</text>
+    <text x="158" y="122" text-anchor="middle" class="tm">書き換える</text>
+    <text x="158" y="138" text-anchor="middle" class="tm">（Changes）</text>
+    <!-- 3 -->
+    <rect x="216" y="16" width="92" height="160" rx="10" class="f-blue-s"/>
+    <text x="262" y="40" text-anchor="middle" font-size="15" class="t-blue bold">3</text>
+    <text x="262" y="62" text-anchor="middle" font-size="13" class="tx bold">コミット</text>
+    <text x="262" y="90" text-anchor="middle" class="tm">変更を説明つき</text>
+    <text x="262" y="106" text-anchor="middle" class="tm">で履歴に</text>
+    <text x="262" y="122" text-anchor="middle" class="tm">記録する</text>
+    <text x="262" y="138" text-anchor="middle" class="tm">（まだ手元だけ）</text>
+    <!-- 4 -->
+    <rect x="320" y="16" width="92" height="160" rx="10" class="f-green-s"/>
+    <text x="366" y="40" text-anchor="middle" font-size="15" class="t-green bold">4</text>
+    <text x="366" y="62" text-anchor="middle" font-size="13" class="tx bold">プッシュ</text>
+    <text x="366" y="90" text-anchor="middle" class="tm">ブランチを</text>
+    <text x="366" y="106" text-anchor="middle" class="tm">GitHubへ</text>
+    <text x="366" y="122" text-anchor="middle" class="tm">送る</text>
+    <!-- 5 -->
+    <rect x="424" y="16" width="92" height="160" rx="10" class="f-green-s"/>
+    <text x="470" y="40" text-anchor="middle" font-size="15" class="t-green bold">5</text>
+    <text x="470" y="62" text-anchor="middle" font-size="12" class="tx bold">プルリクエスト</text>
+    <text x="470" y="90" text-anchor="middle" class="tm">mainへの</text>
+    <text x="470" y="106" text-anchor="middle" class="tm">取り込みを</text>
+    <text x="470" y="122" text-anchor="middle" class="tm">提案して、</text>
+    <text x="470" y="138" text-anchor="middle" class="tm">確かめ合う</text>
+    <!-- 6 -->
+    <rect x="528" y="16" width="104" height="160" rx="10" class="f-green"/>
+    <text x="580" y="40" text-anchor="middle" font-size="15" class="tw bold">6</text>
+    <text x="580" y="62" text-anchor="middle" font-size="13" class="tw bold">マージ</text>
+    <text x="580" y="90" text-anchor="middle" class="tw">mainに合流。</text>
+    <text x="580" y="106" text-anchor="middle" class="tw">仲間は</text>
+    <text x="580" y="122" text-anchor="middle" class="tw">プルして</text>
+    <text x="580" y="138" text-anchor="middle" class="tw">受け取る</text>
+  </g>
+  <g class="s-gray" stroke-width="2" fill="none">
+    <path d="M101 96h10"/><path d="M205 96h10"/><path d="M309 96h10"/><path d="M413 96h10"/><path d="M517 96h10"/>
+  </g>
+  <!-- divider -->
+  <line x1="314" y1="8" x2="314" y2="250" class="s-red" stroke-width="2" stroke-dasharray="5 4"/>
+  <!-- location bands -->
+  <rect x="8" y="190" width="92" height="24" rx="6" class="f-purple"/>
+  <text x="54" y="207" text-anchor="middle" font-size="12" class="tw">Copilotアプリ</text>
+  <rect x="112" y="190" width="196" height="24" rx="6" class="f-blue"/>
+  <text x="210" y="207" text-anchor="middle" font-size="12" class="tw">自分のパソコン（作業場所）</text>
+  <rect x="320" y="190" width="312" height="24" rx="6" class="f-green"/>
+  <text x="476" y="207" text-anchor="middle" font-size="12" class="tw">GitHub（インターネット上）</text>
+  <text x="308" y="240" text-anchor="end" font-size="12" class="t-red">← ここまでは自分にしか見えない</text>
+  <text x="320" y="240" font-size="12" class="t-red">ここから先は仲間にも見える →</text>
+  <text x="320" y="260" font-size="11" class="tm">（mainに入るのは6のあと）</text>
+</svg>

@@ -63,7 +63,7 @@ Copilotの利用権は、<code>https://github.com/settings/copilot</code>で付�
 
 保存先には、OneDriveなど自動で同期されるフォルダーの中は避けてください。
 
-プロジェクトを加えたら、その横の<span class="ui">Start a new session</span>のアイコンで、セッションを始めます。セッションは、一つの作業の単位です。公式のドキュメントによれば、セッションごとに独立した作業場所と専用のブランチが用意されるので、いくつかの作業を並べて進めても、ぶつかりません。ブランチについては[GitHubとは](github-basics.md)と[ブランチとプルリクエストでの共同作業](github-collaboration.md)を見てください。
+プロジェクトを加えたら、その横の<span class="ui">Start a new session</span>のアイコンで、セッションを始めます。セッションは、一つの作業の単位です。公式のドキュメントによれば、セッションごとに独立した作業場所と専用のブランチが用意されるので、いくつかの作業を並べて進めても、ぶつかりません。アプリとGitHubのリポジトリの関係は[CopilotアプリとGitHubの関係](copilot-and-github.md)、ブランチについては[GitHubとは](github-basics.md)と[ブランチとプルリクエストでの共同作業](github-collaboration.md)を見てください。
 
 セッションを始めるとき、変更を入れる場所も選べます（公式のドキュメントによる。2026年10月30日に確認、表記の細部は未確認）。<span class="ui">New worktree</span>は、別の作業用コピーを作ってそこで作業するので、元のフォルダーは変わりません。<span class="ui">Current checkout</span>は、いま開いているフォルダーでそのまま作業します。ワークツリーの考え方は[ワークツリー](git-worktree.md)で説明しています。迷ったときは、元のものに影響しないNew worktreeが安心です（資料外の助言）。ベースにするブランチも選べます。
 
@@ -140,6 +140,7 @@ Assistedでも、モデルが間違えて危険なものを承認する恐れが
 
 ## 次に読むページ
 
+- [CopilotアプリとGitHubの関係](copilot-and-github.md)（頼む場所と保存される場所の違い）
 - [GitHubを始める：アカウントと最初のリポジトリ](github-first-steps.md)
 - [Copilotのエージェントに作業を頼む](copilot-agent.md)
 - [GitHub Copilotとは](copilot-overview.md)

@@ -98,6 +98,8 @@ Git（ギット）は、ファイルの変更履歴を記録するための道�
 - `git pull`：GitHubにある新しいコミットを、自分の側に取ってくる。
 - `git clone`：GitHubのリポジトリを、丸ごと自分の側に複製する。
 
+Copilotアプリで頼んだ変更が、どの段階でGitHubに届くのかは[CopilotアプリとGitHubの関係](copilot-and-github.md)で説明しています。
+
 ## 公開範囲
 
 リポジトリには、だれが見られるかを決める「公開範囲」（<span class="ui">Visibility</span>）があります。作るときに選び、あとから設定で変えることもできます。

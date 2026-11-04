@@ -274,3 +274,11 @@
 - OpenRouterは使っていない。
 - 人間に確かめてほしい点：Copilotアプリが裏でGitのワークツリーを使っているかは資料になく、要確認と書いた。
 - 環境の備考：`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
+
+### [2026-11-04] 新しい解説ページ「CopilotアプリとGitHubの関係」
+
+- 担当教員の依頼（授業中、プロジェクトのグループ作業で、Copilotアプリとリポジトリの関係に戸惑う受講生がいたため）で、[CopilotアプリとGitHubの関係：頼む場所と保存される場所](content/guide/copilot-and-github.md)を追加した（三つの場所、変更がmainに入るまでの6段階、ブランチ・コミット・プッシュ・プル・プルリクエスト・マージの意味、どこで何を確かめるか、よくある勘違い、チームでの約束）。図は`copilot-github-places.svg`と`copilot-github-journey.svg`。体験コーナー`branch-sim`を再利用した。分類「Copilotを使う」（order 2、入門）。
+- [Copilotデスクトップアプリを使い始める](content/guide/copilot-app.md)、[GitHubとは](content/guide/github-basics.md)、[用語集](content/guide/glossary.md)からリンクし、Wikiの[GitHub Copilotデスクトップアプリ](../wiki/tools/github-copilot-app.md)の関連ページに解説ページへのリンクを足した。
+- 横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しとスクリプトのエラーはなかった（6段階の図はスマートフォンでは横にスクロールして見る）。
+- OpenRouterは使っていない。
+- 人間に確かめてほしい点：Copilotアプリがコミットとプッシュをどこまで自動で行うか（Create PRで自動的にプッシュされるか）は資料になく、ページでは「アプリのチャットで聞く」よう案内した。実際の画面で分かったら、「一つの変更がGitHubに届くまで」の節を直す。
