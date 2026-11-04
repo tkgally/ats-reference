@@ -57,6 +57,9 @@ main（メイン）
 プッシュ（push）、プル（pull）、クローン（clone）
 : プッシュは手元のコミットをGitHubに送ること、プルはGitHubの新しいコミットを手元に取ってくること、クローンはリポジトリを丸ごと手元に複製すること。→[GitHubとは](github-basics.md)、[CopilotアプリとGitHubの関係](copilot-and-github.md)
 
+MCP（Model Context Protocol）
+: AIアプリを、ファイルやサービスなどの外部のものにつなぐ共通の約束。USB-Cのような共通の差し込み口にたとえられる。→[MCPとは](mcp.md)
+
 ワークツリー（Worktree）
 : 同じリポジトリにつながった、もう一つの作業用フォルダー。ブランチごとに別のフォルダーで同時に作業できる。→[ワークツリー](git-worktree.md)
 
