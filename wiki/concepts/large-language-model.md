@@ -22,6 +22,7 @@ ChatGPT、Claude、Gemini、GitHub Copilotなどの生成AIの中心にある技
 - [AIエージェント](ai-agent.md)
 - [プロンプト](prompt.md)
 - [コンテキストウィンドウ](context-window.md)
+- [トークン](token.md)
 - [ハルシネーション](hallucination.md)
 - [LLM Wiki](llm-wiki.md)
 - [この授業で使うAIツール](../tools/ai-tools.md)
@@ -31,4 +32,5 @@ ChatGPT、Claude、Gemini、GitHub Copilotなどの生成AIの中心にある技
 ## 出典
 
 - [資料：授業の背景情報](../sources/ats-class-background.md)（授業で使うツールの一覧）
+- [資料：Claude Platform Docs（用語集）](../sources/web-claude-docs-glossary.md)（トークン）
 - しくみの要点は一般的な知識にもとづく（資料外の補足）。

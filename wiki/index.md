@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：88（目録と作業記録を除く）
-- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料36件）
+- ページ数：90（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料37件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年11月3日
+- 最終更新：2026年11月4日
 
 ## 全体
 
@@ -58,6 +58,7 @@
 - [GitHub flow（ブランチとプルリクエストの流れ）](concepts/github-flow.md)：ブランチを作って変更し、プルリクエストでレビューを受けてから本流に取り込む、GitHubの標準的な作業の流れ、GitHub flowについてのページ。
 - [Markdown](concepts/markdown.md)：記号だけで見出しや箇条書きなどの書式を付けられる文章の書き方、Markdownについてのページ。
 - [プロンプト](concepts/prompt.md)：生成AIに送る頼みや質問の文章、プロンプトと、その書き方の考え方についてのページ。
+- [トークン](concepts/token.md)：生成AIが文章を扱うときの単位、トークン（token）についてのページ。
 - [コンテキストウィンドウ](concepts/context-window.md)：生成AIが一度に参照できる文章の範囲、コンテキストウィンドウ（文脈の窓）についてのページ。
 - [ハルシネーション](concepts/hallucination.md)：生成AIが事実と違う内容を、もっともらしく答えてしまう現象、ハルシネーション（幻覚）についてのページ。
 - [リポジトリ](concepts/repository.md)：プロジェクトのファイルとその変更履歴を保管する場所、リポジトリ（repository）についてのページ。
@@ -124,6 +125,7 @@
 - [資料：コミットについて（GitHub Docs）](sources/web-github-about-commits.md)：GitHubの公式ドキュメントにある、コミットの識別子、メッセージ、共同作者、署名の概説の要約（2026年10月23日に確認）。
 - [資料：gitignoreの規則の書き方（Git公式ドキュメント）](sources/web-git-docs-gitignore.md)：Git公式ドキュメントにある、`.gitignore`の規則（パターン）の書き方と優先順位の要約（2026年10月19日に確認）。
 - [資料：git worktreeの公式ドキュメント（Git）](sources/web-git-docs-worktree.md)：Gitの公式ドキュメントにある、ワークツリー（複数のブランチを別々のフォルダーで同時に取り出す仕組み）の考え方と基本の操作の要約（2026年11月2日に確認）。
+- [資料：Claude Platform Docs（用語集）](sources/web-claude-docs-glossary.md)：Anthropicの用語集にある、トークン、温度、RAG、ファインチューニングなどの説明の要約（2026年11月4日に確認）。
 - [資料：MCPの紹介とアーキテクチャ](sources/web-mcp-intro-architecture.md)：MCP（AIアプリを外部のシステムにつなぐ共通の標準）の公式ドキュメントにある、概要と構成要素（ホスト、クライアント、サーバー、ツール、リソース、プロンプト）の要約（2026年11月3日に確認）。
 - [資料：WebClass（情報基盤センター）](sources/web-tcu-webclass.md)：情報基盤センターのWebClass案内ページにある、ログイン方法、主な機能、マニュアル、問い合わせ先の要約。
 

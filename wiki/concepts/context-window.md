@@ -27,9 +27,11 @@
 - [大規模言語モデル（LLM）](large-language-model.md)
 - [AIエージェント](ai-agent.md)
 - [プロンプト](prompt.md)
+- [トークン](token.md)
 - [ハルシネーション](hallucination.md)
 - 解説ページ：[生成AIのしくみ](../../site/content/guide/how-llms-work.md)
 
 ## 出典
 
 - [資料：Claude Platform Docs（コンテキストウィンドウ、ハルシネーションの低減、プロンプトの概説）](../sources/web-claude-docs-context-hallucination.md)
+- [資料：Claude Platform Docs（用語集）](../sources/web-claude-docs-glossary.md)
