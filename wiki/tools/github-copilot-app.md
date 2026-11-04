@@ -81,7 +81,7 @@ Copilot BusinessとCopilot Enterpriseでは、組織の「GitHub Copilot app」�
 - [リポジトリ](../concepts/repository.md)
 - [AIエージェント](../concepts/ai-agent.md)
 - [エージェントの承認と権限](../concepts/agent-permissions.md)
-- 解説ページ：[Copilotデスクトップアプリを使い始める](../../site/content/guide/copilot-app.md)、[GitHubを始める](../../site/content/guide/github-first-steps.md)、[英語の画面を読むための単語帳](../../site/content/guide/github-english-ui.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)
+- 解説ページ：[Copilotデスクトップアプリを使い始める](../../site/content/guide/copilot-app.md)、[CopilotアプリとGitHubの関係](../../site/content/guide/copilot-and-github.md)、[GitHubを始める](../../site/content/guide/github-first-steps.md)、[英語の画面を読むための単語帳](../../site/content/guide/github-english-ui.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)
 
 ## 出典
 

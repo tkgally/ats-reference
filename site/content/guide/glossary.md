@@ -55,7 +55,7 @@ main（メイン）
 : 変更の前と後の違い。GitHubでは削除が赤、追加が緑で表示される。→[ブランチとプルリクエスト](github-collaboration.md)
 
 プッシュ（push）、プル（pull）、クローン（clone）
-: プッシュは手元のコミットをGitHubに送ること、プルはGitHubの新しいコミットを手元に取ってくること、クローンはリポジトリを丸ごと手元に複製すること。→[GitHubとは](github-basics.md)
+: プッシュは手元のコミットをGitHubに送ること、プルはGitHubの新しいコミットを手元に取ってくること、クローンはリポジトリを丸ごと手元に複製すること。→[GitHubとは](github-basics.md)、[CopilotアプリとGitHubの関係](copilot-and-github.md)
 
 ワークツリー（Worktree）
 : 同じリポジトリにつながった、もう一つの作業用フォルダー。ブランチごとに別のフォルダーで同時に作業できる。→[ワークツリー](git-worktree.md)
