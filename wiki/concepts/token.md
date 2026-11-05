@@ -30,6 +30,7 @@
 - [コンテキストウィンドウ](context-window.md)
 - [プロンプト](prompt.md)
 - [AIエージェント](ai-agent.md)
+- [生成AIのしくみ：大規模言語モデルは何をしているのか](../../site/content/guide/how-llms-work.md)
 
 ## 出典
 

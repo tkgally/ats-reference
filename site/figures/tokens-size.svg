@@ -1,0 +1,14 @@
+<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同じ内容の文章でも、言語やモデルによってトークンの数が違うことを示す模式図。英語は少ないトークン、日本語はそれより多いトークン、新しいモデルのトークナイザーではさらに多くなる。数は例であり、正確な値ではない。">
+  <rect x="12" y="12" width="616" height="206" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="32" y="40" font-size="14" class="tx bold">同じ内容でも、トークンの数は変わる（模式図）</text>
+  <text x="32" y="78" font-size="13" class="tx">英語の文章</text>
+  <rect x="160" y="62" width="110" height="22" rx="5" class="f-blue-s"/>
+  <text x="280" y="78" font-size="12" class="tm">少なめ</text>
+  <text x="32" y="118" font-size="13" class="tx">日本語の文章</text>
+  <rect x="160" y="102" width="165" height="22" rx="5" class="f-orange-s"/>
+  <text x="335" y="118" font-size="12" class="tm">多くなりやすい</text>
+  <text x="32" y="158" font-size="13" class="tx">新しいトークナイザー</text>
+  <rect x="160" y="142" width="215" height="22" rx="5" class="f-purple-s"/>
+  <text x="385" y="158" font-size="12" class="tm">さらに約30パーセント増の例</text>
+  <text x="32" y="198" font-size="12" class="tm">棒の長さはおおまかなイメージで、実際の数はモデルごとに数え直さないと分からない。</text>
+</svg>
