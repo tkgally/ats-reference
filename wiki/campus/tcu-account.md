@@ -23,6 +23,7 @@ TCUアカウントには[多要素認証](https://www.itc.tcu.ac.jp/mfa/)の案�
 - [学内のITサービス](it-services.md)
 - [Microsoft 365 Copilot](../tools/microsoft-365-copilot.md)
 - [GitHub Copilotデスクトップアプリ](../tools/github-copilot-app.md)
+- [シングルサインオン（SSO）](../concepts/single-sign-on.md)
 
 ## 出典
 

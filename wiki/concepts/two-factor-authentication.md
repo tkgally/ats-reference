@@ -29,6 +29,7 @@
 - [GitHub](../tools/github.md)
 - [リポジトリ](repository.md)
 - [TCUアカウントと多要素認証](../campus/tcu-account.md)
+- [シングルサインオン（SSO）](single-sign-on.md)
 
 ## 出典
 
