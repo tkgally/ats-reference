@@ -29,6 +29,7 @@ GitHubにあるリポジトリを、自分のパソコンにコピーして作�
 - [フォーク](fork.md)
 - [プッシュ、プル、フェッチ](push-pull-fetch.md)
 - [バージョン管理とGit](version-control-and-git.md)
+- [GitHubの認証：トークンとSSHキー](github-authentication.md)
 
 ## 出典
 

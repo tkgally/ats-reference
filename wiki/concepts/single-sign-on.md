@@ -32,6 +32,7 @@ SSOでは、受講生は自分の個人アカウントを持ったまま組織�
 - [GitHub](../tools/github.md)
 - [GitHub Copilotデスクトップアプリ](../tools/github-copilot-app.md)
 - [二要素認証](two-factor-authentication.md)
+- [GitHubの認証：トークンとSSHキー](github-authentication.md)
 - [リポジトリ](repository.md)
 - [SSO認証とは：サインインが二度必要に見える理由](../../site/content/guide/sso.md)
 
