@@ -1,0 +1,25 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SSO認証の流れ。1 個人のGitHubアカウントでサインインする。2 授業の組織のリポジトリを開こうとする。3 SSOのセッションがなければ大学のサインイン画面（TCUアカウント）に案内される。4 認証が済むとGitHubに戻り、組織のリポジトリが使える。">
+  <rect x="12" y="12" width="616" height="226" rx="14" class="bg ln" stroke-width="2"/>
+  <rect x="28" y="40" width="130" height="90" rx="10" class="f-blue-s"/>
+  <text x="93" y="66" text-anchor="middle" font-size="13" class="tx bold">1 GitHubに</text>
+  <text x="93" y="84" text-anchor="middle" font-size="13" class="tx bold">サインイン</text>
+  <text x="93" y="108" text-anchor="middle" font-size="12" class="tm">個人のアカウント</text>
+  <rect x="176" y="40" width="130" height="90" rx="10" class="f-green-s"/>
+  <text x="241" y="66" text-anchor="middle" font-size="13" class="tx bold">2 組織の</text>
+  <text x="241" y="84" text-anchor="middle" font-size="13" class="tx bold">リポジトリを開く</text>
+  <text x="241" y="108" text-anchor="middle" font-size="12" class="tm">tokyo-city-university</text>
+  <rect x="324" y="40" width="140" height="90" rx="10" class="f-orange-s"/>
+  <text x="394" y="66" text-anchor="middle" font-size="13" class="tx bold">3 大学の画面で</text>
+  <text x="394" y="84" text-anchor="middle" font-size="13" class="tx bold">SSO認証</text>
+  <text x="394" y="108" text-anchor="middle" font-size="12" class="tm">TCUアカウント</text>
+  <rect x="482" y="40" width="130" height="90" rx="10" class="f-teal-s"/>
+  <text x="547" y="66" text-anchor="middle" font-size="13" class="tx bold">4 GitHubに戻り</text>
+  <text x="547" y="84" text-anchor="middle" font-size="13" class="tx bold">使える</text>
+  <text x="547" y="108" text-anchor="middle" font-size="12" class="tm">約24時間有効</text>
+  <path d="M160 85 L174 85" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <path d="M308 85 L322 85" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <path d="M466 85 L480 85" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="28" y="156" width="584" height="64" rx="10" class="bgs"/>
+  <text x="320" y="182" text-anchor="middle" font-size="13" class="tx">サインインしていても、SSOのセッションがなければ、手順3が必要になる。</text>
+  <text x="320" y="204" text-anchor="middle" font-size="13" class="tx">時間がたつとセッションが切れ、また手順3が出ることがある。</text>
+</svg>

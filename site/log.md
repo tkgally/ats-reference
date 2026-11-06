@@ -298,3 +298,11 @@
 - OpenRouterは使っていない。
 - 人間に確かめてほしい点：Copilotの利用枠とトークンの関係は未確認（本文に明記した）。
 - 環境の備考：`pip install`しても`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
+
+### [2026-11-06] 新しい解説ページ「SSO認証とは」（定期実行）
+
+- Wikiに11月5日に加わった資料（GitHubのSAMLシングルサインオン）にもとづき、[SSO認証とは：サインインが二度必要に見える理由](content/guide/sso.md)を追加した（サインインとSSO認証の違い、24時間のセッション、Access deniedのときの手順、トークンとSSHキーの認可）。図は`sso-two-steps.svg`。分類「GitHubを使う」（order 11、基本）。用語集に「SSO」を足し、[Copilotデスクトップアプリを使い始める](content/guide/copilot-app.md)と[GitHubを始める](content/guide/github-first-steps.md)からリンクし、Wikiの[シングルサインオン（SSO）](../wiki/concepts/single-sign-on.md)の関連ページに解説ページへのリンクを足した。
+- この回は無人の定期実行。横幅1280（明るい表示）と390（暗い表示）で確認した。横方向のはみ出しとスクリプトのエラーはなかった（スマートフォンでは図が横にスクロールする）。
+- OpenRouterは使っていない。
+- 人間に確かめてほしい点：授業の組織でのトークン・SSHキーの認可の表示は未確認（要確認と書いた）。
+- 環境の備考：`pip install`しても`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。

@@ -18,6 +18,9 @@ GitHub
 Git（ギット）
 : ファイルの変更履歴を記録するための道具。GitHubはGitで記録したリポジトリを置く場所。→[GitHubとは](github-basics.md)
 
+SSO（シングルサインオン）
+: 大学など組織の本人確認の窓口で認証すると、その組織の資源を使えるようにする仕組み。GitHubへのサインインとは別の処理。→[SSO認証とは](sso.md)
+
 リポジトリ（Repository）
 : プロジェクトのファイルと履歴をまとめた箱。略して「リポ」。→[GitHubとは](github-basics.md)
 
