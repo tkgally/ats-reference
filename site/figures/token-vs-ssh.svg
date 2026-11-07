@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="自分のパソコンからGitHubへ送るときの二つの認証方法。左：HTTPSのリモートでは、パスワードの代わりに個人用アクセストークンを入力する。右：SSHのリモートでは、秘密鍵は自分のパソコンに置き、公開鍵だけをGitHubに登録する。">
+  <rect x="12" y="12" width="616" height="246" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="170" y="42" text-anchor="middle" font-size="15" class="tx bold">方法1：トークン（HTTPS）</text>
+  <text x="470" y="42" text-anchor="middle" font-size="15" class="tx bold">方法2：SSHキー（SSH）</text>
+  <rect x="28" y="60" width="110" height="70" rx="10" class="f-blue-s"/>
+  <text x="83" y="90" text-anchor="middle" font-size="13" class="tx bold">自分の</text>
+  <text x="83" y="108" text-anchor="middle" font-size="13" class="tx bold">パソコン</text>
+  <rect x="202" y="60" width="110" height="70" rx="10" class="f-green-s"/>
+  <text x="257" y="90" text-anchor="middle" font-size="13" class="tx bold">GitHub</text>
+  <text x="257" y="108" text-anchor="middle" font-size="12" class="tm">リポジトリ</text>
+  <path d="M140 95 L200 95" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="170" y="84" text-anchor="middle" font-size="12" class="t-orange bold">トークン</text>
+  <rect x="332" y="60" width="110" height="70" rx="10" class="f-blue-s"/>
+  <text x="387" y="86" text-anchor="middle" font-size="13" class="tx bold">自分の</text>
+  <text x="387" y="104" text-anchor="middle" font-size="13" class="tx bold">パソコン</text>
+  <text x="387" y="121" text-anchor="middle" font-size="12" class="t-red bold">秘密鍵</text>
+  <rect x="506" y="60" width="110" height="70" rx="10" class="f-green-s"/>
+  <text x="561" y="86" text-anchor="middle" font-size="13" class="tx bold">GitHub</text>
+  <text x="561" y="104" text-anchor="middle" font-size="12" class="tm">アカウント</text>
+  <text x="561" y="121" text-anchor="middle" font-size="12" class="t-teal bold">公開鍵</text>
+  <path d="M444 95 L504 95" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="28" y="150" width="284" height="92" rx="10" class="bgs"/>
+  <text x="170" y="174" text-anchor="middle" font-size="13" class="tx">パスワードを聞かれたら</text>
+  <text x="170" y="194" text-anchor="middle" font-size="13" class="tx">トークンを入力する。</text>
+  <text x="170" y="220" text-anchor="middle" font-size="12" class="tm">期限つきで、必要な範囲だけに絞る</text>
+  <rect x="332" y="150" width="284" height="92" rx="10" class="bgs"/>
+  <text x="474" y="174" text-anchor="middle" font-size="13" class="tx">鍵は二つで一組。</text>
+  <text x="474" y="194" text-anchor="middle" font-size="13" class="tx">秘密鍵は誰にも見せない。</text>
+  <text x="474" y="220" text-anchor="middle" font-size="12" class="tm">リポジトリのURLが git@github.com: で始まる</text>
+</svg>
