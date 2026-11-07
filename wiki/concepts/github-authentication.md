@@ -33,6 +33,7 @@ GitHubの画面（ブラウザー）には、ユーザー名とパスワード�
 
 ## 関連ページ
 
+- [トークンとSSHキー：パソコンからGitHubへつなぐ合言葉（解説ページ）](../../site/content/guide/github-tokens-ssh.md)
 - [シングルサインオン（SSO）](single-sign-on.md)
 - [二要素認証](two-factor-authentication.md)
 - [クローン](clone.md)

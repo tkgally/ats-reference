@@ -306,3 +306,10 @@
 - OpenRouterは使っていない。
 - 人間に確かめてほしい点：授業の組織でのトークン・SSHキーの認可の表示は未確認（要確認と書いた）。
 - 環境の備考：`pip install`しても`python`に`markdown`が入らず、`/usr/bin/python3`で組み立てた。
+
+### [2026-11-07] 新しい解説ページ「トークンとSSHキー」（定期実行）
+
+- Wikiに11月6日に加わった資料（GitHubの個人用アクセストークンとSSH）にもとづき、[トークンとSSHキー：パソコンからGitHubへつなぐ合言葉](content/guide/github-tokens-ssh.md)を追加した（二つの方法の違い、トークンの種類と期限、SSHキーの仕組み、安全な扱い方、授業の組織での認可）。図は`token-vs-ssh.svg`。分類「GitHubを使う」（order 12、発展）。用語集に「個人用アクセストークン」と「SSHキー」を足し、[SSO認証とは](content/guide/sso.md)からリンクし、Wikiの[GitHubの認証](../wiki/concepts/github-authentication.md)の関連ページに解説ページへのリンクを足した。
+- この回は無人の定期実行。横幅1280（明るい表示）と390（暗い表示）で確認した。
+- OpenRouterは使っていない。
+- 人間に確かめてほしい点：授業の組織でのトークン・SSHキーの認可の表示は未確認（要確認と書いた）。
