@@ -35,6 +35,7 @@ Copilotの画面は英語ですが、日本語で質問すれば日本語で答�
 - [この授業で使うAIツール](ai-tools.md)
 - [GitHub Copilotデスクトップアプリ](github-copilot-app.md)
 - [GitHub](github.md)
+- [エージェントへの指示ファイル](../concepts/agent-instructions.md)
 - [VS Code](vs-code.md)
 - [Microsoft 365 Copilot](microsoft-365-copilot.md)：名前は似ているが別の製品
 - 解説ページ：[GitHub Copilotとは](../../site/content/guide/copilot-overview.md)、[VS CodeでCopilotを使う準備](../../site/content/guide/vscode-copilot-setup.md)、[Copilotのエージェントに作業を頼む](../../site/content/guide/copilot-agent.md)
