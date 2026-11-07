@@ -22,6 +22,7 @@ Anthropicの資料にある技法は、明確に書く、例を示す、構造�
 
 - [大規模言語モデル（LLM）](large-language-model.md)
 - [AIエージェント](ai-agent.md)
+- [エージェントへの指示ファイル](agent-instructions.md)
 - [コンテキストウィンドウ](context-window.md)
 - [ハルシネーション](hallucination.md)
 - 解説ページ：[AIへの頼み方](../../site/content/guide/prompting.md)
