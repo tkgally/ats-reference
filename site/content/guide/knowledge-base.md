@@ -162,6 +162,7 @@ GitHubでは、コミットやプルリクエストを開くと、どのファ�
 - [プロジェクトの進め方](project-workflow.md)
 - [AIエージェントとは](ai-agents.md)
 - [Copilotのエージェントに作業を頼む](copilot-agent.md)
+- [AGENTS.md：エージェントへの指示ファイル](agents-md.md)
 - [Markdownの書き方](markdown.md)
 - [ブランチとプルリクエストでの共同作業](github-collaboration.md)
 - 参照文書：[LLM Wiki（日本語版）](../../../llm-wiki-j.md)、この知識ベースの[AGENTS.md](../../../AGENTS.md)

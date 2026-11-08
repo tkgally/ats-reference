@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="指示ファイルの働き。リポジトリにAGENTS.mdを置く。AIエージェントは作業の前にそれを読み、書かれた約束事に従って作業し、結果をリポジトリに返す。人間は結果を確かめ、必要ならAGENTS.mdを直す。">
+  <rect x="12" y="12" width="616" height="226" rx="14" class="bg ln" stroke-width="2"/>
+  <rect x="28" y="50" width="150" height="90" rx="10" class="f-teal-s"/>
+  <text x="103" y="80" text-anchor="middle" font-size="14" class="tx bold">リポジトリ</text>
+  <text x="103" y="102" text-anchor="middle" font-size="13" class="t-teal bold">AGENTS.md</text>
+  <text x="103" y="122" text-anchor="middle" font-size="12" class="tm">約束事を書いておく</text>
+  <rect x="245" y="50" width="150" height="90" rx="10" class="f-purple-s"/>
+  <text x="320" y="80" text-anchor="middle" font-size="14" class="tx bold">AIエージェント</text>
+  <text x="320" y="104" text-anchor="middle" font-size="12" class="tm">作業の前に読み、</text>
+  <text x="320" y="122" text-anchor="middle" font-size="12" class="tm">約束事に従って進める</text>
+  <rect x="462" y="50" width="150" height="90" rx="10" class="f-green-s"/>
+  <text x="537" y="80" text-anchor="middle" font-size="14" class="tx bold">作業の結果</text>
+  <text x="537" y="104" text-anchor="middle" font-size="12" class="tm">ページやコミットが</text>
+  <text x="537" y="122" text-anchor="middle" font-size="12" class="tm">リポジトリに残る</text>
+  <path d="M180 95 L243 95" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <path d="M397 95 L460 95" class="s-gray anim-dash" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="211" y="85" text-anchor="middle" font-size="12" class="tm">読む</text>
+  <text x="429" y="85" text-anchor="middle" font-size="12" class="tm">書く</text>
+  <path d="M537 142 L537 190 L103 190 L103 142" class="s-blue" fill="none" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="190" y="174" width="260" height="32" rx="8" class="bgs"/>
+  <text x="320" y="195" text-anchor="middle" font-size="13" class="t-blue bold">人間が確かめ、約束事を直す</text>
+</svg>

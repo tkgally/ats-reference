@@ -146,6 +146,7 @@ GitHubのようなバージョン管理（変更の履歴を残すしくみ）�
 - [Copilotのエージェントに作業を頼む](copilot-agent.md)
 - [大規模言語モデルのしくみ](how-llms-work.md)
 - [ターミナル入門](terminal-basics.md)
+- [AGENTS.md：エージェントへの指示ファイル](agents-md.md)
 - [AIへの頼み方（プロンプト）](prompting.md)
 - [AIの出力を確かめる](checking-ai-output.md)
 - [AIツールの比べ方](ai-tools-compare.md)
