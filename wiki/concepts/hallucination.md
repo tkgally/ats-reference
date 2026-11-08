@@ -31,6 +31,8 @@ AIが書いた内容は、出典にあたって確かめ、確かめた結果を
 - [コンテキストウィンドウ](context-window.md)
 - [AI利用の倫理](ai-ethics.md)
 - 解説ページ：[AIの答えを確かめる](../../site/content/guide/checking-ai-output.md)、[生成AIのしくみ](../../site/content/guide/how-llms-work.md)
+- [温度（temperature）](temperature.md)
+- [RAG（検索拡張生成）](rag.md)
 
 ## 出典
 
