@@ -31,6 +31,9 @@
 - [プロンプト](prompt.md)
 - [AIエージェント](ai-agent.md)
 - [生成AIのしくみ：大規模言語モデルは何をしているのか](../../site/content/guide/how-llms-work.md)
+- [温度（temperature）](temperature.md)
+- [RAG（検索拡張生成）](rag.md)
+- [ファインチューニング](fine-tuning.md)
 
 ## 出典
 

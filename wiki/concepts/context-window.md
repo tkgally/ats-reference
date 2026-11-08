@@ -30,6 +30,7 @@
 - [トークン](token.md)
 - [ハルシネーション](hallucination.md)
 - 解説ページ：[生成AIのしくみ](../../site/content/guide/how-llms-work.md)
+- [RAG（検索拡張生成）](rag.md)
 
 ## 出典
 
