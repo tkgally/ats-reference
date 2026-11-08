@@ -45,7 +45,7 @@ GitHubとVS Codeの公式ドキュメントによると、Copilotはリポジト
 - [プロンプト](prompt.md)
 - [GitHub Copilot](../tools/github-copilot.md)
 - [GitHubのリポジトリ](repository.md)
-- 解説ページ：[AIエージェントとは](../../site/content/guide/ai-agents.md)、[自分のプロジェクトに知識ベースを作る](../../site/content/guide/knowledge-base.md)
+- 解説ページ：[AIエージェントとは](../../site/content/guide/ai-agents.md)、[AGENTS.md：エージェントへの指示ファイル](../../site/content/guide/agents-md.md)、[自分のプロジェクトに知識ベースを作る](../../site/content/guide/knowledge-base.md)
 
 ## 出典
 
