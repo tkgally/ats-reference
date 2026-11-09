@@ -17,6 +17,8 @@
 - [RAG（検索拡張生成）](rag.md)
 - [プロンプト](prompt.md)
 - [大規模言語モデル（LLM）](large-language-model.md)
+- [事前学習](pretraining.md)
+- [RLHF（人間のフィードバックによる強化学習）](rlhf.md)
 - [生成AIのしくみ：大規模言語モデルは何をしているのか](../../site/content/guide/how-llms-work.md)
 - [AIに資料や好みを伝える三つの方法：プロンプト、RAG、ファインチューニング](../../site/content/guide/rag-fine-tuning.md)
 
