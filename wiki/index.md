@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：97（目録と作業記録を除く）
+- ページ数：100（目録と作業記録を除く）
 - 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料39件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年11月8日
+- 最終更新：2026年11月9日
 
 ## 全体
 
@@ -66,6 +66,9 @@
 - [温度（temperature）](concepts/temperature.md)：生成AIが次の言葉を選ぶときのランダムさを決める設定、温度（temperature）についてのページ。
 - [RAG（検索拡張生成）](concepts/rag.md)：質問に関係する情報を外部の資料から探してAIに渡し、答えの根拠を確かにする手法、RAG（検索拡張生成）についてのページ。
 - [ファインチューニング](concepts/fine-tuning.md)：学習済みのAIモデルに追加のデータで学習させ、特定の分野や文体に合わせる方法、ファインチューニングについてのページ。
+- [事前学習](concepts/pretraining.md)：生成AIのもとになる言語モデルが、大量の文章から次の言葉を予測する練習をして力をつける最初の段階、事前学習（pretraining）についてのページ。
+- [RLHF（人間のフィードバックによる強化学習）](concepts/rlhf.md)：AIが人間の好みに沿った答え方をするように、人間の評価を使って調整する方法、RLHF（reinforcement learning from human feedback）についてのページ。
+- [レイテンシーとTTFT](concepts/latency.md)：AIに質問してから答えが返ってくるまでの待ち時間を表すレイテンシー（latency）と、答えの最初の一文字が出るまでの時間TTFT（time to first token）についてのページ。
 - [リポジトリ](concepts/repository.md)：プロジェクトのファイルとその変更履歴を保管する場所、リポジトリ（repository）についてのページ。
 - [二要素認証](concepts/two-factor-authentication.md)：パスワードに加えて、本人だけが持つ第二の要素でログインを確かめるしくみ、二要素認証（2FA）についてのページ。
 - [Issues](concepts/github-issues.md)：プロジェクトの作業や疑問を書き留め、話し合い、進み具合を追うためのGitHubのしくみ、Issues（課題）についてのページ。

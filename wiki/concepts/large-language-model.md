@@ -23,6 +23,8 @@ ChatGPT、Claude、Gemini、GitHub Copilotなどの生成AIの中心にある技
 - [プロンプト](prompt.md)
 - [コンテキストウィンドウ](context-window.md)
 - [トークン](token.md)
+- [事前学習](pretraining.md)
+- [RLHF（人間のフィードバックによる強化学習）](rlhf.md)
 - [ハルシネーション](hallucination.md)
 - [LLM Wiki](llm-wiki.md)
 - [この授業で使うAIツール](../tools/ai-tools.md)

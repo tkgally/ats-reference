@@ -34,6 +34,7 @@
 - [温度（temperature）](temperature.md)
 - [RAG（検索拡張生成）](rag.md)
 - [ファインチューニング](fine-tuning.md)
+- [レイテンシーとTTFT](latency.md)
 
 ## 出典
 
