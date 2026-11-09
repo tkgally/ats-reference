@@ -18,6 +18,7 @@
 - [プロンプト](prompt.md)
 - [大規模言語モデル（LLM）](large-language-model.md)
 - [生成AIのしくみ：大規模言語モデルは何をしているのか](../../site/content/guide/how-llms-work.md)
+- [AIに資料や好みを伝える三つの方法：プロンプト、RAG、ファインチューニング](../../site/content/guide/rag-fine-tuning.md)
 
 ## 出典
 

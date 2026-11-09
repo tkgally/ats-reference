@@ -179,5 +179,6 @@ AIの答えの言い方が自信に満ちていても、それは正しさの証
 - [AIへの頼み方（プロンプトのコツ）](prompting.md)
 - [AIの答えを確かめる](checking-ai-output.md)
 - [AIエージェントとは](ai-agents.md)
+- [AIに資料や好みを伝える三つの方法](rag-fine-tuning.md)
 - [用語集](glossary.md)
 - Wikiの関連ページ：[大規模言語モデル](../../../wiki/concepts/large-language-model.md)、[コンテキストウィンドウ](../../../wiki/concepts/context-window.md)、[ハルシネーション](../../../wiki/concepts/hallucination.md)、[この授業で使うAIツール](../../../wiki/tools/ai-tools.md)、[LLM Wiki](../../../wiki/concepts/llm-wiki.md)

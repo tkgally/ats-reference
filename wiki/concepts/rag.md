@@ -22,6 +22,7 @@ RAGは、外部の知識ベースから関係する情報を探し、質問と�
 - [ハルシネーション](hallucination.md)
 - [LLM Wiki](llm-wiki.md)
 - [大規模言語モデル（LLM）](large-language-model.md)
+- [AIに資料や好みを伝える三つの方法：プロンプト、RAG、ファインチューニング](../../site/content/guide/rag-fine-tuning.md)
 
 ## 出典
 

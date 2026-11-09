@@ -1,0 +1,19 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIに資料や好みを伝える三つの方法の模式図。プロンプトの工夫は、モデルを変えず頼み方を工夫する。RAGは、モデルを変えず関係する資料を渡す。ファインチューニングは、追加のデータでモデルそのものを学習させる。">
+  <rect x="12" y="12" width="616" height="226" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="32" y="40" font-size="14" class="tx bold">AIに合わせてもらう三つの方法（模式図）</text>
+  <rect x="28" y="56" width="188" height="168" rx="10" class="f-blue-s"/>
+  <text x="40" y="82" font-size="14" class="tx bold">1 プロンプトの工夫</text>
+  <text x="40" y="110" font-size="12" class="tx">モデルは変えない</text>
+  <text x="40" y="132" font-size="12" class="tx">頼み方を工夫する</text>
+  <text x="40" y="170" font-size="12" class="tm">手軽。まずここから</text>
+  <rect x="226" y="56" width="188" height="168" rx="10" class="f-orange-s"/>
+  <text x="238" y="82" font-size="14" class="tx bold">2 RAG</text>
+  <text x="238" y="110" font-size="12" class="tx">モデルは変えない</text>
+  <text x="238" y="132" font-size="12" class="tx">関係する資料を探して渡す</text>
+  <text x="238" y="170" font-size="12" class="tm">手元の資料を根拠にできる</text>
+  <rect x="424" y="56" width="188" height="168" rx="10" class="f-purple-s"/>
+  <text x="436" y="82" font-size="14" class="tx bold">3 ファインチューニング</text>
+  <text x="436" y="110" font-size="12" class="tx">モデルそのものを調整</text>
+  <text x="436" y="132" font-size="12" class="tx">追加のデータで学習</text>
+  <text x="436" y="170" font-size="12" class="tm">準備と費用が必要</text>
+</svg>
