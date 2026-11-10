@@ -26,6 +26,7 @@
 - [プロンプト](prompt.md)
 - [ハルシネーション](hallucination.md)
 - [生成AIのしくみ：大規模言語モデルは何をしているのか](../../site/content/guide/how-llms-work.md)
+- [AIの応答が遅いとき：レイテンシー、TTFT、温度](../../site/content/guide/ai-speed.md)
 
 ## 出典
 

@@ -18,6 +18,7 @@ AIの応答が遅いと感じたときは、プロンプトや求める答えが
 - [トークン](token.md)
 - [大規模言語モデル（LLM）](large-language-model.md)
 - [コンテキストウィンドウ](context-window.md)
+- [AIの応答が遅いとき：レイテンシー、TTFT、温度](../../site/content/guide/ai-speed.md)
 
 ## 出典
 
