@@ -26,6 +26,7 @@ GitHub公式のドキュメントによれば、リポジトリはGitHubの最�
 - [ブランチ](branch.md)
 - [フォーク](fork.md)
 - [GitHub](../tools/github.md)
+- [GitHubの組織とTeam](github-organization.md)
 - [バージョン管理とGit](version-control-and-git.md)
 - [GitHub flow（ブランチとプルリクエストの流れ）](github-flow.md)
 - [二要素認証](two-factor-authentication.md)

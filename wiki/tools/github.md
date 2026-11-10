@@ -38,6 +38,7 @@ GitHubの公式ドキュメントによれば、GitHubはコードを投稿す�
 - [GitHub flow（ブランチとプルリクエストの流れ）](../concepts/github-flow.md)
 - [Markdown](../concepts/markdown.md)
 - [リポジトリ](../concepts/repository.md)
+- [GitHubの組織とTeam](../concepts/github-organization.md)
 - [二要素認証](../concepts/two-factor-authentication.md)
 - [GitHubの日本語対応](github-japanese-support.md)
 - [GitHub Copilot](github-copilot.md)

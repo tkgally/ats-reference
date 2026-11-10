@@ -31,6 +31,7 @@
 - 2026年10月13日：担当教員の方針で、授業ではCopilotデスクトップアプリをおもに使う。解説ページは対応済み（新ページ「Copilotデスクトップアプリを使い始める」。ほかのページにリンクと位置づけを加えた）。残り：IT担当者の説明（10月14日の予定）が分かったら、アカウントの種類、利用権、公開範囲の記述を更新する。アプリの実際の画面で確かめたら、`copilot-app.md`の表記を直す。
 - 2026年10月26日：Wikiに[エージェントの承認と権限](../wiki/concepts/agent-permissions.md)を作った。`copilot-agent.md`などに、承認の表示の読み方、Allow all・Autopilotの危険、Restricted Modeの説明を足す案（Wikiへのリンク付き）。
 - 2026年10月27日（10月28日に`vscode-copilot-setup.md`のステージの説明は反映済み。残り：ほかのページの「ソース管理」の表記の見比べ）：Wikiの[VS Code](../wiki/tools/vs-code.md)に「VS CodeでGitを使う」を足した（公式の概要で確認）。「GitHubとVS Codeの画面の表記を公式で確かめる」の項のうち、VS Codeのソース管理の表記（Source Control、Changes、Staged Changes、Sync）は公式と一致するか、`vscode-copilot-setup.md`などで見比べる案。
+- 2026年11月10日：Wikiに[GitHubの組織とTeam](../wiki/concepts/github-organization.md)を作った。解説ページには組織とTeamをまとめて説明するページがないので、`sso.md`や`copilot-and-github.md`からWikiのこのページへリンクするか、用語集に「組織」「Team」の項を足す案。大学の組織がGitHub Enterprise Cloudと思われるという推測（Team Syncの記述から）は未確認なので、解説ページには確定として書かない。
 - 授業サイトのログのページ、Copilotの配布方法の案内などが`raw/`に加わったら、関係する解説ページ（GitHub Copilotとは、よくある質問など）の記述を直す。
 
 ## 作業記録
