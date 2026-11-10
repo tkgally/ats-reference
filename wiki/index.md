@@ -2,10 +2,10 @@
 
 この知識ベースの全ページを、カテゴリーごとにリンクと一行の要約で一覧にしたページです。
 
-- ページ数：100（目録と作業記録を除く）
-- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料39件）
+- ページ数：105（目録と作業記録を除く）
+- 取り込んだ資料：3件（ほかに教員からの連絡1件、ウェブ上の資料40件）
 - 解説サイト：[ATSガイド](https://tkgally.github.io/ats-reference/)（このWikiのHTML版と解説ページ）
-- 最終更新：2026年11月9日
+- 最終更新：2026年11月10日
 
 ## 全体
 
@@ -70,6 +70,7 @@
 - [RLHF（人間のフィードバックによる強化学習）](concepts/rlhf.md)：AIが人間の好みに沿った答え方をするように、人間の評価を使って調整する方法、RLHF（reinforcement learning from human feedback）についてのページ。
 - [レイテンシーとTTFT](concepts/latency.md)：AIに質問してから答えが返ってくるまでの待ち時間を表すレイテンシー（latency）と、答えの最初の一文字が出るまでの時間TTFT（time to first token）についてのページ。
 - [リポジトリ](concepts/repository.md)：プロジェクトのファイルとその変更履歴を保管する場所、リポジトリ（repository）についてのページ。
+- [GitHubの組織とTeam](concepts/github-organization.md)：複数の人が共同で使うGitHubの共有アカウントである組織（Organization）と、その中のメンバーのグループであるTeamについてのページ。
 - [二要素認証](concepts/two-factor-authentication.md)：パスワードに加えて、本人だけが持つ第二の要素でログインを確かめるしくみ、二要素認証（2FA）についてのページ。
 - [Issues](concepts/github-issues.md)：プロジェクトの作業や疑問を書き留め、話し合い、進み具合を追うためのGitHubのしくみ、Issues（課題）についてのページ。
 - [README](concepts/readme.md)：リポジトリの入り口に置いて、プロジェクトの目的や使い方を説明するファイル、READMEについてのページ。
@@ -139,6 +140,7 @@
 - [資料：GitHubのSAMLシングルサインオン](sources/web-github-saml-sso.md)：GitHub公式ドキュメントにある、組織のSSO認証の仕組み、セッション、トークンとSSHキーの認可、EMUとの違いの要約（2026年11月5日に確認）。
 - [資料：GitHubの個人用アクセストークンとSSH](sources/web-github-pat-ssh.md)：GitHub公式ドキュメントにある、個人用アクセストークンの種類・有効期限・扱い方と、SSHキーの仕組みの要約（2026年11月6日に確認）。
 - [資料：WebClass（情報基盤センター）](sources/web-tcu-webclass.md)：情報基盤センターのWebClass案内ページにある、ログイン方法、主な機能、マニュアル、問い合わせ先の要約。
+- [資料：GitHubの組織とTeam（GitHub Docs）](sources/web-github-organizations-teams.md)：GitHubの公式ドキュメントにある、組織（Organization）、Team、組織での役割、Teamの同期、Copilotの利用枠の割り当ての説明の要約です（2026年11月10日に確認）。
 
 ## 質問への回答
 
