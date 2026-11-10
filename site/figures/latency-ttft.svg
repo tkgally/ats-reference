@@ -1,0 +1,17 @@
+<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="質問を送ってから答えが出終わるまでの時間の模式図。送信からの待ち時間のうち、最初の言葉が出るまでがTTFT、送信から最後の言葉が出終わるまでがレイテンシー。">
+  <rect x="12" y="12" width="616" height="206" rx="14" class="bg ln" stroke-width="2"/>
+  <text x="32" y="40" font-size="14" class="tx bold">待ち時間の二つの測り方（模式図）</text>
+  <line x1="50" y1="110" x2="600" y2="110" class="lnf" stroke-width="2"/>
+  <circle cx="50" cy="110" r="7" class="f-blue"/>
+  <text x="50" y="138" font-size="12" class="tx" text-anchor="middle">質問を送る</text>
+  <circle cx="230" cy="110" r="7" class="f-orange"/>
+  <text x="230" y="138" font-size="12" class="tx" text-anchor="middle">最初の言葉が出る</text>
+  <rect x="236" y="98" width="360" height="24" rx="6" class="f-purple-s"/>
+  <text x="416" y="115" font-size="12" class="tx" text-anchor="middle">言葉が順に出てくる</text>
+  <circle cx="600" cy="110" r="7" class="f-green"/>
+  <text x="590" y="138" font-size="12" class="tx" text-anchor="middle">出終わる</text>
+  <path d="M50 82 H230" class="s-orange" fill="none" stroke-width="3"/>
+  <text x="140" y="72" font-size="13" class="t-orange bold" text-anchor="middle">TTFT</text>
+  <path d="M50 178 H600" class="s-green" fill="none" stroke-width="3"/>
+  <text x="325" y="204" font-size="13" class="t-green bold" text-anchor="middle">レイテンシー（全体）</text>
+</svg>
